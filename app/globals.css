@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-bg text-text antialiased;
+  }
+  body {
+    @apply font-sans;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight;
+  }
+  a {
+    @apply text-accent-blue hover:text-accent-green transition-colors;
+  }
+}
