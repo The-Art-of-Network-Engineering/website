@@ -6,7 +6,7 @@ Static marketing site for The Art of Network Engineering.
 
 ```
 npm install
-npm run dev          # http://192.168.1.200:3000
+npm run dev          # http://localhost:3000 (or http://192.168.1.200:3000 from another machine on the LAN)
 npm run build        # static export to out/
 npm test
 ```
