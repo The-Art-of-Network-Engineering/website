@@ -40,6 +40,11 @@ const slugFromAudioUrl = (url: string): string => {
   return (match?.[1] ?? stem).toLowerCase();
 };
 
+const safeIsoDate = (raw: string): string => {
+  const d = new Date(raw);
+  return Number.isNaN(d.getTime()) ? new Date(0).toISOString() : d.toISOString();
+};
+
 const textOf = (node: unknown): string => {
   if (node == null) return '';
   if (typeof node === 'string') return node;
@@ -67,6 +72,9 @@ const arrayOf = <T>(node: T | T[] | undefined): T[] => {
 
 export function parseFeed(xml: string): Feed {
   const parsed = parser.parse(xml);
+  if (!parsed?.rss?.channel) {
+    throw new Error('Invalid RSS feed: missing rss.channel');
+  }
   const channel = parsed.rss.channel;
 
   const show: Show = {
@@ -87,14 +95,14 @@ export function parseFeed(xml: string): Feed {
         const role = (p as Record<string, unknown>)?.['@_role'];
         return typeof role === 'string' && role.toLowerCase() === 'guest';
       })
-      .map((p) => textOf(p))
+      .map((p) => textOf(p).trim())
       .filter((name) => name.length > 0);
 
     return {
       id: textOf(item.guid),
       slug: slugFromAudioUrl(audioUrl),
       title: textOf(item.title),
-      publishedAt: new Date(textOf(item.pubDate)).toISOString(),
+      publishedAt: safeIsoDate(textOf(item.pubDate)),
       durationSeconds: Number(textOf(item['itunes:duration'])) || 0,
       audioUrl,
       showNotesHtml: textOf(item['content:encoded']) || textOf(item.description),
@@ -109,6 +117,16 @@ export function parseFeed(xml: string): Feed {
   episodes.sort(
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
   );
+
+  const seenSlugs = new Set<string>();
+  for (const ep of episodes) {
+    if (seenSlugs.has(ep.slug)) {
+      throw new Error(
+        `Duplicate episode slug detected: "${ep.slug}". Two episodes would render at the same URL.`,
+      );
+    }
+    seenSlugs.add(ep.slug);
+  }
 
   return { show, episodes };
 }
