@@ -1,4 +1,4 @@
-// Cloudflare Web Analytics — set after Andy enables CW Analytics for the zone and provides the token.
+// Cloudflare Web Analytics. Set after Andy enables CW Analytics for the zone and provides the token.
 // Until then, no analytics script is rendered.
 const CF_ANALYTICS_TOKEN: string | null = null;
 
@@ -13,7 +13,7 @@ const sans = Inter({ subsets: ['latin'], variable: '--font-sans', display: 'swap
 const mono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono', display: 'swap' });
 
 export const metadata: Metadata = {
-  title: { default: 'The Art of Network Engineering', template: '%s — AONE' },
+  title: { default: 'The Art of Network Engineering', template: '%s | AONE' },
   description:
     'The Art of Network Engineering blends technical insight with real-world stories from engineers, innovators, and IT pros.',
   metadataBase: new URL('https://artofnetworkengineering.com'),

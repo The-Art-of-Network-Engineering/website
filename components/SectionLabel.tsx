@@ -6,7 +6,7 @@ export function SectionLabel({
   className,
 }: {
   children: React.ReactNode;
-  prefix?: '→' | '—';
+  prefix?: '→';
   className?: string;
 }) {
   return (

@@ -75,8 +75,8 @@ export default function Home() {
         <SectionLabel>Newsletter</SectionLabel>
         <h2 className="mt-4 font-display text-3xl">Launching Summer 2026.</h2>
         <p className="mt-4 max-w-2xl text-text-muted">
-          A quarterly dispatch from the AONE archive — what we learned, who we talked to, what's
-          worth your time.
+          A dispatch from the AONE archive. What we learned, who we talked to, what's worth your
+          time. Built from 200+ podcast conversations.
         </p>
         <div className="mt-6 max-w-xl">
           <NewsletterForm />

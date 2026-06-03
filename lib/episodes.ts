@@ -1,5 +1,37 @@
 import { XMLParser } from 'fast-xml-parser';
 
+export type Guest = {
+  name: string;
+  imageUrl: string | null;
+  href: string | null;
+};
+
+// Buzzsprout exposes guests alphabetically, which buries the headliner when their
+// last name sorts late (e.g. Lexie Cooper before Radia Perlman). When a guest's
+// first or last name appears in the episode title, treat them as the featured guest.
+export function orderedGuests(episode: { title: string; guests: Guest[] }): Guest[] {
+  if (episode.guests.length < 2) return episode.guests;
+  const titleLower = episode.title.toLowerCase();
+  const featuredIdx = episode.guests.findIndex((g) =>
+    g.name
+      .toLowerCase()
+      .split(/\s+/)
+      .filter((part) => part.length > 2)
+      .some((part) => titleLower.includes(part)),
+  );
+  if (featuredIdx <= 0) return episode.guests;
+  const reordered = [...episode.guests];
+  const [featured] = reordered.splice(featuredIdx, 1);
+  reordered.unshift(featured);
+  return reordered;
+}
+
+export type YoutubeRef = {
+  videoId: string;
+  thumbnailUrl: string;
+  watchUrl: string;
+};
+
 export type Episode = {
   id: string;
   slug: string;
@@ -9,8 +41,9 @@ export type Episode = {
   audioUrl: string;
   showNotesHtml: string;
   summary: string;
-  guests: string[];
+  guests: Guest[];
   artworkUrl: string | null;
+  youtube: YoutubeRef | null;
 };
 
 export type Show = {
@@ -90,13 +123,22 @@ export function parseFeed(xml: string): Feed {
     const audioUrl =
       ((item.enclosure as Record<string, unknown>)?.['@_url'] as string) ?? '';
     const persons = arrayOf(item['podcast:person'] as unknown);
-    const guests = persons
+    const guests: Guest[] = persons
       .filter((p) => {
         const role = (p as Record<string, unknown>)?.['@_role'];
         return typeof role === 'string' && role.toLowerCase() === 'guest';
       })
-      .map((p) => textOf(p).trim())
-      .filter((name) => name.length > 0);
+      .map((p) => {
+        const rec = p as Record<string, unknown>;
+        const rawImg = typeof rec['@_img'] === 'string' ? (rec['@_img'] as string).trim() : '';
+        const rawHref = typeof rec['@_href'] === 'string' ? (rec['@_href'] as string).trim() : '';
+        return {
+          name: textOf(p).trim(),
+          imageUrl: rawImg.length > 0 ? rawImg : null,
+          href: rawHref.length > 0 ? rawHref : null,
+        };
+      })
+      .filter((g) => g.name.length > 0);
 
     return {
       id: textOf(item.guid),
@@ -111,6 +153,7 @@ export function parseFeed(xml: string): Feed {
       artworkUrl:
         ((item['itunes:image'] as Record<string, unknown>)?.['@_href'] as string) ??
         null,
+      youtube: null,
     };
   });
 
