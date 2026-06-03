@@ -1,3 +1,7 @@
+// Cloudflare Web Analytics — set after Andy enables CW Analytics for the zone and provides the token.
+// Until then, no analytics script is rendered.
+const CF_ANALYTICS_TOKEN: string | null = null;
+
 import type { Metadata } from 'next';
 import { Inter, Orbitron, JetBrains_Mono } from 'next/font/google';
 import { Header } from '@/components/Header';
@@ -23,6 +27,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        {CF_ANALYTICS_TOKEN && (
+          <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon={`{"token": "${CF_ANALYTICS_TOKEN}"}`}
+          />
+        )}
       </body>
     </html>
   );
