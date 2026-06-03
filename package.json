@@ -8,6 +8,7 @@
     "prebuild": "npm run fetch-episodes",
     "dev": "next dev -H 0.0.0.0 -p 3000",
     "build": "next build",
+    "postbuild": "tsx scripts/generate-redirects.ts",
     "start": "next start -H 0.0.0.0 -p 3000",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
