@@ -1,5 +1,10 @@
 export const formatDate = (iso: string): string =>
-  new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  new Date(iso).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    timeZone: 'America/New_York',
+  });
 
 export const formatDuration = (seconds: number): string => {
   if (!seconds || seconds <= 0) return '';

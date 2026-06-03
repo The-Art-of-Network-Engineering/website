@@ -47,7 +47,7 @@ export default function EpisodePage({ params }: { params: { slug: string } }) {
       </div>
 
       {playerId && (
-        <div className="mt-10 aspect-[16/4] min-h-[200px]">
+        <div className="mt-10">
           <iframe
             src={`https://www.buzzsprout.com/2127872/episodes/${playerId}?client_source=small_player&iframe=true`}
             loading="lazy"
