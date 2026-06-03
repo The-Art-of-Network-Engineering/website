@@ -2,6 +2,7 @@ import Link from 'next/link';
 import feed from '@/data/episodes.json';
 import type { Feed } from '@/lib/episodes';
 import { EpisodeCard } from '@/components/EpisodeCard';
+import { NewsletterForm } from '@/components/NewsletterForm';
 import { SectionLabel } from '@/components/SectionLabel';
 import { SubscribeButtons } from '@/components/SubscribeButtons';
 
@@ -77,10 +78,8 @@ export default function Home() {
           A quarterly dispatch from the AONE archive — what we learned, who we talked to, what's
           worth your time.
         </p>
-        <div className="mt-6">
-          <Link href="/newsletter" className="text-sm text-accent-blue">
-            Subscribe →
-          </Link>
+        <div className="mt-6 max-w-xl">
+          <NewsletterForm />
         </div>
       </section>
     </div>
