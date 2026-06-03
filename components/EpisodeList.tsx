@@ -11,7 +11,7 @@ export function EpisodeList({ episodes }: { episodes: Episode[] }) {
     const q = query.trim().toLowerCase();
     if (!q) return episodes;
     return episodes.filter((ep) => {
-      const hay = `${ep.title} ${ep.guests.join(' ')} ${ep.summary}`.toLowerCase();
+      const hay = `${ep.title} ${ep.guests.map((g) => g.name).join(' ')} ${ep.summary}`.toLowerCase();
       return hay.includes(q);
     });
   }, [episodes, query]);

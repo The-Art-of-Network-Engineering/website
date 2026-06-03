@@ -16,7 +16,7 @@ const config: Config = {
         },
         text: {
           DEFAULT: '#F4F7FB',
-          muted: '#8AA1BD',
+          muted: '#B6C7DC',
         },
       },
       fontFamily: {

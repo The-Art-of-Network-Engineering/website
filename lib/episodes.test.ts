@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
-import { parseFeed } from './episodes';
+import { parseFeed, orderedGuests } from './episodes';
 
 const fixture = readFileSync('scripts/rss-fixture.xml', 'utf-8');
 const result = parseFeed(fixture);
@@ -35,7 +35,21 @@ describe('parseFeed', () => {
   it('extracts guest names when present (host is excluded from guests)', () => {
     const ep = result.episodes.find((e) => e.guests.length > 0);
     expect(ep, 'fixture should contain at least one episode with a guest').toBeDefined();
-    expect(ep!.guests.every((g) => g.toLowerCase() !== 'andy lapteff')).toBe(true);
+    expect(ep!.guests.every((g) => g.name.toLowerCase() !== 'andy lapteff')).toBe(true);
+  });
+
+  it('captures guest image URLs and hrefs when the RSS provides them', () => {
+    const withImage = result.episodes
+      .flatMap((e) => e.guests)
+      .find((g) => g.imageUrl);
+    expect(withImage, 'fixture should contain at least one guest with an image').toBeDefined();
+    expect(withImage!.imageUrl).toMatch(/^https:\/\//);
+
+    const withHref = result.episodes
+      .flatMap((e) => e.guests)
+      .find((g) => g.href);
+    expect(withHref, 'fixture should contain at least one guest with an href').toBeDefined();
+    expect(withHref!.href).toMatch(/^https?:\/\//);
   });
 
   it('episodes are sorted newest-first', () => {
@@ -74,8 +88,8 @@ describe('parseFeed error handling and edge cases', () => {
     const ep = result.episodes.find((e) => e.guests.length > 0);
     expect(ep, 'fixture should contain at least one episode with a guest').toBeDefined();
     for (const g of ep!.guests) {
-      expect(g).toBe(g.trim());
-      expect(g.length).toBeGreaterThan(0);
+      expect(g.name).toBe(g.name.trim());
+      expect(g.name.length).toBeGreaterThan(0);
     }
   });
 
@@ -103,6 +117,28 @@ describe('parseFeed error handling and edge cases', () => {
   </item>
 </channel></rss>`;
     expect(() => parseFeed(xml)).toThrow(/duplicate episode slug/i);
+  });
+
+  it('orderedGuests promotes the guest named in the title (Buzzsprout alphabetises and buries the headliner)', () => {
+    const ep = {
+      title: "Radia Perlman: You're Solving the Wrong Problem",
+      guests: [
+        { name: 'Lexie Cooper', imageUrl: 'a', href: null },
+        { name: 'Radia Perlman', imageUrl: 'b', href: null },
+      ],
+    };
+    expect(orderedGuests(ep)[0].name).toBe('Radia Perlman');
+  });
+
+  it('orderedGuests is a no-op when no guest matches the title', () => {
+    const ep = {
+      title: 'Tech Careers Are Built on Relationships',
+      guests: [
+        { name: 'Lexie Cooper', imageUrl: 'a', href: null },
+        { name: 'Radia Perlman', imageUrl: 'b', href: null },
+      ],
+    };
+    expect(orderedGuests(ep)[0].name).toBe('Lexie Cooper');
   });
 
   it('excludes hosts even on episodes with no guests', () => {

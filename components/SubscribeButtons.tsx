@@ -1,7 +1,7 @@
 const platforms = [
   { href: 'https://podcasts.apple.com/us/podcast/the-art-of-network-engineering/id1525015389', label: 'Apple Podcasts' },
   { href: 'https://open.spotify.com/show/0pMKATLfuXd19vvg2xlntA', label: 'Spotify' },
-  { href: 'https://www.youtube.com/@artofnetworkengineering', label: 'YouTube' },
+  { href: 'https://www.youtube.com/@artofneteng', label: 'YouTube' },
   { href: 'https://rss.buzzsprout.com/2127872.rss', label: 'RSS' },
 ];
 

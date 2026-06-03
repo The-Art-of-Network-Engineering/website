@@ -4,7 +4,7 @@ import { NewsletterForm } from '@/components/NewsletterForm';
 
 export const metadata: Metadata = {
   title: 'Newsletter',
-  description: 'Subscribe to the AONE newsletter — launching Summer 2026.',
+  description: 'Subscribe to the AONE newsletter. Launching Summer 2026.',
 };
 
 export default function NewsletterPage() {
@@ -12,9 +12,13 @@ export default function NewsletterPage() {
     <div className="mx-auto max-w-content px-6 py-16">
       <SectionLabel>Newsletter</SectionLabel>
       <h1 className="mt-4 font-display text-4xl">Launching Summer 2026.</h1>
-      <p className="mt-6 max-w-2xl text-text-muted text-lg">
-        A quarterly dispatch from the AONE archive: what we learned, who we talked to, what's
-        worth your time. One email per quarter, no filler.
+      <p className="mt-6 max-w-2xl text-text text-lg">
+        A dispatch from the AONE archive: what we learned, who we talked to, what's worth your
+        time. Built from 200+ podcast conversations with the engineers who run the internet.
+      </p>
+      <p className="mt-4 max-w-2xl text-text-muted">
+        No filler, no list-padding sponsors, no AI slop. Sign up and we'll let you know the day it
+        goes live.
       </p>
       <div className="mt-10 max-w-xl">
         <NewsletterForm />

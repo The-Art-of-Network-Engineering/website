@@ -5,12 +5,24 @@
 @layer base {
   html {
     @apply bg-bg text-text antialiased;
+    font-size: 17px;
   }
   body {
     @apply font-sans;
+    font-feature-settings: 'ss01', 'cv11';
+    line-height: 1.65;
   }
-  h1, h2, h3, h4 {
+  h1 {
     @apply font-display tracking-tight;
+    line-height: 1.1;
+  }
+  h2, h3, h4 {
+    @apply font-sans tracking-tight;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  p {
+    @apply text-text;
   }
   a {
     @apply text-accent-blue hover:text-accent-green transition-colors;
