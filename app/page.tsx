@@ -27,14 +27,13 @@ export default function Home() {
     <div className="mx-auto max-w-content px-6">
       {/* Hero */}
       <section className="py-20 md:py-28">
-        <SectionLabel>The Art of Network Engineering</SectionLabel>
-        <h1 className="mt-6 font-display text-5xl md:text-6xl leading-tight">
+        <h1 className="font-display text-5xl md:text-6xl leading-tight">
           Behind every network is a{' '}
           <span className="text-accent-green">story</span>.
         </h1>
         <p className="mt-6 max-w-3xl text-text-muted text-lg">
           The Art of Network Engineering delivers authentic conversations with engineers,
-          architects, and innovators building the infrastructure behind our digital world.
+          architects, and innovators building the infrastructure running our digital lives.
           Technical depth, career insight, and compelling stories from the front lines of IT.
         </p>
         <div className="mt-10">

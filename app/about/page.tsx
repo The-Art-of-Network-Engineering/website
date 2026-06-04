@@ -83,11 +83,31 @@ export default function AboutPage() {
 
           <section>
             <SectionLabel>Host</SectionLabel>
-            <p className="mt-4">
-              <strong className="text-text">Andy Lapteff</strong> hosts and produces AONE.
-              Network engineer by background, operator by necessity. He runs the show solo with
-              help from occasional co-hosts and a network of friends across the industry.
-            </p>
+            <div className="mt-4 flex flex-col sm:flex-row gap-6 items-start">
+              <img
+                src="/andy-lapteff.jpg"
+                alt="Andy Lapteff"
+                loading="lazy"
+                className="w-32 h-32 object-cover rounded-sm border border-border flex-shrink-0"
+              />
+              <div className="space-y-3">
+                <p>
+                  <strong className="text-text">Andy Lapteff</strong> hosts and produces AONE.
+                  Network engineer by background, operator by necessity. He runs the show solo
+                  with help from occasional co-hosts and a network of friends across the industry.
+                </p>
+                <p className="text-sm">
+                  <a
+                    href="https://www.permitipandyandy.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent-blue hover:text-accent-green"
+                  >
+                    More at permitipandyandy.com →
+                  </a>
+                </p>
+              </div>
+            </div>
           </section>
 
           <section>
