@@ -23,7 +23,11 @@
         }
       ],
       "artworkUrl": null,
-      "youtube": null
+      "youtube": {
+        "videoId": "mkUP_iQNj2s",
+        "thumbnailUrl": "https://i.ytimg.com/vi/mkUP_iQNj2s/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=mkUP_iQNj2s"
+      }
     },
     {
       "id": "Buzzsprout-19195553",
@@ -42,7 +46,11 @@
         }
       ],
       "artworkUrl": null,
-      "youtube": null
+      "youtube": {
+        "videoId": "zMGUZecu7mI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/zMGUZecu7mI/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=zMGUZecu7mI"
+      }
     },
     {
       "id": "Buzzsprout-19132372",
@@ -55,7 +63,11 @@
       "summary": "In this episode, we break down why traditional job applications are failing and how networking communities like USNUA are becoming the fastest path to career growth in IT. You’ll learn:  Why applying online isn’t working  How real opportunities come from real conversations  Why community matters more than certifications You don’t get hired through applications. You get hired through people. If you want to grow your career, this is the shift you need to make. Send...",
       "guests": [],
       "artworkUrl": null,
-      "youtube": null
+      "youtube": {
+        "videoId": "yYKpGoXih2U",
+        "thumbnailUrl": "https://i.ytimg.com/vi/yYKpGoXih2U/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=yYKpGoXih2U"
+      }
     },
     {
       "id": "Buzzsprout-19052514",
@@ -68,7 +80,11 @@
       "summary": "For years, network engineers were told the same thing: “Learn Python… or fall behind.” But what if that’s no longer true? In this episode, we walk through a real Hello World for AI in networking: connecting an AI agent to NetBox using Model Context Protocol (MCP) and querying network data in natural language. No scripts. No Python expertise. Just results. This is a live, unfiltered build, from cloning a repo to debugging JSON to finally asking: “How many sites do I have in New York?” …and get...",
       "guests": [],
       "artworkUrl": null,
-      "youtube": null
+      "youtube": {
+        "videoId": "d8U4wy8iFec",
+        "thumbnailUrl": "https://i.ytimg.com/vi/d8U4wy8iFec/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=d8U4wy8iFec"
+      }
     },
     {
       "id": "Buzzsprout-18944712",
@@ -102,7 +118,11 @@
         }
       ],
       "artworkUrl": null,
-      "youtube": null
+      "youtube": {
+        "videoId": "TKsClsYQ8Sk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/TKsClsYQ8Sk/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=TKsClsYQ8Sk"
+      }
     },
     {
       "id": "Buzzsprout-18844805",
@@ -267,7 +287,11 @@
         }
       ],
       "artworkUrl": null,
-      "youtube": null
+      "youtube": {
+        "videoId": "lcOTWOxiZac",
+        "thumbnailUrl": "https://i.ytimg.com/vi/lcOTWOxiZac/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=lcOTWOxiZac"
+      }
     },
     {
       "id": "Buzzsprout-18317592",
@@ -441,7 +465,11 @@
         }
       ],
       "artworkUrl": null,
-      "youtube": null
+      "youtube": {
+        "videoId": "PyHAW7ZRjpw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/PyHAW7ZRjpw/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=PyHAW7ZRjpw"
+      }
     },
     {
       "id": "Buzzsprout-17719651",
@@ -664,7 +692,11 @@
         }
       ],
       "artworkUrl": null,
-      "youtube": null
+      "youtube": {
+        "videoId": "rxhipwQhkdI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/rxhipwQhkdI/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=rxhipwQhkdI"
+      }
     },
     {
       "id": "Buzzsprout-17023274",
@@ -877,7 +909,11 @@
         }
       ],
       "artworkUrl": null,
-      "youtube": null
+      "youtube": {
+        "videoId": "p0i975YPgNM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/p0i975YPgNM/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=p0i975YPgNM"
+      }
     },
     {
       "id": "Buzzsprout-16116686",
@@ -1523,7 +1559,11 @@
       "summary": "Here's what we've been up to so far in Knoxville!  A big THANK YOU to:  Knoxville Technology Council Opengear Alkira Rodefer Moss Send us Fan Mail   This episode has been sponsored by Meter.  Go to meter.com/aone to book a demo now!  Support the show Find everything AONE right here: https://linktr.ee/artofneteng ",
       "guests": [],
       "artworkUrl": null,
-      "youtube": null
+      "youtube": {
+        "videoId": "gxcbdO1tQ_U",
+        "thumbnailUrl": "https://i.ytimg.com/vi/gxcbdO1tQ_U/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=gxcbdO1tQ_U"
+      }
     },
     {
       "id": "Buzzsprout-13420122",

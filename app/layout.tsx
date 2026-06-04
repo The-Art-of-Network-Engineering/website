@@ -27,6 +27,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        {/* Beehiiv subscribe-form attribution: attributes signups to referring page/UTMs. */}
+        <script async src="https://subscribe-forms.beehiiv.com/attribution.js" />
         {CF_ANALYTICS_TOKEN && (
           <script
             defer

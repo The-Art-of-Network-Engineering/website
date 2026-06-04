@@ -1,16 +1,27 @@
 import Link from 'next/link';
 import feed from '@/data/episodes.json';
 import type { Feed } from '@/lib/episodes';
-import { EpisodeCard } from '@/components/EpisodeCard';
 import { NewsletterForm } from '@/components/NewsletterForm';
 import { SectionLabel } from '@/components/SectionLabel';
 import { SubscribeButtons } from '@/components/SubscribeButtons';
 
 const typedFeed = feed as Feed;
 
+// Apple Podcasts show ID, kept as a fallback when the latest episode has no
+// YouTube match yet (e.g. brand-new episode published before youtube_map refresh).
+const APPLE_SHOW_ID = '1525015389';
+
+// Extract the numeric Buzzsprout episode ID from a guid like "Buzzsprout-19195553"
+// so we can build the audio player iframe URL.
+const buzzsproutPlayerId = (guid: string): string | null => {
+  const m = guid.match(/^Buzzsprout-(\d+)$/);
+  return m ? m[1] : null;
+};
+
 export default function Home() {
   const latest = typedFeed.episodes[0];
-  const recent = typedFeed.episodes.slice(1, 4);
+  const latestYt = latest.youtube?.videoId ?? null;
+  const latestAudioPlayerId = buzzsproutPlayerId(latest.id);
 
   return (
     <div className="mx-auto max-w-content px-6">
@@ -18,12 +29,13 @@ export default function Home() {
       <section className="py-20 md:py-28">
         <SectionLabel>The Art of Network Engineering</SectionLabel>
         <h1 className="mt-6 font-display text-5xl md:text-6xl leading-tight">
-          Stories from the engineers who{' '}
-          <span className="text-accent-green">build the internet</span>.
+          Behind every network is a{' '}
+          <span className="text-accent-green">story</span>.
         </h1>
-        <p className="mt-6 max-w-2xl text-text-muted text-lg">
-          AONE blends technical insight with real-world stories from engineers, innovators, and IT
-          pros. From data centers on cruise ships to rockets in space. Authentic, practical, human.
+        <p className="mt-6 max-w-3xl text-text-muted text-lg">
+          The Art of Network Engineering delivers authentic conversations with engineers,
+          architects, and innovators building the infrastructure behind our digital world.
+          Technical depth, career insight, and compelling stories from the front lines of IT.
         </p>
         <div className="mt-10">
           <SubscribeButtons />
@@ -33,17 +45,61 @@ export default function Home() {
       {/* Latest episode */}
       <section className="py-12 border-t border-border">
         <SectionLabel>Latest episode</SectionLabel>
-        <div className="mt-6 grid md:grid-cols-3 gap-6">
-          <div className="md:col-span-2">
-            <EpisodeCard episode={latest} />
-          </div>
-          <div className="md:col-span-1 grid gap-6">
-            {recent.map((ep) => (
-              <EpisodeCard key={ep.id} episode={ep} />
-            ))}
-          </div>
+        <h2 className="mt-4 font-display text-2xl md:text-3xl leading-snug max-w-3xl">
+          {latest.title}
+        </h2>
+        <div className="mt-6 max-w-4xl space-y-6">
+          {latestYt ? (
+            <div>
+              <p className="text-xs font-mono uppercase tracking-label text-text-muted mb-2">
+                Watch
+              </p>
+              <div className="relative w-full" style={{ aspectRatio: '16 / 9' }}>
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${latestYt}`}
+                  title={`YouTube: ${latest.title}`}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full border border-border rounded-sm"
+                />
+              </div>
+            </div>
+          ) : (
+            <iframe
+              allow="autoplay *; encrypted-media *; clipboard-write"
+              height="450"
+              style={{
+                width: '100%',
+                maxWidth: '720px',
+                overflow: 'hidden',
+                borderRadius: '10px',
+              }}
+              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+              src={`https://embed.podcasts.apple.com/us/podcast/the-art-of-network-engineering/id${APPLE_SHOW_ID}?theme=auto`}
+              title="The Art of Network Engineering on Apple Podcasts"
+            />
+          )}
+          {latestAudioPlayerId && (
+            <div>
+              <p className="text-xs font-mono uppercase tracking-label text-text-muted mb-2">
+                Or listen
+              </p>
+              <iframe
+                src={`https://www.buzzsprout.com/2127872/episodes/${latestAudioPlayerId}?client_source=small_player&iframe=true`}
+                loading="lazy"
+                width="100%"
+                height="200"
+                allow="autoplay"
+                className="border border-border rounded-sm"
+                title={`Audio player: ${latest.title}`}
+              />
+            </div>
+          )}
         </div>
-        <div className="mt-8">
+        <div className="mt-8 flex flex-wrap gap-6">
+          <Link href={`/episodes/${latest.slug}`} className="text-sm text-accent-blue">
+            Show notes →
+          </Link>
           <Link href="/episodes" className="text-sm text-accent-blue">
             Browse all {typedFeed.episodes.length} episodes →
           </Link>
@@ -75,8 +131,8 @@ export default function Home() {
         <SectionLabel>Newsletter</SectionLabel>
         <h2 className="mt-4 font-display text-3xl">Launching Summer 2026.</h2>
         <p className="mt-4 max-w-2xl text-text-muted">
-          A dispatch from the AONE archive. What we learned, who we talked to, what's worth your
-          time. Built from 200+ podcast conversations.
+          Practical career guidance from our industry's brightest minds, delivered to your inbox
+          every week.
         </p>
         <div className="mt-6 max-w-xl">
           <NewsletterForm />

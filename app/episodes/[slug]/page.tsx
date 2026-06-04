@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import feed from '@/data/episodes.json';
 import type { Feed, Episode } from '@/lib/episodes';
 import { orderedGuests } from '@/lib/episodes';
@@ -40,7 +41,15 @@ export default function EpisodePage({ params }: { params: { slug: string } }) {
 
   return (
     <article className="mx-auto max-w-content px-6 py-16">
-      <SectionLabel>Episode</SectionLabel>
+      <Link
+        href="/episodes"
+        className="text-xs font-mono uppercase tracking-label text-text-muted hover:text-accent-blue"
+      >
+        ← All episodes
+      </Link>
+      <div className="mt-6">
+        <SectionLabel>Episode</SectionLabel>
+      </div>
       <h1 className="mt-4 font-display text-4xl md:text-5xl leading-tight">{ep.title}</h1>
       <div className="mt-4 flex flex-wrap gap-4 text-xs font-mono uppercase tracking-label text-text-muted">
         <span>{formatDate(ep.publishedAt)}</span>
