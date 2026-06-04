@@ -16,10 +16,10 @@ const stats = [
 ];
 
 const audience = [
-  { value: '70%', label: 'Aged 26–44,prime buying age' },
-  { value: '80%', label: 'Hands-on practitioners,recommend & specify tools' },
-  { value: '64%', label: 'Director / VP / C-Suite,decision-making authority' },
-  { value: '80%', label: 'North America (20% Europe,global reach)' },
+  { value: '70%', label: 'Aged 26–44, prime buying age' },
+  { value: '80%', label: 'Hands-on practitioners, recommend & specify tools' },
+  { value: '20%', label: 'Director / VP / C-Suite, decision-making authority' },
+  { value: '64%', label: 'North America (20% Europe, global reach)' },
 ];
 
 const reach = [
@@ -57,10 +57,11 @@ export default function SponsorPage() {
         <span className="text-accent-green">build, evaluate, and buy</span>.
       </h1>
       <p className="mt-6 max-w-3xl text-text-muted text-lg">
-        AONE is one of the largest independent media platforms built for network engineers and
-        infrastructure professionals. Authentic. Practical. Human. We blend technical insight with
-        real-world stories from engineers, innovators, and IT pros,from data centers on cruise
-        ships to rockets in space.
+        Each AONE episode reaches roughly 2,800 network engineers and architects when they're
+        actively evaluating tools, solving problems, and advancing their careers. 80% are hands-on
+        practitioners who recommend and specify what their teams buy. They aren't generic
+        impressions. They're one of the most targeted practitioner audiences in network
+        infrastructure.
       </p>
 
       {/* Stats */}

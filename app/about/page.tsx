@@ -88,7 +88,7 @@ export default function AboutPage() {
                 src="/andy-lapteff.jpg"
                 alt="Andy Lapteff"
                 loading="lazy"
-                className="w-32 h-32 object-cover rounded-sm border border-border flex-shrink-0"
+                className="w-32 h-32 object-cover object-top rounded-sm border border-border flex-shrink-0"
               />
               <div className="space-y-3">
                 <p>
