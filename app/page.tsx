@@ -128,12 +128,14 @@ export default function Home() {
       {/* Newsletter */}
       <section className="py-16 border-t border-border">
         <SectionLabel>Newsletter</SectionLabel>
-        <h2 className="mt-4 font-display text-3xl">Launching Summer 2026.</h2>
+        <h2 className="mt-4 font-display text-3xl">
+          The Shortest Path. <span className="text-text-muted">Launching Summer 2026.</span>
+        </h2>
         <p className="mt-4 max-w-2xl text-text-muted">
           Practical career guidance from our industry's brightest minds, delivered to your inbox
           every week.
         </p>
-        <div className="mt-6 max-w-xl">
+        <div className="mt-3 max-w-xl">
           <NewsletterForm />
         </div>
       </section>

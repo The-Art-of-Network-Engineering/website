@@ -12,7 +12,7 @@ export function SectionLabel({
   return (
     <div
       className={clsx(
-        'font-mono text-xs uppercase tracking-label text-accent-blue',
+        'font-mono text-xs uppercase tracking-label text-accent-green',
         className,
       )}
     >
