@@ -4,6 +4,7 @@ slug: "why-projects-fail-and-why-its-usually-not-the-tech"
 publishedAt: "2026-01-14"
 excerpt: "Most projects don't fail because the technology is too hard. They fail because the people system breaks."
 author: "Andy Lapteff"
+coverImage: "/blog-images/why-projects-fail-and-why-its-usually-not-the-tech.jpg"
 ---
 
 If you've worked on enough networking projects, you've probably lived some version of this story:

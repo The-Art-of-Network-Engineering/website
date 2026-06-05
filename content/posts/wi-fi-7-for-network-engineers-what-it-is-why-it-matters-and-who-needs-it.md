@@ -4,6 +4,7 @@ slug: "wi-fi-7-for-network-engineers-what-it-is-why-it-matters-and-who-needs-it"
 publishedAt: "2026-03-11"
 excerpt: "Wireless has always had a different vibe than traditional networking — here's what Wi-Fi 7 changes, what problems it solves, and whether it matters in the real world."
 author: "Andy Lapteff"
+coverImage: "/blog-images/wi-fi-7-for-network-engineers-what-it-is-why-it-matters-and-who-needs-it.jpg"
 ---
 
 Wireless has always had a different vibe than traditional networking.

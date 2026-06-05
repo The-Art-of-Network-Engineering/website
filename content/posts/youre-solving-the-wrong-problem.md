@@ -4,6 +4,7 @@ slug: "youre-solving-the-wrong-problem"
 publishedAt: "2026-03-25"
 excerpt: "Most network engineers pride themselves on solving problems — but what if the real issue isn't how you're solving the problem, but that you're solving the wrong one entirely?"
 author: "Andy Lapteff"
+coverImage: "/blog-images/youre-solving-the-wrong-problem.jpg"
 ---
 
 ## You're Solving the Wrong Problem

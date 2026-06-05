@@ -4,6 +4,7 @@ slug: "the-career-advice-no-one-tells-network-engineers"
 publishedAt: "2026-04-08"
 excerpt: "Working harder doesn't guarantee a promotion, being technical doesn't guarantee higher pay, and staying loyal doesn't guarantee anything — so how do we grow our careers?"
 author: "Andy Lapteff"
+coverImage: "/blog-images/the-career-advice-no-one-tells-network-engineers.jpg"
 ---
 
 There's something no one tells network engineers:

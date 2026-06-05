@@ -37,17 +37,27 @@ export default function BlogIndex() {
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
-            className="group block border border-border bg-surface hover:border-accent-blue transition-colors p-6 rounded-sm"
+            className="group block border border-border bg-surface hover:border-accent-blue transition-colors rounded-sm overflow-hidden"
           >
-            <p className="text-xs font-mono uppercase tracking-label text-text-muted">
-              {formatDate(post.publishedAt)}
-            </p>
-            <h2 className="mt-3 font-display text-xl text-text group-hover:text-accent-green transition-colors leading-snug">
-              {post.title}
-            </h2>
-            {post.excerpt && (
-              <p className="mt-3 text-sm text-text-muted line-clamp-3">{post.excerpt}</p>
+            {post.coverImage && (
+              <img
+                src={post.coverImage}
+                alt=""
+                loading="lazy"
+                className="w-full h-48 object-cover border-b border-border"
+              />
             )}
+            <div className="p-6">
+              <p className="text-xs font-mono uppercase tracking-label text-text-muted">
+                {formatDate(post.publishedAt)}
+              </p>
+              <h2 className="mt-3 font-display text-xl text-text group-hover:text-accent-green transition-colors leading-snug">
+                {post.title}
+              </h2>
+              {post.excerpt && (
+                <p className="mt-3 text-sm text-text-muted line-clamp-3">{post.excerpt}</p>
+              )}
+            </div>
           </Link>
         ))}
       </div>

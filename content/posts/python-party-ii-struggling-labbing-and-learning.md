@@ -4,6 +4,7 @@ slug: "python-party-ii-struggling-labbing-and-learning"
 publishedAt: "2025-10-08"
 excerpt: "Learning Python as a network engineer isn't easy. It's frustrating. It's humbling. And sometimes it's downright boring — but it's also necessary."
 author: "Andy Lapteff"
+coverImage: "/blog-images/python-party-ii-struggling-labbing-and-learning.jpg"
 ---
 
 Learning Python as a network engineer isn't easy. It's frustrating. It's humbling. And sometimes… It's downright boring.
