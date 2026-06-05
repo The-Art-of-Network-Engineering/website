@@ -22,6 +22,13 @@ function blogRedirectRules(): string[] {
     const published = String(data.publishedAt ?? '').slice(0, 10);
     const [yyyy, mm, dd] = published.split('-');
     if (!yyyy || !mm || !dd) continue;
+    // Guard the data -> _redirects boundary: a slug or date with whitespace/newlines
+    // would inject extra rules. Each component must be a safe URL-path segment.
+    if (!/^[a-zA-Z0-9_-]+$/.test(slug)) {
+      console.warn(`Skipping ${filename}: slug "${slug}" contains unsafe characters`);
+      continue;
+    }
+    if (!/^\d{4}$/.test(yyyy) || !/^\d{2}$/.test(mm) || !/^\d{2}$/.test(dd)) continue;
     const wpPath = `/${yyyy}/${mm}/${dd}/${slug}`;
     // Cover both with and without trailing slash
     rules.push(`${wpPath} /blog/${slug} 301`);
