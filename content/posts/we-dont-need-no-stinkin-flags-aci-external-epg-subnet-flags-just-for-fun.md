@@ -3,7 +3,7 @@ title: "We Don't Need No Stinkin' Flags! ACI External EPG Subnet Flags...Just fo
 slug: "we-dont-need-no-stinkin-flags-aci-external-epg-subnet-flags-just-for-fun"
 publishedAt: "2020-09-11"
 excerpt: "This post was originally written by Micheline Murphy, Cisco Learning Network VIP and Cisco Champion and first appeared on the Cisco Learning Network Blog"
-author: "Andy Lapteff"
+author: "The AONE Team"
 ---
 
 *This post was originally written by Micheline Murphy, Cisco Learning Network VIP and Cisco Champion and first appeared on the [Cisco Learning Network Blog](https://learningnetwork.cisco.com/s/blogs/a0D3i000002SKPVEA4/we-dont-need-no-stinkin-flags-aci-external-epg-subnet-flagsjust-for-fun)*

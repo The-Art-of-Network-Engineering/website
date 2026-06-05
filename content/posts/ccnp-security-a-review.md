@@ -3,7 +3,7 @@ title: "CCNP Security - A Review"
 slug: "ccnp-security-a-review"
 publishedAt: "2021-10-04"
 excerpt: "In my quest to pursue my next certification I sat down and thought about what cert I should dedicate time studying for. There were many things I was interested in which is my first reason to pursue a cert. I was knee..."
-author: "Andy Lapteff"
+author: "David Alicea"
 ---
 
 In my quest to pursue my next certification I sat down and thought about what cert I should dedicate time studying for. There were many things I was interested in which is my first reason to pursue a cert. I was knee deep in Security products at work and even now that doesn’t seem to be going away anytime soon. Most of the products were Cisco, so it made sense to give the CCNP Security a shot. I looked online at [Cisco’s site](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-security-v2.html) as a start and dived in. Months later, I passed the SCOR exam! I then chose to give the [SESA](https://www.cisco.com/c/en/us/training-events/training-certifications/exams/current-list/sesa-300-720.html) exam a shot and passed (barely)! The CCNP Security however has been completed so I want to take some time to write about my experience related to exam material, relevancy, and difficulty.

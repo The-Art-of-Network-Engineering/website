@@ -3,7 +3,7 @@ title: "Network Engineering Isn't Dead—It's Evolving"
 slug: "network-engineering-isnt-dead-its-evolving"
 publishedAt: "2025-05-21"
 excerpt: "The convergence of traditional network engineering and software development is reshaping the networking industry. This transformation was front and center in our latest The Art of Network Engineering podcast episode,..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/network-engineering-isnt-dead-its-evolving.jpg"
 ---
 

@@ -3,7 +3,7 @@ title: "Back to School!"
 slug: "back-to-school"
 publishedAt: "2023-08-31"
 excerpt: "As summer holidays come to their end, a popular \"trend\" will start to make the rounds on social media. Over the next few weeks social platforms will be a wash with pictures of children on their way to (and in some..."
-author: "Andy Lapteff"
+author: "Marty McCube"
 coverImage: "/blog-images/back-to-school.jpg"
 ---
 

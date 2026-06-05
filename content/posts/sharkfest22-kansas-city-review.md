@@ -3,7 +3,7 @@ title: "Sharkfest22 Kansas City Review"
 slug: "sharkfest22-kansas-city-review"
 publishedAt: "2022-09-28"
 excerpt: "I was scrolling through twitter.com and saw a post about a new podcast, 'Sharkbytes' hosted by Roland Knall. The first episode is an interview with Betty DuBois and Sasha Mullins-Lassiter. In the interview, Sasha goes..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 I was scrolling through twitter.com and saw a post about a new podcast, '[Sharkbytes](https://podcasts.apple.com/us/podcast/sharkbytes-podcast/id1646880604)' hosted by Roland Knall. The first episode is an interview with Betty DuBois and Sasha Mullins-Lassiter. In the interview, Sasha goes over her experience getting into cyber security and attending Sharkfest. This got me reminiscing, Sharkfest was my first ever 'in-person' tech conference and I don't think I could have had a better experience.

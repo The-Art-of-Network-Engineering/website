@@ -3,7 +3,7 @@ title: "Packaging Cisco AnyConnect"
 slug: "packaging-cisco-anyconnect"
 publishedAt: "2020-08-14"
 excerpt: "This article originally appeared on Ben Story's personal blog, packitforwarding.com"
-author: "Andy Lapteff"
+author: "Ben Story"
 ---
 
 *This article originally appeared on Ben Story's personal blog, [packitforwarding.com](https://packitforwarding.com/)*

@@ -3,7 +3,7 @@ title: "tshark the best?!"
 slug: "tshark-the-best"
 publishedAt: "2021-04-12"
 excerpt: "I wrote a quick intro to tcpdump some months ago as I was learning about the tool and I thought it was just the best. You only love what you know right?! Well last week I embarked on a quest to find some flags on..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 I wrote a [quick intro to tcpdump](/blog/tcpdump-filters-an-intro) some months ago as I was learning about the tool and I thought it was just the best. You only love what you know right?! Well last week I embarked on a quest to find some flags on [Cisco's CTF](https://ciscolive2021.sec.letsplayctf.io/) 2021 using tshark. I mean, I originally tried to use tcpdump but since their file was saved as a pcapng it was not compatible without a little more work. [Mr. Tony E](https://twitter.com/showipintbri) has a how-to on trace wrangler coming up on a [network collective](https://networkcollective.com/) live-stream that can solve non-compatibility pcapng issues, and I digress.

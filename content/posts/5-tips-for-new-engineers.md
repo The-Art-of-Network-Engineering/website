@@ -3,7 +3,7 @@ title: "5 Tips for New Engineers"
 slug: "5-tips-for-new-engineers"
 publishedAt: "2020-08-24"
 excerpt: "This article first appeared on Dave A's blog zerosandwon.blog"
-author: "Andy Lapteff"
+author: "David Alicea"
 ---
 
 This article first appeared on [Dave A](https://twitter.com/Dayvee87)'s blog [zerosandwon.blog](https://zerosandwon.blog/)

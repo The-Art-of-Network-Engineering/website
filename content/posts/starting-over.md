@@ -4,7 +4,7 @@ slug: "starting-over"
 publishedAt: "2020-12-21"
 excerpt: "Standing at the bottom of the mountain looking up is where I find myself yet again.
 I joined the Air National Guard full-time in the summer of 2018, 36 years old and beginning what is my 4th, 5th or 6th career or life..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 Standing at the bottom of the mountain looking up is where I find myself yet again.

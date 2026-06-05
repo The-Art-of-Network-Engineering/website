@@ -3,7 +3,7 @@ title: "10 Pieces of Advice for Network Engineers"
 slug: "10-pieces-of-advice-for-network-engineers"
 publishedAt: "2020-11-23"
 excerpt: "This article first appeared on Tim's blog, carpe-dmvpn.com"
-author: "Andy Lapteff"
+author: "Tim McConnaughy"
 ---
 
 *This article first appeared on Tim's blog, [carpe-dmvpn.com](https://carpe-dmvpn.com/2020/05/22/10-pieces-of-advice-for-network-engineers/)*

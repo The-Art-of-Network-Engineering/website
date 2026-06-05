@@ -3,7 +3,7 @@ title: "Handling Toolbox Drama with NetAlly"
 slug: "handling-toolbox-drama-w-netally"
 publishedAt: "2022-04-06"
 excerpt: "As network/systems engineers and admins, the natural approach to something new is to start with training and understanding a new technology, job, project, or task.  This is a valid approach, but many times is only half..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 coverImage: "/blog-images/handling-toolbox-drama-w-netally.jpg"
 ---
 

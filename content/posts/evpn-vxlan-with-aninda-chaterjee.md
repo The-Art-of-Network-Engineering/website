@@ -3,7 +3,7 @@ title: "EVPN VXLAN, with author Aninda Chatterjee"
 slug: "evpn-vxlan-with-aninda-chaterjee"
 publishedAt: "2025-01-15"
 excerpt: "The latest episode of the Art of Network Engineering podcast dives deep into the intricacies of using VXLAN and EVPN in modern networking. We’re joined by Aninda Chatterjee, a seasoned expert in the data center space..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/evpn-vxlan-with-aninda-chaterjee.jpg"
 ---
 

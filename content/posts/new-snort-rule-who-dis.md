@@ -3,7 +3,7 @@ title: "new snort rule, who dis?"
 slug: "new-snort-rule-who-dis"
 publishedAt: "2021-01-25"
 excerpt: "The third section of my SANS503 course has a huge section, the second biggest of the entire course, dealing with some 110+ slides on snort. I'm not here to give you the history of snort, IDS/IPS placement within your..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 The third section of my SANS503 course has a huge section, the second biggest of the entire course, dealing with some 110+ slides on [snort](https://snort.org/). I'm not here to give you the history of snort, IDS/IPS placement within your enterprise or any of that, instead I just want to introduce you to the basic structure of a basic snort rule. The most important thing to takeaway from snort rules is that there is no concept of 'or' within a rule. It either matches and does the action or it doesn't.

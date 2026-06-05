@@ -3,7 +3,7 @@ title: "Network Engineering 2.0: Adapting to Automation, AI, and Cloud"
 slug: "network-engineering-2-0-adapting-to-automation-ai-and-cloud"
 publishedAt: "2025-02-13"
 excerpt: "In our latest podcast episode, we listen in on the (PA)NUG podcast panel of William Collins, Andy Lapteff, Ned Bellavance, and Drew Conry-Murray, as they dive deep into the evolving world of network engineering, a field..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/network-engineering-2-0-adapting-to-automation-ai-and-cloud.jpg"
 ---
 

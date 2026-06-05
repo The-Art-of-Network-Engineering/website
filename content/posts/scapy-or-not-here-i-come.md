@@ -8,7 +8,7 @@ excerpt: "``
             sY//////YSpcs  scpCY//Pp     | Welcome to Scapy
  ayp ayyyyyyySCP//Pp           syY//C    | Version 2.4.3
 ..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 ```

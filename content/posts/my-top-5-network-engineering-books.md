@@ -3,7 +3,7 @@ title: "My Top 5 Network Engineering Books"
 slug: "my-top-5-network-engineering-books"
 publishedAt: "2021-04-26"
 excerpt: "With so many networking books out there, someone coming into networking could find themselves asking: are any of them any good??!"
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 With so many networking books out there, someone coming into networking could find themselves asking: are any of them any good??!

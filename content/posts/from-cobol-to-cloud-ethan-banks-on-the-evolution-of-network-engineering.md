@@ -3,7 +3,7 @@ title: "From COBOL to Cloud: Ethan Banks on the Evolution of Network Engineering
 slug: "from-cobol-to-cloud-ethan-banks-on-the-evolution-of-network-engineering"
 publishedAt: "2025-08-13"
 excerpt: "The evolution of network engineering has been a fascinating journey to witness, and few people have had a better vantage point than Ethan Banks, co-founder of Packet Pushers. In a recent episode of The Art of Network..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/from-cobol-to-cloud-ethan-banks-on-the-evolution-of-network-engineering.jpg"
 ---
 

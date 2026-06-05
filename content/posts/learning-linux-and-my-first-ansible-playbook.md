@@ -3,7 +3,7 @@ title: "Learning Linux and my First Ansible Playbook"
 slug: "learning-linux-and-my-first-ansible-playbook"
 publishedAt: "2021-06-14"
 excerpt: "So Linux has never been my daily driver until a few months ago. Now it's my daily driver for work and home and with that I'm learning a lot and since you can use a lot of the applications in conjunction with each other..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 So Linux has never been my daily driver until a few months ago. Now it's my daily driver for work and home and with that I'm learning a lot and since you can use a lot of the applications in conjunction with each other with piping and what not. So in essence, learning one new tool or application can open up unseen possibilities in other tools.

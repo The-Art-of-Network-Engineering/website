@@ -3,7 +3,7 @@ title: "Behind the Scenes: How The Art of Network Engineering Podcast is Made"
 slug: "behind-the-scenes-how-the-art-of-network-engineering-podcast-is-made"
 publishedAt: "2025-07-30"
 excerpt: "Ever listen to a podcast and think, “They probably just hit record and start talking”?"
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/behind-the-scenes-how-the-art-of-network-engineering-podcast-is-made.jpg"
 ---
 

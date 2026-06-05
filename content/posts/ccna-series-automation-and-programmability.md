@@ -3,7 +3,7 @@ title: "CCNA Series - Automation and Programmability"
 slug: "ccna-series-automation-and-programmability"
 publishedAt: "2022-01-03"
 excerpt: "In this article, we are going to discuss several parts of Section 6 - Automation and Programmability of Cisco CCNA Syllabus. Programmability and Automation are two huge and very hot topics in the world of Networking...."
-author: "Andy Lapteff"
+author: "A.J. Murray"
 ---
 
 In this article, we are going to discuss several parts of Section 6 - Automation and Programmability of [Cisco CCNA Syllabus](https://learningnetwork.cisco.com/s/ccna-exam-topics). Programmability and Automation are two huge and very hot topics in the world of Networking. Having Programmability and Automation skills is practically a requirement - so many organizations are adopting it. This article hopes to cover sub-sections 6.1, 6.2, and all of 6.3.

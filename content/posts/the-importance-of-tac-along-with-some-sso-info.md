@@ -3,7 +3,7 @@ title: "The Importance of TAC along with some SSO Info"
 slug: "the-importance-of-tac-along-with-some-sso-info"
 publishedAt: "2020-09-04"
 excerpt: "This article is by Andy West and first appeared on his blog, blueboxredbox.com."
-author: "Andy Lapteff"
+author: "opethpa"
 ---
 
 *This article is by Andy West and first appeared on his blog, [blueboxredbox.com](https://blueboxredbox.com/2019/05/15/the-importance-of-tac-along-with-some-sso-info/).*

@@ -3,7 +3,7 @@ title: "Network Adjustments - Reflecting back on 2020"
 slug: "network-adjustments-reflecting-back-on-2020"
 publishedAt: "2020-12-28"
 excerpt: "![](https://artofnetworkengineering.com/wp-content/uploads/2020/12/pexels-pixabay-162500.jpg?w=1024)"
-author: "Andy Lapteff"
+author: "David Alicea"
 ---
 
 ![](https://artofnetworkengineering.com/wp-content/uploads/2020/12/pexels-pixabay-162500.jpg?w=1024)

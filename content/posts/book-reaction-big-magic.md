@@ -3,7 +3,7 @@ title: "Book Reaction - Big Magic"
 slug: "book-reaction-big-magic"
 publishedAt: "2023-02-13"
 excerpt: "Given that this is the Art of Network Engineering, I thought it appropriate to write about a book I recently finished, around creativity. Big Magic - Creative Living Beyond Fear by Elizabeth Gilbert sheds some light on..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 coverImage: "/blog-images/book-reaction-big-magic.jpg"
 ---
 

@@ -3,7 +3,7 @@ title: "Making Meaningful Connections Online"
 slug: "making-meaningful-connections-online"
 publishedAt: "2021-08-09"
 excerpt: "This weekend I definitely felt old online. I was trying to figure out how to get into DEFCON's packet hacking village's CTF Friday morning. I couldn't figure out the process for the life of me and had to ask for..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 This weekend I definitely felt old online. I was trying to figure out how to get into DEFCON's packet hacking village's CTF Friday morning. I couldn't figure out the process for the life of me and had to ask for help...very specific help. 'Go to this channel and type exactly this'...I felt like a real old dude trying to figure out technology. You had to access their Discord server, choose the correct role, go to a specific room and type out a specific cmd for a bot to put you into a queue.

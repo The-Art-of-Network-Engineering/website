@@ -3,7 +3,7 @@ title: "CCNA Series - Overview"
 slug: "ccna-series-overview"
 publishedAt: "2021-04-05"
 excerpt: "Here at AONE, we believe in continuous learning and development. We also want to do what we can help those trying to break into the network engineering field. While by no means the only factor, certifications can help..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 Here at AONE, we believe in continuous learning and development. We also want to do what we can help those trying to break into the network engineering field. While by no means the only factor, certifications can help you gain applicable knowledge for a specific career path. They can also be used to prove to employers that you have the ability and desire to learn and grow. For those trying to get into a network infrastructure profession or are early on in their careers, the Cisco Certified Network Associate ([CCNA](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html)) program can be a great way to go. It is by means the only path, as their are other certification providers, but it is the one that we are going to highlight in this series.

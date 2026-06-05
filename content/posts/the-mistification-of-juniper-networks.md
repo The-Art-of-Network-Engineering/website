@@ -3,7 +3,7 @@ title: "The 'Mist'ification of Juniper Networks (Sponsored)"
 slug: "the-mistification-of-juniper-networks"
 publishedAt: "2023-05-10"
 excerpt: "The AONE team recently had the fantastic opportunity to attend the Juniper Networks 2023 Enterprise Analyst and Influencer Summit, held on the beautiful campus of UT Dallas. For this event, Juniper invited many..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 coverImage: "/blog-images/the-mistification-of-juniper-networks.jpg"
 ---
 

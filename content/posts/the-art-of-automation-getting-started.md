@@ -3,7 +3,7 @@ title: "The Art of Automation - Getting Started"
 slug: "the-art-of-automation-getting-started"
 publishedAt: "2020-11-30"
 excerpt: "I imagine if you're here you just got done with a hellacious week of updating 100's of switches, 1000's of config directives, or your fingers are bleeding from hammering away all week. However, you may just very well be..."
-author: "Andy Lapteff"
+author: "dylanautomates"
 ---
 
 I imagine if you're here you just got done with a hellacious week of updating 100's of switches, 1000's of config directives, or your fingers are bleeding from hammering away all week. However, you may just very well be more proactive than I was. Automation for me was born out of necessity. Without automation, I think I would have burned out. It's simple, automation makes my job easier, more rewarding, and manageable. If you've decided automation is something you want to learn then this article is for you. I wish this article was the first one I read when I started my journey into DevOps, and subsequently NetDevOps.

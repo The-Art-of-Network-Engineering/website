@@ -3,7 +3,7 @@ title: "TSHOOT - Linux Networking Style"
 slug: "tshoot-linux-networking-style"
 publishedAt: "2021-05-07"
 excerpt: "When I got restarted in networking circa 2018-19 everyone on my timeline would always profess how much they loved Cisco's TSHOOT exam. People had tickets to do and felt like they were showing off what they knew, their..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 When [I got restarted](/blog/starting-over) in networking circa 2018-19 [everyone](https://www.youtube.com/watch?v=m5qsxBwXGB0) on my timeline would [always profess](https://twitter.com/Cisco_Panther/status/1126869523112574979?s=20) how much they [loved Cisco's TSHOOT exam](https://twitter.com/mrTeigen/status/1182243098304352256). People had tickets to do and felt like they were showing off what they knew, their experience, rather than answering trivia questions. "[I always recert my CCNP with the TSHOOT exam...](https://twitter.com/showipintbri/status/1015195165164752896?s=20)" or so the story went.

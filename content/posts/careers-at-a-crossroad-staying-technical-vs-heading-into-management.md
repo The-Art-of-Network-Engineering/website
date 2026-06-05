@@ -3,7 +3,7 @@ title: "Careers at a Crossroad: Staying Technical vs. Heading into Management"
 slug: "careers-at-a-crossroad-staying-technical-vs-heading-into-management"
 publishedAt: "2022-03-14"
 excerpt: "This article is sponsored by Auvik and first appeared on their blog"
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/careers-at-a-crossroad-staying-technical-vs-heading-into-management.jpg"
 ---
 

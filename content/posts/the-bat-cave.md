@@ -3,7 +3,7 @@ title: "The Bat Cave"
 slug: "the-bat-cave"
 publishedAt: "2022-10-27"
 excerpt: "![](https://artofnetworkengineering.com/wp-content/uploads/2022/10/dsc01473.jpg?w=800)"
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 ![](https://artofnetworkengineering.com/wp-content/uploads/2022/10/dsc01473.jpg?w=800)

@@ -3,7 +3,7 @@ title: "CCNA Series - NGFW and IPS"
 slug: "ccna-series-ngfw-and-ips"
 publishedAt: "2023-08-14"
 excerpt: "It is time to dig into some security on the CCNA Series! In the post, we will be covering Network Fundamentals > Explain the role and function of network components > Next generation firewalls and IPS of the exam..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 It is time to dig into some security on the CCNA Series! In the post, we will be covering Network Fundamentals > Explain the role and function of network components > Next generation firewalls and IPS of the [exam topics](https://learningnetwork.cisco.com/s/ccna-exam-topics). Devices implementing security functions are commonplace in organizations, and not just necessarily at the edge of networks. Specifically, when connected to the network, these devices can be used to enforce policy, or act as a passive sensor to alert when configured alarm conditions are met. Network security devices such as firewalls, intrusion detection systems (IDS), and intrusion prevention systems (IPS) can either be deployed in a physical or virtual form factor. What specific security devices are selected, how many are implemented, and where they are placed in the network will depend on the security requirements of the organization. In the rest of this post, we will take a deeper look at next generation firewalls (NGFW) and intrusion prevention systems (IPS).

@@ -3,7 +3,7 @@ title: "KTech CONNECT Recap"
 slug: "ktech-connect-recap"
 publishedAt: "2023-09-18"
 excerpt: "The AONE team recently had the opportunity to attend a KTech Connect event in Knoxville, Tennessee thanks to the Knoxville Technology Council. KTech is an organization in the Knoxville area with the goals of promoting..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 coverImage: "/blog-images/ktech-connect-recap.jpg"
 ---
 

@@ -3,7 +3,7 @@ title: "Gitlab + Hugo = Website Magic Happy Time"
 slug: "gitlab-hugo-website-magic-happy-time"
 publishedAt: "2021-03-22"
 excerpt: "I should let you know right off the top, this is not a 'how-to' from an expert. Instead, this is a how I was able to do something cool for the first time, article. The reason for this post is that I had to use multiple..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 I should let you know right off the top, this is not a 'how-to' from an expert. Instead, this is a how I was able to do something cool for the first time, article. The reason for this post is that I had to use multiple different how-to sites and was still left to troubleshoot multiple things. I'm writing this so a person in the same position as myself can hopefully get up and running in less time. So, with that in mind, if you are an expert in the tools used later on in this post I welcome some feedback on what I could have done better or what simply didn't matter as I made my way through creating my first website since the GeoCities days (a Chicago Bulls tribute fan page).

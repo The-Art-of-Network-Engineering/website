@@ -3,7 +3,7 @@ title: "Starting the GIAC Certification Process"
 slug: "starting-the-giac-certification-process"
 publishedAt: "2021-03-01"
 excerpt: "So I've made it through just about all of the SANS SEC503 material. That's no small accomplishment in it of itself and I already feel like I've leveled up a bit. I now know some of the secrets about the TCP handshake,..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 So I've made it through just about all of the SANS SEC503 material. That's no small accomplishment in it of itself and I already feel like I've leveled up a bit. I now know some of the secrets about the TCP handshake, checksums and window size :) If you've followed me through my first three posts you know I've touched a bit on [tcpdump](/blog/tcpdump-filters-an-intro), [scapy](/blog/scapy-or-not-here-i-come) and [snort](/blog/new-snort-rule-who-dis) while going through the material.

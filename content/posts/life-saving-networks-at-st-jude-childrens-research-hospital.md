@@ -3,7 +3,7 @@ title: "Life-Saving Networks at St. Jude Children's Research Hospital"
 slug: "life-saving-networks-at-st-jude-childrens-research-hospital"
 publishedAt: "2026-02-11"
 excerpt: "St. Jude's mission shapes every operational decision across the organization, including IT — creating a different kind of motivation for the engineers running their network."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/life-saving-networks-at-st-jude-childrens-research-hospital.jpg"
 ---
 

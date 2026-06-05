@@ -3,7 +3,7 @@ title: "CCNA Series - L2 and L3 Switches"
 slug: "ccna-series-l2-and-l3-switches"
 publishedAt: "2021-05-10"
 excerpt: "In this edition of the CCNA Series, we are going to cover network switches. In the CCNA exam topics, we are looking specifically at Network Fundamentals > Explain the role and function of network components > L2 and L3..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 In this edition of the CCNA Series, we are going to cover network switches. In the CCNA [exam topics](https://learningnetwork.cisco.com/s/ccna-exam-topics), we are looking specifically at Network Fundamentals > Explain the role and function of network components > L2 and L3 switches. Before we get into the difference between Layer 2 and Layer 3 switches, let's describe and understand what switches are and what their role is in a network. In their simplest form, switches are hardware or software devices that provide connectivity to the network. For the simplicity of this article, unless otherwise specified, we will be focusing on hardware based (physical) switches. Who and/or what do switches provide connectivity to the network? Well, that depends upon which "layer" the switch resides. In the traditional campus infrastructure model, we can look at the network as having three layers; access, distribution and core.

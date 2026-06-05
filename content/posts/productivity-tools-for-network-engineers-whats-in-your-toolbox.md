@@ -3,7 +3,7 @@ title: "Productivity Tools for Network Engineers: What’s in Your Toolbox?"
 slug: "productivity-tools-for-network-engineers-whats-in-your-toolbox"
 publishedAt: "2025-07-02"
 excerpt: "In the world of network engineering, staying organized isn't just helpful, it's essential. Between managing complex projects, documenting troubleshooting steps, and constantly learning new technologies, engineers juggle..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/productivity-tools-for-network-engineers-whats-in-your-toolbox.jpg"
 ---
 

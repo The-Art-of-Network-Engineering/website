@@ -3,7 +3,7 @@ title: "Conversation Starter: Route Where You Can, Switch Where You Must?"
 slug: "conversation-starter-route-where-you-can-switch-where-you-must"
 publishedAt: "2020-08-17"
 excerpt: "This article was written by Tim Bertino, and first appeared on his blog neticaded.com"
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 *This article was written by Tim Bertino, and first appeared on his blog [neticaded.com](https://neticaded.com/2020/04/12/conversation-starter-route-where-you-can-switch-where-you-must/)*

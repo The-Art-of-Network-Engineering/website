@@ -3,7 +3,7 @@ title: "Be the Ally, Not the Ego"
 slug: "be-the-ally-not-the-ego"
 publishedAt: "2021-12-27"
 excerpt: "Competition is everywhere. Sometimes it is unavoidable. For instance, when you are looking for a job. You want to focus on you, skill up, and set yourself apart from the rest that are competing for that same job. It is..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 Competition is everywhere. Sometimes it is unavoidable. For instance, when you are looking for a job. You want to focus on you, skill up, and set yourself apart from the rest that are competing for that same job. It is definitely stressful, but can also be necessary when it comes to career advancement. Not always, but sometimes. However, job hunting is not the scenario that I want to cover in this post. In this one, I want to go over the scenario in which you are already in the role that you want. You are not only bright, established, driven, and hard-working, but you are also a part of a team. Let's say in that team, there are some new, up-and-coming, less experienced members. Or maybe, there is someone within another department in the company that is looking for a change, and wants to explore your specialty. How would you handle something like that?

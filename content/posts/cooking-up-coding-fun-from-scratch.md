@@ -3,7 +3,7 @@ title: "Cooking up Coding Fun, from 'Scratch'"
 slug: "cooking-up-coding-fun-from-scratch"
 publishedAt: "2023-02-06"
 excerpt: "Have you ever wondered of a fairly low effort, fun way to get your kids, friends, or family members into the basics of programming? Or maybe even yourself for that matter? On the surface, this can seem like a daunting..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 Have you ever wondered of a fairly low effort, fun way to get your kids, friends, or family members into the basics of programming? Or maybe even yourself for that matter? On the surface, this can seem like a daunting task. I mean, when I think coding, I immediately default to command line and start seeing "The Matrix" gloss over my mind's eye. Having a low barrier to entry method for learning basic programming principles in a fun way would be fantastic. Well, such a platform does exist, and it is called '[Scratch](https://scratch.mit.edu/)'. The Scratch community and program strives to teach and get people involved in coding with a fun, free platform. To get started, all you need to do is go to the [website](https://scratch.mit.edu/) and click "Create" near the top left. This opens up the Scratch editor and you can either just click around and start creating, or you can view some of their many, very informative video tutorials. If you want to be able to save your projects, you can create a free account. With Scratch, you can let your imagination run wild. You can create projects such as animations, stories, and games. Let's jump right in and create a scene to show some of the possibilities with the Scratch platform.

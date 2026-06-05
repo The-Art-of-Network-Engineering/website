@@ -3,7 +3,7 @@ title: "Why Routing Protocol Choice Still Matters"
 slug: "why-routing-protocol-choice-still-matters"
 publishedAt: "2025-12-17"
 excerpt: "RIP, EIGRP, OSPF, BGP — they all work. So does it matter how packets get from point A to point B? A conversation with Russ White and Michael Bushong about IS-IS, architecture, and what our industry traded away."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/why-routing-protocol-choice-still-matters.jpg"
 ---
 

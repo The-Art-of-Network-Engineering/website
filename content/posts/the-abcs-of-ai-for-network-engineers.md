@@ -3,7 +3,7 @@ title: "The ABCs of AI for Network Engineers"
 slug: "the-abcs-of-ai-for-network-engineers"
 publishedAt: "2026-02-25"
 excerpt: "Network engineers have earned their skepticism — but AI is finally crossing from interesting to operational, and the difference isn't the hype. It's the plumbing."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/the-abcs-of-ai-for-network-engineers.jpg"
 ---
 

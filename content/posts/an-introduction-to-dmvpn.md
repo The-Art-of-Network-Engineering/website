@@ -3,7 +3,7 @@ title: "An Introduction to DMVPN"
 slug: "an-introduction-to-dmvpn"
 publishedAt: "2020-08-21"
 excerpt: "This article was written by Danny Finein and first appeared on his blog semperfinein.com."
-author: "Andy Lapteff"
+author: "semperfinein"
 ---
 
 *This article was written by Danny Finein and first appeared on his blog [semperfinein.com](http://semperfinein.com/kb.php?article=dmvpn-comparison).*

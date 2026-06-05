@@ -3,7 +3,7 @@ title: "My Journey to the CCNP Enterprise"
 slug: "my-journey-to-the-ccnp-enterprise"
 publishedAt: "2020-08-05"
 excerpt: "!This image has an empty alt attribute; its file name is ccnp_enterprise_large.png"
-author: "Andy Lapteff"
+author: "A.J. Murray"
 ---
 
 ![This image has an empty alt attribute; its file name is ccnp_enterprise_large.png](/blog-images/my-journey-to-the-ccnp-enterprise/ccnp_enterprise_large.jpg)

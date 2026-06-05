@@ -3,7 +3,7 @@ title: "Cisco Certified DevNet Associate, what to expect?"
 slug: "cisco-certified-devnet-associate-what-to-expect"
 publishedAt: "2020-08-03"
 excerpt: "![]()In 2019 Cisco announced a whole new series of certifications, in parallel with updating their existing offering; this time is not a change, but something brand new, and everyone is very excited. Still, some of us..."
-author: "Andy Lapteff"
+author: "Esteban Quiros"
 ---
 
 ![]()In 2019 Cisco announced a whole new series of certifications, in parallel with updating their existing offering; this time is not a change, but something brand new, and everyone is very excited. Still, some of us (old fashioned network engineers) did not fully understand what this new DevNet is all about. Buzzwords like "Automation," "DevOps," "Programmability, "APIs" and the list goes on. Should a Network Engineer spend time on this? The answer is definitely yes!

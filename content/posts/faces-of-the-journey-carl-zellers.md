@@ -3,7 +3,7 @@ title: "Faces of the Journey - Carl Zellers"
 slug: "faces-of-the-journey-carl-zellers"
 publishedAt: "2020-12-04"
 excerpt: "\"Faces of the Journey\" is a series that highlights individuals in the network engineering community. The journey is the path we take through our careers, and it can be very different for each of us. While the..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 "Faces of the Journey" is a series that highlights individuals in the network engineering community. The journey is the path we take through our careers, and it can be very different for each of us. While the destination is important, it's all about the journey!

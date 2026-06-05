@@ -3,7 +3,7 @@ title: "Protecting stored Cisco IOS passwords"
 slug: "protecting-stored-cisco-ios-passwords"
 publishedAt: "2021-01-18"
 excerpt: "This article first appeared on Andrew's blog - andrewroderos.com"
-author: "Andy Lapteff"
+author: "Andrew Roderos"
 ---
 
 *This article first appeared on* *Andrew's blog - [andrewroderos.com](https://andrewroderos.com/securing-cisco-ios-passwords/)*

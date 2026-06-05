@@ -3,7 +3,7 @@ title: "Cumulus in the Cloud Just Got Real"
 slug: "cumulus-in-the-cloud-just-got-real"
 publishedAt: "2021-08-02"
 excerpt: "So I was just checking the Cumulus Docs as you do to see if they finished this feature I was really excited about and guess what, it looks to be up! The big thing I'd been waiting for was the ability to build your own..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 So I was just checking the [Cumulus Docs](https://docs.nvidia.com/networking-ethernet-software/guides/nvidia-air/Custom-Topology/) as you do to see if they finished this feature I was really excited about and guess what, it looks to be up! The big thing I'd been waiting for was the ability to build your own topology on their '[Cumulus in the Cloud](https://www.nvidia.com/en-us/networking/network-simulation/)' platform. This will also be my first post, of which I'm somewhere up to 15, that will be primarily image driven so that I can show the true beauty of the platform.

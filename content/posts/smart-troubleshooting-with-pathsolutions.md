@@ -3,7 +3,7 @@ title: "Smart Troubleshooting with PathSolutions"
 slug: "smart-troubleshooting-with-pathsolutions"
 publishedAt: "2022-04-13"
 excerpt: "While troubleshooting issues is a fantastic skill to hone and practice, as network admins and engineers, it is not something we want to spend all of our time doing on a daily basis.  Rather than constantly working..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 coverImage: "/blog-images/smart-troubleshooting-with-pathsolutions.jpg"
 ---
 

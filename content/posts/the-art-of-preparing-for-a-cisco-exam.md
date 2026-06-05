@@ -3,7 +3,7 @@ title: "The Art of Preparing for a Cisco Exam"
 slug: "the-art-of-preparing-for-a-cisco-exam"
 publishedAt: "2020-08-07"
 excerpt: "This article was written by guest author Carl Zellers"
-author: "Andy Lapteff"
+author: "Carl Zellers"
 ---
 
 *This article was written by guest author [Carl Zellers](https://twitter.com/cfzellers4)*
