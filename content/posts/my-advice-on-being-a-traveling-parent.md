@@ -3,7 +3,7 @@ title: "My Advice on being a Traveling Parent"
 slug: "my-advice-on-being-a-traveling-parent"
 publishedAt: "2020-11-16"
 excerpt: "This article first appeared on A.J.'s blog, blog.noblinkyblinky.com"
-author: "Andy Lapteff"
+author: "A.J. Murray"
 ---
 
 *This article first appeared on A.J.'s blog, [blog.noblinkyblinky.com](https://blog.noblinkyblinky.com)*

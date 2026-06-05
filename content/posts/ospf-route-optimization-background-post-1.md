@@ -3,7 +3,7 @@ title: "OSPF Route Optimization - Background (Post 1)"
 slug: "ospf-route-optimization-background-post-1"
 publishedAt: "2021-02-08"
 excerpt: "When it comes to global reachability within an organization, dynamic routing is a beautiful thing. There are multiple internal gateway protocols (IGPs) out there, but in this series of posts, we are going to focus on..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 When it comes to global reachability within an organization, dynamic routing is a beautiful thing. There are multiple internal gateway protocols (IGPs) out there, but in this series of posts, we are going to focus on OSPF. Taking this focus a step further, we will go through IP/subnet design and routing table optimization.

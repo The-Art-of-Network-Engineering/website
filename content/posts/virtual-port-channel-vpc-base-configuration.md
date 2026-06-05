@@ -3,7 +3,7 @@ title: "Virtual Port Channel (VPC) – Base Configuration"
 slug: "virtual-port-channel-vpc-base-configuration"
 publishedAt: "2020-08-28"
 excerpt: "This article was written by Taylor and first appeared on his blog on ucadministrator.com"
-author: "Andy Lapteff"
+author: "VirTaylor"
 ---
 
 *This article was written by [Taylor](https://twitter.com/UCAdmin) and first appeared on his blog on [ucadministrator.com](https://blog.ucadministrator.com/2019/09/02/virtual-port-channel-vpc-base-configuration/)*

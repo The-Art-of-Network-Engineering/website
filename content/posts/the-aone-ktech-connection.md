@@ -3,7 +3,7 @@ title: "The AONE - KTech Connection"
 slug: "the-aone-ktech-connection"
 publishedAt: "2023-07-14"
 excerpt: "While the Art of Network Engineering is primarily a technology podcast, it is not necessarily the tech that 'keeps us going'. The podcast was born from a sense of community. It started as a group of like-minded people..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 coverImage: "/blog-images/the-aone-ktech-connection.jpg"
 ---
 

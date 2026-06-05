@@ -1,16 +1,41 @@
-# AONE Web
+# The Art of Network Engineering — Website
 
-Static marketing site for The Art of Network Engineering.
+Source code for **[artofnetworkengineering.com](https://artofnetworkengineering.com)**, the home of the podcast, blog, newsletter, and community resources for network engineers.
 
-## Commands
+## Found a broken link, typo, or factual error?
 
-```
+**Please [open an issue](https://github.com/The-Art-of-Network-Engineering/website/issues/new).** That's the fastest way to get it fixed — every issue creates a tracked thread, and small fixes can go live within minutes.
+
+If you'd like to fix it yourself, pull requests are welcome too. See [Contributing](#contributing) below.
+
+## What's here
+
+- **Podcast episodes** — synced from Buzzsprout at build time
+- **Blog** — 130+ posts contributed by network engineers across the community
+- **Resources** — curated free certifications, courses, RFCs, communities, AI learning, career data, and recommended books
+- **Sponsor info** — audience demographics, ad slots, and the sponsor snapshot deck
+
+## Tech
+
+Next.js 14 (App Router, static export) deployed to Cloudflare Pages. Posts are markdown with frontmatter. No database, no server, no JavaScript heroics.
+
+## Run it locally
+
+```sh
 npm install
-npm run dev          # http://localhost:3000 (or http://192.168.1.200:3000 from another machine on the LAN)
-npm run build        # static export to out/
+npm run dev     # http://localhost:3000
+npm run build   # static export to out/
 npm test
 ```
 
-Episode data is fetched from Buzzsprout RSS at build time. To refresh after publishing a new episode, re-run `npm run build`.
+## Contributing
 
-See `docs/superpowers/specs/` for the design spec and `docs/superpowers/plans/` for the implementation plan.
+- **Bug reports & broken links:** open an [issue](https://github.com/The-Art-of-Network-Engineering/website/issues).
+- **Small fixes** (typos, broken URLs, missing alt text): fork → edit → open a PR. Keep the change focused; one fix per PR.
+- **Larger changes** (new sections, design tweaks): please open an issue first to discuss the direction before sinking time into a PR.
+
+The build runs typecheck + tests on every commit via a pre-commit hook, so PRs that pass CI are usually safe to merge.
+
+## License
+
+Code is MIT-licensed. Post content is © its respective authors (most posts list the author in the frontmatter).

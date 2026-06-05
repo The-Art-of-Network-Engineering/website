@@ -3,7 +3,7 @@ title: "What is BGP?"
 slug: "what-is-bgp"
 publishedAt: "2025-09-10"
 excerpt: "TL;DR"
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/what-is-bgp.jpg"
 ---
 

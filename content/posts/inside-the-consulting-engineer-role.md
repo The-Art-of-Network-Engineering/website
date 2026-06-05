@@ -3,7 +3,7 @@ title: "Inside the Consulting Engineer Role"
 slug: "inside-the-consulting-engineer-role"
 publishedAt: "2025-05-07"
 excerpt: "In the latest episode of The Art of Network Engineering, we pulled back the curtain on a role that many in the industry admire—but few truly understand: the Consulting Engineer (CE). Joined by Nokia’s Principal..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/inside-the-consulting-engineer-role.jpg"
 ---
 

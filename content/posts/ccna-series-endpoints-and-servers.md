@@ -3,7 +3,7 @@ title: "CCNA Series - Endpoints and Servers"
 slug: "ccna-series-endpoints-and-servers"
 publishedAt: "2021-05-31"
 excerpt: "In this post of the CCNA Series, we will be covering endpoints and servers in the network. In the CCNA exam topics, we are looking specifically at Network Fundamentals > Explain the role and function of network..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 In this post of the CCNA Series, we will be covering endpoints and servers in the network. In the CCNA [exam topics](https://learningnetwork.cisco.com/s/ccna-exam-topics), we are looking specifically at Network Fundamentals > Explain the role and function of network components > Endpoints and Servers. While studying in-depth enterprise network infrastructure topics and concepts, I think it can be easy to gloss over why the network is there in the first place. I always like to think of the network as a service that is there to support business functions. Businesses utilize technology for many reasons, for example to become efficient, scalable, and to provide excellent outcomes. Typically, they look to implement and leverage applications to achieve these goals. Well, those applications need to be able to be accessed and hosted (or served) somehow. That is where endpoints and servers enter the picture. If enterprises didn't have endpoints and/or servers, then we wouldn't really have a need for networks, would we?

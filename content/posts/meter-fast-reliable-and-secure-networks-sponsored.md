@@ -3,7 +3,7 @@ title: "Meter: fast, reliable, and secure networks (Sponsored)"
 slug: "meter-fast-reliable-and-secure-networks-sponsored"
 publishedAt: "2025-01-23"
 excerpt: "When setting out to build Meter, one thing was abundantly clear: the industry didn’t need another point solution. Instead, we wanted to build an incredibly performant, reliable, and secure networking solution, with zero..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 ---
 
 When setting out to build [Meter](https://www.meter.com/), one thing was abundantly clear: the industry didn’t need another point solution. Instead, we wanted to build an incredibly performant, reliable, and secure networking solution, with zero upfront costs or licensing fees. This structure ensures our incentives are tightly aligned with our customers’ — because we’re taking on the capital risk, we’re on the hook for providing great products and services that continue to delight our customers and earn their business. We’re not looking to sell a box of hardware at a steep margin. We want to sell great networks that enable networking and IT professionals to uplevel their own workflows, and in turn, the operating capacity of their entire organization.

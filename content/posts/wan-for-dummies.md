@@ -3,7 +3,7 @@ title: "WAN for Dummies"
 slug: "wan-for-dummies"
 publishedAt: "2020-07-24"
 excerpt: "Ok don’t be so hard on yourself you aren’t a dummy! Whew, now that we have gotten over that let’s talk about a few things."
-author: "Andy Lapteff"
+author: "aaronengineered"
 ---
 
 Ok don’t be so hard on yourself you aren’t a dummy! Whew, now that we have gotten over that let’s talk about a few things.

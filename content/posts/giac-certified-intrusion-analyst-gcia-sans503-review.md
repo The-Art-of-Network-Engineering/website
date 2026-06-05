@@ -3,7 +3,7 @@ title: "GIAC Certified Intrusion Analyst (GCIA) // SANS503 Review"
 slug: "giac-certified-intrusion-analyst-gcia-sans503-review"
 publishedAt: "2021-05-17"
 excerpt: "If you've been following my feed a bit, you know I've been going pretty strong for the last four months into SANS503. More than half the blog posts I've had published on this site were dedicated to a tool introduced or..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 If you've been following my feed a bit, you know I've been going pretty strong for the last four months into SANS503. More than half the blog posts I've had published on this site were dedicated to a tool introduced or covered in this course. Well, I cleared the exam and it's probably in no small part due to blogging. Not that blogging or studying in public was the only thing that amounted to a successful exam but it surely did help in my opinion. In the following I'm going to reflect a bit on the SANS503 course and GCIA exam.

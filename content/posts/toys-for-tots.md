@@ -3,7 +3,7 @@ title: "Toys For Tots"
 slug: "toys-for-tots"
 publishedAt: "2021-12-20"
 excerpt: "*\\\\\\This article was written by Patrick Kinane. We thank Patrick for this contribution!\\\\\\***"
-author: "Andy Lapteff"
+author: "The AONE Team"
 ---
 
 **\*\*\*This article was written by [Patrick Kinane](https://twitter.com/patrick__k9). We thank Patrick for this contribution!\*\*\***

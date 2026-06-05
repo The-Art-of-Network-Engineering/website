@@ -3,7 +3,7 @@ title: "SD WAN Underlay Options"
 slug: "sd-wan-underlay-options"
 publishedAt: "2020-10-26"
 excerpt: "This article was first written by @aaronengineered and posted to his blog aaronengineered.com."
-author: "Andy Lapteff"
+author: "aaronengineered"
 ---
 
 *This article was first written by @aaronengineered and posted to his blog [aaronengineered.com](https://www.aaronengineered.com/blog/sd-wan-underlay).*

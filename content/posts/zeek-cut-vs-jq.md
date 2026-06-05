@@ -3,7 +3,7 @@ title: "zeek-cut vs jq"
 slug: "zeek-cut-vs-jq"
 publishedAt: "2021-04-19"
 excerpt: "Last week I wrote a quick little tutorial so that one could get started using tshark. In this post I want to look at different ways of viewing the same data using a tool called zeek. Zeek is often referred to as a..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 Last week I wrote a [quick little tutorial](/blog/tshark-the-best) so that one could get started using tshark. In this post I want to look at different ways of viewing the same data using a tool called zeek. Zeek is often referred to as a packet examination 'framework' as it allows you to see what is happening, the whos, wheres and whats within the traffic. [Zeek](https://zeek.org/) is often deployed along side other tools like snort, suricata and/or moloch.

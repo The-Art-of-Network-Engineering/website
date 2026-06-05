@@ -3,7 +3,7 @@ title: "OSPF Route Optimization - Single Area OSPF (Post 2)"
 slug: "ospf-route-optimization-single-area-ospf-post-2"
 publishedAt: "2021-02-15"
 excerpt: "In this second post of the OSPF Route Optimization series, we take a look at our sample topology network configured with a single OSPF area. We will see that while we have global IP reachability throughout the network,..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 In this second post of the OSPF Route Optimization series, we take a look at our sample topology network configured with a single OSPF area. We will see that while we have global IP reachability throughout the network, the routing tables are not very efficient, and this design may not scale well. Here is another look at our topology, this time showing that the routers in the entire network are all members of the backbone area, OSPF area 0 (zero).

@@ -3,7 +3,7 @@ title: "2020 Geek to Geek Pick Me Up Exchange"
 slug: "2020-geek-to-geek-pick-me-up-exchange"
 publishedAt: "2020-11-09"
 excerpt: "This article first appeared on Ben's blog - packitforwarding.com"
-author: "Andy Lapteff"
+author: "The AONE Team"
 ---
 
 *This article first appeared on Ben's blog - [packitforwarding.com](https://packitforwarding.com/index.php/2020/11/01/2020-geek-to-geek-pick-me-up-exchange/)*

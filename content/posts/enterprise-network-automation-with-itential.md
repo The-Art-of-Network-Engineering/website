@@ -3,7 +3,7 @@ title: "Enterprise Network Automation with Itential"
 slug: "enterprise-network-automation-with-itential"
 publishedAt: "2022-02-16"
 excerpt: "In this day and age, saying that enterprise networks are critical would be an understatement. Networks have essentially become a utility similar to electricity, gas, and water. When you turn that proverbial knob, those..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 In this day and age, saying that enterprise networks are critical would be an understatement. Networks have essentially become a utility similar to electricity, gas, and water. When you turn that proverbial knob, those packets had better flow; and quickly! Except, the knob is stuck in the on position and never gets turned off. If it does get turned off, somebody is in trouble. As businesses grow, so does their digital footprint, which means the network must grow as well. Not alongside the business, but faster than the business. The network has to be ‘one step ahead’, always ready for what the business has next to throw at it next. Oftentimes, as the network grows, the complexity of the network grows as well. With this growth and complexity come challenges. The network must be built onto, changed, and maintained. These challenges include:

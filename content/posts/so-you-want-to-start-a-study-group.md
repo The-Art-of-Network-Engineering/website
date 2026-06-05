@@ -3,7 +3,7 @@ title: "So, You Want To Start a Study Group!"
 slug: "so-you-want-to-start-a-study-group"
 publishedAt: "2022-01-10"
 excerpt: "Studying for certifications is hard, and a lot of people are studying for certifications. It would be great to be able to leverage the thinking of other people: their viewpoints, opinions, ways of solving problems you..."
-author: "Andy Lapteff"
+author: "Tim McConnaughy"
 coverImage: "/blog-images/so-you-want-to-start-a-study-group.jpg"
 ---
 

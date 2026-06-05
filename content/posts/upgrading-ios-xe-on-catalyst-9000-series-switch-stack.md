@@ -3,7 +3,7 @@ title: "Upgrading IOS-XE on Catalyst 9000 series Switch Stack"
 slug: "upgrading-ios-xe-on-catalyst-9000-series-switch-stack"
 publishedAt: "2020-09-07"
 excerpt: "This article was originally written by A.J. Murray and first appeared on his blog noblinkyblinky.com"
-author: "Andy Lapteff"
+author: "A.J. Murray"
 ---
 
 *This article was originally written by [A.J. Murray](https://twitter.com/noblinkyblinky) and first appeared on his blog [noblinkyblinky.com](https://blog.noblinkyblinky.com/2019/07/27/upgrading-ios-xe-on-catalyst-9000-series-switch-stack/)*

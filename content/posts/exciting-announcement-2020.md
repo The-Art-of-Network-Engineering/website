@@ -3,7 +3,7 @@ title: "Exciting Announcement!!!"
 slug: "exciting-announcement-2020"
 publishedAt: "2020-12-17"
 excerpt: "We are super excited to announce that we've been named a finalist in the 2020 Cisco IT Blog Awards, for the category Best Podcast or Video Series!"
-author: "Andy Lapteff"
+author: "The AONE Team"
 ---
 
 We are super excited to announce that we've been named a finalist in the 2020 Cisco IT Blog Awards, for the category Best Podcast or Video Series!

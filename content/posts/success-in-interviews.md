@@ -3,7 +3,7 @@ title: "Success in Interviews"
 slug: "success-in-interviews"
 publishedAt: "2020-09-14"
 excerpt: "This article first appeared on Danny's blog, semperfinein.com"
-author: "Andy Lapteff"
+author: "semperfinein"
 ---
 
 *This article first appeared on Danny's blog, [semperfinein.com](http://semperfinein.com)*

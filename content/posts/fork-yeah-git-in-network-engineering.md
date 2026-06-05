@@ -3,7 +3,7 @@ title: "Fork Yeah! Git in Network Engineering"
 slug: "fork-yeah-git-in-network-engineering"
 publishedAt: "2025-04-09"
 excerpt: "Git has revolutionized software development over the past two decades, but many network engineers still view it as a tool exclusively for developers. This mindset creates an artificial barrier between networking..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/fork-yeah-git-in-network-engineering.jpg"
 ---
 

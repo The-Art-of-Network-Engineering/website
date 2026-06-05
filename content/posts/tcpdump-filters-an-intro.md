@@ -3,7 +3,7 @@ title: "tcpdump filters, an intro"
 slug: "tcpdump-filters-an-intro"
 publishedAt: "2021-01-04"
 excerpt: "When learning, I often try to do as my teacher. For example, when I went through Kirk Byers free network automation course he used Vim exclusively which meant I got to get pretty comfortable with it myself. Now that I'm..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 When learning, I often try to do as my teacher. For example, when I went through Kirk Byers [free network automation course](https://pynet.twb-tech.com/) he used Vim exclusively which meant I got to get pretty comfortable with it myself. Now that I'm on to day 2 materials of my [SANS SEC503 course](https://www.sans.org/cyber-security-courses/intrusion-detection-in-depth/) I find myself getting deep into tcpdump. In day 1 a lot of things could either be done with Wireshark or tcpdump but in day 2 there is a bigger emphasis in getting the most out of tcpdump. The instructor seems to really fancy utilizing tcpdump filters over looking things over in Wireshark so I might as well buckle down and do as my instructor once more! Furthermore, as I've experienced in person and discussed in this class, attempting to open a very large pcap in Wireshark is most likely not to go well. Instead, we should be able to narrow our search and extract a smaller subset of data in tcpdump before we open it up in Wireshark. What better way to grasp the material than attempt to explain it! Strap in!

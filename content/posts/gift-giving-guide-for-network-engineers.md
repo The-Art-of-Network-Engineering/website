@@ -3,7 +3,7 @@ title: "Gift Giving Guide for Network Engineers"
 slug: "gift-giving-guide-for-network-engineers"
 publishedAt: "2021-12-06"
 excerpt: "There's no denying that network engineers can be a tricky group to shop for, especially if you aren't a network engineer yourself. This year-round guide can help you shop for the network engineer in your life,..."
-author: "Andy Lapteff"
+author: "Jordan Villarreal"
 ---
 
 There's no denying that network engineers can be a tricky group to shop for, especially if you aren't a network engineer yourself. This year-round guide can help you shop for the network engineer in your life, regardless of the occasion. Use this list for some inspiration to help make their work lives a little bit better. You may even find yourself on their gift-giving lists in return!

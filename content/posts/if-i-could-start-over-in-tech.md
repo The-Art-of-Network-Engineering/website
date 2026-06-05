@@ -3,7 +3,7 @@ title: "If I Could Start Over in Tech"
 slug: "if-i-could-start-over-in-tech"
 publishedAt: "2022-10-07"
 excerpt: "I've written maybe 20 posts or so on this here website. Almost all of them have been explainers or reviews. The following will be something different, something personal. It will probably be a bit short, but I'll work..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 I've written maybe 20 posts or so on this here website. Almost all of them have been explainers or reviews. The following will be something different, something personal. It will probably be a bit short, but I'll work on that, a journal entry so to speak. Incoming.

@@ -3,7 +3,7 @@ title: "Study Tips for the Time Challenged"
 slug: "study-tips-for-the-time-challenged"
 publishedAt: "2020-11-02"
 excerpt: "This article first appeared on David's blog, <https://zerosandwon.blog/>."
-author: "Andy Lapteff"
+author: "David Alicea"
 ---
 
 *This article first appeared on David's blog, <https://zerosandwon.blog/>.*

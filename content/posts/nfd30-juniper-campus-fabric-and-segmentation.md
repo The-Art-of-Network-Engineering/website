@@ -3,7 +3,7 @@ title: "NFD30 - Juniper Campus Fabric and Segmentation"
 slug: "nfd30-juniper-campus-fabric-and-segmentation"
 publishedAt: "2023-01-20"
 excerpt: "Major goals for enterprise campus networks are flexibility, reliability, and security. With legacy networks, it sometimes seems to be difficult to get all three in one solution. For example, to build flexible networks,..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 coverImage: "/blog-images/nfd30-juniper-campus-fabric-and-segmentation.jpg"
 ---
 

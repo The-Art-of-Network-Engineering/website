@@ -3,7 +3,7 @@ title: "Adopting the Mindset of the IT Ninja"
 slug: "adopting-the-mindset-of-the-it-ninja"
 publishedAt: "2020-10-05"
 excerpt: "This article first appeared on A.J.'s blog, blog.noblinkyblinky.com"
-author: "Andy Lapteff"
+author: "A.J. Murray"
 ---
 
 *This article first appeared on A.J.'s blog, [blog.noblinkyblinky.com](https://blog.noblinkyblinky.com)*

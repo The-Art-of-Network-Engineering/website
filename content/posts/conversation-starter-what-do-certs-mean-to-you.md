@@ -3,7 +3,7 @@ title: "Conversation Starter: What do certs mean to you?"
 slug: "conversation-starter-what-do-certs-mean-to-you"
 publishedAt: "2020-09-28"
 excerpt: "This article first appeared on Tim Bert's blog neticaded.com"
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 *This article first appeared on Tim Bert's blog [neticaded.com](https://neticaded.com/2020/07/30/conversation-starter-what-do-certs-mean-to-you/)*

@@ -3,7 +3,7 @@ title: "OSPF Route Optimization - Route Summarization (Post 4)"
 slug: "ospf-route-optimization-route-summarization-post-4"
 publishedAt: "2021-03-08"
 excerpt: "You've made it to the 4th and final post in the OSPF Route Optimization series, I'm proud of you! I honestly wasn't sure if I'd make it this far, myself. Anyway, in this post we will build upon the work we accomplished..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 You've made it to the 4th and final post in the OSPF Route Optimization series, I'm proud of you! I honestly wasn't sure if I'd make it this far, myself. Anyway, in this post we will build upon the work we accomplished in post 3, in which we converted our flat, single area OSPF topology into multi-area OSPF with each site having a boundary between area 0 and the local area (1, 2, 3, or 4 per site). By just implementing multiple areas, we do not yet see a large benefit. Our routing table sizes are still larger than they need to be. In this post, we will leverage route summarization in our area border routers to start seeing that benefit of smaller routing tables. Multi-area OSPF is what makes route summarization possible. Just like the last post, to avoid too much clutter, we will focus in on site1-dist and site1-access1. Keep in mind, that the rest of the topology is getting configured also, just behind the scenes. First, let's get a refresher on our topology.

@@ -3,7 +3,7 @@ title: "Welcome to the Art of Network Engineering Podcast!"
 slug: "example-post-3"
 publishedAt: "2020-06-23"
 excerpt: "![](https://artofnetworkengineering.com/wp-content/uploads/2020/06/twitter-profile-pic.jpg?w=400)"
-author: "Andy Lapteff"
+author: "The AONE Team"
 ---
 
 ![](https://artofnetworkengineering.com/wp-content/uploads/2020/06/twitter-profile-pic.jpg?w=400)

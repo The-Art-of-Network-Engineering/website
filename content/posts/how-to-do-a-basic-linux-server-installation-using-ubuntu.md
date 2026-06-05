@@ -3,7 +3,7 @@ title: "How to do a Basic Linux Server Installation using Ubuntu"
 slug: "how-to-do-a-basic-linux-server-installation-using-ubuntu"
 publishedAt: "2022-01-24"
 excerpt: "In this article, we will show you how to do a basic Linux Server OS install using Ubuntu Server. Linux is an extremely popular operating system in our field. Many system builders will build their platform on Linux. As a..."
-author: "Andy Lapteff"
+author: "A.J. Murray"
 ---
 
 In this article, we will show you how to do a basic Linux Server OS install using [Ubuntu Server](https://ubuntu.com/download/server). Linux is an extremely popular operating system in our field. Many system builders will build their platform on Linux. As a result, having the skills and experience with any version of Linux can help you navigate those platforms. Ubuntu Server is Open Source, and available for free, and can be installed on nearly any platform, physical or virtual. This makes it a platform for lab use, as well as production.

@@ -3,7 +3,7 @@ title: "MPLS for Dummies"
 slug: "mpls-for-dummies"
 publishedAt: "2020-09-18"
 excerpt: "This article first appeared on Aaron's Blog - aaronengineered.com"
-author: "Andy Lapteff"
+author: "aaronengineered"
 ---
 
 *This article first appeared on Aaron's Blog - [aaronengineered.com](https://www.aaronengineered.com/blog/mpls-for-dummies)*

@@ -3,7 +3,7 @@ title: "What are you t-awk-ing about?"
 slug: "what-are-you-t-awk-ing-about"
 publishedAt: "2021-07-26"
 excerpt: "Today I'd like to talk to you a bit about studying in public, how I go about it and some of the benefits it has given me the last few years. Studying in public, which I've mostly done on Twitter until I started writing..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 Today I'd like to talk to you a bit about studying in public, how I go about it and some of the benefits it has given me the last few years. Studying in public, which I've mostly done on Twitter until I started writing for this blog is something I'd recommend everyone trying to learn something new do. In the following I'll give two examples of me 'studying in public' and then give insight along the way and conclude with it's benefits.

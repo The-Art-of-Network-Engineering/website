@@ -3,7 +3,7 @@ title: "The Resistance to Network Automation: Understanding the Psychological an
 slug: "the-resistance-to-network-automation-understanding-the-psychological-and-practical-barriers"
 publishedAt: "2025-03-13"
 excerpt: "Network automation has long been heralded as the game-changer that would revolutionize networking. It promises easier management, fewer errors, and more time for strategic, high-value work. Yet, despite these clear..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/the-resistance-to-network-automation-understanding-the-psychological-and-practical-barriers.jpg"
 ---
 

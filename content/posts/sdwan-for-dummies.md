@@ -3,7 +3,7 @@ title: "SDWAN for Dummies"
 slug: "sdwan-for-dummies"
 publishedAt: "2020-08-10"
 excerpt: "This article originally appeared on Aaron's blog aaronengineered.com on Monday August 3 2020"
-author: "Andy Lapteff"
+author: "aaronengineered"
 ---
 
 *This article originally appeared on Aaron's blog [aaronengineered.com](http://www.aaronengineered.com/blog) on Monday August 3 2020*

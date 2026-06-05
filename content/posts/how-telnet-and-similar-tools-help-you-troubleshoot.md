@@ -3,7 +3,7 @@ title: "How 'telnet' and similar tools help you troubleshoot"
 slug: "how-telnet-and-similar-tools-help-you-troubleshoot"
 publishedAt: "2023-03-03"
 excerpt: "In Episode 110 of the Podcast there was a brief discussion of \"telnet\" as a troubleshooting tool (starts around 22:00)."
-author: "Andy Lapteff"
+author: "StefanKWL"
 coverImage: "/blog-images/how-telnet-and-similar-tools-help-you-troubleshoot.jpg"
 ---
 

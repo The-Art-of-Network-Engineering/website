@@ -3,7 +3,7 @@ title: "You Are Good Enough"
 slug: "you-are-good-enough"
 publishedAt: "2022-12-28"
 excerpt: "As I think it is natural for us to do near the end of a year, I have been doing some reflection. While ups and downs are often the norm, it seems to have been quite the year for many of us. All I have to do is check out..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 As I think it is natural for us to do near the end of a year, I have been doing some reflection. While *ups and downs* are often the norm, it seems to have been quite the year for many of us. All I have to do is check out the [IAATJ](https://discord.gg/KH7ys4ApXw) Discord *winning* channel to be reminded. One thing that I find in common with successful people both inside and outside their careers is that they invest in themselves and those around them. What does it mean to *invest* in yourself? Well, that's the beautiful part, it can take on many different meanings.

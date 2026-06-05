@@ -3,7 +3,7 @@ title: "TAC Connect Bot - Devvie Has a Sibling!"
 slug: "tac-connect-bot"
 publishedAt: "2020-08-31"
 excerpt: "This article is written by Ben Story and originally appeared on his blog packitforwarding.com"
-author: "Andy Lapteff"
+author: "Ben Story"
 ---
 
 *This article is written by Ben Story and originally appeared on his blog [packitforwarding.com](https://packitforwarding.com/index.php/2020/08/12/tac-connect-bot/)*

@@ -3,7 +3,7 @@ title: "\"FREE\" IT/Cyber Training for Air Force People"
 slug: "free-it-cyber-training-for-air-force-people"
 publishedAt: "2022-10-31"
 excerpt: "When it comes to money, I don't like to spend it. Furthermore, one of the key tenets to writing is 'write what you know' or so says a few people anyways. So here we are. There is a lot of training out there so in the..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 coverImage: "/blog-images/free-it-cyber-training-for-air-force-people.jpg"
 ---
 

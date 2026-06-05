@@ -3,7 +3,7 @@ title: "NFD30 - Gaining Intelligent Observability w/ Selector AI"
 slug: "nfd30-gaining-intelligent-observability-w-selector-ai"
 publishedAt: "2023-01-23"
 excerpt: "Troubleshooting networks can be a very difficult, manual process. Businesses run disaggregated systems and operators often need to jump from one to another when trying to find and fix problems. A large amount of..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 coverImage: "/blog-images/nfd30-gaining-intelligent-observability-w-selector-ai.jpg"
 ---
 

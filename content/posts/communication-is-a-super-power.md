@@ -3,7 +3,7 @@ title: "Communication is a Super Power"
 slug: "communication-is-a-super-power"
 publishedAt: "2025-12-31"
 excerpt: "Technical skills will get you in the room. Communication skills determine whether your ideas survive once you're there."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/communication-is-a-super-power.jpg"
 ---
 

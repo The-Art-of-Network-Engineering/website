@@ -3,7 +3,7 @@ title: "Simple Cisco Text File Changes"
 slug: "simple-cisco-text-file-changes"
 publishedAt: "2020-09-21"
 excerpt: "This article first appeared on David's blog, zerosandwon.blog."
-author: "Andy Lapteff"
+author: "David Alicea"
 ---
 
 *This article first appeared on David's blog, [zerosandwon.blog](https://zerosandwon.blog/2020/08/31/simple-cisco-text-file-changes/).*

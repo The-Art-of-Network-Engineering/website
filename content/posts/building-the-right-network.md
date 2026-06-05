@@ -3,7 +3,7 @@ title: "Building the Right Network"
 slug: "building-the-right-network"
 publishedAt: "2025-12-03"
 excerpt: "Andy Lapteff and Kevin Myers on why too many networks are built backwards — and how to reverse the approach by starting with the problem instead of the gear."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/building-the-right-network.jpg"
 ---
 

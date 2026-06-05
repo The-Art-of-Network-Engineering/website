@@ -3,7 +3,7 @@ title: "Basic NBA Data Parsing with Python"
 slug: "basic-nba-data-parsing-with-python"
 publishedAt: "2022-10-03"
 excerpt: "About eight weeks ago I saw John Capobianco and Tim Bert were holding an online meeting about trying to pull down some NCAA football data using an API. I, myself, finally finished up the last certification exam I've had..."
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 About eight weeks ago I saw John Capobianco and Tim Bert were holding an online meeting about trying to pull down some NCAA football data using an API. I, myself, finally finished up the last certification exam I've had on my plate shortly thereafter. Since then, I've taken to doing a little bit of [DataCamp](https://app.datacamp.com/learn) and [CloudAcademy](http://cloudacademy.com) each day.

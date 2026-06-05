@@ -3,7 +3,7 @@ title: "Planning and Maintaining Wireless Networks with NetAlly"
 slug: "planning-and-maintaining-wireless-networks-with-netally"
 publishedAt: "2021-12-22"
 excerpt: "For years now, the ability to be productive has been changing.  In many cases, you do not need to be tethered to a desk working off of a computer that is wired into the network to get things done.  We have evolved from..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 For years now, the ability to be productive has been changing.  In many cases, you do not need to be tethered to a desk working off of a computer that is wired into the network to get things done.  We have evolved from that practice, to leveraging laptops, tablets, and even smaller mobile devices such as phones to get work done and stay connected, not to mention the growing plethora of Wi-Fi connected IoT devices.  Supporting a mobile workforce is key, and how do we do that?  This is accomplished by building, maintaining, and enhancing robust wireless networks. Wireless networks and RF environments can be more difficult to plan, maintain, and troubleshoot in respect to their wired counterparts.  As an engineer, you need to understand many factors such as:

@@ -3,7 +3,7 @@ title: "Top 10 Book Recommendations by Network Engineers, For Network Engineers"
 slug: "top-10-book-recommendations-by-network-engineers-for-network-engineers"
 publishedAt: "2022-01-17"
 excerpt: "In our Discord Server - It's All About the Journey - we've got a book club where all of our server members share books that have helped them throughout their journey. We've compiled a list of the Top 10 books..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/top-10-book-recommendations-by-network-engineers-for-network-engineers.jpg"
 ---
 

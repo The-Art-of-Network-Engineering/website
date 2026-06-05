@@ -3,7 +3,7 @@ title: "OSPF Route Optimization - Multi-Area OSPF (Post 3)"
 slug: "ospf-route-optimization-multi-area-ospf-post-3"
 publishedAt: "2021-02-22"
 excerpt: "In this post of the OSPF Route Optimization series, we take a look at multi-area OSPF. As stated before, while single-area OSPF provides us with global IP reachability, it tends to not scale well from an efficiency..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 In this post of the OSPF Route Optimization series, we take a look at multi-area OSPF. As stated before, while single-area OSPF provides us with global IP reachability, it tends to not scale well from an efficiency standpoint as the network grows. In our sample topology, we will treat the "inside" zone of each site as its own area while leaving the distribution to core layer in area 0. With our IP address design, doing this will allow us to perform IP summarization and shrink the size of our routing tables. Here is an updated view of our topology and in the output shown in the rest of this post, we will work with area 1 (site 1).

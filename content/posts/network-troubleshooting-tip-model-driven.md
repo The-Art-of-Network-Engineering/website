@@ -3,7 +3,7 @@ title: "Network Troubleshooting Tip - Model Driven"
 slug: "network-troubleshooting-tip-model-driven"
 publishedAt: "2021-03-15"
 excerpt: "No matter what the specific role, as an IT professional, you are going to be tasked to solve problems. Whether you are in a direct support role, part of an escalation team, or on the architecture/engineering team, you..."
-author: "Andy Lapteff"
+author: "Tim Bertino"
 ---
 
 No matter what the specific role, as an IT professional, you are going to be tasked to solve problems. Whether you are in a direct support role, part of an escalation team, or on the architecture/engineering team, you are potentially seen as someone who "fixes all the things". Sometimes though, I think it can be easy for us to fall into a trap of quickly jumping to conclusions and getting "into the weeds" in potentially an incorrect direction. I'll admit, I am definitely guilty of this from time to time. This can be for many reasons, from we feel pressured to find a resolution quickly, to assuming that problem is more technical than it is just because it seems somewhat similar to something that happened in the past. In this post, we'll go through a high-level troubleshooting method that I like to use when problems arise.

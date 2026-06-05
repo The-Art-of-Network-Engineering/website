@@ -3,7 +3,7 @@ title: "Learning Out Loud"
 slug: "learning-out-loud"
 publishedAt: "2025-10-22"
 excerpt: "Lexie Cooper and Andy Lapteff on learning in public, hands-on lab experimentation, streaming platforms, career pressures in networking, and automation in the industry."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/learning-out-loud.jpg"
 ---
 

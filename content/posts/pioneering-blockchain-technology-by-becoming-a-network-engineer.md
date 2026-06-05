@@ -3,7 +3,7 @@ title: "PIONEERING BLOCKCHAIN TECHNOLOGY BY BECOMING A NETWORK ENGINEER"
 slug: "pioneering-blockchain-technology-by-becoming-a-network-engineer"
 publishedAt: "2021-01-11"
 excerpt: "Bitcoin continues to be pioneering as the currency continues to hit all-time high every new season, particularly in 2020.. As at the time this article was written. It currently trades at $26,765. But one of Crypto's..."
-author: "Andy Lapteff"
+author: "Charles Uneze"
 ---
 
 Bitcoin continues to be pioneering as the currency continues to hit all-time high every new season, particularly in 2020.. As at the time this article was written. It currently trades at $26,765. But one of Crypto's interesting applications is not that individuals trade it to become richer. It's about solving big challenges that make money for you. It's about turning capitalist greed (the burden of making payment across countries) into unselfish open-source software.

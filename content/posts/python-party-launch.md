@@ -3,7 +3,7 @@ title: "Python Party Launch"
 slug: "python-party-launch"
 publishedAt: "2025-10-07"
 excerpt: "If you’ve skimmed network engineer job postings lately, you’ve noticed the pattern: automation experience required. Not “nice to have.” Required. Employers expect fluency with APIs, version control, repeatable..."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/python-party-launch.jpg"
 ---
 

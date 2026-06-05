@@ -12,7 +12,7 @@ type Link = { name: string; href: string; note: string };
 const certifications: Link[] = [
   { name: 'Cisco Learning Network (CCNA → CCIE)', href: 'https://learningnetwork.cisco.com/', note: 'Official Cisco study community, exam guides, and certification roadmaps.' },
   { name: 'Juniper Open Learning', href: 'https://learningportal.juniper.net/juniper/user_activity_info.aspx?ctx=catalog&from=catalog', note: 'Free associate-level training and certifications (JNCIA tracks).' },
-  { name: 'Arista Training & Services', href: 'https://www.arista.com/en/services/training', note: 'Training and certification paths for Arista EOS, CloudVision, and the ACE program.' },
+  { name: 'Arista Academy', href: 'https://www.training.arista.com/', note: 'Arista\'s self-paced training and ACE certification program covering EOS, data center, campus, WAN, and automation tracks.' },
   { name: 'Nokia Service Routing Certification', href: 'https://www.nokia.com/networks/training/src/', note: 'Tracks for IP/MPLS service provider and data center networking.' },
   { name: 'CompTIA Network+', href: 'https://www.comptia.org/certifications/network', note: 'Vendor-neutral entry-level certification, widely accepted as a foundation.' },
   { name: 'AWS Certified Advanced Networking', href: 'https://aws.amazon.com/certification/certified-advanced-networking-specialty/', note: 'Advanced cert for designing AWS networks and hybrid architectures.' },

@@ -3,7 +3,7 @@ title: "You Don't Need Python Anymore: Hello World For AI"
 slug: "you-dont-need-python-anymore-hello-world-for-ai"
 publishedAt: "2026-04-23"
 excerpt: "For years, the message was clear: if you want to automate, learn Python. AI changed the entry point — and that matters more than Python ever did."
-author: "Andy Lapteff"
+author: "The AONE Team"
 coverImage: "/blog-images/you-dont-need-python-anymore-hello-world-for-ai.jpg"
 ---
 

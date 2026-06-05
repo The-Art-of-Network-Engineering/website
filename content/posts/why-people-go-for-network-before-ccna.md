@@ -3,7 +3,7 @@ title: "Why people go for Network+ before CCNA?"
 slug: "why-people-go-for-network-before-ccna"
 publishedAt: "2020-10-19"
 excerpt: "This article was written by Chris and first appeared on his blog christechjourney.wordpress.com"
-author: "Andy Lapteff"
+author: "Chris Dedman-Rollet"
 ---
 
 *This article was written by Chris and first appeared on his blog [christechjourney.wordpress.com](https://christechjourney.wordpress.com/2020/09/25/why-people-go-for-network-before-ccna/)*

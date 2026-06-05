@@ -3,7 +3,7 @@ title: "Real World Experience"
 slug: "real-world-experience"
 publishedAt: "2020-10-12"
 excerpt: "This article first appeared on Girard Kavelines's blog techhouse570.wordpress.com/"
-author: "Andy Lapteff"
+author: "Girard Kavelines"
 ---
 
 *This article first appeared on Girard Kavelines's blog [techhouse570.wordpress.com/](https://techhouse570.wordpress.com/)*

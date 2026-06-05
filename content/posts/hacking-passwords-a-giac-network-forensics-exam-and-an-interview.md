@@ -3,7 +3,7 @@ title: "Hacking Passwords, a GIAC Network Forensics Exam and an Interview"
 slug: "hacking-passwords-a-giac-network-forensics-exam-and-an-interview"
 publishedAt: "2021-11-29"
 excerpt: "![](https://artofnetworkengineering.com/wp-content/uploads/2021/11/e_f4rahvuaykjlk.jpeg?w=800)"
-author: "Andy Lapteff"
+author: "Andre Roberge"
 ---
 
 ![](https://artofnetworkengineering.com/wp-content/uploads/2021/11/e_f4rahvuaykjlk.jpeg?w=800)
