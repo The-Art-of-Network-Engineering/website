@@ -73,7 +73,7 @@ The short version: Before MCP, every AI integration looked like bespoke glue; on
 - **Fewer snowflake integrations.** If a vendor exposes an MCP server, your AI host knows how to talk to it.
 - **Richer workflows.** A model can chain multiple tools: gather router facts → correlate with inventory → update ServiceNow → format an executive email.
 - **Separation of concerns.** Keep private data/tools in your environment; grant just the capabilities the AI needs through MCP.
-- **Deterministic guardrails.** You choose which tools are exposed and how they're described. The model gets context it can actually use.
+- **Deterministic guardrails.** You choose which tools are exposed and how they're described. The model gets context it can use.
 
 A practical example: From a chat window, you ask:
 

@@ -12,7 +12,7 @@ type Link = { name: string; href: string; note: string };
 const certifications: Link[] = [
   { name: 'Cisco Learning Network (CCNA → CCIE)', href: 'https://learningnetwork.cisco.com/', note: 'Official Cisco study community, exam guides, and certification roadmaps.' },
   { name: 'Juniper Open Learning', href: 'https://learningportal.juniper.net/juniper/user_activity_info.aspx?ctx=catalog&from=catalog', note: 'Free associate-level training and certifications (JNCIA tracks).' },
-  { name: 'Arista Learning Center', href: 'https://www.arista.com/en/support/learning-center', note: 'Free training paths for Arista EOS, CloudVision, and the ACE-A certification.' },
+  { name: 'Arista Training & Services', href: 'https://www.arista.com/en/services/training', note: 'Training and certification paths for Arista EOS, CloudVision, and the ACE program.' },
   { name: 'Nokia Service Routing Certification', href: 'https://www.nokia.com/networks/training/src/', note: 'Tracks for IP/MPLS service provider and data center networking.' },
   { name: 'CompTIA Network+', href: 'https://www.comptia.org/certifications/network', note: 'Vendor-neutral entry-level certification, widely accepted as a foundation.' },
   { name: 'AWS Certified Advanced Networking', href: 'https://aws.amazon.com/certification/certified-advanced-networking-specialty/', note: 'Advanced cert for designing AWS networks and hybrid architectures.' },
@@ -24,7 +24,6 @@ const courses: Link[] = [
   { name: 'Kirk Byers — Python for Network Engineers', href: 'https://pynet.twb-tech.com/', note: 'Free 8-week email course. The single most recommended Python on-ramp for network engineers.' },
   { name: 'Cisco DevNet Sandbox', href: 'https://developer.cisco.com/site/sandbox/', note: 'Free always-on labs for IOS XE, Nexus, Meraki, Webex, and more.' },
   { name: 'Juniper vLabs', href: 'https://jlabs.juniper.net/vlabs/', note: 'Free reservation-based virtual labs for hands-on Junos practice.' },
-  { name: 'NetworkChuck (YouTube)', href: 'https://www.youtube.com/@NetworkChuck', note: 'Approachable video tutorials covering CCNA, networking fundamentals, Linux, and home labs.' },
   { name: 'David Bombal (YouTube)', href: 'https://www.youtube.com/@davidbombal', note: 'Deep technical videos on networking, certifications, and network automation.' },
   { name: 'Free CCNA — Jeremy\'s IT Lab', href: 'https://www.youtube.com/@JeremysITLab', note: 'A full free CCNA course on YouTube with practice questions.' },
 ];
@@ -65,8 +64,18 @@ const careerData: Link[] = [
   { name: 'Cisco Learning Network — Salary Survey', href: 'https://learningnetwork.cisco.com/s/article/cisco-certifications-salary-survey', note: 'Annual survey of certified Cisco professional compensation.' },
 ];
 
+const biases: Link[] = [
+  { name: 'List of cognitive biases (Wikipedia)', href: 'https://en.wikipedia.org/wiki/List_of_cognitive_biases', note: 'The canonical reference. Browse the list once, and you\'ll start spotting them in design reviews and postmortems.' },
+  { name: 'The Decision Lab — biases reference', href: 'https://thedecisionlab.com/biases', note: 'Plain-English entries for each bias with concrete examples. Better starting point than Wikipedia if the academic tone is rough.' },
+  { name: 'Thinking, Fast and Slow — Daniel Kahneman', href: 'https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555', note: 'The foundational book on System 1 / System 2 thinking. Heavy but worth it. Most other books in this category reference it.' },
+  { name: 'The Art of Thinking Clearly — Rolf Dobelli', href: 'https://www.amazon.com/Art-Thinking-Clearly-Rolf-Dobelli/dp/0062219693', note: '99 short chapters, one bias per chapter. The least intimidating on-ramp.' },
+  { name: 'Predictably Irrational — Dan Ariely', href: 'https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248', note: 'Behavioral economics through the lens of everyday decisions. Highly readable.' },
+  { name: 'Influence: The Psychology of Persuasion — Robert Cialdini', href: 'https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X', note: 'Six principles of persuasion. Reads as much like a defensive playbook (against vendor pitches and bad architecture decisions) as a sales manual.' },
+  { name: 'Decisive — Chip & Dan Heath', href: 'https://www.amazon.com/Decisive-Make-Better-Choices-Life/dp/0307956393', note: 'A practical four-step framework for making better decisions under uncertainty. Useful for technical and career calls alike.' },
+];
+
 const books: Link[] = [
-  { name: 'Network Warrior — Gary A. Donahue', href: 'https://www.oreilly.com/library/view/network-warrior-2nd/9781449309831/', note: 'The book most senior network engineers wish they\'d read on day one.' },
+  { name: 'Network Warrior, 2nd ed — Gary A. Donahue', href: 'https://www.amazon.com/Network-Warrior-Everything-Really-Need/dp/1449387861', note: 'The book most senior network engineers wish they\'d read on day one.' },
   { name: 'Routing TCP/IP, Volume I — Jeff Doyle & Jennifer Carroll', href: 'https://www.ciscopress.com/store/routing-tcp-ip-volume-i-9781587052026', note: 'The canonical reference for IP routing protocols. Volume II covers BGP and multicast in depth.' },
   { name: 'TCP/IP Illustrated, Volume 1 — Kevin R. Fall & W. Richard Stevens', href: 'https://www.informit.com/store/tcp-ip-illustrated-volume-1-the-protocols-9780321336316', note: 'Bottom-up protocol-by-protocol walkthrough. Dense, definitive.' },
   { name: 'The Phoenix Project — Gene Kim et al.', href: 'https://itrevolution.com/product/the-phoenix-project/', note: 'A novel about an IT department under fire. Required reading for anyone working at the application/infra boundary.' },
@@ -123,7 +132,7 @@ export default function ResourcesPage() {
       <LinkSection
         label="Certifications"
         heading="Learning paths and certifications"
-        intro="The certifications that actually move resumes and pay bands. Mix vendor and vendor-neutral. Pick one track, finish it, then expand."
+        intro="The certifications that move resumes and pay bands. Mix vendor and vendor-neutral. Pick one track, finish it, then expand."
         links={certifications}
       />
 
@@ -143,7 +152,7 @@ export default function ResourcesPage() {
 
       <LinkSection
         label="Communities"
-        heading="Where network engineers actually hang out"
+        heading="Where network engineers hang out"
         intro="Network engineering is a small world. The people in these communities are how most working engineers stay current and how most opportunities surface."
         links={communities}
       />
@@ -167,6 +176,13 @@ export default function ResourcesPage() {
         heading="Books that hold up"
         intro="The handful of network engineering books that are still worth your time after years of cloud, automation, and AI reshaping the field."
         links={books}
+      />
+
+      <LinkSection
+        label="Cognitive biases"
+        heading="Cognitive biases and decision-making"
+        intro="Most engineering mistakes are not technical, they are cognitive. The traps that derail design reviews, troubleshooting calls, and career decisions are the same traps psychologists have been documenting for decades. Reading on this stuff is one of the highest-leverage habits a working engineer can build."
+        links={biases}
       />
 
       <section className="mt-16 border-t border-border pt-12">

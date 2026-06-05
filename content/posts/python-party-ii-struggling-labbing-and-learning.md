@@ -16,7 +16,7 @@ In this episode of _The Art of Network Engineering_, Jeff Clark and Andy Lapteff
 
 The networking world is evolving fast. Job descriptions are packed with terms like **Python**, **Git**, **Terraform**, **YAML**, and **Infrastructure as Code**. To stay relevant, automation skills cannot be avoided; engineers must get comfortable with it.
 
-For the hosts, that starts with the basics: learning Python properly. Not vibe-coding through random scripts, but actually understanding variables, strings, and methods so that code can be read with confidence and eventually custom tools can be built.
+For the hosts, that starts with the basics: learning Python properly. Not vibe-coding through random scripts, but understanding variables, strings, and methods so that code can be read with confidence and eventually custom tools can be built.
 
 Jeff learns by diving straight in and breaking stuff. Andy learns by following the book slowly, line by line, then applying the knowledge in a lab. This mix of styles makes for great conversations, and plenty of hilarious confusion.
 
@@ -32,7 +32,7 @@ Methods can be attached to variables to make them do things. For example, using 
 
 ### 3. F-Strings and String Formatting
 
-F-strings like `f"Hello {name}"` felt confusing at first, but they're actually a slick way to combine variables inside a string. It's a tool used constantly for automation tasks like building configs or generating emails.
+F-strings like `f"Hello {name}"` felt confusing at first, but they're a slick way to combine variables inside a string. It's a tool used constantly for automation tasks like building configs or generating emails.
 
 For example:
 
