@@ -29,7 +29,7 @@ export default function BlogIndex() {
       <h1 className="mt-4 font-display text-4xl md:text-5xl">Notes from the field.</h1>
       <p className="mt-6 max-w-2xl text-text-muted text-lg">
         Long-form writing on career, automation, AI, and the practical realities of running
-        networks. Drawn from {posts.length}+ AONE conversations with the people doing the work.
+        networks.
       </p>
 
       <div className="mt-12 grid gap-6 md:grid-cols-2">
