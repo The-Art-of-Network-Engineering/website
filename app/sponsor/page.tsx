@@ -172,6 +172,8 @@ export default function SponsorPage() {
           </a>
           <a
             href="/aone-sponsor-snapshot-2026.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block border border-border bg-surface text-text font-semibold px-6 py-3 rounded-sm hover:border-accent-blue transition-colors"
           >
             Download sponsor snapshot (PDF)
