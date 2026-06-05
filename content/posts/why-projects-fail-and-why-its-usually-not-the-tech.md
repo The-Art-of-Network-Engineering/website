@@ -29,7 +29,7 @@ Eyvonne shared something that should make every technical lead pause:
 When things blow up, it's usually not because someone forgot how BGP works. It's because we never got the human fundamentals right:
 
 - Do we have executive alignment?
-- Do we have the right executive sponsor (someone who can actually help when we get stuck)?
+- Do we have the right executive sponsor (someone who can help when we get stuck)?
 - Do we have a shared definition of success: what we're partnering to achieve?
 - Do we know the scope, the requirements, and where the work _stops_?
 - Do we know what "unstuck" looks like when the project hits reality?

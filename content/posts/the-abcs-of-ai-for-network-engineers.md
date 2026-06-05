@@ -71,7 +71,7 @@ So the breakthrough isn't better prompting. It's connecting the model to trustwo
 
 That's where four terms matter.
 
-### Four terms you actually need to know
+### Four terms you need to know
 
 If you take nothing else from this episode, take these:
 

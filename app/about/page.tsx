@@ -62,8 +62,8 @@ export default function AboutPage() {
             <ul className="mt-4 space-y-3 list-disc pl-5 marker:text-accent-green">
               <li>
                 <span className="text-text font-semibold">Conversations with practitioners.</span>{' '}
-                Engineers, architects, vendors, educators, and founders. The people actually
-                doing the work, in their own words.
+                Engineers, architects, vendors, educators, and founders. The people doing the
+                work, in their own words.
               </li>
               <li>
                 <span className="text-text font-semibold">Career stories, not just career advice.</span>{' '}

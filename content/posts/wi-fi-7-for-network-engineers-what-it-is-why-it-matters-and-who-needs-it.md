@@ -1,8 +1,8 @@
 ---
 title: "Wi-Fi 7 for Network Engineers: What It Is, Why It Matters, and Who Actually Needs It"
-slug: "wi-fi-7-for-network-engineers-what-it-is-why-it-matters-and-who-actually-needs-it"
+slug: "wi-fi-7-for-network-engineers-what-it-is-why-it-matters-and-who-needs-it"
 publishedAt: "2026-03-11"
-excerpt: "Wireless has always had a different vibe than traditional networking — here's what Wi-Fi 7 actually changes, what problems it solves, and whether it matters in the real world."
+excerpt: "Wireless has always had a different vibe than traditional networking — here's what Wi-Fi 7 changes, what problems it solves, and whether it matters in the real world."
 author: "Andy Lapteff"
 ---
 
@@ -10,7 +10,7 @@ Wireless has always had a different vibe than traditional networking.
 
 With wired networking, most engineers feel grounded. You can see the cable. You can understand the port. You can trace the path. It feels deterministic. Wireless, on the other hand, often feels invisible, unpredictable, and just a little bit magical.
 
-Andy Lapteff sat down with Greg Grimes to talk through **Wi-Fi 7**, not from the perspective of marketing hype, but from the perspective of engineers trying to understand what actually changed, what problems it solves, and whether it matters in the real world.
+Andy Lapteff sat down with Greg Grimes to talk through **Wi-Fi 7**, not from the perspective of marketing hype, but from the perspective of engineers trying to understand what changed, what problems it solves, and whether it matters in the real world.
 
 ## Wireless has always been its own specialty
 
@@ -52,7 +52,7 @@ That doesn't mean wireless suddenly becomes identical to wired networking. It do
 
 For engineers who've always viewed wireless as "best effort at best," that's a pretty big shift.
 
-## Who actually needs Wi-Fi 7?
+## Who needs Wi-Fi 7?
 
 Not every new standard is an automatic must-buy, and Greg makes that clear. For the average home user, the difference between Wi-Fi 5, 6, and 7 may not be dramatic in day-to-day use. Streaming, browsing, and casual gaming may not justify a major upgrade on their own.
 

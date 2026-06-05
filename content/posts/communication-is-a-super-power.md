@@ -10,7 +10,7 @@ Technical skills will get you in the room. Communication skills determine whethe
 
 In this episode, Colin Doyle and Andy Lapteff dig into a truth many engineers discover the hard way: being technically correct isn't enough. Whether you're preparing for a conference talk, presenting an idea to leadership, or explaining a design decision to peers, communication is the skill that determines impact.
 
-They pull apart _how engineers communicate_, why it often breaks down under pressure, and what actually works, especially in high-stakes situations like conference talks and executive conversations.
+They pull apart _how engineers communicate_, why it often breaks down under pressure, and what works, especially in high-stakes situations like conference talks and executive conversations.
 
 Below are the core lessons, and why they matter.
 
@@ -60,7 +60,7 @@ If your audience can't repeat your message after you leave the room, speed is us
 
 ## 3. Attention spans reset; plan for it
 
-Most technical talks fail not because the content is wrong, but because the delivery ignores how people actually listen.
+Most technical talks fail not because the content is wrong, but because the delivery ignores how people listen.
 
 Human attention naturally dips every few minutes. Skilled communicators account for this by:
 

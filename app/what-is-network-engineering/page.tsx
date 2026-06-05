@@ -119,7 +119,7 @@ export default function WhatIsNetworkEngineeringPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold">What a network engineer actually does</h2>
+            <h2 className="text-2xl font-bold">What a network engineer does</h2>
             <p className="mt-3">
               The work is broader than the title implies. On any given week a network engineer
               might be doing several of the following:
