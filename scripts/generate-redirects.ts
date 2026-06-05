@@ -4,8 +4,6 @@ import { resolve, dirname } from 'node:path';
 const rules = [
   '/work-with-us /sponsor 301',
   '/work-with-us/ /sponsor 301',
-  '/blog https://www.linkedin.com/company/artofneteng/posts/ 302',
-  '/blog/* https://www.linkedin.com/company/artofneteng/posts/ 302',
 ];
 
 const out = resolve(process.cwd(), 'out/_redirects');

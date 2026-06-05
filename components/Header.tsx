@@ -2,6 +2,8 @@ import Link from 'next/link';
 
 const navItems = [
   { href: '/episodes', label: 'Episodes' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/resources', label: 'Resources' },
   { href: '/about', label: 'About' },
   { href: '/what-is-network-engineering', label: 'What Is NE?' },
   { href: '/sponsor', label: 'Sponsor' },
