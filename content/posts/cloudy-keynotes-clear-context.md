@@ -4,6 +4,7 @@ slug: "cloudy-keynotes-clear-context"
 publishedAt: "2025-11-19"
 excerpt: "Public cloud is amazing. It's also not magic. Resiliency myths, public speaking wins, and why MCP matters for NetOps."
 author: "Andy Lapteff"
+coverImage: "/blog-images/cloudy-keynotes-clear-context.jpg"
 ---
 
 ## Cloudy Keynotes, Clear Context

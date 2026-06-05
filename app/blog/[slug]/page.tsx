@@ -56,6 +56,14 @@ export default function PostPage({ params }: { params: { slug: string } }) {
         <span>by {post.author}</span>
       </div>
 
+      {post.coverImage && (
+        <img
+          src={post.coverImage}
+          alt=""
+          className="mt-10 w-full max-w-4xl rounded-sm border border-border"
+        />
+      )}
+
       <div className="mt-12 grid md:grid-cols-[2fr_1fr] gap-12">
         <div className="prose prose-invert max-w-none text-text [&_a]:text-accent-blue [&_a:hover]:text-accent-green">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.bodyMarkdown}</ReactMarkdown>

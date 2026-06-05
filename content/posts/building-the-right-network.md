@@ -4,6 +4,7 @@ slug: "building-the-right-network"
 publishedAt: "2025-12-03"
 excerpt: "Andy Lapteff and Kevin Myers on why too many networks are built backwards — and how to reverse the approach by starting with the problem instead of the gear."
 author: "Andy Lapteff"
+coverImage: "/blog-images/building-the-right-network.jpg"
 ---
 
 Andy Lapteff and Kevin Myers recorded an in-person AONE podcast episode while attending Tech Field Day NFD39. What started as a discussion about navigating relationships with networking vendors evolved into guidance on building the right network for the right reasons, and why many engineers begin with incorrect assumptions.
