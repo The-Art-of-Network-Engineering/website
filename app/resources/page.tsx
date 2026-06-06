@@ -41,7 +41,7 @@ const rfcs: Link[] = [
 ];
 
 const communities: Link[] = [
-  { name: 'AONE Discord', href: 'https://discord.gg/4N2Qh47dwt', note: '3,500+ network engineers, infrastructure pros, and career-switchers. Active daily.' },
+  { name: 'AONE Discord', href: 'https://artofneteng.com/iaatj', note: '3,500+ network engineers, infrastructure pros, and career-switchers. Active daily.' },
   { name: 'USNUA — US Networking User Association', href: 'https://usnua.com/', note: 'Community-run networking association for practitioners across the US.' },
   { name: 'r/networking', href: 'https://www.reddit.com/r/networking/', note: 'The largest general networking subreddit. Career questions, troubleshooting, vendor discussion.' },
   { name: 'r/ccna', href: 'https://www.reddit.com/r/ccna/', note: 'Study group, exam tips, and lab questions for Cisco\'s flagship certification.' },
@@ -61,7 +61,7 @@ const careerData: Link[] = [
   { name: 'BLS Occupational Outlook — Computer Network Architects', href: 'https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm', note: 'Federal employment data, salary medians, and job outlook for network architects.' },
   { name: 'BLS — Network & Computer Systems Administrators', href: 'https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm', note: 'BLS data for the adjacent admin/operations track.' },
   { name: 'Levels.fyi', href: 'https://www.levels.fyi/', note: 'Crowdsourced compensation data, useful for benchmarking offers at large tech employers.' },
-  { name: 'Cisco Learning Network — Salary Survey', href: 'https://learningnetwork.cisco.com/s/article/cisco-certifications-salary-survey', note: 'Annual survey of certified Cisco professional compensation.' },
+  { name: 'Robert Half — Technology Salary Guide', href: 'https://www.roberthalf.com/us/en/insights/salary-guide/technology', note: 'Annual salary benchmarks across IT and networking roles, by region and experience level.' },
 ];
 
 const biases: Link[] = [
