@@ -32,15 +32,8 @@ export default function MerchPage() {
 
       <p className="mt-12 max-w-2xl text-text-muted text-sm">
         Crowdmade handles printing, fulfillment, and customer service. AONE doesn't see your
-        shipping or payment info. Order questions go directly to{' '}
-        <a
-          href="https://crowdmade.com/contact"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Crowdmade support
-        </a>
-        .
+        shipping or payment info. Order questions go directly to Crowdmade support — use the
+        contact link in the shop footer.
       </p>
     </div>
   );
