@@ -18,8 +18,6 @@ Chris Randall, also known as [@Bites\_to\_Bits](https://twitter.com/Bites_to_Bit
 
 [LinkedIn](https://www.linkedin.com/in/christopher-randall-83a48572/)
 
-[Blog](https://chrisrandall19.wixsite.com/frombitestobits)
-
 ****Alright Chris, We've Got Some Questions****
 
 **What is something you enjoy to do outside of work?** As of late, my wife and I have begun hiking. We have some pretty decent local trails and are heading to Flagstaff, Arizona in April to hike some pretty unique areas. It is nice to be able to unplug for a few hours and spend quality time in some serene landscapes.

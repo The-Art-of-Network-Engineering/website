@@ -32,7 +32,7 @@ Speaking of those hard floors, engineers can't always expect to have a comfortab
 
 *Photo Credit: Trekology*
 
-Something like this [Yizi Go Portable](https://amzn.to/3DCfO2A) ($40) chair would be an ideal addition to any engineer's trunk. Unlike other compact chairs, it has a seat back to reduce strain while retaining its compact and easy-to-carry profile. This is guaranteed to make the work days a bit easier.
+Something like this Yizi Go Portable ($40) chair would be an ideal addition to any engineer's trunk. Unlike other compact chairs, it has a seat back to reduce strain while retaining its compact and easy-to-carry profile. This is guaranteed to make the work days a bit easier.
 
 ## Sergeant Clips
 
@@ -100,7 +100,7 @@ One very common task a network engineer may have to perform is to check if there
 
 *Photo Credit: GESD*
 
-This [Visual Fault Finder](https://amzn.to/3yaPlIr) ($30) is technically used to find breaks in fiber runs but can double as a handy locator for perfectly good fiber connections. This can save an engineer a good amount of troubleshooting on something you're not technically supposed to look at.
+This Visual Fault Finder ($30) is technically used to find breaks in fiber runs but can double as a handy locator for perfectly good fiber connections. This can save an engineer a good amount of troubleshooting on something you're not technically supposed to look at.
 
 ## NetAlly LinkSprinter
 

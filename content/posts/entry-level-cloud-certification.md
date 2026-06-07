@@ -41,7 +41,7 @@ To prepare for the Cloud Essentials+ Exam, I used the following materials:
   - CompTIA CertMaster Practice
   - Exam Voucher and Retake Voucher
 - CBT Nuggets [course](https://www.cbtnuggets.com/it-training/comptia/cloud-essentials) for Cloud Essentials+
-- Pluralsight [learning path](https://www.pluralsight.com/paths/comptia-cloud-essentials-clo-002) for Cloud Essentials+
+- Pluralsight learning path for Cloud Essentials+
 - Anki [cards](https://apps.ankiweb.net/) throughout the entire journey for review as there are a lot of concepts that you should be able to understand and explain.
 
 **How it's Going**  

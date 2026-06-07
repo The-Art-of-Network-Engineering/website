@@ -33,4 +33,4 @@ If you’re just starting out at a company and trying to make a name for yoursel
 
 **Bert's Brief**
 
-I'm not just saying this because he plays soccer, but Chris is a team player, for sure. What I really enjoy about Chris is that he is incredibly personable. He will always ask you how you are doing and what you are up to before ever bringing anything up about himself. Chris brings a strong balance of technical and soft skills to the table and has to be a bright spot on any team. It's always great to have Chris on the [IAATJ](https://artofneteng.com/IAATJ) Happy Hours, where I believe he is definitely a fan favorite.
+I'm not just saying this because he plays soccer, but Chris is a team player, for sure. What I really enjoy about Chris is that he is incredibly personable. He will always ask you how you are doing and what you are up to before ever bringing anything up about himself. Chris brings a strong balance of technical and soft skills to the table and has to be a bright spot on any team. It's always great to have Chris on the [IAATJ](https://artofneteng.com/iaatj) Happy Hours, where I believe he is definitely a fan favorite.
