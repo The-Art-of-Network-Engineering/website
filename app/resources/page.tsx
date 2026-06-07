@@ -185,9 +185,45 @@ export default function ResourcesPage() {
         links={biases}
       />
 
-      <section className="mt-16 border-t border-border pt-12">
+      <section className="mt-16 border-t border-border pt-12 space-y-4">
+        <SectionLabel>Help improve this site</SectionLabel>
         <p className="text-text-muted">
-          Spotted a broken link, or know a resource we should add? Email{' '}
+          This website is open source. If you spot a broken link, a typo, or a
+          resource we should add, the fastest way to fix it is on GitHub:{' '}
+          <a
+            href="https://github.com/The-Art-of-Network-Engineering/website"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/The-Art-of-Network-Engineering/website
+          </a>
+          .
+        </p>
+        <ul className="text-text-muted text-sm space-y-2 list-disc pl-5 marker:text-accent-green">
+          <li>
+            <a
+              href="https://github.com/The-Art-of-Network-Engineering/website/issues/new"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open an issue
+            </a>{' '}
+            to report a bug or suggest a change. No coding required — just describe
+            what you saw and what you expected.
+          </li>
+          <li>
+            <a
+              href="https://github.com/The-Art-of-Network-Engineering/website/pulls"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Send a pull request
+            </a>{' '}
+            if you want to propose the change directly in code.
+          </li>
+        </ul>
+        <p className="text-text-muted text-sm">
+          Prefer email? Reach Andy at{' '}
           <a href="mailto:andy@artofnetworkengineering.com">andy@artofnetworkengineering.com</a>.
         </p>
       </section>
