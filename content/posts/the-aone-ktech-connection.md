@@ -24,7 +24,7 @@ KTech events align well with what we do with the AONE podcast, because *communit
 ![](https://artofnetworkengineering.com/wp-content/uploads/2023/07/wit_mission.png?w=800)
 
 **KTech - AONE Event - August 2023**  
-So, what exactly are we doing with KTech, and when? As mentioned earlier, the AONE team has really wanted another community meetup event since we left Asheville in 2022. I am personally looking forward to meeting more community and technology minded people and seeing firsthand how KTech carries out their mission. Here is a list of events planned for our engagement with KTech, from the KTech CONNECT [page](https://www.knoxtech.org/ktech-connect/):
+So, what exactly are we doing with KTech, and when? As mentioned earlier, the AONE team has really wanted another community meetup event since we left Asheville in 2022. I am personally looking forward to meeting more community and technology minded people and seeing firsthand how KTech carries out their mission. Here is a list of events planned for our engagement with KTech, from the KTech CONNECT page:
 
 - 8/17/2023 - KTech CONNECT Networking - 4:30 - 6:30pm EDT
   - Join KTech and The Art of Network Engineering team for a night of networking and socializing at a local Knoxville brewery!
@@ -38,4 +38,4 @@ So, what exactly are we doing with KTech, and when? As mentioned earlier, the AO
   - Get ready for a special event featuring some of the brightest minds in network engineering!
 
 **Check out KTech and Register for these Events!**  
-The AONE team would love to connect with as many people as possible, so if you are in the Knoxville, TN area or can get there, we would love to meet you! Our last in-person community event meant so much to us and we are ready to experience that again. We are incrediby grateful for the KTech team supporting AONE and making this happen. Be sure to visit the KTech CONNECT [page](https://www.knoxtech.org/ktech-connect/) to view and register for any or all of the events listed above!
+The AONE team would love to connect with as many people as possible, so if you are in the Knoxville, TN area or can get there, we would love to meet you! Our last in-person community event meant so much to us and we are ready to experience that again. We are incrediby grateful for the KTech team supporting AONE and making this happen. Be sure to visit the KTech CONNECT page to view and register for any or all of the events listed above!

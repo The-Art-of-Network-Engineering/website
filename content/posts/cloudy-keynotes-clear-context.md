@@ -111,6 +111,6 @@ If you don't have a community, get one. Ours is **It's All About the Journey** o
 - Audio episode: [https://www.buzzsprout.com/2127872/episodes/18182456](https://www.buzzsprout.com/2127872/episodes/18182456)
 - Video episode: [https://youtu.be/ounVThWV3mw](https://youtu.be/ounVThWV3mw)
 - All links: [linktree.com/artofneteng](http://linktree.com/artofneteng)
-- YouTube: [youtube.com/artofneteng](http://youtube.com/artofneteng)
+- YouTube: [youtube.com/@artofneteng](https://youtube.com/@artofneteng)
 
 **Subscribe** in your favorite podcatcher so you don't miss new episodes. If today's topics hit home, share this post with a teammate who's wrestling with resiliency, sweating a first talk, or trying to make sense of MCP.

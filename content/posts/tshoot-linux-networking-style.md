@@ -278,4 +278,4 @@ Seeing how easy (and FREE and easily accessible) it was to setup a lab and a cha
 
 If you want to run this lab locally, that's also no issue as they have their process documented on their [Gitlab repository](https://gitlab.com/cumulus-consulting/goldenturtle/cldemo2). Once more, you'd think with all the devices you'd need some special hardware but as I mentioned in an [earlier post](/blog/gitlab-hugo-website-magic-happy-time), a single instance of Cumulus Linux needs less than 1GB of ram.
 
-Lastly, if you need help getting along, [the docs](https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-43/) for cumulus are great and my friend Aninda Chatterjee has put together a [great series of blog posts](https://www.theasciiconstruct.com/home/categories/cumulus) covering getting started with Cumulus Linux.
+Lastly, if you need help getting along, [the docs](https://docs.nvidia.com/networking-ethernet-software/cumulus-linux-43/) for cumulus are great and my friend Aninda Chatterjee has put together a great series of blog posts covering getting started with Cumulus Linux.

@@ -63,7 +63,7 @@ Technical leaders are a commodity in short supply, and keep in mind if you’ve 
 
 - Familiarize yourself with [cloud architectures](https://auvik.grsm.io/distributed-network-management)
 - Brush up on your[developer and coding skills](https://auvik.grsm.io/distributed-network-management)
-- Immerse yourself in [growing technology trends](https://auvik.grsm.io/forecasts) such as [network automation,](https://auvik.grsm.io/network-automation-roadmap) [SD-WAN](https://www.auvik.com/franklyit/blog/introduction-sd-wan/), and SASE
+- Immerse yourself in growing technology trends such as [network automation,](https://auvik.grsm.io/network-automation-roadmap) [SD-WAN](https://www.auvik.com/franklyit/blog/introduction-sd-wan/), and SASE
 - [Identify a certification](https://www.auvik.com/franklyit/blog/top-networking-certifications-2021/) that aligns with your interest
 
 These are some trends *today*. Keep an eye out for new technologies that will lead the way in 2022 and beyond.

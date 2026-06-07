@@ -10,7 +10,7 @@ I should let you know right off the top, this is not a 'how-to' from an expert. 
 
 About six months ago I was talking with a friend on twitter and we were discussing creating a website, a blog and video tutorial site together at some point. Life, projects, kids, COVID and home ownership got in the way and we never really got around to tackling it. Then, about 3 weeks ago I saw a [post](https://twitter.com/PeteCCDE/status/1203790863085780993?s=20) on my timeline discussing [docs as code](https://www.writethedocs.org/guide/docs-as-code/). I read into it, and watched a conference video that really got me excited. [Watch this presentation](https://www.youtube.com/watch?v=EnB8GtPuauw)! Now that you are as excited as me, let's dive in!
 
-The first thing I did was look to see if any of my mutuals that I talk to a little bit use GitHub to host their website and check in, see what they used or thought about their site. Tony E aka [shoipintbri](https://twitter.com/showipintbri) has [such a site](https://showipintbri.github.io/#), hosted on GitHub. I reached out and he said if he had to do it all over again he'd use: GitLabs, Hugo and RestructuredText.
+The first thing I did was look to see if any of my mutuals that I talk to a little bit use GitHub to host their website and check in, see what they used or thought about their site. Tony E aka [shoipintbri](https://twitter.com/showipintbri) has such a site, hosted on GitHub. I reached out and he said if he had to do it all over again he'd use: GitLabs, Hugo and RestructuredText.
 
 **Step 1**: So, I created a [GitLabs account](https://gitlab.com/users/sign_in?__cf_chl_jschl_tk__=c2ea972ca06305ae0a52f0f5f0eb910a38b00e18-1616165100-0-AQraM7drUXPyzYX3jrP_F-8ZOFfd9aJtLwSM-erXjMKuDDknfTf0N5aX0vAWO5uPbCg-KTpNFlaE3rI8u6j_MVDNhXfODzNbYD6kFlOsKIPy0FQ1oD45rl1TFNOjLwEGUjnPFYblkQ1SpUkDoJNq-ByT4cOazP3mGKmmRXDDq91TVWLQzBtU6AvgqGZwu-Qqrc9X1o7Ei0G_2GS7HbF4tMyPSh2bZuJ1ZZYH8HEK7VwzkFPZSWSWF0hT2vk_ru7Dw36n2GZdJXM35ONNH8MXuqq9p8EHR4q50_4FEcjN83SxOC8ILD9tO1bfZ4jM95iYj_9JbZgl3jLpL2ZPmkIFabeiYoB4Kjis9mjPy9TSBt1kNAYMWMxOaBn_2gSkxNYzsELT9Ui9TkJZ5UbVitRRcIc)
 
@@ -85,7 +85,7 @@ cd hello-world
 
 If you ll or ls in your newly created directory you'll see you have some basic files that associated with the barest of bare bones needed for your upcoming site.
 
-This is a very exciting point in the project and this post. Here is where you will decide on what [Hugo theme](https://themes.gohugo.io) you want to run on your site. This is a configuration that will give a certain look/layout/feel to your website. Each theme has varying degrees of associated documentation but installing them all is pretty much the same. You either git clone or git submodule the theme as follows, and for demonstration purposes, I went with the [codex theme](https://themes.gohugo.io/hugo-theme-codex/).
+This is a very exciting point in the project and this post. Here is where you will decide on what [Hugo theme](https://themes.gohugo.io) you want to run on your site. This is a configuration that will give a certain look/layout/feel to your website. Each theme has varying degrees of associated documentation but installing them all is pretty much the same. You either git clone or git submodule the theme as follows, and for demonstration purposes, I went with the codex theme.
 
 **Step 9**: Install your Hugo theme
 
@@ -107,7 +107,7 @@ git commit -m "init commit for project"
 git push -u origin master
 ```
 
-In about 30 - 90 seconds you should be able to refresh your GitLabs account and see your newly created project created along with the files and directories that were in the root of your project locally. The next thing to do is to talk about the files associated with getting this website up and running. There are two main files, the first I will discuss is called 'config.toml' and should be seen in the root of your project if you do an ls. If you go back to your themes documentation, which in my case was the [Codex theme](https://themes.gohugo.io/hugo-theme-codex/) they will usually have a .toml config file to copy and paste into your .toml
+In about 30 - 90 seconds you should be able to refresh your GitLabs account and see your newly created project created along with the files and directories that were in the root of your project locally. The next thing to do is to talk about the files associated with getting this website up and running. There are two main files, the first I will discuss is called 'config.toml' and should be seen in the root of your project if you do an ls. If you go back to your themes documentation, which in my case was the Codex theme they will usually have a .toml config file to copy and paste into your .toml
 
 I found my [sample toml](https://github.com/jakewies/hugo-theme-codex/blob/master/exampleSite/config.toml) on the [codex theme's GitHub](https://github.com/jakewies/hugo-theme-codex). I simply cut and paste their sample file same into my own .toml.
 

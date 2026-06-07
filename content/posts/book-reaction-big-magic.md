@@ -26,5 +26,4 @@ This book gave me a lot to ponder. I think my biggest takeway, as you can probab
 
 Featured image credit - Ricardo Esquivel  
 [Pexels](https://www.pexels.com/@rickyrecap/)  
-[Website](https://www.rickyrecap.com/)  
 [Twitter](https://twitter.com/rickyrecapp)

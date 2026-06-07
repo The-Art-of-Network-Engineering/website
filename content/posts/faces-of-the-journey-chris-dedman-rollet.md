@@ -18,8 +18,6 @@ Chris Dedman-Rollet is a country boy from France who recently immigrated to the 
 
 [Twitter](http://twitter.com/dedmanrollet)
 
-[GitHub](http://github.com/chrishaman)
-
 [LinkedIn](http://linkedin.com/in/christopher-dedman-rollet-3873821b3)
 
 **Alright Chris, We’ve Got Some Questions**
