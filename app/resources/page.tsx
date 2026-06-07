@@ -57,6 +57,15 @@ const aiResources: Link[] = [
   { name: 'Cisco AI Solutions', href: 'https://www.cisco.com/site/us/en/solutions/ai/index.html', note: 'Vendor view on AI in networking infrastructure and operations.' },
 ];
 
+const specDriven: Link[] = [
+  { name: 'GitHub Spec Kit', href: 'https://github.com/github/spec-kit', note: 'The reference open-source toolkit. Spec → Plan → Tasks → Implement, with each phase producing a Markdown artifact that feeds the next. Works with Copilot, Claude, Gemini, Codex, and others.' },
+  { name: 'GitHub Blog — Spec-driven development with AI', href: 'https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/', note: 'The clearest starting-point essay: why writing a spec first beats "vibe coding" once the work is real.' },
+  { name: 'DeepLearning.AI — Spec-Driven Development with Coding Agents', href: 'https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents', note: 'Free short course from Andrew Ng\'s platform, built with JetBrains. Practical, opinionated, and hands-on.' },
+  { name: 'Microsoft Learn — Spec-Driven Development with GitHub Spec Kit', href: 'https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/', note: 'Free training module aimed at enterprise developers. Good if you learn best by following a structured walk-through.' },
+  { name: 'Kiro (AWS)', href: 'https://kiro.dev/', note: 'AWS\'s agentic IDE built around spec-first workflows. Useful to see what the methodology looks like when it\'s baked into the editor instead of bolted on.' },
+  { name: 'From Vibe Coding to Spec-Driven Development', href: 'https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/', note: 'A readable intro to the shift, with concrete before/after examples. Good first read if the term is new.' },
+];
+
 const careerData: Link[] = [
   { name: 'BLS Occupational Outlook — Computer Network Architects', href: 'https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm', note: 'Federal employment data, salary medians, and job outlook for network architects.' },
   { name: 'BLS — Network & Computer Systems Administrators', href: 'https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm', note: 'BLS data for the adjacent admin/operations track.' },
@@ -162,6 +171,13 @@ export default function ResourcesPage() {
         heading="AI and LLMs for network engineers"
         intro="Knowing how to use LLMs effectively is now a baseline skill for network engineers. Not because AI replaces you, but because AI-augmented engineers are dramatically faster at automation, troubleshooting, documentation, and learning new technologies. Start with the basics, then bring them to your daily work."
         links={aiResources}
+      />
+
+      <LinkSection
+        label="Spec-driven dev"
+        heading="Spec-driven development with AI coding agents"
+        intro="The disciplined alternative to 'vibe coding.' Write a clear spec of what you want the agent to build, refine it through structured phases, and let the agent implement against it. Especially useful for network automation work, where ambiguity in the prompt leads to subtly wrong code that passes review and breaks in production."
+        links={specDriven}
       />
 
       <LinkSection
