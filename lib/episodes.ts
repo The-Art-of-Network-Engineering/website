@@ -1,4 +1,29 @@
 import { XMLParser } from 'fast-xml-parser';
+import sanitizeHtml from 'sanitize-html';
+
+// Buzzsprout show notes are author-edited HTML that we render via
+// dangerouslySetInnerHTML on the episode page. Sanitize at the boundary
+// where remote data enters the system (here) rather than at the render site,
+// so the value in data/episodes.json is the only thing that ever gets shipped.
+//
+// The allowlist matches what Buzzsprout's editor actually emits in current
+// show notes; anything outside this list is stripped. Add tags only when a
+// real show-notes use case appears.
+const SHOW_NOTES_ALLOWED_TAGS = [
+  'p', 'br', 'ul', 'ol', 'li',
+  'a', 'strong', 'b', 'em', 'i',
+  'h2', 'h3', 'h4', 'blockquote', 'code',
+];
+
+const sanitizeShowNotes = (html: string): string =>
+  sanitizeHtml(html, {
+    allowedTags: SHOW_NOTES_ALLOWED_TAGS,
+    allowedAttributes: { a: ['href', 'title', 'rel', 'target'] },
+    allowedSchemes: ['https', 'mailto'],
+    transformTags: {
+      a: sanitizeHtml.simpleTransform('a', { rel: 'noopener noreferrer', target: '_blank' }),
+    },
+  });
 
 export type Guest = {
   name: string;
@@ -147,7 +172,7 @@ export function parseFeed(xml: string): Feed {
       publishedAt: safeIsoDate(textOf(item.pubDate)),
       durationSeconds: Number(textOf(item['itunes:duration'])) || 0,
       audioUrl,
-      showNotesHtml: textOf(item['content:encoded']) || textOf(item.description),
+      showNotesHtml: sanitizeShowNotes(textOf(item['content:encoded']) || textOf(item.description)),
       summary: textOf(item['itunes:summary']),
       guests,
       artworkUrl:

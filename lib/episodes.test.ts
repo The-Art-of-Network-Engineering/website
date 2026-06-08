@@ -60,6 +60,60 @@ describe('parseFeed', () => {
   });
 });
 
+describe('showNotesHtml sanitization', () => {
+  // Show notes are rendered via dangerouslySetInnerHTML on the episode page, so
+  // anything Buzzsprout returns has to pass through the sanitizer first. These
+  // tests guard the allowlist: if a future Buzzsprout change starts emitting
+  // scripts/iframes/event-handlers, they have to stay stripped.
+  const withNotes = (notes: string): string => `<?xml version="1.0"?>
+<rss><channel>
+  <title>Test</title>
+  <description>Test</description>
+  <link>https://example.com</link>
+  <item>
+    <title>Ep</title>
+    <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+    <guid>Buzzsprout-1</guid>
+    <enclosure url="https://example.com/1-ep.mp3" length="0" type="audio/mpeg" />
+    <itunes:duration>0</itunes:duration>
+    <description><![CDATA[${notes}]]></description>
+  </item>
+</channel></rss>`;
+
+  it('strips script tags', () => {
+    const out = parseFeed(withNotes('<p>ok</p><script>alert(1)</script>')).episodes[0].showNotesHtml;
+    expect(out).not.toMatch(/<script/i);
+    expect(out).toContain('<p>ok</p>');
+  });
+
+  it('strips iframe, style, and event handlers', () => {
+    const out = parseFeed(
+      withNotes('<iframe src="https://evil.example"></iframe><style>x{}</style><p onclick="alert(1)">x</p>'),
+    ).episodes[0].showNotesHtml;
+    expect(out).not.toMatch(/<iframe|<style|onclick/i);
+  });
+
+  it('strips javascript: links but keeps https links with safe rel/target', () => {
+    const out = parseFeed(
+      withNotes('<a href="javascript:alert(1)">bad</a> <a href="https://example.com">good</a>'),
+    ).episodes[0].showNotesHtml;
+    expect(out).not.toMatch(/javascript:/i);
+    expect(out).toMatch(/<a [^>]*href="https:\/\/example\.com"/);
+    expect(out).toMatch(/rel="noopener noreferrer"/);
+    expect(out).toMatch(/target="_blank"/);
+  });
+
+  it('preserves the allowed formatting tags Buzzsprout actually uses', () => {
+    const out = parseFeed(
+      withNotes('<p><strong>bold</strong> <em>em</em> <b>b</b> <i>i</i></p><ul><li>x</li></ul>'),
+    ).episodes[0].showNotesHtml;
+    expect(out).toContain('<strong>bold</strong>');
+    expect(out).toContain('<em>em</em>');
+    expect(out).toContain('<ul>');
+    expect(out).toContain('<li>x</li>');
+  });
+});
+
 describe('parseFeed error handling and edge cases', () => {
   it('throws a helpful error on malformed XML', () => {
     expect(() => parseFeed('<html><body>not RSS</body></html>')).toThrow(/missing rss\.channel/i);
