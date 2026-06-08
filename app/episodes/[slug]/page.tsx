@@ -17,8 +17,9 @@ export function generateStaticParams() {
   return typedFeed.episodes.map((ep) => ({ slug: ep.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const ep = findEpisode(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const ep = findEpisode(slug);
   if (!ep) return { title: 'Episode not found' };
   return {
     title: ep.title,
@@ -32,8 +33,9 @@ const playerIdFromGuid = (id: string): string | null => {
   return match ? match[1] : null;
 };
 
-export default function EpisodePage({ params }: { params: { slug: string } }) {
-  const ep = findEpisode(params.slug);
+export default async function EpisodePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const ep = findEpisode(slug);
   if (!ep) notFound();
 
   const playerId = playerIdFromGuid(ep.id);

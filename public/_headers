@@ -1,0 +1,16 @@
+# Cloudflare Pages security headers.
+# Copied verbatim to out/_headers during `next build` (public/ is the static root).
+# Format: path pattern on its own line, then `  Header: value` lines indented two spaces.
+
+/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=(), usb=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://subscribe-forms.beehiiv.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://i.ytimg.com https://storage.buzzsprout.com https://*.beehiiv.com; font-src 'self' data: https://fonts.gstatic.com; frame-src https://www.youtube-nocookie.com https://www.buzzsprout.com https://embed.podcasts.apple.com https://subscribe-forms.beehiiv.com; connect-src 'self' https://subscribe-forms.beehiiv.com https://*.beehiiv.com; media-src 'self' https://storage.buzzsprout.com; object-src 'none'; base-uri 'self'; form-action 'self' https://subscribe-forms.beehiiv.com; frame-ancestors 'none'; upgrade-insecure-requests
+
+# Long-cache the static assets next emits with hashed filenames.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
