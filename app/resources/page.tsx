@@ -66,6 +66,16 @@ const specDriven: Link[] = [
   { name: 'From Vibe Coding to Spec-Driven Development', href: 'https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/', note: 'A readable intro to the shift, with concrete before/after examples. Good first read if the term is new.' },
 ];
 
+const vendorRoles: Link[] = [
+  { name: 'Systems Engineer (SE) / Pre-Sales Engineer', href: 'https://www.youtube.com/watch?v=QGIi2c3URZU', note: "Owns the technical side of the sales motion: discovery, design, demos, proofs of concept, and RFP responses. The engineer in customer meetings alongside the account exec. Watch: Taylor Harris on jumping from post-sales to pre-sales architect." },
+  { name: 'Solutions Architect', href: 'https://www.youtube.com/watch?v=l--6WkrRjho', note: "Senior technical lead on big designs and complex deployments, often spanning the full product portfolio. Less call volume than an SE, more architecture depth. Watch: David Alicea, from student help-desk worker to Solutions Architect." },
+  { name: 'Consulting Engineer', href: 'https://www.youtube.com/watch?v=rxhipwQhkdI', note: "Project-based delivery role inside a vendor or partner — migrations, redesigns, high-stakes implementations. The hands-on counterpart to the architect. Watch: a walk-through of the role, salary range, skills, and career path." },
+  { name: 'Technical Marketing Engineer (TME)', href: 'https://www.youtube.com/watch?v=lHoNwuCGtpk', note: "Builds the deep technical artifacts everyone else uses: reference architectures, validated designs, conference talks, hands-on demos. Half engineer, half storyteller. Watch: a panel of working TMEs on what the job actually looks like." },
+  { name: 'Technical Advocate / Developer Relations', href: 'https://www.youtube.com/watch?v=XRPYRdRjGjk', note: "Bridge between the vendor and the practitioner community. Writes, speaks, runs labs, sits in forums and Discord answering questions. Measured by community trust, not pipeline. Watch: Cisco Sr. Technical Advocates Quinn Snyder and Jason Belk." },
+  { name: 'TAC Engineer (Technical Assistance Center)', href: 'https://www.youtube.com/watch?v=CpUgXHuIBkw', note: "The deep technical support engineer on the other end of an enterprise support case. Heavy troubleshooting muscle, internal escalation paths, and high exposure to edge cases. A great place to grow vendor-deep expertise. Watch: a look inside Cisco TAC." },
+  { name: 'Industry Analyst / Researcher', href: 'https://www.youtube.com/watch?v=a-OXn9dqWjw', note: "Studies the internet itself — outages, routing anomalies, vendor performance — and publishes. Niche but real path for engineers who like data analysis and writing more than configuration. Watch: Doug Madory's journey from military network engineer to internet analyst." },
+];
+
 const careerData: Link[] = [
   { name: 'BLS Occupational Outlook — Computer Network Architects', href: 'https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm', note: 'Federal employment data, salary medians, and job outlook for network architects.' },
   { name: 'BLS — Network & Computer Systems Administrators', href: 'https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm', note: 'BLS data for the adjacent admin/operations track.' },
@@ -179,6 +189,43 @@ export default function ResourcesPage() {
         intro="The disciplined alternative to 'vibe coding.' Write a clear spec of what you want the agent to build, refine it through structured phases, and let the agent implement against it. Especially useful for network automation work, where ambiguity in the prompt leads to subtly wrong code that passes review and breaks in production."
         links={specDriven}
       />
+
+      <section className="mt-16">
+        <SectionLabel>Vendor roles</SectionLabel>
+        <h2 className="mt-3 font-display text-2xl md:text-3xl">
+          Vendor-side roles for network engineers
+        </h2>
+        <p className="mt-3 max-w-3xl text-text-muted">
+          Most engineers know the path from NOC → ops → architecture. Far fewer hear about the
+          vendor-side careers that let you stay technical, influence products, and step off the
+          on-call rotation. Below is a quick map of what those roles actually look like, each
+          linked to the AONE episode where someone in the seat walks you through the job. The
+          full collection lives in our{' '}
+          <a
+            href="https://youtube.com/playlist?list=PLH4sfHyLzNQ8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vendor Roles playlist on YouTube
+          </a>
+          .
+        </p>
+        <ul className="mt-6 space-y-4">
+          {vendorRoles.map((l) => (
+            <li key={l.href} className="border border-border bg-surface p-5 rounded-sm">
+              <a
+                href={l.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-text font-semibold hover:text-accent-green"
+              >
+                {l.name}
+              </a>
+              <p className="mt-1 text-sm text-text-muted">{l.note}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       <LinkSection
         label="Career data"
