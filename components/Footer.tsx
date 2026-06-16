@@ -5,7 +5,7 @@ const social = [
   { href: 'https://podcasts.apple.com/us/podcast/the-art-of-network-engineering/id1525015389', label: 'Apple Podcasts' },
   { href: 'https://open.spotify.com/show/0pMKATLfuXd19vvg2xlntA', label: 'Spotify' },
   { href: 'https://www.youtube.com/@artofneteng', label: 'YouTube' },
-  { href: 'https://artofneteng.com/iaatj', label: 'Discord' },
+  { href: 'https://artofnetworkengineering.com/iaatj', label: 'Discord' },
   { href: 'https://www.linkedin.com/company/artofneteng/', label: 'LinkedIn' },
   { href: 'https://x.com/artofneteng', label: 'X / Twitter' },
   { href: 'https://linktr.ee/artofneteng', label: 'Linktree' },
