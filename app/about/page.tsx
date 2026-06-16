@@ -133,7 +133,7 @@ export default function AboutPage() {
               </li>
               <li>
                 Community:{' '}
-                <a href="https://artofneteng.com/iaatj" target="_blank" rel="noopener noreferrer">
+                <a href="https://artofnetworkengineering.com/iaatj" target="_blank" rel="noopener noreferrer">
                   Join the Discord (3,500+ engineers)
                 </a>
               </li>
