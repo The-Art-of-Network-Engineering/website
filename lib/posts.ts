@@ -15,6 +15,28 @@ export type Post = {
 
 const POSTS_DIR = join(process.cwd(), 'content/posts');
 
+// Returns the moment a post becomes public: 8 AM America/New_York on the
+// publishedAt date. Picks the UTC hour (12 or 13) that maps to 08:00 ET on
+// that calendar date, so EDT/EST transitions are handled automatically.
+export function publicationMoment(publishedAt: string): Date {
+  const [y, m, d] = publishedAt.split('-').map(Number);
+  const fmt = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/New_York',
+    hour: 'numeric',
+    hour12: false,
+  });
+  for (const hourUTC of [12, 13]) {
+    const candidate = new Date(Date.UTC(y, (m ?? 1) - 1, d ?? 1, hourUTC, 0, 0));
+    const localHour = parseInt(fmt.format(candidate), 10);
+    if (localHour === 8) return candidate;
+  }
+  return new Date(Date.UTC(y, (m ?? 1) - 1, d ?? 1, 12, 0, 0));
+}
+
+export function isPublic(post: Pick<Post, 'publishedAt'>, now: Date = new Date()): boolean {
+  return now.getTime() >= publicationMoment(post.publishedAt).getTime();
+}
+
 function readAllPostFiles(): Post[] {
   let filenames: string[] = [];
   try {
@@ -52,7 +74,10 @@ function readAllPostFiles(): Post[] {
     seen.add(p.slug);
   }
 
-  return posts;
+  // Hide future-dated posts unless SHOW_DRAFTS=1 (for local preview).
+  if (process.env.SHOW_DRAFTS === '1') return posts;
+  const now = new Date();
+  return posts.filter((p) => isPublic(p, now));
 }
 
 export function getAllPosts(): Post[] {
