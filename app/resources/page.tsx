@@ -240,7 +240,7 @@ function JumpNav() {
           <li key={s.id}>
             <a
               href={`#${s.id}`}
-              className="text-text-muted hover:text-accent-green transition-colors"
+              className="text-accent-green hover:text-text transition-colors"
             >
               {s.label}
             </a>
