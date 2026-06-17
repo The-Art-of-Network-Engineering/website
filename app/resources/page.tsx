@@ -71,6 +71,7 @@ const vendorRoles: Link[] = [
   { name: 'Solutions Architect', href: 'https://www.youtube.com/watch?v=l--6WkrRjho', note: "Senior technical lead on big designs and complex deployments, often spanning the full product portfolio. Less call volume than an SE, more architecture depth. Watch: David Alicea, from student help-desk worker to Solutions Architect." },
   { name: 'Consulting Engineer', href: 'https://www.youtube.com/watch?v=rxhipwQhkdI', note: "Project-based delivery role inside a vendor or partner — migrations, redesigns, high-stakes implementations. The hands-on counterpart to the architect. Watch: a walk-through of the role, salary range, skills, and career path." },
   { name: 'Technical Marketing Engineer (TME)', href: 'https://www.youtube.com/watch?v=lHoNwuCGtpk', note: "Builds the deep technical artifacts everyone else uses: reference architectures, validated designs, conference talks, hands-on demos. Half engineer, half storyteller. Watch: a panel of working TMEs on what the job actually looks like." },
+  { name: 'Product Marketing Manager (PMM)', href: 'https://www.youtube.com/watch?v=iFeuGTa5zu8', note: "Owns the messaging: who the product is for, what pain it solves, how to talk about it. Writes launch narratives, sales decks, web copy, and analyst briefings. The bridge between what engineering builds and what customers actually understand. Watch: Patrick McCabe on the move from network engineering to product marketing." },
   { name: 'Technical Advocate / Developer Relations', href: 'https://www.youtube.com/watch?v=XRPYRdRjGjk', note: "Bridge between the vendor and the practitioner community. Writes, speaks, runs labs, sits in forums and Discord answering questions. Measured by community trust, not pipeline. Watch: Cisco Sr. Technical Advocates Quinn Snyder and Jason Belk." },
   { name: 'TAC Engineer (Technical Assistance Center)', href: 'https://www.youtube.com/watch?v=CpUgXHuIBkw', note: "The deep technical support engineer on the other end of an enterprise support case. Heavy troubleshooting muscle, internal escalation paths, and high exposure to edge cases. A great place to grow vendor-deep expertise. Watch: a look inside Cisco TAC." },
   { name: 'Industry Analyst / Researcher', href: 'https://www.youtube.com/watch?v=a-OXn9dqWjw', note: "Studies the internet itself — outages, routing anomalies, vendor performance — and publishes. Niche but real path for engineers who like data analysis and writing more than configuration. Watch: Doug Madory's journey from military network engineer to internet analyst." },
@@ -193,14 +194,14 @@ export default function ResourcesPage() {
       <section className="mt-16">
         <SectionLabel>Vendor roles</SectionLabel>
         <h2 className="mt-3 font-display text-2xl md:text-3xl">
-          Vendor-side roles for network engineers
+          Vendor Roles For Network Engineers
         </h2>
         <p className="mt-3 max-w-3xl text-text-muted">
           Most engineers know the path from NOC → ops → architecture. Far fewer hear about the
-          vendor-side careers that let you stay technical, influence products, and step off the
-          on-call rotation. Below is a quick map of what those roles actually look like, each
-          linked to the AONE episode where someone in the seat walks you through the job. The
-          full collection lives in our{' '}
+          vendor roles that let you stay technical, influence products, and step off the on-call
+          rotation. Below is a quick map of what those roles actually look like, each linked to
+          the AONE episode where someone in the seat walks you through the job. The full
+          collection lives in our{' '}
           <a
             href="https://youtube.com/playlist?list=PLH4sfHyLzNQ8"
             target="_blank"
