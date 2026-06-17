@@ -28,6 +28,7 @@ const courses: Link[] = [
   { name: 'Juniper vLabs', href: 'https://jlabs.juniper.net/vlabs/', note: 'Free reservation-based virtual labs for hands-on Junos practice.' },
   { name: 'David Bombal (YouTube)', href: 'https://www.youtube.com/@davidbombal', note: 'Deep technical videos on networking, certifications, and network automation.' },
   { name: 'Free CCNA — Jeremy\'s IT Lab', href: 'https://www.youtube.com/@JeremysITLab', note: 'A full free CCNA course on YouTube with practice questions.' },
+  { name: 'Nokia Network Developer Portal', href: 'https://network.developer.nokia.com/', note: 'The free Nokia learning hub: SR OS material, hands-on SR Linux tutorials (the modern Nokia DC NOS), pySROS automation docs, and intro lab content. The closest equivalent to Cisco DevNet for Nokia gear.' },
   { name: 'Stanford CS244 — Advanced Topics in Networking', href: 'https://web.stanford.edu/class/cs244/', note: 'Graduate-level networking course with public materials. Datacenter networks, congestion control, SDN. For when you want to go beyond practitioner depth.' },
   { name: 'MIT 6.829 — Computer Networks (OCW)', href: 'https://ocw.mit.edu/courses/6-829-computer-networks-fall-2002/', note: 'Older but foundational graduate networking course. The protocol design and queuing-theory chapters still pay dividends.' },
 ];
