@@ -12,7 +12,7 @@ type Link = { name: string; href: string; note: string };
 const certifications: Link[] = [
   { name: 'Cisco Learning Network (CCNA → CCIE)', href: 'https://learningnetwork.cisco.com/', note: 'Official Cisco study community, exam guides, and certification roadmaps.' },
   { name: 'Juniper Open Learning', href: 'https://learningportal.juniper.net/juniper/user_activity_info.aspx?ctx=catalog&from=catalog', note: 'Free associate-level training and certifications (JNCIA tracks).' },
-  { name: 'Arista Academy', href: 'https://www.training.arista.com/', note: 'Arista\'s self-paced training and ACE certification program covering EOS, data center, campus, WAN, and automation tracks.' },
+  { name: 'Arista Academy (ACE)', href: 'https://www.training.arista.com/', note: 'Arista\'s certification program (ACE) covering EOS, data center, campus, WAN, and automation. Self-paced training is paid (per-track or All-Access Pass). The free piece is Arista Academy Channels — listed under Free courses.' },
   { name: 'Nokia Service Routing Certification', href: 'https://www.nokia.com/networks/training/src/', note: 'Tracks for IP/MPLS service provider and data center networking.' },
   { name: 'CompTIA Network+', href: 'https://www.comptia.org/certifications/network', note: 'Vendor-neutral entry-level certification, widely accepted as a foundation.' },
   { name: 'AWS Certified Advanced Networking', href: 'https://aws.amazon.com/certification/certified-advanced-networking-specialty/', note: 'Advanced cert for designing AWS networks and hybrid architectures.' },
@@ -29,6 +29,7 @@ const courses: Link[] = [
   { name: 'David Bombal (YouTube)', href: 'https://www.youtube.com/@davidbombal', note: 'Deep technical videos on networking, certifications, and network automation.' },
   { name: 'Free CCNA — Jeremy\'s IT Lab', href: 'https://www.youtube.com/@JeremysITLab', note: 'A full free CCNA course on YouTube with practice questions.' },
   { name: 'Nokia Network Developer Portal', href: 'https://network.developer.nokia.com/', note: 'The free Nokia learning hub: SR OS material, hands-on SR Linux tutorials (the modern Nokia DC NOS), pySROS automation docs, and intro lab content. The closest equivalent to Cisco DevNet for Nokia gear.' },
+  { name: 'Arista Academy Channels', href: 'https://academy.training.arista.com/pages/95/arista-academy-channels', note: 'Arista\'s free video deep-dives behind a no-cost registration. Most Arista Academy content is paid; this is the public corner you can actually use without a subscription.' },
   { name: 'Stanford CS244 — Advanced Topics in Networking', href: 'https://web.stanford.edu/class/cs244/', note: 'Graduate-level networking course with public materials. Datacenter networks, congestion control, SDN. For when you want to go beyond practitioner depth.' },
   { name: 'MIT 6.829 — Computer Networks (OCW)', href: 'https://ocw.mit.edu/courses/6-829-computer-networks-fall-2002/', note: 'Older but foundational graduate networking course. The protocol design and queuing-theory chapters still pay dividends.' },
 ];
