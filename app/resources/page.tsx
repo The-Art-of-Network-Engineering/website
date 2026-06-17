@@ -233,7 +233,7 @@ function JumpNav() {
   return (
     <nav
       aria-label="Jump to section"
-      className="sticky top-0 z-20 -mx-6 px-6 py-3 bg-bg/90 backdrop-blur-sm border-b border-border mb-8"
+      className="sticky top-0 z-20 -mx-6 mt-10 mb-8 px-6 py-3 bg-bg/90 backdrop-blur-sm border-b border-border"
     >
       <ul className="flex flex-wrap gap-x-4 gap-y-2 text-xs font-mono uppercase tracking-label">
         {navSections.map((s) => (
@@ -265,9 +265,7 @@ export default function ResourcesPage() {
         Last reviewed June 2026.
       </p>
 
-      <div className="mt-10">
-        <JumpNav />
-      </div>
+      <JumpNav />
 
       <LinkSection
         id="certifications"
