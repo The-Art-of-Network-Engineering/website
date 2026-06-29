@@ -6,6 +6,7 @@ const navItems = [
   { href: '/episodes', label: 'Episodes' },
   { href: '/merch', label: 'Merch' },
   { href: '/newsletter', label: 'Newsletter' },
+  { href: '/press', label: 'Press' },
   { href: '/resources', label: 'Resources' },
   { href: '/sponsor', label: 'Sponsor' },
   { href: '/what-is-network-engineering', label: 'What Is NE?' },

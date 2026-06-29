@@ -10,20 +10,20 @@ export const metadata: Metadata = {
 };
 
 const SHORT_BIO =
-  'Andy Lapteff is the host of The Art of Network Engineering podcast and Senior Product Marketing Manager for Data Center at Nokia. A former network engineer at Verizon, Comcast, Fiserv, and Juniper, he now tells the human stories behind the infrastructure that runs our digital lives.';
+  'Andy Lapteff is the host of The Art of Network Engineering podcast and Senior Product Marketing Manager for Data Center at Nokia. A network engineer at Verizon, Comcast, Fiserv, and Juniper before moving into product marketing, he now champions the people behind the infrastructure that runs our digital lives.';
 
 const LONG_BIO =
-  'Andy Lapteff spent years in the trenches of network engineering — with technical roles at Verizon, Comcast, Fiserv, and Juniper — before moving into product marketing, where he now serves as Senior Product Marketing Manager for Data Center at Nokia, turning deep technical material into stories engineers actually want to hear. In 2020 he launched The Art of Network Engineering, a podcast exploring the human side of building and running networks, now with over 1 million lifetime downloads and a 3,500+ member Discord community. Andy also helps lead PANUG — the Pennsylvania Network User Group, a local chapter of USNUA — and is a passionate advocate for newcomers breaking into IT. Off the mic, he is usually outdoors with his family, behind a camera, or at the grill.';
+  'Andy Lapteff spent years in the trenches of network engineering, with technical roles at Verizon, Comcast, Fiserv, and Juniper, before moving into product marketing, where he now serves as Senior Product Marketing Manager for Data Center at Nokia, turning deep technical material into conversations engineers actually want to hear. In 2020 he launched The Art of Network Engineering, a podcast exploring the human side of building and running networks, now with over 1 million lifetime downloads and a 3,500+ member Discord community. Andy also helps lead PANUG, the Pennsylvania Network User Group and a local chapter of USNUA, and is a passionate advocate for newcomers breaking into IT. Off the mic, he is usually outdoors with his family, behind a camera, or at the grill.';
 
 const SHOW_ONELINER =
-  'The Art of Network Engineering is a podcast about the human stories behind the networks that run our digital lives.';
+  'Insight, careers, and community for the people who build the world\'s networks.';
 
 const SHOW_BOILERPLATE =
-  'The Art of Network Engineering blends technical insight with real-world stories from engineers, innovators, and IT pros. From data centers on cruise ships to rockets in space, we explore the people, tools, and trends shaping the future of networking, while keeping it authentic, practical, and human.\n\nWe tell the human stories behind network engineering so every engineer feels seen, supported, and inspired to grow in a rapidly changing industry.';
+  'The Art of Network Engineering is where network engineers come to grow. Every episode pairs real technical insight with honest conversations about careers, community, and the people behind the infrastructure that runs the world. From data centers on cruise ships to networks reaching into space, we explore the tools, trends, and ideas shaping what comes next, and send you back to work sharper, more connected, and more confident.\n\nAuthentic, practical, and human, it is a platform where every network engineer feels seen, supported, and equipped with the confidence to thrive in a fast-changing industry.';
 
 const facts = [
   { label: 'Host', value: 'Andy Lapteff' },
-  { label: 'Day job', value: 'Sr. PMM, Data Center — Nokia' },
+  { label: 'Day job', value: 'Sr. PMM, Data Center at Nokia' },
   { label: 'Launched', value: '2020' },
   { label: 'Lifetime downloads', value: '1,000,000+' },
   { label: 'YouTube subscribers', value: '9,700+' },
@@ -56,7 +56,7 @@ export default function PressPage() {
       <h1 className="mt-4 font-display text-4xl md:text-5xl">Press &amp; media kit</h1>
       <p className="mt-4 max-w-2xl text-text-muted">
         Everything a podcast host, journalist, or partner needs to feature The Art of Network
-        Engineering — bios, headshot, show boilerplate, and logos, all ready to copy or download.
+        Engineering: bios, headshot, show boilerplate, and logos, all ready to copy or download.
         Anything else? Email{' '}
         <a href="mailto:andy@artofnetworkengineering.com" className="text-accent-blue">
           andy@artofnetworkengineering.com
@@ -210,7 +210,7 @@ export default function PressPage() {
       <section className="mt-16 border-t border-border pt-12">
         <SectionLabel>Contact</SectionLabel>
         <p className="mt-4 text-text-muted">
-          Interview requests, fact-checks, or anything not covered above —{' '}
+          Interview requests, fact-checks, or anything else not covered above? Email{' '}
           <a href="mailto:andy@artofnetworkengineering.com" className="text-accent-blue">
             andy@artofnetworkengineering.com
           </a>
