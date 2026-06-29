@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 };
 
 const SHORT_BIO =
-  'Andy Lapteff is the host of The Art of Network Engineering podcast and Senior Product Marketing Manager for Data Center at Nokia. A network engineer at Verizon, Comcast, Fiserv, and Juniper before moving into product marketing, he now champions the people behind the infrastructure that runs our digital lives.';
+  'Andy Lapteff is the host of The Art of Network Engineering and a Senior Product Marketing Manager at Nokia. After 15+ years as a network engineer at Comcast, Fiserv, and Juniper, he now champions the people behind the infrastructure that runs our digital lives.';
 
 const LONG_BIO =
-  'Andy Lapteff spent years in the trenches of network engineering, with technical roles at Verizon, Comcast, Fiserv, and Juniper, before moving into product marketing, where he now serves as Senior Product Marketing Manager for Data Center at Nokia, turning deep technical material into conversations engineers actually want to hear. In 2020 he launched The Art of Network Engineering, a podcast exploring the human side of building and running networks, now with over 1 million lifetime downloads and a 3,500+ member Discord community. Andy also helps lead PANUG, the Pennsylvania Network User Group and a local chapter of USNUA, and is a passionate advocate for newcomers breaking into IT. Off the mic, he is usually outdoors with his family, behind a camera, or at the grill.';
+  'Andy Lapteff is the host of The Art of Network Engineering and a Senior Product Marketing Manager at Nokia, where he leads messaging for the Data Center Networks portfolio and its Event-Driven Automation (EDA) platform. Before marketing, he spent 15+ years as a network engineer at Comcast, Fiserv, and Juniper, which is why he writes, presents, and evangelizes for the engineers and architects who have to live with the technology. He has shared the AutoCon main stage with 800+ attendees, opened Networking Field Day 39, and emceed NFD 40.\n\nAndy and a few friends started The Art of Network Engineering in 2020. He took full ownership in 2024 and now runs it as an independent media business with 200+ episodes, more than 1 million lifetime downloads, and a sponsor roster that includes Cisco Press, Juniper Apstra, Itential, Forward Networks, Meter, and Kentik. AONE was named a 2026 USNUA Media Partner. Andy also helps lead PANUG, the Pennsylvania Network User Group and a local chapter of USNUA, and is a passionate advocate for newcomers breaking into IT. Off the mic, he is usually outdoors with his family, behind a camera, or at the grill.';
 
 const SHOW_ONELINER =
   'Insight, careers, and community for the people who build the world\'s networks.';
@@ -23,8 +23,9 @@ const SHOW_BOILERPLATE =
 
 const facts = [
   { label: 'Host', value: 'Andy Lapteff' },
-  { label: 'Day job', value: 'Sr. PMM, Data Center at Nokia' },
-  { label: 'Launched', value: '2020' },
+  { label: 'Day job', value: 'Sr. PMM, Data Center Networks at Nokia' },
+  { label: 'On air since', value: '2020' },
+  { label: 'Episodes', value: '200+' },
   { label: 'Lifetime downloads', value: '1,000,000+' },
   { label: 'YouTube subscribers', value: '9,700+' },
   { label: 'Discord members', value: '3,500+' },
@@ -112,7 +113,11 @@ export default function PressPage() {
               <h2 className="font-display text-xl">Long bio</h2>
               <CopyButton text={LONG_BIO} />
             </div>
-            <p className="mt-3 text-text-muted">{LONG_BIO}</p>
+            {LONG_BIO.split('\n\n').map((para, i) => (
+              <p key={i} className="mt-3 text-text-muted">
+                {para}
+              </p>
+            ))}
           </div>
         </div>
       </section>
