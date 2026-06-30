@@ -74,13 +74,42 @@ const blogs: Link[] = [
   { name: 'Kentik Blog', href: 'https://www.kentik.com/blog/', note: 'Network observability and analysis perspectives from a company that lives in flow data and BGP.' },
 ];
 
-const measurement: Link[] = [
+const outageMaps: Link[] = [
   { name: 'Cloudflare Radar', href: 'https://radar.cloudflare.com/', note: 'Live dashboard of internet traffic, outages, attacks, BGP changes, and protocol adoption, sourced from Cloudflare\'s network.' },
+  { name: 'Cloudflare Radar Outage Center', href: 'https://radar.cloudflare.com/outage-center', note: 'Observed internet outages at provider and country level, including state-directed shutdowns, as seen from Cloudflare\'s network.' },
+  { name: 'ThousandEyes Outages', href: 'https://www.thousandeyes.com/outages', note: 'Public outage dashboard. The fastest place to confirm "is it me or is the internet on fire" before opening a ticket.' },
+  { name: 'Downdetector', href: 'https://downdetector.com/', note: 'Crowd-sourced outage reports per service. Tracks spikes in user complaints, not telemetry, so it often leads the official status pages by minutes.' },
+  { name: 'NetBlocks', href: 'https://netblocks.org/', note: 'Monitors national-scale internet shutdowns and connectivity disruptions, mostly government-imposed.' },
+  { name: 'CAIDA IODA', href: 'https://ioda.inetintel.cc.gatech.edu/', note: 'Near-real-time outage detection from BGP, active probing, and darknet telemetry, broken down by country, region, and ASN.' },
+];
+
+const cloudStatus: Link[] = [
+  { name: 'AWS Health Dashboard', href: 'https://health.aws.amazon.com/health/status', note: 'Public service-health view by AWS service and region. Replaces the retired status.aws.amazon.com.' },
+  { name: 'Microsoft Azure status', href: 'https://azure.status.microsoft', note: 'Global Azure service and region health with active incidents.' },
+  { name: 'Google Cloud Service Health', href: 'https://status.cloud.google.com/', note: 'Per-service, per-region status for Google Cloud, with incident history.' },
+  { name: 'Cloudflare status', href: 'https://www.cloudflarestatus.com/', note: 'Edge network, dashboard, and API status, broken out by data center and region.' },
+  { name: 'GitHub status', href: 'https://www.githubstatus.com/', note: 'Component-level status for Git operations, API, webhooks, Actions, and Copilot.' },
+  { name: 'Fastly status', href: 'https://www.fastlystatus.com/', note: 'Fastly CDN and edge status by service and point of presence.' },
+];
+
+const aiStatus: Link[] = [
+  { name: 'OpenAI status', href: 'https://status.openai.com/', note: 'Component status for the API, ChatGPT, and Codex, with uptime history.' },
+  { name: 'Anthropic (Claude) status', href: 'https://status.claude.com/', note: 'Status for claude.ai, the API, Console, and Claude Code.' },
+  { name: 'Google AI Studio / Gemini API status', href: 'https://aistudio.google.com/status', note: 'Incident status for the Gemini API and AI Studio.' },
+];
+
+const lookupTools: Link[] = [
   { name: 'RIPEstat', href: 'https://stat.ripe.net/', note: 'RIPE\'s public data portal: per-prefix routing history, RPKI status, ASN information, and reverse DNS lookups in one place.' },
   { name: 'Hurricane Electric BGP toolkit', href: 'https://bgp.he.net/', note: 'The default browser bookmark for quick "who announces this prefix" and "what does this AS peer with" lookups.' },
   { name: 'BGPView', href: 'https://bgpview.io/', note: 'Cleaner alternative interface for BGP, ASN, prefix, and peering lookups, with a public API.' },
-  { name: 'ThousandEyes Outages', href: 'https://www.thousandeyes.com/outages', note: 'Public outage dashboard. The fastest place to confirm "is it me or is the internet on fire" before opening a ticket.' },
   { name: 'CAIDA', href: 'https://www.caida.org/', note: 'Academic research and datasets on internet topology, routing, and measurement. Where the long-tail network research lives.' },
+];
+
+const dashboardGroups: { label: string; links: Link[] }[] = [
+  { label: 'Outages & internet health', links: outageMaps },
+  { label: 'Cloud & infrastructure status', links: cloudStatus },
+  { label: 'AI & LLM status', links: aiStatus },
+  { label: 'Routing & lookup tools', links: lookupTools },
 ];
 
 const communities: Link[] = [
@@ -296,7 +325,7 @@ const careerStages: Stage[] = [
     who: 'Designing networks and owning the hard calls.',
     steps: [
       { label: 'Books', href: '#books' },
-      { label: 'Internet measurement', href: '#measurement' },
+      { label: 'Internet dashboard', href: '#measurement' },
       { label: 'Communities & NANOG', href: '#communities' },
       { label: 'Cognitive biases', href: '#biases' },
     ],
@@ -439,13 +468,35 @@ export default function ResourcesPage() {
         links={blogs}
       />
 
-      <LinkSection
-        id="measurement"
-        label="Measurement"
-        heading="Internet measurement and visibility"
-        intro="Public data and dashboards for figuring out what the internet is actually doing right now. Confirming an outage, investigating a routing anomaly, or just satisfying curiosity about traffic and protocol adoption."
-        links={measurement}
-      />
+      <section id="measurement" className="mt-16 scroll-mt-24">
+        <SectionLabel>Dashboards</SectionLabel>
+        <h2 className="mt-3 font-display text-2xl md:text-3xl">Internet dashboard</h2>
+        <p className="mt-3 max-w-3xl text-text-muted">
+          Bookmark this for the next time something breaks. Live maps of internet health,
+          crowd-sourced outage trackers, and the official status pages for the clouds, CDNs, and AI
+          providers you depend on. The fastest way to answer "is it me or is it them?"
+        </p>
+        {dashboardGroups.map((g) => (
+          <div key={g.label} className="mt-8">
+            <h3 className="font-mono text-xs uppercase tracking-label text-text-muted">{g.label}</h3>
+            <ul className="mt-3 space-y-4">
+              {g.links.map((l) => (
+                <li key={l.href} className="border border-border bg-surface p-5 rounded-sm">
+                  <a
+                    href={l.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-text font-semibold hover:text-accent-green"
+                  >
+                    {l.name}
+                  </a>
+                  <p className="mt-1 text-sm text-text-muted">{l.note}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </section>
 
       <LinkSection
         id="communities"
