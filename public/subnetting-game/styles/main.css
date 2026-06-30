@@ -1,0 +1,211 @@
+/* Subnet Trainer styles. Status is never conveyed by color alone (FR-011):
+   correct/incorrect/locked also carry text + an icon/shape. Contrast targets
+   WCAG AA. */
+
+:root {
+  --bg: #0f1626;
+  --surface: #1b2740;
+  --surface-2: #243352;
+  --text: #f2f5fb; /* on --bg: contrast > 13:1 */
+  --muted: #b9c4dc; /* on --bg: contrast > 7:1 */
+  --accent: #6ea8fe;
+  --correct: #4ade80;
+  --incorrect: #f87171;
+  --focus: #ffd166;
+  --radius: 10px;
+  --space: 1rem;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--accent);
+  color: #04132e;
+  padding: 0.5rem 1rem;
+  z-index: 10;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+.app-header {
+  text-align: center;
+  padding: var(--space);
+}
+.app-header h1 {
+  margin: 0;
+}
+.tagline {
+  color: var(--muted);
+  margin: 0.25rem 0 0;
+}
+
+.app {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: var(--space);
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: var(--space);
+}
+
+/* Focus is always visible (keyboard operability, FR-012). */
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+button,
+.option {
+  font: inherit;
+  cursor: pointer;
+  border-radius: var(--radius);
+  border: 2px solid var(--surface-2);
+  background: var(--surface-2);
+  color: var(--text);
+  padding: 0.75rem 1rem;
+}
+button:hover,
+.option:hover {
+  border-color: var(--accent);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #04132e;
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
+.options {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.answer-input {
+  font: inherit;
+  padding: 0.75rem;
+  width: 100%;
+  border-radius: var(--radius);
+  border: 2px solid var(--surface-2);
+  background: #0b1220;
+  color: var(--text);
+}
+
+.prompt {
+  font-size: 1.15rem;
+}
+.format-hint {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Feedback: text + icon + color (never color alone). */
+.feedback {
+  border-left: 6px solid var(--surface-2);
+  padding-left: 1rem;
+}
+.feedback--correct {
+  border-left-color: var(--correct);
+}
+.feedback--incorrect {
+  border-left-color: var(--incorrect);
+}
+.feedback__icon {
+  font-weight: 700;
+  margin-right: 0.4rem;
+}
+
+.derivation {
+  background: #0b1220;
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+}
+.derivation ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+/* Tier map. Locked tiers carry a lock glyph + "Locked" text, not color alone. */
+.tier-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+.tier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: var(--surface-2);
+  border-radius: var(--radius);
+}
+.tier--locked {
+  opacity: 0.75;
+}
+.tier__status {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  gap: 0.5rem;
+}
+.stat {
+  background: var(--surface-2);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  text-align: center;
+}
+.stat__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.stat__label {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
