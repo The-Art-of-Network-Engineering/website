@@ -228,25 +228,11 @@ function LinkSection({
 }
 
 const navSections: { id: string; label: string }[] = [
-  { id: 'start-here', label: 'Start here' },
-  { id: 'certifications', label: 'Certifications' },
-  { id: 'free-courses', label: 'Free courses' },
-  { id: 'service-provider', label: 'Service provider' },
-  { id: 'lab-software', label: 'Lab software' },
-  { id: 'standards', label: 'Standards' },
-  { id: 'engineering-blogs', label: 'Blogs' },
-  { id: 'measurement', label: 'Measurement' },
-  { id: 'communities', label: 'Communities' },
-  { id: 'listening', label: 'Listening' },
-  { id: 'ai-for-nes', label: 'AI for NEs' },
-  { id: 'spec-driven', label: 'Spec-driven dev' },
-  { id: 'git-github', label: 'Git & GitHub' },
-  { id: 'automation', label: 'Automation' },
-  { id: 'diagramming', label: 'Diagramming' },
-  { id: 'vendor-roles', label: 'Vendor roles' },
-  { id: 'career-data', label: 'Career data' },
-  { id: 'books', label: 'Books' },
-  { id: 'biases', label: 'Biases' },
+  { id: 'start-here', label: 'You are here' },
+  { id: 'learn', label: 'Learn the fundamentals' },
+  { id: 'stay-current', label: 'Stay current' },
+  { id: 'build', label: 'Automate & build' },
+  { id: 'grow', label: 'Grow your career' },
 ];
 
 function JumpNav() {
@@ -331,7 +317,7 @@ function CareerPaths() {
   return (
     <section id="start-here" className="mt-12 scroll-mt-24">
       <SectionLabel>Start here</SectionLabel>
-      <h2 className="mt-3 font-display text-2xl md:text-3xl">Start where you are</h2>
+      <h2 className="mt-3 font-display text-2xl md:text-3xl">You are here</h2>
       <p className="mt-3 max-w-3xl text-text-muted">
         Not sure where to begin? Find the stage that sounds like you and follow the trail. Each
         link jumps to the matching section of the catalog below, which is always there if you
@@ -358,6 +344,15 @@ function CareerPaths() {
   );
 }
 
+function ClusterHeading({ id, title, intro }: { id: string; title: string; intro: string }) {
+  return (
+    <div id={id} className="mt-20 scroll-mt-24 border-t border-border pt-8">
+      <h2 className="font-display text-3xl md:text-4xl text-accent-green">{title}</h2>
+      <p className="mt-2 max-w-2xl text-text-muted">{intro}</p>
+    </div>
+  );
+}
+
 export default function ResourcesPage() {
   return (
     <div className="mx-auto max-w-content px-6 py-16">
@@ -375,6 +370,12 @@ export default function ResourcesPage() {
       <JumpNav />
 
       <CareerPaths />
+
+      <ClusterHeading
+        id="learn"
+        title="Learn the fundamentals"
+        intro="Certs, courses, labs, and the standards underneath it all. Where you build the base everything else sits on."
+      />
 
       <LinkSection
         id="certifications"
@@ -417,6 +418,20 @@ export default function ResourcesPage() {
       />
 
       <LinkSection
+        id="git-github"
+        label="Git & GitHub"
+        heading="Git and GitHub"
+        intro="Version control is the on-ramp to network automation. Before you push configs from code, get comfortable with Git and the GitHub workflow. Start with GitHub Skills and keep Pro Git nearby."
+        links={gitGithub}
+      />
+
+      <ClusterHeading
+        id="stay-current"
+        title="Stay current"
+        intro="How working engineers keep up: the blogs, dashboards, communities, and shows worth your attention."
+      />
+
+      <LinkSection
         id="engineering-blogs"
         label="Blogs"
         heading="Engineering and vendor blogs"
@@ -448,6 +463,12 @@ export default function ResourcesPage() {
         links={listening}
       />
 
+      <ClusterHeading
+        id="build"
+        title="Automate & build"
+        intro="Bringing software practices to the network: AI, spec-driven development, automation tooling, and diagramming."
+      />
+
       <LinkSection
         id="ai-for-nes"
         label="AI for NEs"
@@ -465,14 +486,6 @@ export default function ResourcesPage() {
       />
 
       <LinkSection
-        id="git-github"
-        label="Git & GitHub"
-        heading="Git and GitHub"
-        intro="Version control is the on-ramp to network automation. Before you push configs from code, get comfortable with Git and the GitHub workflow. Start with GitHub Skills and keep Pro Git nearby."
-        links={gitGithub}
-      />
-
-      <LinkSection
         id="automation"
         label="Automation"
         heading="Network automation and operations tools"
@@ -486,6 +499,12 @@ export default function ResourcesPage() {
         heading="Diagramming and topology icons"
         intro="The editors and icon libraries that make network diagrams look like network diagrams. Useful whether you're sketching a design, writing a runbook, or building slides."
         links={diagramming}
+      />
+
+      <ClusterHeading
+        id="grow"
+        title="Grow your career"
+        intro="Roles, data, books, and the decision-making habits that move a career forward."
       />
 
       <section id="vendor-roles" className="mt-16 scroll-mt-24">
