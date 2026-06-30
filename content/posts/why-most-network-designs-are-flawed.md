@@ -4,6 +4,7 @@ slug: "why-most-network-designs-are-flawed"
 publishedAt: "2026-07-01"
 excerpt: "Most network outages aren't caused by hardware failures. They're caused by decisions. What my AutoCon 5 conversation with service-provider engineer James Bensley revealed about why so many network designs are fragile by the time they reach production."
 author: "Andy Lapteff"
+coverImage: "/blog-images/why-most-network-designs-are-flawed.jpg"
 ---
 
 Most network outages are not caused by hardware failures.
