@@ -38,6 +38,11 @@ export default function Home() {
         </p>
         <div className="mt-10">
           <SubscribeButtons />
+          <p className="mt-4 text-sm">
+            <Link href="/listen" className="text-accent-blue">
+              All the ways to listen →
+            </Link>
+          </p>
         </div>
       </section>
 

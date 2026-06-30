@@ -18,6 +18,7 @@ export function Footer() {
         <div>
           <SectionLabel>Connect</SectionLabel>
           <ul className="mt-4 space-y-2 text-sm">
+            <li><Link href="/listen">All podcast apps</Link></li>
             {social.map((s) => (
               <li key={s.href}>
                 <a href={s.href} target="_blank" rel="noopener noreferrer">{s.label}</a>
