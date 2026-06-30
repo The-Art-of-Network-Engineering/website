@@ -228,6 +228,7 @@ function LinkSection({
 }
 
 const navSections: { id: string; label: string }[] = [
+  { id: 'start-here', label: 'Start here' },
   { id: 'certifications', label: 'Certifications' },
   { id: 'free-courses', label: 'Free courses' },
   { id: 'service-provider', label: 'Service provider' },
@@ -270,6 +271,93 @@ function JumpNav() {
   );
 }
 
+type Step = { label: string; href: string };
+type Stage = { label: string; who: string; steps: Step[] };
+
+const careerStages: Stage[] = [
+  {
+    label: 'Breaking in',
+    who: 'New to networking, changing careers, or studying for your first cert.',
+    steps: [
+      { label: 'Play the subnetting game', href: '/subnetting' },
+      { label: 'Certifications', href: '#certifications' },
+      { label: 'Free courses', href: '#free-courses' },
+      { label: 'Communities', href: '#communities' },
+    ],
+  },
+  {
+    label: 'Early career',
+    who: 'In a NOC or junior role, building real fundamentals.',
+    steps: [
+      { label: 'Lab software', href: '#lab-software' },
+      { label: 'Foundational RFCs', href: '#standards' },
+      { label: 'Free courses', href: '#free-courses' },
+      { label: 'Books', href: '#books' },
+    ],
+  },
+  {
+    label: 'Mid-career / specializing',
+    who: 'Fundamentals are solid; now you are picking a depth.',
+    steps: [
+      { label: 'Automation', href: '#automation' },
+      { label: 'Service provider', href: '#service-provider' },
+      { label: 'Git & GitHub', href: '#git-github' },
+      { label: 'Certifications', href: '#certifications' },
+    ],
+  },
+  {
+    label: 'Senior / architect',
+    who: 'Designing networks and owning the hard calls.',
+    steps: [
+      { label: 'Books', href: '#books' },
+      { label: 'Internet measurement', href: '#measurement' },
+      { label: 'Communities & NANOG', href: '#communities' },
+      { label: 'Cognitive biases', href: '#biases' },
+    ],
+  },
+  {
+    label: 'Pivoting to adjacent roles',
+    who: 'Stay technical, step off the on-call rotation.',
+    steps: [
+      { label: 'Vendor roles', href: '#vendor-roles' },
+      { label: 'AI for NEs', href: '#ai-for-nes' },
+      { label: 'Spec-driven dev', href: '#spec-driven' },
+      { label: 'Career data', href: '#career-data' },
+    ],
+  },
+];
+
+function CareerPaths() {
+  return (
+    <section id="start-here" className="mt-12 scroll-mt-24">
+      <SectionLabel>Start here</SectionLabel>
+      <h2 className="mt-3 font-display text-2xl md:text-3xl">Start where you are</h2>
+      <p className="mt-3 max-w-3xl text-text-muted">
+        Not sure where to begin? Find the stage that sounds like you and follow the trail. Each
+        link jumps to the matching section of the catalog below, which is always there if you
+        would rather browse by topic.
+      </p>
+      <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {careerStages.map((stage) => (
+          <div key={stage.label} className="border border-border bg-surface p-5 rounded-sm">
+            <h3 className="font-display text-lg text-accent-green">{stage.label}</h3>
+            <p className="mt-1 text-sm text-text-muted">{stage.who}</p>
+            <ul className="mt-3 space-y-1.5">
+              {stage.steps.map((s) => (
+                <li key={s.href + s.label}>
+                  <a href={s.href} className="text-sm text-accent-blue hover:text-accent-green">
+                    {s.label} →
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 export default function ResourcesPage() {
   return (
     <div className="mx-auto max-w-content px-6 py-16">
@@ -285,6 +373,8 @@ export default function ResourcesPage() {
       </p>
 
       <JumpNav />
+
+      <CareerPaths />
 
       <LinkSection
         id="certifications"
