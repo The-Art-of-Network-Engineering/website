@@ -34,6 +34,13 @@ const courses: Link[] = [
   { name: 'MIT 6.829 — Computer Networks (OCW)', href: 'https://ocw.mit.edu/courses/6-829-computer-networks-fall-2002/', note: 'Older but foundational graduate networking course. The protocol design and queuing-theory chapters still pay dividends.' },
 ];
 
+const serviceProvider: Link[] = [
+  { name: 'APNIC Academy', href: 'https://academy.apnic.net/', note: 'The Asia-Pacific registry\'s free academy: self-paced routing, BGP, multihoming, and RPKI courses with hands-on labs. Operator-grade material behind a free account.' },
+  { name: 'RIPE NCC Academy', href: 'https://academy.ripe.net/', note: 'Free, vendor-neutral e-learning from the European registry. IPv6, routing security, and BGP taught the way operators run them in production.' },
+  { name: 'NANOG Tutorials & Archive', href: 'https://www.nanog.org/resources/tutorials/', note: 'Decades of operator tutorials and meeting decks on BGP-at-scale, MPLS, segment routing, and peering, straight from the people running the networks. Deep archive at archive.nanog.org.' },
+  { name: 'segment-routing.net', href: 'https://www.segment-routing.net/', note: 'The Cisco-maintained community hub for SR-MPLS and SRv6: tutorials, demos, IETF drafts, and reference papers in one place, no paywall.' },
+];
+
 const labs: Link[] = [
   { name: 'Containerlab', href: 'https://containerlab.dev/', note: 'Container-based network labs defined in YAML. Spin up multi-vendor topologies in seconds. Where the modern lab community has been moving.' },
   { name: 'GNS3', href: 'https://www.gns3.com/', note: 'The long-standing favorite for emulating Cisco / Juniper / Arista images. Heavier than Containerlab but battle-tested.' },
@@ -122,6 +129,14 @@ const automation: Link[] = [
   { name: 'Nornir', href: 'https://nornir.readthedocs.io/', note: 'Pure-Python automation framework. Faster and more flexible than Ansible when you\'re comfortable in code; pairs well with NAPALM and Netmiko.' },
   { name: 'Batfish', href: 'https://www.batfish.org/', note: 'Static analysis for network configurations. Models what your network will do before you push the change. The closest thing the network world has to a type checker.' },
   { name: 'LibreNMS', href: 'https://www.librenms.org/', note: 'Free, community-driven network monitoring system. SNMP-based, broad vendor support, fast to stand up for a homelab or a small shop.' },
+];
+
+const gitGithub: Link[] = [
+  { name: 'GitHub Skills', href: 'https://github.com/skills', note: 'Free interactive courses that run inside real repos with automated feedback. The fastest way to learn the GitHub workflow by doing instead of reading.' },
+  { name: 'Introduction to GitHub', href: 'https://github.com/skills/introduction-to-github', note: 'The under-an-hour starter exercise: repos, branches, commits, and pull requests. The right first stop if you have only ever lived in config backups.' },
+  { name: 'GitHub Docs: Get Started', href: 'https://docs.github.com/en/get-started', note: 'The official, always-current reference for everything from your first commit to SSH keys and pull requests.' },
+  { name: 'GitHub Foundations (Microsoft Learn)', href: 'https://learn.microsoft.com/en-us/training/paths/github-foundations/', note: 'A free two-part learning path that maps to the GitHub Foundations certification. Structured enough to give an automation newcomer a real syllabus.' },
+  { name: 'Pro Git (2nd ed.)', href: 'https://git-scm.com/book/en/v2', note: 'The canonical Git book, free online under Creative Commons. The reference you come back to when "git is hard" really means "I don\'t understand the object model yet."' },
 ];
 
 const diagramming: Link[] = [
@@ -215,6 +230,7 @@ function LinkSection({
 const navSections: { id: string; label: string }[] = [
   { id: 'certifications', label: 'Certifications' },
   { id: 'free-courses', label: 'Free courses' },
+  { id: 'service-provider', label: 'Service provider' },
   { id: 'lab-software', label: 'Lab software' },
   { id: 'standards', label: 'Standards' },
   { id: 'engineering-blogs', label: 'Blogs' },
@@ -223,6 +239,7 @@ const navSections: { id: string; label: string }[] = [
   { id: 'listening', label: 'Listening' },
   { id: 'ai-for-nes', label: 'AI for NEs' },
   { id: 'spec-driven', label: 'Spec-driven dev' },
+  { id: 'git-github', label: 'Git & GitHub' },
   { id: 'automation', label: 'Automation' },
   { id: 'diagramming', label: 'Diagramming' },
   { id: 'vendor-roles', label: 'Vendor roles' },
@@ -283,6 +300,14 @@ export default function ResourcesPage() {
         heading="Free courses and labs"
         intro="Practical, hands-on, free. Start with Kirk Byers if you've never written a line of Python."
         links={courses}
+      />
+
+      <LinkSection
+        id="service-provider"
+        label="Service provider"
+        heading="Service provider and operator training"
+        intro="Free training for the carrier, ISP, and large-scale operator world: routing at scale, MPLS, segment routing, and the regional registry academies. This is where the internet's backbone is run."
+        links={serviceProvider}
       />
 
       <LinkSection
@@ -347,6 +372,14 @@ export default function ResourcesPage() {
         heading="Spec-driven development with AI coding agents"
         intro="The disciplined alternative to 'vibe coding.' Write a clear spec of what you want the agent to build, refine it through structured phases, and let the agent implement against it. Especially useful for network automation work, where ambiguity in the prompt leads to subtly wrong code that passes review and breaks in production."
         links={specDriven}
+      />
+
+      <LinkSection
+        id="git-github"
+        label="Git & GitHub"
+        heading="Git and GitHub"
+        intro="Version control is the on-ramp to network automation. Before you push configs from code, get comfortable with Git and the GitHub workflow. Start with GitHub Skills and keep Pro Git nearby."
+        links={gitGithub}
       />
 
       <LinkSection
