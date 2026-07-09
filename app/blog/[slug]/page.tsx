@@ -50,7 +50,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
       <div className="mt-6">
         <SectionLabel>Blog</SectionLabel>
       </div>
-      <h1 className="mt-4 font-display text-4xl md:text-5xl leading-tight">{post.title}</h1>
+      <h1 className="mt-4 font-display text-3xl sm:text-4xl md:text-5xl leading-tight [text-wrap:balance]">{post.title}</h1>
       <div className="mt-4 flex flex-wrap gap-4 text-xs font-mono uppercase tracking-label text-text-muted">
         <span>{formatDate(post.publishedAt)}</span>
         <span>by {post.author}</span>
