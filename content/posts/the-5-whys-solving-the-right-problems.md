@@ -109,7 +109,9 @@ That's an important distinction, because blaming people rarely improves systems.
 
 The beauty of the 5 Whys is that it requires no software, no certifications, and no special training.
 
-It's simply a habit.
+What it takes is the discipline to slow down just enough to dig beneath the surface. Stay on the surface and you'll keep fixing the same problems over and over. Go one level deeper and you fix them for good.
+
+That's what James did.
 
 The next time someone tells you the network is down, asks for a new technology, or proposes a particular design, resist the temptation to jump straight into solving the problem.
 
