@@ -1,5 +1,5 @@
 ---
-title: "The 5 Whys: A Simple Tool for Solving the Right Problems"
+title: "Why? The 5 Whys for Network Engineers"
 slug: "the-5-whys-solving-the-right-problems"
 publishedAt: "2026-07-09"
 excerpt: "Why ask why? Because the messiest problems are rarely what they look like on the surface. Inspired by James Bensley on the podcast, here is how the 5 Whys helps network engineers stop fixing symptoms and start solving root causes."
