@@ -65,9 +65,13 @@ None of this makes you a bad engineer. It makes you a human one. The real value 
 
 If this rabbit hole interests you, we keep a shelf of the best books on cognitive bias and decision-making on our [resources page](https://artofnetworkengineering.com/resources#biases).
 
-## The Best Architects Challenge Requirements
+## The Best Architects Ask Why Before They Build
 
-This is where James's comment really resonated with me.
+So far we've used the 5 Whys to look backward. Something broke, and asking why walked us past the symptom to the cause.
+
+But the highest-leverage place to ask why isn't after a failure. It's before one. Before the design is drawn, before the change window opens, before a reasonable-sounding decision quietly hardens into permanent architecture.
+
+That was the shift that stuck with me from James's point: the same question that untangles an outage can stop a bad design from ever reaching production. One use saves your night. The other saves your next three years.
 
 People often think architects spend their time choosing technologies. Which routing protocol should we use? Should we deploy EVPN? Do we need VXLAN? Should we build active-active data centers?
 
