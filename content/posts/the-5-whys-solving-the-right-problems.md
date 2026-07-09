@@ -4,7 +4,6 @@ slug: "the-5-whys-solving-the-right-problems"
 publishedAt: "2026-07-09"
 excerpt: "Most technical problems aren't technical at all; they're symptoms of deeper issues. Inspired by James Bensley on the podcast, here is how the 5 Whys helps network engineers stop fixing symptoms and start solving root causes."
 author: "Andy Lapteff"
-coverImage: "/blog-images/the-5-whys-solving-the-right-problems.jpg"
 episodeSlug: "why-most-network-designs-are-flawed"
 ---
 
