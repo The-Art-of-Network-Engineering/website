@@ -2,18 +2,20 @@
 title: "The 5 Whys: A Simple Tool for Solving the Right Problems"
 slug: "the-5-whys-solving-the-right-problems"
 publishedAt: "2026-07-09"
-excerpt: "Most technical problems aren't technical at all; they're symptoms of deeper issues. Inspired by James Bensley on the podcast, here is how the 5 Whys helps network engineers stop fixing symptoms and start solving root causes."
+excerpt: "Why ask why? Because the messiest problems are rarely what they look like on the surface. Inspired by James Bensley on the podcast, here is how the 5 Whys helps network engineers stop fixing symptoms and start solving root causes."
 author: "Andy Lapteff"
 episodeSlug: "why-most-network-designs-are-flawed"
 ---
 
-One of my favorite moments from our recent conversation with James Bensley wasn't about EVPN, routing protocols, or data center design. It was when James mentioned using the **5 Whys** in his work as a network architect.
+Why ask why?
+
+Because most technical problems aren't fundamentally technical problems. They're symptoms of deeper issues, and the fastest way to find the real one is to keep asking why.
+
+One of my favorite moments from our conversation with [James Bensley](https://www.linkedin.com/in/jwbensley/) had nothing to do with EVPN, routing protocols, or data center design. It was when James mentioned using the **5 Whys** in his work as a network architect.
 
 It's a remarkably simple technique. When you're presented with a problem, keep asking "Why?" until you've uncovered the underlying cause.
 
-At first glance, it almost sounds too simplistic to be useful. After all, network engineering is a field full of complex systems, intricate protocols, and countless moving parts. How could repeatedly asking the same question provide meaningful insight?
-
-As it turns out, it's because most technical problems aren't fundamentally technical problems. They're symptoms of deeper issues.
+At first glance, it sounds too simplistic to be useful. Network engineering is full of complex systems, intricate protocols, and countless moving parts, so how could repeatedly asking the same question provide meaningful insight? Because the cause is almost never sitting where the symptom is.
 
 ## A Lesson from Toyota
 
