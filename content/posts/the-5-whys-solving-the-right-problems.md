@@ -49,6 +49,22 @@ If you stop after the first answer, you restart a server. If you stop after the 
 
 Both restore service today. Only one reduces the likelihood of tomorrow's outage.
 
+## Why We Stop at the Surface
+
+If digging to the root cause is so obviously better, why do so few of us do it? It isn't laziness. It's psychology. A handful of well-documented biases quietly push us toward the quick fix.
+
+**Action bias.** When something breaks, doing something visible feels like progress. Restart the server, fail over, clear the session. Pausing to investigate feels like standing still, even when it's the smarter move. In an incident, motion gets mistaken for momentum.
+
+**Present bias.** Service restored right now is concrete and satisfying. Tomorrow's outage is abstract and, as far as our brains are concerned, not real yet. So we trade a future we can't feel for relief we can.
+
+**Satisficing.** The moment a fix stops the pain, the problem is "solved," and we stop looking. The first answer that works wins, even when it's the fifth why that matters.
+
+**Normalization of deviance.** The first time a workaround holds, it's a hack. The tenth time, it's just how the network works. Recurring problems get quietly reclassified as normal, and once something is normal, nobody asks why anymore.
+
+None of this makes you a bad engineer. It makes you a human one. The real value of the 5 Whys is that it interrupts these reflexes. Each "why" is a small act of resistance against the urge to move on.
+
+If this rabbit hole interests you, we keep a shelf of the best books on cognitive bias and decision-making on our [resources page](https://artofnetworkengineering.com/resources#biases).
+
 ## The Best Architects Challenge Requirements
 
 This is where James's comment really resonated with me.
