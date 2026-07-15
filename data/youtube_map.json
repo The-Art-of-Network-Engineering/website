@@ -1,8 +1,50 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-07-08T13:00:06.750588Z",
-  "total_videos": 599,
+  "last_updated": "2026-07-15T12:00:06.228529Z",
+  "total_videos": 605,
   "videos": [
+    {
+      "video_id": "gBTzeHZpSks",
+      "title": "From Siloed Design to Seamless Feedback: Architect's Reality Check! #shorts",
+      "title_norm": "from siloed design to seamless feedback architects reality check shorts",
+      "url": "https://www.youtube.com/watch?v=gBTzeHZpSks",
+      "published_at": "2026-07-15T11:57:29Z"
+    },
+    {
+      "video_id": "7GvQa51bV9o",
+      "title": "The Biggest Myth About Open Source",
+      "title_norm": "the biggest myth about open source",
+      "url": "https://www.youtube.com/watch?v=7GvQa51bV9o",
+      "published_at": "2026-07-15T10:00:16Z"
+    },
+    {
+      "video_id": "Dn76A9zXqYo",
+      "title": "Fixing BAD Network Designs: From NOC to Architect! #shorts",
+      "title_norm": "fixing bad network designs from noc to architect shorts",
+      "url": "https://www.youtube.com/watch?v=Dn76A9zXqYo",
+      "published_at": "2026-07-14T12:04:52Z"
+    },
+    {
+      "video_id": "V87WNTH1t-I",
+      "title": "Big Fish vs. Small Fish: Which Career Path Is Better? #shorts",
+      "title_norm": "big fish vs small fish which career path is better shorts",
+      "url": "https://www.youtube.com/watch?v=V87WNTH1t-I",
+      "published_at": "2026-07-13T11:57:36Z"
+    },
+    {
+      "video_id": "8QxC7k_Ag8M",
+      "title": "Design Under Pressure: Making Decisions With What You Have! #shorts",
+      "title_norm": "design under pressure making decisions with what you have shorts",
+      "url": "https://www.youtube.com/watch?v=8QxC7k_Ag8M",
+      "published_at": "2026-07-10T12:03:34Z"
+    },
+    {
+      "video_id": "Xe0m1tdUqBs",
+      "title": "Master Network Engineering: Labbing, Learning & Observing Others! #shorts",
+      "title_norm": "master network engineering labbing learning observing others shorts",
+      "url": "https://www.youtube.com/watch?v=Xe0m1tdUqBs",
+      "published_at": "2026-07-09T12:00:27Z"
+    },
     {
       "video_id": "LXyTAdrTb_E",
       "title": "Stop Flawed Requirements! The 5 Whys Secret to Smarter Solutions #shorts",
