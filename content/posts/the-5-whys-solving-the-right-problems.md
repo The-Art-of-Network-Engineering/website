@@ -51,7 +51,7 @@ Both restore service today. Only one reduces the likelihood of tomorrow's outage
 
 ## Why We Stop at the Surface
 
-If digging to the root cause is so obviously better, why do so few of us do it? It isn't laziness. It's psychology. A handful of well-documented biases quietly push us toward the quick fix.
+So if root cause is so obviously the better path, why do so few of us take it? It isn't laziness. It's how we're wired. A handful of well-documented biases nudge us toward the quick fix before we even notice we're choosing it.
 
 **Action bias.** When something breaks, doing something visible feels like progress. Restart the server, fail over, clear the session. Pausing to investigate feels like standing still, even when it's the smarter move. In an incident, motion gets mistaken for momentum.
 
