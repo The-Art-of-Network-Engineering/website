@@ -78,6 +78,8 @@ So build something one person loves. Then make it easy for that person to bring 
 
 The rest is just the wheel, spinning.
 
+If this clicked, the same Munich conversation with William led to a companion piece on why your code was never your competitive advantage: [The Biggest Myth About Open Source](/blog/the-biggest-myth-about-open-source).
+
 ---
 
 Inspired by a conversation with William Collins, host of the [Cloud Gambit podcast](https://www.thecloudgambit.com/), recorded in Munich ahead of AutoCon 5. Find all things Art of Network Engineering at [linktr.ee/artofneteng](https://linktr.ee/artofneteng), [join the Discord](https://artofnetworkengineering.com/iaatj), and [sign up for the newsletter](https://artofnetworkengineering.com/newsletter) dropping soon.
