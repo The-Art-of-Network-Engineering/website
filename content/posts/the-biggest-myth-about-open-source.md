@@ -4,6 +4,7 @@ slug: "the-biggest-myth-about-open-source"
 publishedAt: "2026-07-15"
 excerpt: "I used to think open source meant giving away my ideas. A conversation with William Collins on the podcast changed how I think about where the real value in software lives, and why AI makes the human side matter more, not less."
 author: "Andy Lapteff"
+coverImage: "/blog-images/the-biggest-myth-about-open-source.jpg"
 ---
 
 I used to think open source meant giving away your ideas.
