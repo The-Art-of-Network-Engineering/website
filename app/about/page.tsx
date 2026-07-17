@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SectionLabel } from '@/components/SectionLabel';
+import { metrics } from '@/lib/metrics';
 
 export const metadata: Metadata = {
   title: 'About',
@@ -147,7 +148,7 @@ export default function AboutPage() {
             <dl className="mt-4 space-y-4 text-sm">
               <div>
                 <dt className="text-text-muted">Lifetime downloads</dt>
-                <dd className="font-display text-2xl text-accent-green">920K</dd>
+                <dd className="font-display text-2xl text-accent-green">{metrics.lifetimeDownloadsShort}</dd>
               </div>
               <div>
                 <dt className="text-text-muted">Episodes published</dt>
@@ -159,7 +160,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <dt className="text-text-muted">YouTube subscribers</dt>
-                <dd className="font-display text-2xl text-accent-green">9,870</dd>
+                <dd className="font-display text-2xl text-accent-green">{metrics.youtubeSubscribers}</dd>
               </div>
               <div>
                 <dt className="text-text-muted">Discord community</dt>
