@@ -26,7 +26,7 @@ const facts = [
   { label: 'On air since', value: '2020' },
   { label: 'Episodes', value: '200+' },
   { label: 'Lifetime downloads', value: '1,000,000+' },
-  { label: 'YouTube subscribers', value: '9,700+' },
+  { label: 'YouTube subscribers', value: '9,870+' },
   { label: 'Discord members', value: '3,500+' },
   { label: 'Cadence', value: 'New episodes every other week' },
 ];
