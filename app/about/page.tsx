@@ -147,7 +147,7 @@ export default function AboutPage() {
             <dl className="mt-4 space-y-4 text-sm">
               <div>
                 <dt className="text-text-muted">Lifetime downloads</dt>
-                <dd className="font-display text-2xl text-accent-green">1M</dd>
+                <dd className="font-display text-2xl text-accent-green">920K</dd>
               </div>
               <div>
                 <dt className="text-text-muted">Episodes published</dt>

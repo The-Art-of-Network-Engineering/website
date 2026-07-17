@@ -117,7 +117,7 @@ export default function Home() {
           Reach the network engineers who <span className="text-accent-green">build, evaluate, and buy</span>.
         </h2>
         <p className="mt-4 max-w-2xl text-text-muted">
-          One million lifetime downloads. 2,800 engineers per episode. 9,300 monthly catalog
+          Approaching one million lifetime downloads. 2,800 engineers per episode. 9,300 monthly catalog
           impressions across 200+ shows.
         </p>
         <div className="mt-6">
