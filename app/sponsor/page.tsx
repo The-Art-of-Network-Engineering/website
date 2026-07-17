@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { SectionLabel } from '@/components/SectionLabel';
 import { StatCard } from '@/components/StatCard';
+import { metrics } from '@/lib/metrics';
 
 export const metadata: Metadata = {
   title: 'Sponsor AONE',
@@ -9,10 +10,10 @@ export const metadata: Metadata = {
 };
 
 const stats = [
-  { value: '920K', label: 'Lifetime downloads', caption: 'Approaching 1 million' },
+  { value: metrics.lifetimeDownloadsShort, label: 'Lifetime downloads', caption: 'Approaching 1 million' },
   { value: '2,800', label: 'Downloads per episode', caption: '+26% YoY, first 60 days' },
   { value: '306K', label: 'Platform touchpoints', caption: '+14.2% YoY' },
-  { value: '9,870', label: 'YouTube subscribers', caption: '+35.4% YoY' },
+  { value: metrics.youtubeSubscribers, label: 'YouTube subscribers', caption: '+35.4% YoY' },
 ];
 
 const audience = [

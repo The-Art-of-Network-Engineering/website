@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { SectionLabel } from '@/components/SectionLabel';
 import { CopyButton } from '@/components/CopyButton';
+import { metrics } from '@/lib/metrics';
 
 export const metadata: Metadata = {
   title: 'Press & media kit',
@@ -25,8 +26,8 @@ const facts = [
   { label: 'Day job', value: 'Sr. PMM, Data Center Networks at Nokia' },
   { label: 'On air since', value: '2020' },
   { label: 'Episodes', value: '200+' },
-  { label: 'Lifetime downloads', value: '920K' },
-  { label: 'YouTube subscribers', value: '9,870+' },
+  { label: 'Lifetime downloads', value: metrics.lifetimeDownloadsShort },
+  { label: 'YouTube subscribers', value: `${metrics.youtubeSubscribers}+` },
   { label: 'Discord members', value: '3,500+' },
   { label: 'Cadence', value: 'New episodes every other week' },
 ];
