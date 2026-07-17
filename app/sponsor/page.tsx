@@ -158,16 +158,24 @@ export default function SponsorPage() {
         <SectionLabel>Become a sponsor</SectionLabel>
         <h2 className="mt-4 text-3xl">Request the full 2026 media kit.</h2>
         <p className="mt-4 max-w-2xl text-text">
-          Email{' '}
+          Book a quick 15-minute call, email{' '}
           <a href="mailto:sponsor@artofnetworkengineering.com">
             sponsor@artofnetworkengineering.com
           </a>
-          {' '}or grab the sponsor snapshot below.
+          , or grab the sponsor snapshot below.
         </p>
         <div className="mt-6 flex flex-wrap gap-4">
           <a
-            href="mailto:sponsor@artofnetworkengineering.com?subject=AONE%20Sponsorship%20Inquiry"
+            href="https://calendly.com/theartofnetworkengineering/sponsor-fit-call-15-min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-accent-green text-bg font-semibold px-6 py-3 rounded-sm hover:opacity-90 transition-opacity"
+          >
+            Book a 15-min sponsor call
+          </a>
+          <a
+            href="mailto:sponsor@artofnetworkengineering.com?subject=AONE%20Sponsorship%20Inquiry"
+            className="inline-block border border-border bg-surface text-text font-semibold px-6 py-3 rounded-sm hover:border-accent-blue transition-colors"
           >
             Email sponsor@aone
           </a>
