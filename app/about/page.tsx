@@ -159,7 +159,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <dt className="text-text-muted">YouTube subscribers</dt>
-                <dd className="font-display text-2xl text-accent-green">9,300</dd>
+                <dd className="font-display text-2xl text-accent-green">9,500</dd>
               </div>
               <div>
                 <dt className="text-text-muted">Discord community</dt>

@@ -12,7 +12,7 @@ const stats = [
   { value: '1M', label: 'Lifetime downloads', caption: 'Approaching, 905K and counting' },
   { value: '2,800', label: 'Downloads per episode', caption: '+26% YoY, first 60 days' },
   { value: '306K', label: 'Platform touchpoints', caption: '+14.2% YoY' },
-  { value: '9,300', label: 'YouTube subscribers', caption: '+35.4% YoY' },
+  { value: '9,500', label: 'YouTube subscribers', caption: '+35.4% YoY' },
 ];
 
 const audience = [
@@ -101,7 +101,7 @@ export default function SponsorPage() {
         </div>
         <p className="mt-6 max-w-3xl text-text-muted">
           We don't rely on viral episodes. Sponsors get consistent, predictable reach across every
-          release,and that baseline is growing year over year.
+          release, and that baseline is growing year over year.
         </p>
       </section>
 
@@ -119,7 +119,7 @@ export default function SponsorPage() {
           <div className="bg-surface border border-border p-6 rounded-sm">
             <p className="font-display text-3xl text-accent-green">86%</p>
             <p className="mt-2 text-text">
-              of daily podcast listeners recall an ad they heard in the past week,the highest of
+              of daily podcast listeners recall an ad they heard in the past week, the highest of
               any medium.
             </p>
             <p className="mt-1 text-xs text-text-muted">Sounds Profitable, 2025</p>
@@ -147,7 +147,7 @@ export default function SponsorPage() {
         <SectionLabel>Placements</SectionLabel>
         <p className="mt-4 max-w-3xl text-text">
           Host-read, video, and dynamic catalog placements available. Category exclusivity by
-          request. We tailor packages to your campaign goals,talk to us about what you want to
+          request. We tailor packages to your campaign goals, talk to us about what you want to
           accomplish and we'll build something that fits.
         </p>
       </section>
