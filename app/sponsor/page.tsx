@@ -48,6 +48,34 @@ const partners = [
   'USNUA',
 ];
 
+const packages = [
+  {
+    name: 'Dynamic Audio Ad',
+    tag: 'Recurring · entire catalog',
+    desc: 'A pre-roll and mid-roll dynamically inserted across all 200+ episodes for your contract term. Roughly 9,300 impressions a month from the back catalog alone.',
+  },
+  {
+    name: 'Dedicated Interview',
+    tag: 'Full episode · audio + video',
+    desc: 'A full-length episode built around your product, team, or story. Andy hosts, you bring a voice. Audio and YouTube.',
+  },
+  {
+    name: 'Featured Episode',
+    tag: 'Host-read · audio + video',
+    desc: 'A 60-second host-read spot in one episode, across both the audio and the YouTube video. Permanent placement.',
+  },
+  {
+    name: 'Pre-roll Ad',
+    tag: 'Host-read · audio',
+    desc: 'A 30-second host-read spot at the top of one audio episode. Permanent, so it keeps working as the episode ages.',
+  },
+  {
+    name: 'Category Exclusivity',
+    tag: 'Add-on · limited',
+    desc: 'One partner per category. No competitors run on the show for your contract term. Stacks on any package.',
+  },
+];
+
 export default function SponsorPage() {
   return (
     <div className="mx-auto max-w-content px-6 py-16">
@@ -143,14 +171,38 @@ export default function SponsorPage() {
         </div>
       </section>
 
-      {/* Placements */}
+      {/* Ways to sponsor */}
       <section className="mt-16 border-t border-border pt-12">
-        <SectionLabel>Placements</SectionLabel>
+        <SectionLabel>Ways to sponsor</SectionLabel>
         <p className="mt-4 max-w-3xl text-text">
-          Host-read, video, and dynamic catalog placements available. Category exclusivity by
-          request. We tailor packages to your campaign goals, talk to us about what you want to
-          accomplish and we'll build something that fits.
+          Five ways to reach the audience, from a single host-read spot to an always-on catalog
+          campaign. Bulk discounts and category exclusivity available. Book a call and we'll build a
+          package around your goals.
         </p>
+        <div className="mt-8 grid md:grid-cols-2 gap-4">
+          {packages.map((p) => (
+            <div key={p.name} className="bg-surface border border-border p-6 rounded-sm">
+              <p className="text-xs uppercase tracking-label text-accent-blue">{p.tag}</p>
+              <h3 className="mt-2 font-display text-xl">{p.name}</h3>
+              <p className="mt-2 text-sm text-text-muted">{p.desc}</p>
+            </div>
+          ))}
+          <div className="bg-surface border border-border p-6 rounded-sm flex flex-col justify-center">
+            <h3 className="font-display text-xl text-accent-green">Pricing</h3>
+            <p className="mt-2 text-sm text-text-muted">
+              Rates depend on the mix and term. Book a 15-minute call or request the media kit and
+              we'll send pricing that fits your campaign.
+            </p>
+            <a
+              href="https://calendly.com/theartofnetworkengineering/sponsor-fit-call-15-min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block text-sm text-accent-blue"
+            >
+              Book a call for pricing →
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* CTA */}
@@ -162,7 +214,7 @@ export default function SponsorPage() {
           <a href="mailto:sponsor@artofnetworkengineering.com">
             sponsor@artofnetworkengineering.com
           </a>
-          , or grab the sponsor snapshot below.
+          , or download the one-page overview below.
         </p>
         <div className="mt-6 flex flex-wrap gap-4">
           <a
@@ -185,7 +237,7 @@ export default function SponsorPage() {
             rel="noopener noreferrer"
             className="inline-block border border-border bg-surface text-text font-semibold px-6 py-3 rounded-sm hover:border-accent-blue transition-colors"
           >
-            Download sponsor snapshot (PDF)
+            Download the sponsor overview (PDF)
           </a>
         </div>
       </section>
