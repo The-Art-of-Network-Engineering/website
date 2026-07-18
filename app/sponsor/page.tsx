@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const stats = [
-  { value: metrics.lifetimeDownloadsShort, label: 'Lifetime downloads', caption: 'Approaching 1 million' },
+  { value: metrics.lifetimeDownloadsShort, label: 'Lifetime downloads' },
   { value: '2,800', label: 'Downloads per episode', caption: '+26% YoY, first 60 days' },
   { value: '306K', label: 'Platform touchpoints', caption: '+14.2% YoY' },
   { value: metrics.youtubeSubscribers, label: 'YouTube subscribers', caption: '+35.4% YoY' },
