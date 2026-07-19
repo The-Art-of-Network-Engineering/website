@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import feed from '@/data/episodes.json';
+import seoOverrides from '@/data/episode_seo.json';
 import type { Feed, Episode } from '@/lib/episodes';
 import { orderedGuests } from '@/lib/episodes';
 import { SectionLabel } from '@/components/SectionLabel';
@@ -17,12 +18,43 @@ export function generateStaticParams() {
   return typedFeed.episodes.map((ep) => ({ slug: ep.slug }));
 }
 
+const SITE_NAME = 'The Art of Network Engineering';
+const seoMap = seoOverrides as Record<string, { title?: string; description?: string }>;
+
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const ep = findEpisode(params.slug);
   if (!ep) return { title: 'Episode not found' };
+
+  const guestNames = orderedGuests(ep)
+    .map((g) => g.name)
+    .join(', ');
+  const override = seoMap[ep.slug] ?? {};
+  const base = override.title ?? (guestNames ? `${ep.title} with ${guestNames}` : ep.title);
+  const title = base; // root layout appends the "| AONE" brand
+  const socialTitle = `${base} | ${SITE_NAME}`;
+  const description = (override.description || ep.summary || '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 160);
+  const images = ep.artworkUrl ? [ep.artworkUrl] : undefined;
+
   return {
-    title: ep.title,
-    description: ep.summary.slice(0, 200),
+    title,
+    description,
+    alternates: { canonical: `/episodes/${ep.slug}` },
+    openGraph: {
+      title: socialTitle,
+      description,
+      type: 'article',
+      publishedTime: ep.publishedAt,
+      images,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: socialTitle,
+      description,
+      images,
+    },
   };
 }
 
@@ -39,8 +71,38 @@ export default function EpisodePage({ params }: { params: { slug: string } }) {
   const playerId = playerIdFromGuid(ep.id);
   const guests = orderedGuests(ep);
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'PodcastEpisode',
+    name: ep.title,
+    datePublished: ep.publishedAt,
+    description: (ep.summary || '').replace(/\s+/g, ' ').trim().slice(0, 300),
+    url: `https://artofnetworkengineering.com/episodes/${ep.slug}`,
+    partOfSeries: {
+      '@type': 'PodcastSeries',
+      name: SITE_NAME,
+      url: 'https://artofnetworkengineering.com',
+    },
+    ...(ep.audioUrl
+      ? { associatedMedia: { '@type': 'MediaObject', contentUrl: ep.audioUrl } }
+      : {}),
+    ...(guests.length
+      ? {
+          actor: guests.map((g) => ({
+            '@type': 'Person',
+            name: g.name,
+            ...(g.href ? { url: g.href } : {}),
+          })),
+        }
+      : {}),
+  };
+
   return (
     <article className="mx-auto max-w-content px-6 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
+      />
       <Link
         href="/episodes"
         className="text-xs font-mono uppercase tracking-label text-text-muted hover:text-accent-blue"
