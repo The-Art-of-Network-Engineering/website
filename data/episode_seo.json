@@ -1,1 +1,586 @@
-{}
+{
+  "ep-147-interview-with-sr-technical-advocates-quinn-snyder-and-jason-belk": {
+    "title": "Network Engineering Careers with Quinn Snyder and Jason Belk",
+    "description": "Cisco technical advocates Quinn Snyder and Jason Belk discuss community, mentorship, and career growth in network engineering."
+  },
+  "ep-146-maximizing-your-cisco-live-adventure-a-guide-to-sessions-networking-and-surviving-nerd-summer-camp": {
+    "title": "Cisco Live Strategy: Sessions, Networking, and Survival Tips",
+    "description": "Learn how to maximize Cisco Live with session selection strategies, networking tactics, and practical tips for first-timers and returning attendees."
+  },
+  "ep-145-tales-from-the-tech-trenches-with-ian-of-my-minds-madness": {
+    "title": "Network Engineering War Stories and Tech Disasters",
+    "description": "Network engineers share real incidents from the field, from major outages to lessons learned troubleshooting production systems."
+  },
+  "ep-144-a-deep-dive-into-the-choreography-of-connectivity-and-critical-network-services": {
+    "title": "Network Connectivity and Critical Services Design",
+    "description": "Deep dive into network connectivity architecture and critical service delivery with A.J., Andy, and Tim."
+  },
+  "ep-143-28-taylor-harris-returns": {
+    "title": "Network Engineering Career Path with Taylor Harris",
+    "description": "Taylor Harris shares VMware certifications and career advice for network engineers pursuing technical growth and advancement."
+  },
+  "ep-142-david-ruess-journey-from-gaming-aspirant-to-network-engineering-pro": {
+    "title": "From Gaming to Network Engineering: David Ruess' Career Path",
+    "description": "David Ruess shares how he pivoted from game design to network engineering, including CCNA and CCNP certification lessons learned."
+  },
+  "ep-141-tiktok-creator-and-network-engineer-adjacentnode": {
+    "title": "Network Engineer Career Growth: Demo Architect and Marketing",
+    "description": "How network engineers transition into security and marketing roles, featuring roles at Zscaler and technical marketing positions."
+  },
+  "ep-140-breaking-down-barriers-in-network-automation-for-engineers-with-danny-wade": {
+    "title": "Network Automation Barriers: Danny Wade on Practical Solutions",
+    "description": "Danny Wade breaks down real obstacles in network automation and how hands-on experience shapes better engineering approaches."
+  },
+  "ep-139-doug-madory-the-man-who-can-see-the-internet": {
+    "title": "BGP Analysis and Internet Routing with Doug Madory",
+    "description": "Doug Madory from Kentik shares his journey from military networks to becoming an authority on BGP analysis and internet infrastructure."
+  },
+  "ep-138-navigating-the-convergence-of-iot-security-in-network-engineering": {
+    "title": "IoT Security in Network Engineering: Risks and Solutions",
+    "description": "Learn how to secure IoT devices in your network while balancing smart technology benefits with practical security measures."
+  },
+  "ep-137-the-art-of-building-a-tech-career-with-cryptoknight": {
+    "title": "Building a Tech Career: Mentorship and Neurodivergent Paths",
+    "description": "Enterprise architect Brian discusses navigating career crossroads, mentorship, continuous learning, and neurodivergent perspectives in network engineering."
+  },
+  "ep-136-journey-of-a-network-engineer-with-ethan": {
+    "title": "IPv4 vs IPv6 Debate: Network Engineer Career Path",
+    "description": "Explore IPv4 vs IPv6 differences, technology's role in disasters, and building a network engineering career with real-world insights."
+  },
+  "ep-135-reflecting-on-a-year-of-podcasting-celebrations-collaborations-and-a-holiday-special": {
+    "title": "Year of Podcasting: Celebrations and Reflections",
+    "description": "Holiday special episode reflecting on a year of podcasting with celebrations, collaborations, and personal narratives from the network engineering community."
+  },
+  "ep-134-delving-into-the-intricacies-of-network-automation-with-ansible-expert-tony-dubiel": {
+    "title": "Network Automation with Ansible: Tony Dubiel Interview",
+    "description": "Learn network automation fundamentals and Ansible best practices from Red Hat's Ansible expert Tony Dubiel."
+  },
+  "ep-133-an-expert-s-perspective-on-network-automation-and-the-cisco-devnet-expert-certification": {
+    "title": "Network Automation and Cisco DevNet Expert Certification",
+    "description": "Learn network automation fundamentals and what it takes to earn the Cisco Certified DevNet Expert certification from industry experts."
+  },
+  "ep-132-from-air-force-one-to-cybersecurity-a-journey-with-john-breth": {
+    "title": "Air Force One Networks to Cybersecurity with John Breth",
+    "description": "John Breth discusses his career path from military network engineering to cybersecurity roles at Tier 1 ISPs and content creation."
+  },
+  "ep-131-a-comprehensive-guide-to-media-networking-with-expert-josh-warcop": {
+    "title": "Media Networking with Josh Warcop: Video and Audio Over IP",
+    "description": "Learn how to packetize voice and video streams over IP networks and understand the transition from legacy formats to modern ethernet speeds."
+  },
+  "ep-130-exploring-the-influence-of-ai-on-network-engineering": {
+    "title": "AI in Network Engineering: Management, Config, Troubleshooting",
+    "description": "How AI impacts network management, automation, and troubleshooting. Explore benefits, data accuracy concerns, and false positives in networking."
+  },
+  "ep-129-exploring-tech-certification-challenges-with-brent-morris": {
+    "title": "Tech Certification Challenges and Security Plus Exam",
+    "description": "Learn about Security Plus exam preparation, the value of IT certifications, and building local network user groups in tech communities."
+  },
+  "ep-128-navigating-the-ccie-landscape-w-help-from-3-ccies": {
+    "title": "CCIE Certification: Tips from 3 CCIEs on Exam Strategy",
+    "description": "Learn CCIE exam prep strategies and career value from three certified engineers sharing their study methods and insider tips."
+  },
+  "ep-127-observability-with-phil-gervasi-and-kentik": {
+    "title": "Network Observability and Visibility with Phil Gervasi",
+    "description": "Learn how network observability helps you diagnose performance issues and answer questions about your network behavior."
+  },
+  "ep-126-surviving-the-storm-navigating-layoffs-and-job-hunting-in-the-tech-industry-with-brittany-mussett": {
+    "title": "Tech Layoffs and Job Hunting with Brittany Mussett",
+    "description": "How to navigate layoffs in tech and find your next role. Brittany Mussett shares her experience getting fired from a large tech company."
+  },
+  "ep-125-bearded-it-dad": {
+    "title": "Network Engineering Career & Management with Dakota Snow",
+    "description": "Dakota Snow shares his path to network management, content creation challenges, and why he started The Bearded IT Dad YouTube channel."
+  },
+  "ep-124-social-media": {
+    "title": "Social Media for Network Engineers: Pros and Cons",
+    "description": "Network engineers discuss the advantages and disadvantages of building your professional presence on social media platforms."
+  },
+  "ep-123-cisco-live-2023-recap": {
+    "title": "Cisco Live 2023 Recap: What Network Engineers Should Know",
+    "description": "Network engineers share their Cisco Live 2023 experience, key announcements, and tips for attending the conference."
+  },
+  "ep-122-what-is-ot-vs-it": {
+    "title": "Operational Technology OT vs IT: Differences",
+    "description": "Learn how operational technology differs from IT, what OT networks do, and why network engineers need to understand both."
+  },
+  "ep-121-juniper-apstra": {
+    "title": "Juniper Apstra: Network Automation for Engineers",
+    "description": "How Juniper Apstra addresses network engineer challenges with automation and intent-based networking."
+  },
+  "ep-120-transition-out-of-the-military-and-into-a-tech-career": {
+    "title": "Military to Tech Career: Tips from Veterans",
+    "description": "Three military veterans share practical advice for transitioning from armed forces service into networking and tech careers."
+  },
+  "ep-119-cyber-security-with-kyser-clark": {
+    "title": "Cybersecurity for Network Engineers with Kyser Clark",
+    "description": "Kyser Clark from the U.S. Air Force discusses cybersecurity roles, tech careers, and practical security strategies for network engineers."
+  },
+  "ep-118-jeremy-stretch": {
+    "title": "Jeremy Stretch: Network Engineer to Software Developer",
+    "description": "Jeremy Stretch discusses his career transition from network engineering to software development and his work on Packet Life cheat sheets."
+  },
+  "ep-117-what-is-network-as-a-service": {
+    "title": "Network as a Service (NaaS): What It Is and Why It Matters",
+    "description": "Explore what Network as a Service is, the problems it solves, and whether it changes the role of network engineers."
+  },
+  "ep-116-jason-gintert": {
+    "title": "Internet Exchanges and SD-WAN with Jason Gintert",
+    "description": "Learn how internet exchanges work, why you should join your local NUA chapter, and get an SD-WAN deep dive with WAN Dynamics CTO Jason Gintert."
+  },
+  "ep-115-from-the-cables-2-the-clouds": {
+    "title": "Cloud Migration for Network Engineers: Expert Tips",
+    "description": "Three cloud experts discuss moving network infrastructure from on-premises to cloud with practical guidance for engineers."
+  },
+  "ep-114-things-are-getting-cloudy": {
+    "title": "Cloud and SDN for Network Engineers with Shean Legion",
+    "description": "Learn cloud architecture challenges and benefits for network engineers. Shean Legion shares resources for getting started with cloud and SDN."
+  },
+  "ep-113-russ-white": {
+    "title": "Network Design & RFC Standards with Russ White",
+    "description": "Learn network architecture and routing standards from Russ White, RFC author and Cisco Certified Architect."
+  },
+  "ep-112-nfd30-special": {
+    "title": "NFD30 Recap: Network Engineering Highlights with Girard Kavelines",
+    "description": "A.J., Tim, and Girard Kavelines break down what they saw at Networking Field Day 30 and why it matters for network engineers."
+  },
+  "ep-111-wireless-networks": {
+    "title": "Wireless Networks with Rowell Dionicio",
+    "description": "Learn wireless network design and troubleshooting fundamentals from Rowell Dionicio of Clear to Send."
+  },
+  "ep-110-network-tools": {
+    "title": "Network Tools: Troubleshooting Commands and Methods",
+    "description": "Learn essential network troubleshooting tools like ping, traceroute, and log analysis to diagnose connectivity issues and pinpoint latency problems."
+  },
+  "ep-109-labs-labs-labs": {
+    "title": "Home Labs and Study Labs for Network Engineers",
+    "description": "Learn how to build and use home labs and study labs to improve your network engineering skills and hands-on experience."
+  },
+  "ep-108-tme-panel": {
+    "title": "Technical Marketing Engineer Role with Pete Lumbis and Wes Kennedy",
+    "description": "Learn what technical marketing engineers do, their daily work, and career path from two experienced TMEs."
+  },
+  "ep-107-augtera-networks": {
+    "title": "Augtera Networks with Rahul Aggarwal",
+    "description": "Founder and CEO Rahul Aggarwal explains how Augtera Networks helps network engineers automate and optimize network operations."
+  },
+  "ep-106-data-center-network-design": {
+    "title": "Data Center Network Design with Gabe Pariacote",
+    "description": "Learn data center network design from Gabe Pariacote, Principal Architect at Sirius Computer Solutions with 3x CCIE credentials."
+  },
+  "ep-105-leadership": {
+    "title": "Network Leadership Skills with Mike Bushong",
+    "description": "Learn what makes a good leader, how to connect with people genuinely, use questions effectively, and balance influence with work/life."
+  },
+  "ep-103-packet-capturing-with-chris-greer": {
+    "title": "Packet Capturing and Wireshark Analysis with Chris Greer",
+    "description": "Learn packet capturing and Wireshark analysis techniques from Chris Greer to troubleshoot network issues faster."
+  },
+  "ep-102-deep-dive-in-fiber-optics": {
+    "title": "Fiber Optics Fundamentals with Iain Geddes",
+    "description": "Learn how fiber optics works from a network reliability engineer. Technical deep dive into fiber optic networking concepts."
+  },
+  "ep-101-netris": {
+    "title": "Netris VPC Networking for On-Prem with Alex Saroyan",
+    "description": "Learn how Netris brings VPC networking to on-premises, edge, and bare metal infrastructure from CEO Alex Saroyan."
+  },
+  "ep-100-community-friendship-and-100-episodes-of-aone": {
+    "title": "100 Episodes: Network Engineering Community Milestone",
+    "description": "Celebrating 100 episodes of The Art of Network Engineering and the community of network engineers who made it possible."
+  },
+  "ep-99-mental-health-2": {
+    "title": "Mental Health for Network Engineers: Coping Strategies",
+    "description": "Network engineers discuss mental health, stress management, and how to get help in IT. Real talk from industry professionals."
+  },
+  "ep-98-jason-gooley-returns": {
+    "title": "Jason Gooley Returns: Metal DevOps & Network Engineering",
+    "description": "Jason Gooley rejoins The Art of Network Engineering podcast to discuss metal DevOps and network engineering practices."
+  },
+  "ep-97-ramtin-rampour": {
+    "title": "Out-of-Band Management with Ramtin Rampour",
+    "description": "Learn out-of-band management best practices and career growth in network engineering with Opengear Solution Architect Ramtin Rampour."
+  },
+  "ep-96-jeff-mclaughlin": {
+    "title": "Network Automation at Cisco with Jeff McLaughlin",
+    "description": "Jeff McLaughlin, Sr. Director of Technical Marketing at Cisco, discusses network automation, large tech companies, and his career path."
+  },
+  "ep-95-kori-younger": {
+    "title": "Career in Network Engineering with Kori Rongey",
+    "description": "Kori Rongey shares her path to Cisco, pursuing CCNA and CCNP certifications, and how her mother inspired her tech career."
+  },
+  "ep-94-geoff-anderson-ccna-pm": {
+    "title": "CCNA Certification Program with Geoff Anderson",
+    "description": "Interview with Cisco's CCNA Program Manager on exam questions, cert value, and what the certification means for network engineers."
+  },
+  "ep-93-adam-hill": {
+    "title": "ISP Consulting Engineer Adam Hill on Cloud Connectivity",
+    "description": "Adam Hill shares how ISP consulting engineers design reliable cloud connections and maintain high availability for customer networks."
+  },
+  "ep-92-aone-live-asheville": {
+    "title": "AONE Live Asheville: First Network Engineering Event",
+    "description": "Join us for highlights from Art of Network Engineering's first live event in Asheville with network engineers and industry experts."
+  },
+  "ep-91-our-first-time-recording-together": {
+    "title": "Art of Network Engineering: First In-Person Recording",
+    "description": "The hosts record together for the first time, sharing their Asheville meetup, podcast history, and future plans."
+  },
+  "ep-90-rocket-girl": {
+    "title": "Avionics Integration Engineer at Blue Origin: Lexie Cooper",
+    "description": "Network engineer Lexie Cooper shares her transition to avionics integration at Blue Origin and what she can and cannot discuss about the role."
+  },
+  "ep-89-shenetworks": {
+    "title": "SheNetworks: Building Network Engineering on TikTok with Serena DiPent",
+    "description": "Serena DiPenti shares her journey from Cisco TAC Engineer to TikTok creator making network engineering content for thousands of engineers."
+  },
+  "ep-88-john-capobianco-returns": {
+    "title": "Cisco Developer Advocate John Capobianco on Network Automation",
+    "description": "John Capobianco discusses his role as Cisco Developer Advocate and shares updates on community automation projects."
+  },
+  "ep-87-there-s-a-villa-and-it-s-real": {
+    "title": "Network Engineering Career Path with Jordan Villarreal",
+    "description": "Jordan Villarreal shares his unconventional start in networking and discusses his new position in this career conversation."
+  },
+  "ep-86-shouldn-t-you-know-everything-your-network-knows": {
+    "title": "Network Troubleshooting Automation with Tim Titus",
+    "description": "Tim Titus explains how automated troubleshooting helps junior engineers fix network problems fast without escalation or tribal knowledge."
+  },
+  "ep-85-bofhgirl": {
+    "title": "Network Engineering Career with Heather Donnelly",
+    "description": "20-year network engineer shares CCNA/CCNP path, Wayfair experience, and advice for women entering IT and networking careers."
+  },
+  "ep-84-tac-technical-attorney-center": {
+    "title": "Cisco TAC and Network Validation with Christopher Hart",
+    "description": "Learn how Cisco TAC engineers troubleshoot Nexus data center platforms and validate production networks from Christopher Hart."
+  },
+  "ep-83-salary-negotiation": {
+    "title": "Salary Negotiation for Network Engineers with Brittany Mussett",
+    "description": "Learn salary negotiation tactics for network engineers from recruiters and practitioners. Real strategies that work when job offers come in."
+  },
+  "ep-82-automate-your-network-with-itential": {
+    "title": "Network Automation with Itential: Peter Sprygada",
+    "description": "Learn how Itential's automation platform handles network workflows with pre and post-checks to prevent misconfigurations."
+  },
+  "ep-81-real-world-design-discussion": {
+    "title": "Small Manufacturing IT Overhaul: Real World Design",
+    "description": "A.J. shares his experience redesigning IT infrastructure for a small manufacturing company, covering practical design decisions and implementation challenges."
+  },
+  "ep-80-nick-russo": {
+    "title": "CCIE Career Path and Complex Networking with Nick Russo",
+    "description": "Learn how CCIE Nick Russo built his networking career from military service to technical leadership at Cisco solving customer challenges."
+  },
+  "ep-79-labeveryday": {
+    "title": "LabEveryDay and AWS with Du'An Lightfoot",
+    "description": "Du'An Lightfoot shares his military background, building the LabEveryDay brand, and his role as Sr. Developer Advocate at AWS."
+  },
+  "ep-78-time-to-move-on": {
+    "title": "Career Change: Network Engineer to Product Manager at Juniper",
+    "description": "Andy shares his move from FinTech network engineering to Juniper PM, tackling imposter syndrome and what changed his perspective forever."
+  },
+  "ep-77-new-year-new-goals": {
+    "title": "Network Engineer Goals for the New Year",
+    "description": "A.J., Tim, and Lexie share their goal-setting strategies and discuss the specific goals they're targeting for the year ahead."
+  },
+  "ep-76-deep-dive-with-women-in-networking": {
+    "title": "Women in Network Engineering: Challenges and Support",
+    "description": "Women network engineers discuss real challenges in the field, solutions that work, and how to build a more inclusive industry."
+  },
+  "ep-75-the-automation-chou-sen-one": {
+    "title": "Network Automation and Python with Eric Chou",
+    "description": "Learn network automation and Python fundamentals from Eric Chou, author of Master Python Networking and engineer at major cloud providers."
+  },
+  "ep-74-holiday-special": {
+    "title": "Holiday Special: Network Engineering Podcast",
+    "description": "A festive episode of The Art of Network Engineering podcast with holiday cheer and insights for network engineers."
+  },
+  "ep-73-zeros-and-wons": {
+    "title": "Network Engineer Career Path with David Alicea",
+    "description": "David Alicea shares his journey from Cisco Networking Academy to becoming a network engineer at Cisco, plus career advice for engineers."
+  },
+  "ep-72-cooking-up-a-new-career": {
+    "title": "Career Change to Cloud Consulting with Chris Randall",
+    "description": "Chef turned cloud consultant Chris Randall shares how work ethic and communication skills drive success in tech careers."
+  },
+  "ep-71-merlin-the-auto-magician": {
+    "title": "Network Automation with John Capobianco",
+    "description": "Learn how John Capobianco uses automation to solve real network problems at the Canadian House of Commons."
+  },
+  "ep-70-it-s-never-too-late": {
+    "title": "Career Growth in Networking with Chris Denney",
+    "description": "Chris Denney shares how willingness to tackle any task built his network engineering career and why it's never too late to start."
+  },
+  "ep-69-girard-kavelines": {
+    "title": "Girard Kavelines: From Geek Squad to Network Engineering",
+    "description": "Girard Kavelines shares his journey from fixing computers in his basement to building a network engineering career, starting with Geek Squad troubleshooting."
+  },
+  "ep-68-cloudy-with-a-chance-of-networking": {
+    "title": "Cloud Networking Career Path with Eyvonne Sharp",
+    "description": "Learn how Eyvonne Sharp progressed from small ISP work to architect at a major cloud provider."
+  },
+  "ep-67-the-buzz-about-netbeez": {
+    "title": "NetBeez Network Monitoring with CEO Stefano Gridelli",
+    "description": "NetBeez CEO Stefano Gridelli shares how he built network monitoring tools and grew the company from part-time side project."
+  },
+  "ep-66-cisco-live": {
+    "title": "Cisco Live 2022: Why Network Engineers Should Attend",
+    "description": "Learn why Cisco Live matters for network engineers, how to attend, and how to convince your manager to send you to this industry conference."
+  },
+  "ep-65-enterprise-network-design": {
+    "title": "Enterprise Network Design: 3-Tier Architecture & Access Layer",
+    "description": "Learn enterprise network design fundamentals: 3-tier architecture, routed vs switched access layers, and wireless network integration."
+  },
+  "ep-64-non-networking-skillz": {
+    "title": "Non-Networking Skills Network Engineers Need",
+    "description": "Technical skills beyond networking that make network engineers more valuable in their careers, from tools to technologies."
+  },
+  "ep-63-nfd26": {
+    "title": "Networking Field Day 26 Recap and Takeaways",
+    "description": "Network engineers break down Networking Field Day 26 presentations and share key takeaways from the event."
+  },
+  "ep-62-ok-shitbirds-its-time-to-learn-about-tracket-pacer": {
+    "title": "ENSAI Exam Prep and Network Engineering with Lexie Cooper",
+    "description": "Lexie Cooper shares her path to network engineering at a cloud company and live streams her ENSAI exam preparation journey."
+  },
+  "ep-61-home-labs": {
+    "title": "Home Labs for Network Engineers: Setup and Value",
+    "description": "Learn where to start with home labs and whether physical lab equipment is worth the investment for network engineers."
+  },
+  "ep-60-return-to-the-office": {
+    "title": "Return to Office for Network Engineers: RTO Policy Reality",
+    "description": "Andy and A.J. discuss return to office trends for IT professionals and whether full-time RTO is necessary for network engineers."
+  },
+  "ep-59-from-marketing-to-offensive-security": {
+    "title": "Marketing to Offensive Security with Lily Clark",
+    "description": "Lily Clark shares her career transition from marketing to offensive security, including learning resources like Kali Linux and practical advice for breaking in."
+  },
+  "ep-58-wheezy": {
+    "title": "Ice Cream to Network Engineering with Luis Garcia Jr",
+    "description": "Luis Garcia Jr shares his journey from ice cream to network engineering and the risky career moves that paid off."
+  },
+  "ep-57-welcome-to-tom-s-corner": {
+    "title": "Tom Hollingsworth: Senior Network Engineer to Tech Field Day",
+    "description": "Tom Hollingsworth shares his path to CCIE and how he became the face of Tech Field Day, plus how to join as a delegate."
+  },
+  "ep-56-documentation": {
+    "title": "Network Documentation Tools and Diagrams for Engineers",
+    "description": "Learn why network documentation matters and how to create diagrams using free tools like Diagrams.net and paid options like Lucidchart."
+  },
+  "ep-55-change-management": {
+    "title": "Change Management for Network Engineers",
+    "description": "Why change management exists, why it's painful, and how it helps network engineers avoid outages and maintain stability."
+  },
+  "ep-54-eiddor": {
+    "title": "Cisco Software-Defined Access with Roddie Hasan",
+    "description": "CCIE Roddie Hasan shares 30 years of networking experience, his CCIE journey, and expertise in Cisco Software-Defined Access."
+  },
+  "ep-53-manny": {
+    "title": "Breaking Into Enterprise Networking: Manny Pimentel",
+    "description": "Manny Pimentel shares how he broke into enterprise networking starting from retail and built a career helping others succeed."
+  },
+  "ep-52-the-cinna-man": {
+    "title": "Career Change to Cyber Security with Robin Canela",
+    "description": "Robin Canela shares how he transitioned to cyber security engineering and the decisions that shaped his network engineering career path."
+  },
+  "ep-51-sd-wan": {
+    "title": "SD-WAN Benefits vs Traditional WAN Networks",
+    "description": "Learn how SD-WAN compares to traditional WAN architectures and explore real-world SD-WAN implementations from network engineers."
+  },
+  "ep-50-ask-us-anything": {
+    "title": "Network Engineering Q&A: Answers to Your Top Questions",
+    "description": "Two hours of direct answers to network engineer questions submitted by listeners covering real challenges and practical solutions."
+  },
+  "ep-49-burnout-and-rustout": {
+    "title": "Burnout and Rustout: How Network Engineers Recover",
+    "description": "Learn what burnout and rustout mean for network engineers and practical strategies to deal with both when they hit your career."
+  },
+  "ep-48-out-of-band-management": {
+    "title": "Out-of-Band Management: Dan Baxter on OpenGear",
+    "description": "Learn what out-of-band management is and why network engineers need it. Dan Baxter from OpenGear explains the setup and advantages."
+  },
+  "ep-47-get-awoken-when-it-s-broken": {
+    "title": "On-Call Engineering: What to Ask During Interviews",
+    "description": "Learn what on-call duties mean for network engineers, how they vary by company, and what compensation questions to ask when interviewing."
+  },
+  "ep-46-time-management": {
+    "title": "Time Management Tips for Network Engineers",
+    "description": "Learn practical time management tactics and tools network engineers use daily to stay productive and organized."
+  },
+  "ep-45-softskillz": {
+    "title": "Soft Skills for Network Engineers: Tim Bertino",
+    "description": "Network engineers discuss developing soft skills, why they matter, and where they make the biggest impact in your career."
+  },
+  "ep-44-it-factor-crossover": {
+    "title": "IT and AV Professionals: Frank Padikkala on IT Factor",
+    "description": "Frank Padikkala discusses how IT and AV professionals intersect, plus his path to CCNA at age 17."
+  },
+  "ep-43-you-get-5-seconds": {
+    "title": "Fitness Trainer to Network Engineer with Teneyia Wilson",
+    "description": "Teneyia Wilson shares her career transition, discipline over motivation, and interview tips for network engineering jobs."
+  },
+  "ep-42-a-look-back": {
+    "title": "Network Engineering Podcast Year Review with Tim Bertino",
+    "description": "Looking back on 30 episodes of network engineering insights, CCNA blog series, and wins from the Winning channel."
+  },
+  "ep-41-from-audio-to-network-engineer": {
+    "title": "Career Change to Network Engineering with Beau Toop",
+    "description": "Audio engineer Beau Toop shares his transition to network engineering after COVID, covering A+, Net+, CCNA study, and landing your first IT job."
+  },
+  "ep-40-automacho": {
+    "title": "NOC to Network Automation: Kevin Camacho Interview",
+    "description": "Kevin Camacho shares his path from NOC operations to network automation engineering and gives advice for NOC careers."
+  },
+  "ep-39-andy-s-hard-noc-life": {
+    "title": "NOC Engineering: Mental Game & Hard Lessons",
+    "description": "Learn what it takes to succeed in a NOC role, from handling stress to building the mental skills network engineers need."
+  },
+  "ep-38-bart-castle-part-2": {
+    "title": "Cloud Benefits for Developers with Bart Castle",
+    "description": "Bart Castle discusses cloud advantages for software developers and his networking background in part two of this conversation."
+  },
+  "ep-37-bart-castle-part-1": {
+    "title": "Cloud Guru Bart Castle on Music and Network Stories",
+    "description": "Bart Castle shares his journey as a musician, artist, and cloud engineer, blending creative storytelling with network insights."
+  },
+  "ep-36-siloed-vs-jack-of-all-trades": {
+    "title": "Siloed vs Jack of All Trades Network Engineers",
+    "description": "Compare specialized vs generalist approaches to network engineering. Pros, cons, and real experience from the AONE team."
+  },
+  "ep-35-fortijeff": {
+    "title": "Sales Engineer Role & Career Path with Jeff Clark",
+    "description": "Learn how Jeff Clark transitioned from mortgage broker to network engineer to sales engineer at Fortinet and what the SE role involves."
+  },
+  "ep-34-technical-interviews": {
+    "title": "Technical Interviews for Network Engineers with Tim McConnaughy",
+    "description": "Prepare for technical interviews with Cisco's Tim McConnaughy. Learn interview strategies, preparation tips, and how to stand out."
+  },
+  "ep-33-cord-cutters": {
+    "title": "Cord Cutting: Streaming Impact on Network Infrastructure",
+    "description": "Explore how cord-cutting changes network demand, streaming economics, and why traditional TV distribution can't offer pay-per-view models."
+  },
+  "ep-32-make-it-stick": {
+    "title": "Make it Stick Learning Science with Peter Brown",
+    "description": "Peter Brown, co-author of Make it Stick, explains science-backed learning tactics network engineers can use to retain knowledge better."
+  },
+  "ep-31-tim-bertino": {
+    "title": "Tim Bertino on IT Careers and Healthcare Networking",
+    "description": "Tim Bertino shares his journey into IT and healthcare networking, plus insights on creating technical content for network engineers."
+  },
+  "ep-30-mental-health": {
+    "title": "Mental Health for Network Engineers",
+    "description": "Network engineers discuss why mental health matters, how to handle difficult times, and resources like meditation apps that help with stress and burnout."
+  },
+  "ep-29-cable-guys": {
+    "title": "Cable Guys: Starting Network Engineering Career",
+    "description": "How cable technician work builds skills for network engineering roles and IT careers."
+  },
+  "ep-28-before-we-got-into-it": {
+    "title": "Network Engineering Careers: Pre-IT Jobs and Career Pivots",
+    "description": "How network engineers Andy and A.J. ended up in IT after different career paths and life decisions before tech."
+  },
+  "ep-27-ccent-emeritus": {
+    "title": "Rural Network Engineering Jobs: Career Challenges",
+    "description": "How rural location affects network engineering job market, employer options, and career growth compared to urban areas."
+  },
+  "ep-26-goal-hacks": {
+    "title": "Goal Tracking Strategies for Network Engineers",
+    "description": "Learn practical methods to track progress on your goals, including flashcard techniques and exam prep strategies."
+  },
+  "ep-25-2021-goals": {
+    "title": "Network Engineering Goals for 2021",
+    "description": "Hear how network engineers set goals and plan their 2021 commitments. Share your goals with the community."
+  },
+  "ep-24-from-the-cab-to-tac": {
+    "title": "Cisco TAC Career Path with Mansoor Alam",
+    "description": "How Mansoor Alam went from driving a cab in NYC to becoming a Cisco TAC technical consulting engineer for Google and AT&T."
+  },
+  "ep-23-of-it": {
+    "title": "Network Engineer Study Habits with Keith Barker",
+    "description": "Keith Barker shares how to invest in your network engineering skills and stay motivated to grow your career."
+  },
+  "ep-22-the-og": {
+    "title": "Keith Barker's Journey to Two CCIEs",
+    "description": "Keith Barker shares how he broke into tech, became a teacher, and earned two CCIE certifications in this two-part interview."
+  },
+  "ep-21-he-automates-a-lan-down-unda": {
+    "title": "Network Automation Engineer Daniel Teycheney on Getting Started",
+    "description": "Daniel Teycheney shares his network automation journey and practical advice for engineers looking to start automating their LANs."
+  },
+  "ep-20-top-10-questions": {
+    "title": "Top 10 Networking Questions: Study Materials, Labs, Habits",
+    "description": "Answers to beginner networking questions: which study materials work best, physical vs virtual labs, and effective study habits for network engineers."
+  },
+  "ep-19-she-s-got-jobs": {
+    "title": "Network Engineering Jobs with Brittany Mussett",
+    "description": "Learn how to land network engineering roles from a tech recruiter. Brittany Mussett shares hiring processes and job search strategies."
+  },
+  "ep-18-carl": {
+    "title": "Carl Zellers: Network Career Path & Cisco Exam Prep",
+    "description": "Carl Zellers shares his journey from the Marines to network engineering and breaks down how to prepare for Cisco certification exams."
+  },
+  "ep-17-the-a-j-and-aaron-show": {
+    "title": "Network Engineer Study Habits and Total Compensation",
+    "description": "A.J. and Aaron discuss learning methods, study techniques, and negotiating total compensation with your employer."
+  },
+  "ep-16-what-is-a-network-engineer": {
+    "title": "What is a Network Engineer? With Zig Zsiga",
+    "description": "Zig Zsiga, Cisco architect and dual CCIE, defines network engineering roles and career paths for engineers."
+  },
+  "ep-15-knox": {
+    "title": "Network Engineering Interview with Knox Hutchinson",
+    "description": "Part 2 interview with Knox Hutchinson covering practical network engineering topics and career insights for engineers."
+  },
+  "ep-14-data": {
+    "title": "Knox Hutchinson on IT Training and Network Engineering",
+    "description": "Knox Hutchinson, CBT trainer, shares his journey into IT and network engineering training. Part one of two."
+  },
+  "ep-13-deirra-footman-ccieby30": {
+    "title": "Network Engineering Career Path with Deirra Footman",
+    "description": "Deirra Footman shares her IT journey and network engineering career advice, including practical lessons for aspiring engineers."
+  },
+  "ep-12-the-packet-pilot": {
+    "title": "From Help Desk to Network Engineering with Matthew Ouellette",
+    "description": "Matthew Ouellette shares his career path from entry-level support to network engineering and the lessons learned along the way."
+  },
+  "ep-11-gifted-lane": {
+    "title": "Getting Into Network Engineering with Shala Warner",
+    "description": "Shala Warner shares her path to networking, from building networks to supporting major oil and gas infrastructure."
+  },
+  "ep-10-single-pa-i-won-t-say-it": {
+    "title": "Art of Network Engineering Episode 10 Milestone Recap",
+    "description": "Hosts reflect on 10 episodes, share listener feedback, discuss COVID impacts, and preview what's coming next for the podcast."
+  },
+  "ep-9-time-2-rize-and-grind": {
+    "title": "Help Desk to Network Engineering with Eugene Byers Jr",
+    "description": "Eugene Byers Jr shares his journey from help desk to network engineering and how maintaining a positive attitude drives career growth."
+  },
+  "ep-08-dis-order-in-the-data-center": {
+    "title": "Data Center Network Engineering with Micheline Murphy",
+    "description": "Micheline Murphy shares her journey from lawyer to network engineer and gives advice on data center design and Cisco ACI."
+  },
+  "ep-07-the-joe-show": {
+    "title": "Infrastructure Architect Joe Lemaire on Network Engineering",
+    "description": "Joe Lemaire shares how his career path prepared him to architect infrastructure across networking and beyond at a SaaS company."
+  },
+  "ep-06-24": {
+    "title": "Early Career Success: Taylor Harris at 24 with 4 Certs",
+    "description": "Taylor Harris shares how he built a strong IT career by age 24 with multiple professional certifications and the study habits that got him there."
+  },
+  "ep-05-halo-memes-and-harry-potter-castles": {
+    "title": "Career Path to CCNP and Design Architect - Danny Finein",
+    "description": "Danny Finein shares his journey from Marine IT Specialist to CCNP-certified Design Architect in healthcare and VAR environments."
+  },
+  "ep-04-personal-brand": {
+    "title": "Personal Brand for Network Engineers: Stand Out",
+    "description": "Learn why personal brand matters for network engineers and how to stand out in job interviews and your career."
+  },
+  "ep-03-lame-relay-and-vtp-heroes": {
+    "title": "CCNA Blueprint Changes and Network Engineer Interviews",
+    "description": "CCNA certification value, what changed in the blueprint, and what works when interviewing for network engineering jobs."
+  },
+  "ep-02-failure-plaques-and-cloud-people": {
+    "title": "COVID Impact on Network Teams and Cloud Migration",
+    "description": "How COVID-19 changed network engineering teams and the shift to cloud-based infrastructure and remote work."
+  },
+  "ep-01-meet-the-team": {
+    "title": "Meet the Network Engineering Podcast Team",
+    "description": "Get to know the hosts of The Art of Network Engineering and learn about their backgrounds and career paths."
+  }
+}
