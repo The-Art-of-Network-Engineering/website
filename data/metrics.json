@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-17T23:29:34+00:00",
+  "updated_at": "2026-07-20T13:00:06+00:00",
   "auto": {
-    "youtube_subscribers": 9870,
-    "youtube_views": 528725,
-    "youtube_videos": 607,
-    "lifetime_downloads": 920615,
+    "youtube_subscribers": 9890,
+    "youtube_views": 529958,
+    "youtube_videos": 609,
+    "lifetime_downloads": 921245,
     "episodes": 205,
-    "recent_avg_downloads": 2457
+    "recent_avg_downloads": 2499
   },
   "manual": {
     "x_followers": 19000,
