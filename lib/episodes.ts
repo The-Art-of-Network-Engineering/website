@@ -26,6 +26,18 @@ export function orderedGuests(episode: { title: string; guests: Guest[] }): Gues
   return reordered;
 }
 
+// Stable URL slug for a guest name: lowercase, spaces → hyphens, strip anything
+// that isn't [a-z0-9-], and collapse repeated hyphens. e.g. "Radia Perlman" → "radia-perlman".
+export function guestSlug(name: string): string {
+  return name
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
 export type YoutubeRef = {
   videoId: string;
   thumbnailUrl: string;

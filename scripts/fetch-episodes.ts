@@ -6,6 +6,7 @@ import { buildYoutubeMatcher } from '../lib/youtube-match';
 const RSS_URL = 'https://rss.buzzsprout.com/2127872.rss';
 const OUT_PATH = resolve(process.cwd(), 'data/episodes.json');
 const YT_MAP_PATH = resolve(process.cwd(), 'data/youtube_map.json');
+const YT_OVERRIDES_PATH = resolve(process.cwd(), 'data/youtube_overrides.json');
 
 async function main() {
   console.log(`Fetching ${RSS_URL}`);
@@ -39,6 +40,25 @@ async function main() {
     console.log(`Matched ${matched}/${feed.episodes.length} episodes to YouTube videos`);
   } else {
     console.warn(`No youtube_map.json at ${YT_MAP_PATH}; skipping YouTube enrichment`);
+  }
+
+  // Manual slug → videoId overrides for episodes the fuzzy title matcher can't
+  // link (e.g. the YouTube upload was titled differently than the podcast episode).
+  if (existsSync(YT_OVERRIDES_PATH)) {
+    const overrides = JSON.parse(readFileSync(YT_OVERRIDES_PATH, 'utf-8')) as Record<string, string>;
+    let applied = 0;
+    for (const ep of feed.episodes) {
+      const videoId = overrides[ep.slug];
+      if (videoId) {
+        ep.youtube = {
+          videoId,
+          thumbnailUrl: `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`,
+          watchUrl: `https://www.youtube.com/watch?v=${videoId}`,
+        };
+        applied++;
+      }
+    }
+    console.log(`Applied ${applied} manual YouTube override(s)`);
   }
 
   mkdirSync(dirname(OUT_PATH), { recursive: true });

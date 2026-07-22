@@ -4,7 +4,7 @@ import Link from 'next/link';
 import feed from '@/data/episodes.json';
 import seoOverrides from '@/data/episode_seo.json';
 import type { Feed, Episode } from '@/lib/episodes';
-import { orderedGuests } from '@/lib/episodes';
+import { orderedGuests, guestSlug } from '@/lib/episodes';
 import { SectionLabel } from '@/components/SectionLabel';
 import { SubscribeButtons } from '@/components/SubscribeButtons';
 import { formatDate, formatDuration } from '@/lib/format';
@@ -121,6 +121,24 @@ export default function EpisodePage({ params }: { params: { slug: string } }) {
         )}
       </div>
 
+      {ep.youtube?.videoId && (
+        <div className="mt-10">
+          <SectionLabel>Watch</SectionLabel>
+          <div className="mt-4 aspect-video w-full overflow-hidden border border-border rounded-sm">
+            <iframe
+              src={`https://www.youtube.com/embed/${ep.youtube.videoId}`}
+              loading="lazy"
+              width="100%"
+              height="100%"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="h-full w-full"
+              title={`Watch: ${ep.title}`}
+            />
+          </div>
+        </div>
+      )}
+
       {playerId && (
         <div className="mt-10">
           <iframe
@@ -149,43 +167,52 @@ export default function EpisodePage({ params }: { params: { slug: string } }) {
               <SectionLabel>Guests</SectionLabel>
               <ul className="mt-4 space-y-4">
                 {guests.map((g) => {
-                  const inner = (
-                    <div className="flex items-center gap-3">
-                      {g.imageUrl ? (
-                        <img
-                          src={g.imageUrl}
-                          alt=""
-                          loading="lazy"
-                          className="h-12 w-12 object-cover rounded-full border border-border bg-bg"
-                        />
-                      ) : (
-                        <div className="h-12 w-12 rounded-full border border-border bg-bg flex items-center justify-center text-text-muted text-xs font-display">
-                          {g.name
-                            .split(/\s+/)
-                            .map((part) => part[0])
-                            .filter(Boolean)
-                            .slice(0, 2)
-                            .join('')
-                            .toUpperCase()}
-                        </div>
-                      )}
-                      <span className="text-sm text-text font-semibold">{g.name}</span>
+                  const avatar = g.imageUrl ? (
+                    <img
+                      src={g.imageUrl}
+                      alt=""
+                      loading="lazy"
+                      className="h-12 w-12 object-cover rounded-full border border-border bg-bg"
+                    />
+                  ) : (
+                    <div className="h-12 w-12 rounded-full border border-border bg-bg flex items-center justify-center text-text-muted text-xs font-display">
+                      {g.name
+                        .split(/\s+/)
+                        .map((part) => part[0])
+                        .filter(Boolean)
+                        .slice(0, 2)
+                        .join('')
+                        .toUpperCase()}
                     </div>
                   );
                   return (
                     <li key={`${g.name}-${g.href ?? ''}`}>
-                      {g.href ? (
-                        <a
-                          href={g.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="block hover:opacity-90"
+                      <div className="flex items-center gap-3">
+                        <Link
+                          href={`/guests/${guestSlug(g.name)}`}
+                          className="flex-shrink-0 hover:opacity-90"
                         >
-                          {inner}
-                        </a>
-                      ) : (
-                        inner
-                      )}
+                          {avatar}
+                        </Link>
+                        <div className="min-w-0">
+                          <Link
+                            href={`/guests/${guestSlug(g.name)}`}
+                            className="block text-sm text-text font-semibold hover:text-accent-blue"
+                          >
+                            {g.name}
+                          </Link>
+                          {g.href && (
+                            <a
+                              href={g.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-xs font-mono uppercase tracking-label text-text-muted hover:text-accent-blue"
+                            >
+                              LinkedIn
+                            </a>
+                          )}
+                        </div>
+                      </div>
                     </li>
                   );
                 })}
