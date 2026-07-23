@@ -58,17 +58,22 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-// Extract numeric Buzzsprout episode id from "Buzzsprout-19195553" for player embed
-const playerIdFromGuid = (id: string): string | null => {
-  const match = id.match(/^Buzzsprout-(\d+)$/);
-  return match ? match[1] : null;
+// Buzzsprout numeric episode id for the player embed. Newer episodes carry it in
+// the GUID ("Buzzsprout-19195553"); older WordPress-imported episodes only have it
+// in the audio URL (buzzsprout.com/<show>/episodes/12345-slug.mp3). Try both so the
+// player renders for the whole back catalog, not just post-migration episodes.
+const playerIdFromEpisode = (ep: Episode): string | null => {
+  const guid = ep.id.match(/^Buzzsprout-(\d+)$/);
+  if (guid) return guid[1];
+  const fromAudio = (ep.audioUrl || '').match(/buzzsprout\.com\/\d+\/episodes\/(\d+)/);
+  return fromAudio ? fromAudio[1] : null;
 };
 
 export default function EpisodePage({ params }: { params: { slug: string } }) {
   const ep = findEpisode(params.slug);
   if (!ep) notFound();
 
-  const playerId = playerIdFromGuid(ep.id);
+  const playerId = playerIdFromEpisode(ep);
   const guests = orderedGuests(ep);
 
   const jsonLd = {
