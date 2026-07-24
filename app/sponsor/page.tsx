@@ -36,6 +36,7 @@ const partners = [
   'Juniper Apstra',
   'Itential',
   'Forward Networks',
+  'Transit AI',
   'Kentik',
   'NetAlly',
   'Opengear',
