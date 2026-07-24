@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import { SectionLabel } from '@/components/SectionLabel';
 import { StatCard } from '@/components/StatCard';
 import { metrics } from '@/lib/metrics';
+// Sponsor roster: single source of truth is sponsors.toml on the server, synced
+// here by sync_website_sponsors.py. Do not hand-edit this list.
+import partners from '@/data/sponsors.json';
 
 export const metadata: Metadata = {
   title: 'Sponsor AONE',
@@ -28,25 +31,6 @@ const reach = [
   { window: 'First 30 days', dl: '2,300 downloads' },
   { window: 'First 60 days', dl: '2,800 downloads' },
   { window: 'Catalog / month', dl: '9,300 downloads' },
-];
-
-const partners = [
-  'Cisco Press',
-  'Meter',
-  'Juniper Apstra',
-  'Itential',
-  'Forward Networks',
-  'Transit AI',
-  'Kentik',
-  'NetAlly',
-  'Opengear',
-  'Celona',
-  'PathSolutions',
-  'Augtera',
-  'Netris',
-  'Unimus',
-  'Boson',
-  'USNUA',
 ];
 
 const packages = [
