@@ -56,6 +56,7 @@ const rfcs: Link[] = [
   { name: 'RFC 768 — User Datagram Protocol (UDP)', href: 'https://datatracker.ietf.org/doc/html/rfc768', note: 'UDP, three pages, still in force after 45 years.' },
   { name: 'RFC 4271 — Border Gateway Protocol 4 (BGP-4)', href: 'https://datatracker.ietf.org/doc/html/rfc4271', note: 'The protocol that holds the internet together.' },
   { name: 'RFC 2328 — OSPF Version 2', href: 'https://datatracker.ietf.org/doc/html/rfc2328', note: 'OSPFv2, the most common interior gateway protocol in enterprise networks.' },
+  { name: 'RFC 7868 — Cisco\'s EIGRP', href: 'https://datatracker.ietf.org/doc/html/rfc7868', note: 'Cisco\'s once-proprietary interior gateway protocol, published in the open in 2016. Read it after you\'ve brought up a few adjacencies in the lab and want the authoritative behavior behind them.' },
   { name: 'RFC 1918 — Address Allocation for Private Internets', href: 'https://datatracker.ietf.org/doc/html/rfc1918', note: 'Where 10/8, 172.16/12, and 192.168/16 come from.' },
   { name: 'RFC 5424 — The Syslog Protocol', href: 'https://datatracker.ietf.org/doc/html/rfc5424', note: 'Standard for transmitting log messages across networks.' },
   { name: 'RFC 1034 / 1035 — Domain Names', href: 'https://datatracker.ietf.org/doc/html/rfc1035', note: 'Foundational DNS specification.' },
