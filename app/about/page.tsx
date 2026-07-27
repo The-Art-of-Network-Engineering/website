@@ -53,7 +53,7 @@ export default function AboutPage() {
               <p>
                 What started as a podcast has grown into a multi-channel platform: long-form
                 audio interviews, short and long-form video on YouTube, a Discord community of
-                3,500 engineers, and a newsletter launching summer 2026.
+                3,500 engineers, and The Shortest Path, our newsletter for network engineers.
               </p>
             </div>
           </section>
