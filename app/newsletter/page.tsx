@@ -12,19 +12,18 @@ export default function NewsletterPage() {
   return (
     <div className="mx-auto max-w-content px-6 py-16">
       <SectionLabel>Newsletter</SectionLabel>
-      <div className="mt-4 max-w-3xl overflow-hidden rounded-sm border border-border">
+      <div className="mt-4 max-w-2xl overflow-hidden rounded-sm border border-border">
         <Image
           src="/shortest-path-banner.png"
-          alt="The Shortest Path — Your Career's Control Plane"
+          alt="The Shortest Path, Your Career's Control Plane"
           width={1200}
-          height={400}
+          height={360}
           className="h-auto w-full"
           priority
         />
-        <div className="bg-surface p-6 md:p-8">
+        <div className="bg-surface p-6">
           <p className="text-text text-lg">
-            Practical career guidance from network engineering&apos;s brightest minds, one idea per
-            issue.
+            Practical career guidance from network engineering&apos;s brightest minds.
           </p>
           <p className="mt-3 text-text-muted">
             No filler, no list-padding sponsors, no AI slop. Subscribe and the next issue lands in

@@ -61,9 +61,9 @@ export function NewsletterPopup() {
         </button>
         <Image
           src="/shortest-path-banner.png"
-          alt="The Shortest Path — Your Career's Control Plane"
+          alt="The Shortest Path, Your Career's Control Plane"
           width={1200}
-          height={400}
+          height={360}
           className="h-auto w-full"
         />
         <div className="p-6">
