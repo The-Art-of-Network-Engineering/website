@@ -1,7 +1,9 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import feed from '@/data/episodes.json';
 import type { Feed } from '@/lib/episodes';
 import { NewsletterForm } from '@/components/NewsletterForm';
+import { NewsletterPopup } from '@/components/NewsletterPopup';
 import { SectionLabel } from '@/components/SectionLabel';
 import { SubscribeButtons } from '@/components/SubscribeButtons';
 
@@ -26,7 +28,7 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-content px-6">
       {/* Hero */}
-      <section className="py-20 md:py-28">
+      <section className="py-14 md:py-20">
         <h1 className="font-display text-5xl md:text-6xl leading-tight">
           Behind every network is a{' '}
           <span className="text-accent-green">story</span>.
@@ -36,43 +38,21 @@ export default function Home() {
           architects, and innovators building the infrastructure running our digital lives.
           Technical depth, career insight, and compelling stories from the front lines of IT.
         </p>
-        <div className="mt-10">
+        <div className="mt-8">
           <SubscribeButtons />
-          <p className="mt-4 text-sm">
+          <p className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm">
             <Link href="/listen" className="text-accent-blue">
               All the ways to listen →
             </Link>
+            <a href="#newsletter" className="text-accent-blue">
+              Get the newsletter →
+            </a>
           </p>
         </div>
       </section>
 
-      {/* Newsletter */}
-      <section className="py-12 border-t border-border">
-        <SectionLabel>Newsletter</SectionLabel>
-        <h2 className="mt-4 font-display text-3xl">
-          The Shortest Path
-        </h2>
-        <p className="mt-4 max-w-2xl text-text-muted">
-          Practical career guidance from our industry's brightest minds, delivered to your inbox
-          every week.
-        </p>
-        <div className="mt-4 max-w-xl">
-          <NewsletterForm />
-        </div>
-        <p className="mt-4 text-sm">
-          <a
-            href="https://theshortestpath.beehiiv.com/p/proof-beats-permission"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent-blue"
-          >
-            Read the latest issue →
-          </a>
-        </p>
-      </section>
-
       {/* Latest episode */}
-      <section className="py-12 border-t border-border">
+      <section className="py-10 md:py-12 border-t border-border">
         <SectionLabel>Latest episode</SectionLabel>
         <h2 className="mt-4 font-display text-2xl md:text-3xl leading-snug max-w-3xl">
           {latest.title}
@@ -135,8 +115,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Newsletter */}
+      <section id="newsletter" className="py-12 border-t border-border">
+        <SectionLabel>Newsletter</SectionLabel>
+        <div className="mt-4 max-w-3xl overflow-hidden rounded-sm border border-border">
+          <Image
+            src="/shortest-path-banner.png"
+            alt="The Shortest Path — Your Career's Control Plane"
+            width={1200}
+            height={400}
+            className="h-auto w-full"
+          />
+          <div className="bg-surface p-6">
+            <p className="text-text-muted">
+              One idea per issue, pulled from six years of conversations with network engineers. No
+              filler, no list-padding sponsors, no AI slop.
+            </p>
+            <div className="mt-4 max-w-md">
+              <NewsletterForm />
+            </div>
+            <p className="mt-3 text-sm">
+              <a
+                href="https://theshortestpath.beehiiv.com/p/proof-beats-permission"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent-blue"
+              >
+                Read the latest issue →
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Sponsor CTA */}
-      <section className="py-16 border-t border-border">
+      <section className="py-12 md:py-16 border-t border-border">
         <SectionLabel>For Sponsors</SectionLabel>
         <h2 className="mt-4 font-display text-3xl">
           Reach the network engineers who <span className="text-accent-green">build, evaluate, and buy</span>.
@@ -155,6 +168,7 @@ export default function Home() {
         </div>
       </section>
 
+      <NewsletterPopup />
     </div>
   );
 }
