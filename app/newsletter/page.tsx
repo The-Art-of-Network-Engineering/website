@@ -19,10 +19,20 @@ export default function NewsletterPage() {
         every week.
       </p>
       <p className="mt-4 max-w-2xl text-text-muted">
-        No filler, no list-padding sponsors, no AI slop. Subscribe and the next issue lands in your
-        inbox. <a href="https://theshortestpath.beehiiv.com/" className="text-accent-blue">Read the latest issue.</a>
+        No filler, no list-padding sponsors, no AI slop. Subscribe and the next issue lands in your inbox.
       </p>
-      <div className="mt-6 max-w-xl">
+      <div className="mt-8 flex flex-wrap items-center gap-4">
+        <a
+          href="https://theshortestpath.beehiiv.com/p/proof-beats-permission"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-accent-green text-bg font-semibold px-6 py-3 rounded-sm hover:opacity-90 transition-opacity"
+        >
+          Read the latest issue →
+        </a>
+        <span className="text-sm text-text-muted">opens in a new tab</span>
+      </div>
+      <div className="mt-8 max-w-xl">
         <NewsletterForm />
       </div>
     </div>
