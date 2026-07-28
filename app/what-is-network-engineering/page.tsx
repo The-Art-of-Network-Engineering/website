@@ -290,7 +290,7 @@ export default function WhatIsNetworkEngineeringPage() {
             <p className="mt-4 text-sm text-text">
               The Art of Network Engineering is an independent podcast for network engineers
               and infrastructure professionals, with 200+ episodes, a 3,500-member Discord, and
-              a newsletter launching summer 2026.
+              The Shortest Path, our newsletter for network engineers.
             </p>
             <Link href="/about" className="mt-4 inline-block text-sm text-accent-blue">
               Learn more about AONE
