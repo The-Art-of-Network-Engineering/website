@@ -50,7 +50,7 @@ export default function Home() {
       <section className="py-12 border-t border-border">
         <SectionLabel>Newsletter</SectionLabel>
         <h2 className="mt-4 font-display text-3xl">
-          The Shortest Path. <span className="text-text-muted">Now live.</span>
+          The Shortest Path
         </h2>
         <p className="mt-4 max-w-2xl text-text-muted">
           Practical career guidance from our industry's brightest minds, delivered to your inbox
