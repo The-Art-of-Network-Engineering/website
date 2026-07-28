@@ -46,6 +46,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Newsletter */}
+      <section className="py-12 border-t border-border">
+        <SectionLabel>Newsletter</SectionLabel>
+        <h2 className="mt-4 font-display text-3xl">
+          The Shortest Path. <span className="text-text-muted">Now live.</span>
+        </h2>
+        <p className="mt-4 max-w-2xl text-text-muted">
+          Practical career guidance from our industry's brightest minds, delivered to your inbox
+          every week.
+        </p>
+        <div className="mt-4 max-w-xl">
+          <NewsletterForm />
+        </div>
+        <p className="mt-4 text-sm">
+          <a
+            href="https://theshortestpath.beehiiv.com/p/proof-beats-permission"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent-blue"
+          >
+            Read the latest issue →
+          </a>
+        </p>
+      </section>
+
       {/* Latest episode */}
       <section className="py-12 border-t border-border">
         <SectionLabel>Latest episode</SectionLabel>
@@ -130,20 +155,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Newsletter */}
-      <section className="py-16 border-t border-border">
-        <SectionLabel>Newsletter</SectionLabel>
-        <h2 className="mt-4 font-display text-3xl">
-          The Shortest Path. <span className="text-text-muted">Now live.</span>
-        </h2>
-        <p className="mt-4 max-w-2xl text-text-muted">
-          Practical career guidance from our industry's brightest minds, delivered to your inbox
-          every week.
-        </p>
-        <div className="mt-3 max-w-xl">
-          <NewsletterForm />
-        </div>
-      </section>
     </div>
   );
 }
