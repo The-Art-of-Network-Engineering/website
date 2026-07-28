@@ -116,25 +116,25 @@ export default function Home() {
       </section>
 
       {/* Newsletter */}
-      <section id="newsletter" className="py-12 border-t border-border">
+      <section id="newsletter" className="py-10 border-t border-border">
         <SectionLabel>Newsletter</SectionLabel>
-        <div className="mt-4 max-w-3xl overflow-hidden rounded-sm border border-border">
+        <div className="mt-4 max-w-2xl overflow-hidden rounded-sm border border-border">
           <Image
             src="/shortest-path-banner.png"
-            alt="The Shortest Path — Your Career's Control Plane"
+            alt="The Shortest Path, Your Career's Control Plane"
             width={1200}
-            height={400}
+            height={360}
             className="h-auto w-full"
           />
-          <div className="bg-surface p-6">
-            <p className="text-text-muted">
-              One idea per issue, pulled from six years of conversations with network engineers. No
-              filler, no list-padding sponsors, no AI slop.
+          <div className="bg-surface p-5">
+            <p className="text-sm text-text-muted">
+              Practical career guidance for network engineers, pulled from six years of
+              conversations on the show. No filler, no list-padding sponsors, no AI slop.
             </p>
             <div className="mt-4 max-w-md">
               <NewsletterForm />
             </div>
-            <p className="mt-3 text-sm">
+            <p className="mt-2 text-sm">
               <a
                 href="https://theshortestpath.beehiiv.com/p/proof-beats-permission"
                 target="_blank"
