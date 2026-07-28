@@ -12,7 +12,7 @@ export default function NewsletterPage() {
     <div className="mx-auto max-w-content px-6 py-16">
       <SectionLabel>Newsletter</SectionLabel>
       <h1 className="mt-4 font-display text-4xl">
-        The Shortest Path. <span className="text-text-muted">Now live.</span>
+        The Shortest Path
       </h1>
       <p className="mt-6 max-w-2xl text-text text-lg">
         Practical career guidance from our industry's brightest minds, delivered to your inbox
@@ -30,7 +30,6 @@ export default function NewsletterPage() {
         >
           Read the latest issue →
         </a>
-        <span className="text-sm text-text-muted">opens in a new tab</span>
       </div>
       <div className="mt-8 max-w-xl">
         <NewsletterForm />
