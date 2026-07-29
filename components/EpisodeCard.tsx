@@ -9,9 +9,9 @@ const SHOW_FALLBACK_IMAGE = (feed as { show: { image: string } }).show.image;
 export function EpisodeCard({ episode }: { episode: Episode }) {
   const guests = orderedGuests(episode);
   const primaryImage =
+    episode.youtube?.thumbnailUrl ??
     guests.find((g) => g.imageUrl)?.imageUrl ??
     episode.artworkUrl ??
-    episode.youtube?.thumbnailUrl ??
     SHOW_FALLBACK_IMAGE;
   const guestNames = guests.map((g) => g.name);
 
