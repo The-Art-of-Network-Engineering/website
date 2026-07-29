@@ -4,7 +4,7 @@ slug: "then-who-am-i"
 publishedAt: "2026-07-29"
 excerpt: "I stood on a stage and told a room I hated network automation. Now I've got a repo where strangers send me pull requests. What changed was never the tech."
 author: "Andy Lapteff"
-coverImage: "/blog-images/then-who-am-i.png"
+coverImage: "/blog-images/then-who-am-i.jpg"
 episodeSlug: "whoami-network-engineering-s-identity-crisis"
 ---
 
@@ -16,7 +16,7 @@ Last month I built a website with a repo on GitHub. People can open issues and s
 
 Same guy.
 
-So what changed? I sat down at AutoCon 5 in Munich with Chris Grundemann and Scott Robohn, the two co-founders of the Network Automation Forum, and Chris said something that put a name to the thing I'd been circling for years.
+So what changed? I sat down at AutoCon 5 in Munich with [Chris Grundemann](https://www.linkedin.com/in/cgrundemann) and [Scott Robohn](https://www.linkedin.com/in/scottrobohn), the two co-founders of the [Network Automation Forum](https://networkautomation.forum/), and Chris said something that put a name to the thing I'd been circling for years.
 
 He said what’s driving low rates of network automation adoption isn't the tooling. It's identity.
 
@@ -89,3 +89,9 @@ Go listen to the episode with Chris and Scott. They’re doing great work and ch
 
 - [On the AONE website](https://artofnetworkengineering.com/episodes/whoami-network-engineering-s-identity-crisis) (Apple, Spotify, and every podcast app)
 - [On YouTube](https://www.youtube.com/watch?v=UnS7AnLkPoY)
+
+**Connect with the guests and their work:**
+
+- [Chris Grundemann on LinkedIn](https://www.linkedin.com/in/cgrundemann)
+- [Scott Robohn on LinkedIn](https://www.linkedin.com/in/scottrobohn)
+- [The Network Automation Forum](https://networkautomation.forum/)
