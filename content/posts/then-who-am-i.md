@@ -5,6 +5,7 @@ publishedAt: "2026-07-29"
 excerpt: "I stood on a stage and told a room I hated network automation. Now I've got a repo where strangers send me pull requests. What changed was never the tech."
 author: "Andy Lapteff"
 coverImage: "/blog-images/then-who-am-i.png"
+episodeSlug: "whoami-network-engineering-s-identity-crisis"
 ---
 
 Eighteen months ago I stood on a stage and told a room full of people I hated network automation.
@@ -80,3 +81,11 @@ I couldn't do it until I did. And now I can. So can you.
 Go listen to the episode with Chris and Scott. They’re doing great work and changing lives in the process. They’ve both helped me change my life and career, and for that I am eternally grateful. 
 
 /Andy
+
+
+---
+
+**Listen or watch the full episode with Chris Grundemann and Scott Robohn:**
+
+- [On the AONE website](https://artofnetworkengineering.com/episodes/whoami-network-engineering-s-identity-crisis) (Apple, Spotify, and every podcast app)
+- [On YouTube](https://www.youtube.com/watch?v=UnS7AnLkPoY)
