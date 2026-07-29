@@ -4,7 +4,7 @@ slug: "then-who-am-i"
 publishedAt: "2026-07-29"
 excerpt: "I stood on a stage and told a room I hated network automation. Now I've got a repo where strangers send me pull requests. What changed was never the tech."
 author: "Andy Lapteff"
-coverImage: "/blog-images/then-who-am-i.png"
+coverImage: "/blog-images/then-who-am-i.jpg"
 episodeSlug: "whoami-network-engineering-s-identity-crisis"
 ---
 
