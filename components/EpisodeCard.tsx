@@ -20,12 +20,12 @@ export function EpisodeCard({ episode }: { episode: Episode }) {
       href={`/episodes/${episode.slug}`}
       className="group flex gap-4 border border-border bg-surface hover:border-accent-blue transition-colors p-4 rounded-sm"
     >
-      <div className="flex-shrink-0">
+      <div className="flex-shrink-0 w-32 sm:w-40 aspect-video overflow-hidden rounded-sm border border-border bg-bg">
         <img
           src={primaryImage}
           alt=""
           loading="lazy"
-          className="h-20 w-20 object-cover rounded-sm border border-border bg-bg"
+          className="h-full w-full object-cover"
         />
       </div>
       <div className="min-w-0 flex-1">
