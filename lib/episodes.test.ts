@@ -195,3 +195,28 @@ describe('sanitizeShowNotes', () => {
     expect(clean).toContain('<li>one</li>');
   });
 });
+
+describe('parseFeed entity decoding (fast-xml-parser v5 regression)', () => {
+  const xml = [
+    '<?xml version="1.0"?>',
+    '<rss><channel>',
+    "<title>Show &amp; Co&#39;s Podcast</title>",
+    '<item>',
+    "<title>whoami: Network Engineering&#39;s Identity Crisis</title>",
+    '<enclosure url="https://example.com/123-whoami.mp3"/>',
+    '<guid>Buzzsprout-1</guid>',
+    '<pubDate>Tue, 21 Feb 2023 11:00:00 -0500</pubDate>',
+    '</item>',
+    '</channel></rss>',
+  ].join('');
+  const feed = parseFeed(xml);
+
+  it('decodes numeric character references in episode titles', () => {
+    expect(feed.episodes[0].title).toBe("whoami: Network Engineering's Identity Crisis");
+    expect(feed.episodes[0].title).not.toContain('&#39;');
+  });
+
+  it('decodes both &amp; and &#39; in the show title without double-decoding', () => {
+    expect(feed.show.title).toBe("Show & Co's Podcast");
+  });
+});
