@@ -38,18 +38,20 @@ export function generateStaticParams() {
   return Array.from(slugs).map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const guest = guestForSlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const guest = guestForSlug(slug);
   if (!guest) return { title: 'Guest not found' };
   return {
     title: `Episodes with ${guest.name}`,
     description: `Every episode of The Art of Network Engineering featuring ${guest.name}.`,
-    alternates: { canonical: `/guests/${params.slug}` },
+    alternates: { canonical: `/guests/${slug}` },
   };
 }
 
-export default function GuestPage({ params }: { params: { slug: string } }) {
-  const guest = guestForSlug(params.slug);
+export default async function GuestPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const guest = guestForSlug(slug);
   if (!guest) notFound();
 
   return (
