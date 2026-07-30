@@ -214,3 +214,44 @@ export const biases: Link[] = [
   { name: 'Atomic Habits — James Clear', href: 'https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299', note: 'The most practical modern book on habit formation. Pairs naturally with the biases material: knowing the trap is half the work; building the habit that routes around it is the other half.' },
   { name: 'Antifragile — Nassim Nicholas Taleb', href: 'https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680', note: 'On systems that get stronger under stress. Useful framing for any engineer who builds, operates, or designs anything that has to survive surprises.' },
 ];
+
+export type IndexedLink = Link & { category: string };
+
+const CATEGORY_MAP: { links: Link[]; category: string }[] = [
+  { links: certifications, category: 'Certifications' },
+  { links: courses, category: 'Free courses' },
+  { links: serviceProvider, category: 'Service provider' },
+  { links: labs, category: 'Lab software' },
+  { links: rfcs, category: 'Standards' },
+  { links: gitGithub, category: 'Git & GitHub' },
+  { links: blogs, category: 'Blogs' },
+  { links: outageMaps, category: 'Outages & internet health' },
+  { links: cloudStatus, category: 'Cloud & infrastructure status' },
+  { links: aiStatus, category: 'AI & LLM status' },
+  { links: lookupTools, category: 'Routing & lookup tools' },
+  { links: communities, category: 'Communities' },
+  { links: listening, category: 'Listening' },
+  { links: aiResources, category: 'AI for NEs' },
+  { links: specDriven, category: 'Spec-driven dev' },
+  { links: automation, category: 'Automation' },
+  { links: diagramming, category: 'Diagramming' },
+  { links: vendorRoles, category: 'Vendor roles' },
+  { links: careerData, category: 'Career data' },
+  { links: books, category: 'Books' },
+  { links: biases, category: 'Cognitive biases' },
+];
+
+export const searchIndex: IndexedLink[] = CATEGORY_MAP.flatMap(({ links, category }) =>
+  links.map((l) => ({ ...l, category })),
+);
+
+export function filterCatalog(query: string, index: IndexedLink[] = searchIndex): IndexedLink[] {
+  const q = query.trim().toLowerCase();
+  if (!q) return [];
+  return index.filter(
+    (l) =>
+      l.name.toLowerCase().includes(q) ||
+      l.note.toLowerCase().includes(q) ||
+      l.category.toLowerCase().includes(q),
+  );
+}
