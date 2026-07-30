@@ -93,6 +93,11 @@ const parser = new XMLParser({
   cdataPropName: '#cdata',
   parseAttributeValue: false,
   trimValues: true,
+  // fast-xml-parser v5 stopped decoding numeric character references (e.g. &#39;)
+  // by default (v4 did). Buzzsprout feeds use &#39; for apostrophes in plain-text
+  // titles/summaries, so without this they render literally. CDATA (show notes)
+  // is unaffected and still handled by sanitizeShowNotes.
+  htmlEntities: true,
 });
 
 const slugFromAudioUrl = (url: string): string => {
