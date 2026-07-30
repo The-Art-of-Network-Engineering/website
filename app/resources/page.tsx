@@ -7,6 +7,7 @@ import {
   aiResources, specDriven, automation, gitGithub, diagramming, vendorRoles,
   careerData, books, biases,
 } from './catalog';
+import { ResourceCatalog } from './ResourceCatalog';
 
 export const metadata: Metadata = {
   title: 'Resources',
@@ -191,7 +192,8 @@ export default function ResourcesPage() {
         Last reviewed June 2026.
       </p>
 
-      <JumpNav />
+      <ResourceCatalog>
+        <JumpNav />
 
       <CareerPaths />
 
@@ -456,6 +458,7 @@ export default function ResourcesPage() {
           <a href="mailto:andy@artofnetworkengineering.com">andy@artofnetworkengineering.com</a>.
         </p>
       </section>
+      </ResourceCatalog>
     </div>
   );
 }
