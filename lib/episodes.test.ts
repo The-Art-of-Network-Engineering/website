@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
-import { parseFeed, orderedGuests } from './episodes';
+import { parseFeed, orderedGuests, sanitizeShowNotes } from './episodes';
 
 const fixture = readFileSync('scripts/rss-fixture.xml', 'utf-8');
 const result = parseFeed(fixture);
@@ -150,5 +150,48 @@ describe('parseFeed error handling and edge cases', () => {
     );
     expect(hostOnlyEp, 'fixture should contain the host-only episode').toBeDefined();
     expect(hostOnlyEp!.guests).toEqual([]);
+  });
+});
+
+describe('sanitizeShowNotes', () => {
+  it('strips <script> and its contents', () => {
+    const dirty = '<p>hello</p><script>alert(1)</script>';
+    const clean = sanitizeShowNotes(dirty);
+    expect(clean).not.toContain('<script');
+    expect(clean).not.toContain('alert(1)');
+    expect(clean).toContain('<p>hello</p>');
+  });
+
+  it('drops disallowed tags but keeps their text (iframe, style, img)', () => {
+    const clean = sanitizeShowNotes(
+      '<iframe src="https://evil.test"></iframe><style>body{}</style><img src="x" onerror="alert(1)">keep me',
+    );
+    expect(clean).not.toContain('<iframe');
+    expect(clean).not.toContain('<style');
+    expect(clean).not.toContain('<img');
+    expect(clean).not.toContain('onerror');
+    expect(clean).toContain('keep me');
+  });
+
+  it('removes event-handler attributes and javascript: hrefs', () => {
+    const clean = sanitizeShowNotes('<a href="javascript:alert(1)" onclick="steal()">click</a>');
+    expect(clean).not.toContain('javascript:');
+    expect(clean).not.toContain('onclick');
+    expect(clean).toContain('click');
+  });
+
+  it('keeps https links and forces safe target/rel', () => {
+    const clean = sanitizeShowNotes('<a href="https://example.com">link</a>');
+    expect(clean).toContain('href="https://example.com"');
+    expect(clean).toContain('rel="noopener noreferrer"');
+    expect(clean).toContain('target="_blank"');
+  });
+
+  it('preserves the formatting tags real show notes use', () => {
+    const clean = sanitizeShowNotes('<p>intro<br /><b>bold</b> <ul><li>one</li></ul></p>');
+    expect(clean).toContain('<p>');
+    expect(clean).toContain('<br');
+    expect(clean).toContain('<b>bold</b>');
+    expect(clean).toContain('<li>one</li>');
   });
 });

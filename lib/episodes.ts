@@ -1,4 +1,21 @@
 import { XMLParser } from 'fast-xml-parser';
+import sanitizeHtml from 'sanitize-html';
+
+// Buzzsprout show notes arrive as raw <content:encoded> HTML and are rendered
+// via dangerouslySetInnerHTML on the episode page. Sanitize at the parse
+// boundary so only a narrow allowlist of formatting tags survives into
+// data/episodes.json. Current feed content uses only p/br/a/li/b/ul/em with
+// https links, so this is lossless today while closing the injection path for
+// anything future. Links are forced to open safely in a new tab.
+export const sanitizeShowNotes = (html: string): string =>
+  sanitizeHtml(html, {
+    allowedTags: ['p', 'br', 'ul', 'ol', 'li', 'a', 'b', 'strong', 'i', 'em'],
+    allowedAttributes: { a: ['href', 'title', 'rel', 'target'] },
+    allowedSchemes: ['https', 'mailto'],
+    transformTags: {
+      a: sanitizeHtml.simpleTransform('a', { rel: 'noopener noreferrer', target: '_blank' }),
+    },
+  });
 
 export type Guest = {
   name: string;
@@ -159,7 +176,7 @@ export function parseFeed(xml: string): Feed {
       publishedAt: safeIsoDate(textOf(item.pubDate)),
       durationSeconds: Number(textOf(item['itunes:duration'])) || 0,
       audioUrl,
-      showNotesHtml: textOf(item['content:encoded']) || textOf(item.description),
+      showNotesHtml: sanitizeShowNotes(textOf(item['content:encoded']) || textOf(item.description)),
       summary: textOf(item['itunes:summary']),
       guests,
       artworkUrl:

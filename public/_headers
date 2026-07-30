@@ -1,0 +1,20 @@
+# Security + caching headers for Cloudflare Pages.
+# This file is copied verbatim into out/ by the static export and served by Pages.
+# CSP is grounded in the exact third parties the site loads:
+#   scripts   beehiiv subscribe-forms, Cloudflare Insights
+#   frames    YouTube (+ nocookie), Buzzsprout player, Apple Podcasts, beehiiv form
+#   form post beehiiv (newsletter popup submits to theshortestpath.beehiiv.com)
+# 'unsafe-inline' is required for Next's hydration inline scripts and injected
+# styles under `output: 'export'` (static export has no nonce mechanism). We do
+# NOT allow 'unsafe-eval'.
+/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+  Cross-Origin-Opener-Policy: same-origin
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: https:; font-src 'self' data:; script-src 'self' 'unsafe-inline' https://subscribe-forms.beehiiv.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://subscribe-forms.beehiiv.com https://cloudflareinsights.com https://static.cloudflareinsights.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.buzzsprout.com https://embed.podcasts.apple.com https://subscribe-forms.beehiiv.com; form-action 'self' https://theshortestpath.beehiiv.com https://subscribe-forms.beehiiv.com; worker-src 'self' blob:
+
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
