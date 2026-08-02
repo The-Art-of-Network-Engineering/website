@@ -15,6 +15,8 @@ export const certifications: Link[] = [
   { name: 'Azure Network Engineer Associate', href: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-network-engineer-associate/', note: 'Microsoft\'s networking-focused Azure credential.' },
   { name: 'Google Cloud Network Engineer', href: 'https://cloud.google.com/learn/certification/cloud-network-engineer', note: 'GCP networking certification focused on VPCs, hybrid connectivity, and security.' },
   { name: 'Wireshark Certified Network Analyst (WCNA)', href: 'https://www.wiresharktraining.com/certification.html', note: 'The recognized credential for packet analysis. If you live in pcaps, this one carries weight.' },
+  { name: 'Professor Messer Security+ Training', href: 'https://www.professormesser.com/security-plus/sy0-701/sy0-701-training-course/', note: 'Free video course covering the CompTIA Security+ objectives, a common entry point for engineers moving into security roles.' },
+  { name: 'NIST Cybersecurity Framework', href: 'https://www.nist.gov/cyberframework', note: 'Vendor-neutral reference for how organizations identify, protect, detect, respond, and recover. Helps network engineers understand how security work is structured.' },
 ];
 
 export const courses: Link[] = [
@@ -27,6 +29,7 @@ export const courses: Link[] = [
   { name: 'Arista Academy Channels', href: 'https://academy.training.arista.com/pages/95/arista-academy-channels', note: 'Arista\'s free video deep-dives behind a no-cost registration. Most Arista Academy content is paid; this is the public corner you can actually use without a subscription.' },
   { name: 'Stanford CS244 — Advanced Topics in Networking', href: 'https://web.stanford.edu/class/cs244/', note: 'Graduate-level networking course with public materials. Datacenter networks, congestion control, SDN. For when you want to go beyond practitioner depth.' },
   { name: 'MIT 6.829 — Computer Networks (OCW)', href: 'https://ocw.mit.edu/courses/6-829-computer-networks-fall-2002/', note: 'Older but foundational graduate networking course. The protocol design and queuing-theory chapters still pay dividends.' },
+  { name: 'TryHackMe', href: 'https://tryhackme.com/', note: 'Browser-based security labs that start from the basics, useful for network engineers building hands-on offensive and defensive skills. The core learning paths have free rooms without payment.' },
 ];
 
 export const serviceProvider: Link[] = [
@@ -34,6 +37,9 @@ export const serviceProvider: Link[] = [
   { name: 'RIPE NCC Academy', href: 'https://academy.ripe.net/', note: 'Free, vendor-neutral e-learning from the European registry. IPv6, routing security, and BGP taught the way operators run them in production.' },
   { name: 'NANOG Tutorials & Archive', href: 'https://www.nanog.org/resources/tutorials/', note: 'Decades of operator tutorials and meeting decks on BGP-at-scale, MPLS, segment routing, and peering, straight from the people running the networks. Deep archive at archive.nanog.org.' },
   { name: 'segment-routing.net', href: 'https://www.segment-routing.net/', note: 'The Cisco-maintained community hub for SR-MPLS and SRv6: tutorials, demos, IETF drafts, and reference papers in one place, no paywall.' },
+  { name: 'Ubuntu-based ADHD/burnout resource: Tarsnap essay \'On the Care and Feeding of Engineers\'', href: 'https://www.usenix.org/system/files/login/articles/login_summer19_09_beyer.pdf', note: 'A USENIX article on sustainable on-call and reducing operational toil, useful for engineers whose stress comes from paging and firefighting.' },
+  { name: 'Google SRE Book, chapter on Eliminating Toil', href: 'https://sre.google/sre-book/eliminating-toil/', note: 'Free online chapter that explains how repetitive manual work drains teams and how to cut it down, which helps prevent operational burnout.' },
+  { name: 'Google SRE Workbook, \'Being On-Call\'', href: 'https://sre.google/sre-book/being-on-call/', note: 'Free chapter covering on-call load, healthy rotations, and psychological safety, aimed at engineers carrying pager duty.' },
 ];
 
 export const labs: Link[] = [
@@ -59,6 +65,8 @@ export const rfcs: Link[] = [
   { name: 'RFC 9113 — HTTP/2', href: 'https://datatracker.ietf.org/doc/html/rfc9113', note: 'Consolidated HTTP/2 specification.' },
   { name: 'RFC 9114 — HTTP/3', href: 'https://datatracker.ietf.org/doc/html/rfc9114', note: 'HTTP over QUIC. The shape of the modern web from the network engineer\'s side.' },
   { name: 'RFC 1925 — The Twelve Networking Truths', href: 'https://datatracker.ietf.org/doc/html/rfc1925', note: 'Two pages, deeply funny, eerily true. Required reading at least once a year.' },
+  { name: 'RFC 5880: Bidirectional Forwarding Detection (BFD)', href: 'https://www.rfc-editor.org/rfc/rfc5880', note: 'Defines the protocol for fast detection of link and path failures between forwarding engines. Worth reading if you rely on BFD to catch outages quickly in production.' },
+  { name: 'RFC 9315: Intent-Based Networking - Concepts and Definitions', href: 'https://www.rfc-editor.org/rfc/rfc9315.html', note: 'An IRTF document that defines intent-based networking terms and concepts, useful for understanding where automation and AI-driven intent fit in network operations.' },
 ];
 
 export const blogs: Link[] = [
@@ -68,6 +76,8 @@ export const blogs: Link[] = [
   { name: 'Arista EOS Central', href: 'https://eos.arista.com/', note: 'Arista\'s technical community and blog hub for EOS, EVPN, leaf-spine designs, and CloudVision.' },
   { name: 'Datadog Network Performance Monitoring blog', href: 'https://www.datadoghq.com/blog/network-performance-monitoring/', note: 'Datadog\'s ongoing write-ups on NPM, cloud network observability, and debugging across hybrid environments.' },
   { name: 'Kentik Blog', href: 'https://www.kentik.com/blog/', note: 'Network observability and analysis perspectives from a company that lives in flow data and BGP.' },
+  { name: 'Brendan Gregg\'s Linux Performance page', href: 'https://www.brendangregg.com/linuxperf.html', note: 'A collected set of tools, methods, and diagrams for finding performance problems on Linux systems. Useful when a network issue turns out to be a host or kernel issue.' },
+  { name: 'Krebs on Security', href: 'https://krebsonsecurity.com/', note: 'Long-running blog covering breaches, fraud, and threat actors in detail. Good for staying current on real-world security incidents.' },
 ];
 
 export const outageMaps: Link[] = [
@@ -136,6 +146,7 @@ export const aiResources: Link[] = [
   { name: 'LangChain', href: 'https://www.langchain.com/', note: 'The most widely used framework for building LLM-powered applications. Useful when you want to wire an LLM into automation pipelines instead of just chatting with it.' },
   { name: 'n8n', href: 'https://n8n.io/', note: 'Open-source workflow automation with strong LLM and webhook support. A practical on-ramp to automated AI workflows without writing a full app.' },
   { name: 'Cisco AI Solutions', href: 'https://www.cisco.com/site/us/en/solutions/ai/index.html', note: 'Vendor view on AI in networking infrastructure and operations.' },
+  { name: 'Cisco DevNet - AI and Machine Learning', href: 'https://developer.cisco.com/', note: 'Free sandboxes, code samples, and learning tracks that show how to apply automation and AI tooling to Cisco networks.' },
 ];
 
 export const specDriven: Link[] = [
@@ -154,6 +165,7 @@ export const automation: Link[] = [
   { name: 'Nornir', href: 'https://nornir.readthedocs.io/', note: 'Pure-Python automation framework. Faster and more flexible than Ansible when you\'re comfortable in code; pairs well with NAPALM and Netmiko.' },
   { name: 'Batfish', href: 'https://www.batfish.org/', note: 'Static analysis for network configurations. Models what your network will do before you push the change. The closest thing the network world has to a type checker.' },
   { name: 'LibreNMS', href: 'https://www.librenms.org/', note: 'Free, community-driven network monitoring system. SNMP-based, broad vendor support, fast to stand up for a homelab or a small shop.' },
+  { name: 'ntopng', href: 'https://www.ntop.org/products/traffic-analysis/ntop/', note: 'Open source traffic monitoring tool that shows flows, hosts, and protocols in near real time. Good for seeing what is on the wire when troubleshooting live traffic.' },
 ];
 
 export const gitGithub: Link[] = [
