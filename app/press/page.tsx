@@ -46,7 +46,6 @@ const links = [
   { href: 'https://artofnetworkengineering.com/iaatj', label: 'Discord' },
   { href: 'https://www.linkedin.com/company/artofneteng/', label: 'LinkedIn' },
   { href: 'https://x.com/artofneteng', label: 'X / Twitter' },
-  { href: 'https://linktr.ee/artofneteng', label: 'Linktree' },
 ];
 
 export default function PressPage() {

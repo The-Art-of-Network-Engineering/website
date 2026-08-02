@@ -90,6 +90,6 @@ If you've hesitated to start your lab, stream, or learning path, consider this p
 - **YouTube:** Visit [youtube.com/@artofneteng](https://www.youtube.com/@artofneteng) for lab mishaps and takes.
 - **Discord:** Join thousands of network professionals sharing help, wins, and war stories at [discord.gg/qxHtPCcKYz](https://discord.gg/qxHtPCcKYz).
 - **Merch:** New designs are available.
-- **One link:** [linktr.ee/artofneteng](http://linktr.ee/artofneteng)
+- **One link:** [artofnetworkengineering.com](https://artofnetworkengineering.com)
 
 Thanks for listening, reading, tinkering, and learning out loud. See you in the lab.
