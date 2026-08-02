@@ -82,4 +82,4 @@ If this clicked, the same Munich conversation with William led to a companion pi
 
 ---
 
-Inspired by a conversation with William Collins, host of the [Cloud Gambit podcast](https://www.thecloudgambit.com/), recorded in Munich ahead of AutoCon 5. Find all things Art of Network Engineering at [linktr.ee/artofneteng](https://linktr.ee/artofneteng), [join the Discord](https://artofnetworkengineering.com/iaatj), and [sign up for the newsletter](https://artofnetworkengineering.com/newsletter) dropping soon.
+Inspired by a conversation with William Collins, host of the [Cloud Gambit podcast](https://www.thecloudgambit.com/), recorded in Munich ahead of AutoCon 5. Find all things Art of Network Engineering at [artofnetworkengineering.com](https://artofnetworkengineering.com), [join the Discord](https://artofnetworkengineering.com/iaatj), and [sign up for the newsletter](https://artofnetworkengineering.com/newsletter) dropping soon.

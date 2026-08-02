@@ -71,7 +71,7 @@ If today's conversation hit home, the full episode is the best place to go next.
 
 - Watch: [youtu.be/iFeuGTa5zu8](https://youtu.be/iFeuGTa5zu8)
 - Listen: [buzzsprout.com/2127872/episodes/19353059](https://www.buzzsprout.com/2127872/episodes/19353059)
-- All links: [linktr.ee/artofneteng](https://linktr.ee/artofneteng)
+- All links: [artofnetworkengineering.com](https://artofnetworkengineering.com)
 - Discord: [artofnetworkengineering.com/iaatj](https://artofnetworkengineering.com/iaatj)
 
 Subscribe in your favorite app so you don't miss the next one, and if this post got you thinking about a career move, share it with the teammate who's been quietly wondering whether there's a path that isn't another rung on the same ladder.

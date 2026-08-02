@@ -57,6 +57,6 @@ This episode suits any engineer who is:
 
 Whether commuting, installing equipment, or enjoying a quiet morning, this episode challenges preconceptions and strengthens design thinking.
 
-**Listen on** [**Buzzsprout**](https://www.buzzsprout.com/2127872/episodes/18209241)**, [**Linktree**](https://linktr.ee/artofneteng)**, or your preferred podcast platform.**
+**Listen on** [**Buzzsprout**](https://www.buzzsprout.com/2127872/episodes/18209241)**, [**our website**](https://artofnetworkengineering.com)**, or your preferred podcast platform.**
 
 **Watch the video on** [**YouTube**](https://youtu.be/mvpYV5j3TR8)**.**

@@ -121,4 +121,4 @@ Listen to the episode: [https://www.buzzsprout.com/2127872/episodes/18544933](ht
 
 Watch the episode: [https://youtu.be/xhhKNp8RGHU](https://youtu.be/xhhKNp8RGHU)
 
-All the Links: [https://linktr.ee/artofneteng](https://linktr.ee/artofneteng)
+All the Links: [artofnetworkengineering.com](https://artofnetworkengineering.com)

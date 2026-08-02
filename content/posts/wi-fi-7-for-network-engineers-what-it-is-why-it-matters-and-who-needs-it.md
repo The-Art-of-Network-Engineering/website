@@ -92,6 +92,6 @@ And that's something every network engineer should at least have on their radar.
 
 ### Links:
 
-* [Art of Network Engineering](https://linktr.ee/artofneteng)
+* [Art of Network Engineering](https://artofnetworkengineering.com)
 * [Listen to the episode](https://www.buzzsprout.com/2127872/episodes/18779234)
 * [Watch the episode](https://youtu.be/qZhFsVn1UXk)

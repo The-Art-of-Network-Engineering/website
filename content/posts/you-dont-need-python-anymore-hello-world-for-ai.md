@@ -140,4 +140,4 @@ Listen to the full episode: https://www.buzzsprout.com/2127872/episodes/19052514
 
 Watch the full episode: https://youtu.be/d8U4wy8iFec
 
-Links: https://linktr.ee/artofneteng
+Links: https://artofnetworkengineering.com
