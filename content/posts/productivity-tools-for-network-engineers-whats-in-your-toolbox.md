@@ -39,4 +39,4 @@ Screen real estate is another overlooked frontier. With an ultra-wide monitor, A
 
 There’s no one-size-fits-all system. Some engineers thrive in task boards, others in bullet journals or Markdown files. The key is to experiment until you find a setup that aligns with your workflow and thinking style.
 
-🎧 **Missed the episode?** Catch “[Tech Tidying: Sanity Saving Apps](https://www.buzzsprout.com/2127872/episodes/17434579)” on your favorite podcast platform or watch the visual breakdown on [YouTube](https://youtube.com/@artofneteng). Want to share your favorite productivity tool? Hit us up on [Discord](https://linktr.ee/artofneteng)—we’re always looking for new tricks to try.
+🎧 **Missed the episode?** Catch “[Tech Tidying: Sanity Saving Apps](https://www.buzzsprout.com/2127872/episodes/17434579)” on your favorite podcast platform or watch the visual breakdown on [YouTube](https://youtube.com/@artofneteng). Want to share your favorite productivity tool? Hit us up on [Discord](https://artofnetworkengineering.com/iaatj)—we’re always looking for new tricks to try.

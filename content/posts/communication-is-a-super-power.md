@@ -130,4 +130,4 @@ This episode isn't about becoming a motivational speaker. It's about becoming a 
 
 **Watch the full episode:** https://youtu.be/lcOTWOxiZac
 
-**Links:** https://linktr.ee/artofneteng
+**Links:** https://artofnetworkengineering.com
