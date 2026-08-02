@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
-import { parseFeed, orderedGuests, sanitizeShowNotes } from './episodes';
+import { parseFeed, orderedGuests, sanitizeShowNotes, slugFromAudioUrl } from './episodes';
 
 const fixture = readFileSync('scripts/rss-fixture.xml', 'utf-8');
 const result = parseFeed(fixture);
@@ -218,5 +218,20 @@ describe('parseFeed entity decoding (fast-xml-parser v5 regression)', () => {
 
   it('decodes both &amp; and &#39; in the show title without double-decoding', () => {
     expect(feed.show.title).toBe("Show & Co's Podcast");
+  });
+});
+
+describe('slugFromAudioUrl slug pinning', () => {
+  it('keeps the canonical slug when a renamed file changes the filename', () => {
+    // Buzzsprout ID 12179016 is pinned to ep-01-meet-the-team; the title was
+    // renamed so the filename now reflects the new title, but the URL must not move.
+    const renamed =
+      'https://www.buzzsprout.com/2127872/episodes/12179016-meet-the-art-of-network-engineering-podcast-team.mp3';
+    expect(slugFromAudioUrl(renamed)).toBe('ep-01-meet-the-team');
+  });
+
+  it('derives the slug from the filename for an unknown (new) episode ID', () => {
+    const fresh = 'https://www.buzzsprout.com/2127872/episodes/99999999-brand-new-episode.mp3';
+    expect(slugFromAudioUrl(fresh)).toBe('brand-new-episode');
   });
 });
