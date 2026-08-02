@@ -1,5 +1,6 @@
 import { XMLParser } from 'fast-xml-parser';
 import sanitizeHtml from 'sanitize-html';
+import slugOverrides from '../data/slug_overrides.json';
 
 // Buzzsprout show notes arrive as raw <content:encoded> HTML and are rendered
 // via dangerouslySetInnerHTML on the episode page. Sanitize at the parse
@@ -100,11 +101,19 @@ const parser = new XMLParser({
   htmlEntities: true,
 });
 
-const slugFromAudioUrl = (url: string): string => {
+// Pin each episode's URL slug to its stable Buzzsprout ID. Buzzsprout regenerates
+// the audio filename from the title when an episode is renamed, so deriving the
+// slug from the filename alone would silently change episode URLs (and break
+// video overrides / backlinks) on the next build. The ID never changes, so we map
+// it back to the original slug. Unknown IDs (genuinely new episodes) derive normally.
+export const slugFromAudioUrl = (url: string): string => {
   const filename = url.split('/').pop() ?? '';
   const stem = filename.replace(/\.mp3$/i, '');
-  const match = stem.match(/^\d+-(.+)$/);
-  return (match?.[1] ?? stem).toLowerCase();
+  const match = stem.match(/^(\d+)-(.+)$/);
+  const id = match?.[1];
+  const overrides = slugOverrides as Record<string, string>;
+  if (id && overrides[id]) return overrides[id];
+  return (match?.[2] ?? stem).toLowerCase();
 };
 
 const safeIsoDate = (raw: string): string => {
