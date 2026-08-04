@@ -31,7 +31,7 @@ export default function NewsletterPage() {
           </p>
           <div className="mt-6">
             <a
-              href="https://theshortestpath.beehiiv.com/p/proof-beats-permission"
+              href="https://theshortestpath.beehiiv.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent-green text-bg font-semibold px-6 py-3 rounded-sm hover:opacity-90 transition-opacity"
