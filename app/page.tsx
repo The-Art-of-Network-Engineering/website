@@ -136,7 +136,7 @@ export default function Home() {
             </div>
             <p className="mt-2 text-sm">
               <a
-                href="https://theshortestpath.beehiiv.com/p/proof-beats-permission"
+                href="https://theshortestpath.beehiiv.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent-blue"
