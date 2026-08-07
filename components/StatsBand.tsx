@@ -11,14 +11,14 @@ import { SectionLabel } from '@/components/SectionLabel';
 
 // Reach: views, downloads, episodes. Non-overlapping (long-form excludes Shorts).
 const REACH: { label: string; value: number; caption?: string }[] = [
-  { label: 'Lifetime downloads', value: raw.auto.lifetime_downloads },
+  { label: 'Lifetime podcast downloads', value: raw.auto.lifetime_downloads },
   // Long-form only: the channel viewCount INCLUDES Shorts, so subtract Shorts to avoid
   // double-counting them against the Short-form tile.
-  { label: 'Long-form views', value: raw.auto.youtube_views - raw.auto.youtube_shorts_views },
+  { label: 'Long-form video views', value: raw.auto.youtube_views - raw.auto.youtube_shorts_views },
   // Short-form spans both platforms: YouTube Shorts + TikTok (TikTok has no free API, so it's
   // hand-maintained in metrics.json).
   {
-    label: 'Short-form views',
+    label: 'Short-form video views',
     value: raw.auto.youtube_shorts_views + raw.manual.tiktok_post_views_365d,
   },
   { label: 'Episodes published', value: raw.auto.episodes },
