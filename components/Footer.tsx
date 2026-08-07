@@ -8,6 +8,7 @@ const social = [
   { href: 'https://artofnetworkengineering.com/iaatj', label: 'Discord' },
   { href: 'https://www.linkedin.com/company/artofneteng/', label: 'LinkedIn' },
   { href: 'https://x.com/artofneteng', label: 'X / Twitter' },
+  { href: 'https://www.tiktok.com/@artofneteng', label: 'TikTok' },
 ];
 
 export function Footer() {
