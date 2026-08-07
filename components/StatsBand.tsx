@@ -9,10 +9,16 @@ import raw from '@/data/metrics.json';
 import { SectionLabel } from '@/components/SectionLabel';
 
 const STATS: { label: string; value: number; caption?: string }[] = [
-  { label: 'Lifetime downloads', value: raw.auto.lifetime_downloads, caption: 'toward 1,000,000' },
+  { label: 'Lifetime downloads', value: raw.auto.lifetime_downloads },
   { label: 'YouTube subscribers', value: raw.auto.youtube_subscribers },
   { label: 'YouTube views', value: raw.auto.youtube_views },
-  { label: 'Short-form views', value: raw.auto.youtube_shorts_views },
+  // Short-form spans both platforms: YouTube Shorts (auto-pulled) + TikTok (hand-maintained,
+  // TikTok has no free API). Sum them so the number reflects our real short-form reach.
+  {
+    label: 'Short-form views',
+    value: raw.auto.youtube_shorts_views + raw.manual.tiktok_post_views_365d,
+    caption: 'YouTube + TikTok',
+  },
   { label: 'Episodes published', value: raw.auto.episodes },
 ];
 
