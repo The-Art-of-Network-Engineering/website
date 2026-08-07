@@ -52,8 +52,6 @@ export default function Home() {
         </div>
       </section>
 
-      <StatsBand />
-
       {/* Latest episode */}
       <section className="py-10 md:py-12 border-t border-border">
         <SectionLabel>Latest episode</SectionLabel>
@@ -150,6 +148,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <StatsBand />
 
       {/* Sponsor CTA */}
       <section className="py-12 md:py-16 border-t border-border">
