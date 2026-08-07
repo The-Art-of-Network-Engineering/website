@@ -11,7 +11,9 @@ import { SectionLabel } from '@/components/SectionLabel';
 const STATS: { label: string; value: number; caption?: string }[] = [
   { label: 'Lifetime downloads', value: raw.auto.lifetime_downloads },
   { label: 'YouTube subscribers', value: raw.auto.youtube_subscribers },
-  { label: 'YouTube views', value: raw.auto.youtube_views },
+  // Long-form only: the channel's total viewCount INCLUDES Shorts, so subtract Shorts here to
+  // avoid double-counting them against the Short-form tile. Every tile is then non-overlapping.
+  { label: 'Long-form views', value: raw.auto.youtube_views - raw.auto.youtube_shorts_views },
   // Short-form spans both platforms: YouTube Shorts (auto-pulled) + TikTok (hand-maintained,
   // TikTok has no free API). Sum them so the number reflects our real short-form reach.
   {
