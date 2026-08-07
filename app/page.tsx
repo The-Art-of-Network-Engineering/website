@@ -5,6 +5,7 @@ import type { Feed } from '@/lib/episodes';
 import { NewsletterForm } from '@/components/NewsletterForm';
 import { NewsletterPopup } from '@/components/NewsletterPopup';
 import { SectionLabel } from '@/components/SectionLabel';
+import { StatsBand } from '@/components/StatsBand';
 import { SubscribeButtons } from '@/components/SubscribeButtons';
 
 const typedFeed = feed as Feed;
@@ -50,6 +51,8 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <StatsBand />
 
       {/* Latest episode */}
       <section className="py-10 md:py-12 border-t border-border">
