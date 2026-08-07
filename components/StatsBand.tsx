@@ -20,7 +20,6 @@ const REACH: { label: string; value: number; caption?: string }[] = [
   {
     label: 'Short-form views',
     value: raw.auto.youtube_shorts_views + raw.manual.tiktok_post_views_365d,
-    caption: 'YouTube + TikTok',
   },
   { label: 'Episodes published', value: raw.auto.episodes },
 ];
