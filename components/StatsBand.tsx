@@ -101,10 +101,6 @@ export function StatsBand() {
           </div>
         ))}
       </div>
-
-      <p className="mt-6 text-xs text-text-muted">
-        In our 7th year. Updated daily from YouTube and Buzzsprout.
-      </p>
     </section>
   );
 }
