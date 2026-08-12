@@ -135,6 +135,14 @@ export function guestProfile(slug: string): (ContributorProfile & { bioHtml: str
   return { ...p, bioHtml: p.bio ? sanitizeShowNotes(p.bio) : '' };
 }
 
+// Case-insensitive substring filter over any named list. Drives the instant
+// client-side search on the guests page (and reusable for blog/episodes).
+export function filterByName<T extends { name: string }>(items: T[], query: string): T[] {
+  const q = query.trim().toLowerCase();
+  if (!q) return items;
+  return items.filter((it) => it.name.toLowerCase().includes(q));
+}
+
 // Every guest of the episode a blog post is about, as {name, slug} for linking to
 // their profile. Used by the blog template so each post auto-links its guests.
 export function guestsForEpisodeSlug(

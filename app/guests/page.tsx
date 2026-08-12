@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import feed from '@/data/episodes.json';
 import type { Feed } from '@/lib/episodes';
 import { guestSlug } from '@/lib/episodes';
 import { SectionLabel } from '@/components/SectionLabel';
+import { GuestSearch } from '@/components/GuestSearch';
 
 const typedFeed = feed as Feed;
 
@@ -44,30 +44,7 @@ export default function GuestsPage() {
       <p className="mt-3 text-text-muted">
         {guests.length} guests across the show. Browse every conversation by the people in it.
       </p>
-      <ul className="mt-10 grid gap-3 md:grid-cols-2">
-        {guests.map((g) => (
-          <li key={g.slug}>
-            <Link
-              href={`/guests/${g.slug}`}
-              className="group flex items-center gap-3 border border-border bg-surface hover:border-accent-blue transition-colors px-4 py-3 rounded-sm"
-            >
-              {g.imageUrl && (
-                <img
-                  src={g.imageUrl}
-                  alt=""
-                  className="h-9 w-9 flex-shrink-0 rounded-full border border-border object-cover"
-                />
-              )}
-              <span className="text-sm text-text font-semibold group-hover:text-accent-green transition-colors">
-                {g.name}
-              </span>
-              <span className="ml-auto flex-shrink-0 text-xs text-text-muted font-mono uppercase tracking-label">
-                {g.count} {g.count === 1 ? 'episode' : 'episodes'}
-              </span>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <GuestSearch guests={guests} />
     </div>
   );
 }

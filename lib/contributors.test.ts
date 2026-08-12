@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { guestProfile, guestsForEpisodeSlug } from './episodes';
+import { guestProfile, guestsForEpisodeSlug, filterByName } from './episodes';
 import type { Feed } from './episodes';
 
 // Minimal synthetic feed for the pure episode->guests mapping.
@@ -54,6 +54,24 @@ describe('guestsForEpisodeSlug', () => {
 
   it('returns [] for an unknown episode slug', () => {
     expect(guestsForEpisodeSlug(feed, 'does-not-exist')).toEqual([]);
+  });
+});
+
+describe('filterByName', () => {
+  const people = [{ name: 'Radia Perlman' }, { name: 'Scott Robohn' }, { name: 'Mike Bushong' }];
+  it('returns all items for an empty/whitespace query', () => {
+    expect(filterByName(people, '')).toHaveLength(3);
+    expect(filterByName(people, '   ')).toHaveLength(3);
+  });
+  it('matches case-insensitively on a substring', () => {
+    expect(filterByName(people, 'robo')).toEqual([{ name: 'Scott Robohn' }]);
+    expect(filterByName(people, 'MIKE')).toEqual([{ name: 'Mike Bushong' }]);
+  });
+  it('matches on last name too', () => {
+    expect(filterByName(people, 'perlman')).toEqual([{ name: 'Radia Perlman' }]);
+  });
+  it('returns [] when nothing matches', () => {
+    expect(filterByName(people, 'zzz')).toEqual([]);
   });
 });
 
