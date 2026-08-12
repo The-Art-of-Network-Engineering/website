@@ -143,6 +143,19 @@ export function filterByName<T extends { name: string }>(items: T[], query: stri
   return items.filter((it) => it.name.toLowerCase().includes(q));
 }
 
+// Blog search: match a post by title OR excerpt so a topic word finds the post
+// even when it's not in the headline. Empty query returns everything.
+export function filterPosts<T extends { title: string; excerpt?: string }>(
+  posts: T[],
+  query: string,
+): T[] {
+  const q = query.trim().toLowerCase();
+  if (!q) return posts;
+  return posts.filter(
+    (p) => p.title.toLowerCase().includes(q) || (p.excerpt ?? '').toLowerCase().includes(q),
+  );
+}
+
 // Every guest of the episode a blog post is about, as {name, slug} for linking to
 // their profile. Used by the blog template so each post auto-links its guests.
 export function guestsForEpisodeSlug(

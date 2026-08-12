@@ -1,8 +1,7 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { getAllPosts } from '@/lib/posts';
 import { SectionLabel } from '@/components/SectionLabel';
-import { formatDate } from '@/lib/format';
+import { BlogSearch } from '@/components/BlogSearch';
 
 export const metadata: Metadata = {
   title: 'Blog',
@@ -12,6 +11,14 @@ export const metadata: Metadata = {
 
 export default function BlogIndex() {
   const posts = getAllPosts();
+  // Only the card fields cross to the client component — not the full post bodies.
+  const cards = posts.map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    publishedAt: p.publishedAt,
+    excerpt: p.excerpt,
+    coverImage: p.coverImage,
+  }));
 
   if (posts.length === 0) {
     return (
@@ -32,35 +39,7 @@ export default function BlogIndex() {
         networks.
       </p>
 
-      <div className="mt-12 grid gap-6 md:grid-cols-2">
-        {posts.map((post) => (
-          <Link
-            key={post.slug}
-            href={`/blog/${post.slug}`}
-            className="group block border border-border bg-surface hover:border-accent-blue transition-colors rounded-sm overflow-hidden"
-          >
-            {post.coverImage && (
-              <img
-                src={post.coverImage}
-                alt=""
-                loading="lazy"
-                className="w-full h-48 object-cover border-b border-border"
-              />
-            )}
-            <div className="p-6">
-              <p className="text-xs font-mono uppercase tracking-label text-text-muted">
-                {formatDate(post.publishedAt)}
-              </p>
-              <h2 className="mt-3 font-display text-xl text-text group-hover:text-accent-green transition-colors leading-snug">
-                {post.title}
-              </h2>
-              {post.excerpt && (
-                <p className="mt-3 text-sm text-text-muted line-clamp-3">{post.excerpt}</p>
-              )}
-            </div>
-          </Link>
-        ))}
-      </div>
+      <BlogSearch posts={cards} />
     </div>
   );
 }
