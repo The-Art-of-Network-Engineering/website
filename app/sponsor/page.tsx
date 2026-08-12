@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { SectionLabel } from '@/components/SectionLabel';
 import { StatCard } from '@/components/StatCard';
+import { StatsBand } from '@/components/StatsBand';
 import { metrics } from '@/lib/metrics';
 // Sponsor roster: single source of truth is sponsors.toml on the server, synced
 // here by sync_website_sponsors.py. Do not hand-edit this list.
@@ -78,6 +79,11 @@ export default function SponsorPage() {
         infrastructure.
       </p>
 
+      {/* Live audience proof — auto-refreshed daily from metrics.json (same band as the homepage) */}
+      <div className="mt-12">
+        <StatsBand />
+      </div>
+
       {/* Stats */}
       <section className="mt-16">
         <SectionLabel>By the numbers</SectionLabel>
@@ -87,7 +93,7 @@ export default function SponsorPage() {
           ))}
         </div>
         <p className="mt-6 max-w-3xl text-text-muted">
-          Discord community: <span className="text-text font-semibold">3,500 members</span>.
+          Discord community: <span className="text-text font-semibold">{metrics.discordMembers} members</span>.
           2026 USNUA Media Partner.
         </p>
       </section>
