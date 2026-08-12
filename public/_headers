@@ -16,5 +16,15 @@
   Cross-Origin-Opener-Policy: same-origin
   Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: https:; font-src 'self' data:; script-src 'self' 'unsafe-inline' https://subscribe-forms.beehiiv.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://subscribe-forms.beehiiv.com https://cloudflareinsights.com https://static.cloudflareinsights.com; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.buzzsprout.com https://embed.podcasts.apple.com https://subscribe-forms.beehiiv.com; form-action 'self' https://theshortestpath.beehiiv.com https://subscribe-forms.beehiiv.com; worker-src 'self' blob:
 
+/subnetting-game/*
+  # The subnetting game is served here and embedded in a same-origin <iframe> on
+  # /subnetting. The global "X-Frame-Options: DENY" + "frame-ancestors 'none'"
+  # block ALL framing (even same-origin), which made the embed render blank. This
+  # override allows framing by our own origin ONLY, so the game loads on
+  # /subnetting while cross-origin clickjacking stays blocked. Other headers
+  # (HSTS, nosniff, etc.) still inherit from the /* rule above.
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'
+
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable
