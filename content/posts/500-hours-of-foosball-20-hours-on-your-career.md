@@ -105,3 +105,9 @@ If the answer makes you uncomfortable, that's useful information. You don't need
 But you do need to keep growing. Build some exposure, follow what interests you, go deep where it matters, and give that knowledge enough time to compound.
 
 Just make sure your expectations are reasonably aligned with your effort.
+
+---
+
+**Listen to the full conversation** with Mike at AutoCon 5: [500 Hours of Foosball, 20 Hours on Your Career](/episodes/500-hours-of-foosball-20-hours-on-your-career-mike-bushong-on-staying-valuable).
+
+**More from Mike Bushong** on the show: [his guest page](/guests/mike-bushong).
