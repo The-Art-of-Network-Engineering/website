@@ -6,6 +6,9 @@ import remarkGfm from 'remark-gfm';
 import { getAllPosts, getPostBySlug } from '@/lib/posts';
 import { SectionLabel } from '@/components/SectionLabel';
 import { formatDate } from '@/lib/format';
+import feed from '@/data/episodes.json';
+import type { Feed } from '@/lib/episodes';
+import { guestsForEpisodeSlug } from '@/lib/episodes';
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -40,6 +43,10 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
+
+  const guests = post.episodeSlug
+    ? guestsForEpisodeSlug(feed as Feed, post.episodeSlug)
+    : [];
 
   return (
     <article className="mx-auto max-w-content px-6 py-16">
@@ -80,6 +87,23 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
               >
                 Listen to the episode →
               </Link>
+            </div>
+          )}
+          {guests.length > 0 && (
+            <div className="mt-6 border border-border bg-surface p-6 rounded-sm">
+              <SectionLabel>Featured guests</SectionLabel>
+              <ul className="mt-3 space-y-2">
+                {guests.map((g) => (
+                  <li key={g.slug}>
+                    <Link
+                      href={`/guests/${g.slug}`}
+                      className="text-accent-blue hover:text-accent-green text-sm"
+                    >
+                      {g.name} →
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
           )}
           <div className={`${post.episodeSlug ? 'mt-6 ' : ''}border border-border bg-surface p-6 rounded-sm`}>
