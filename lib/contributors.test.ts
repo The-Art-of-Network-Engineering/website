@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { guestProfile, guestsForEpisodeSlug, filterByName } from './episodes';
+import { guestProfile, guestsForEpisodeSlug, filterByName, filterPosts } from './episodes';
 import type { Feed } from './episodes';
 
 // Minimal synthetic feed for the pure episode->guests mapping.
@@ -72,6 +72,26 @@ describe('filterByName', () => {
   });
   it('returns [] when nothing matches', () => {
     expect(filterByName(people, 'zzz')).toEqual([]);
+  });
+});
+
+describe('filterPosts', () => {
+  const posts = [
+    { title: '500 Hours of Foosball', excerpt: 'Mike Bushong on effort and optionality.' },
+    { title: 'You Belong Here', excerpt: 'On imposter syndrome in network engineering.' },
+    { title: 'Untitled', excerpt: undefined },
+  ];
+  it('returns all posts for an empty query', () => {
+    expect(filterPosts(posts, '  ')).toHaveLength(3);
+  });
+  it('matches on the title', () => {
+    expect(filterPosts(posts, 'foosball').map((p) => p.title)).toEqual(['500 Hours of Foosball']);
+  });
+  it('matches on the excerpt when not in the title', () => {
+    expect(filterPosts(posts, 'imposter').map((p) => p.title)).toEqual(['You Belong Here']);
+  });
+  it('tolerates a missing excerpt and returns [] on no match', () => {
+    expect(filterPosts(posts, 'zzz')).toEqual([]);
   });
 });
 
