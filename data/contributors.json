@@ -1,0 +1,461 @@
+{
+  "updated_at": "2026-08-12T13:41:08.251163+00:00",
+  "source": "buzzsprout admin contributors",
+  "profiles": {
+    "adam-hill": {
+      "name": "Adam Hill",
+      "role": "Guest",
+      "bio": "<p>Results-oriented network engineer with extensive knowledge of network architectural design, network/systems integration, troubleshooting, and business strategy. Expertise in translating technology prowess to business needs in order to deliver effective solutions in service to colleagues and clients. Brings proven background of tier-3 level competency to complex networks, to include optimizing, automating, and streamlining enterprise, datacenter and cloud network operations</p>"
+    },
+    "aj-murray": {
+      "name": "A.J. Murray",
+      "role": "Guest",
+      "bio": ""
+    },
+    "alex-saroyan": {
+      "name": "Alex Saroyan",
+      "role": "Guest",
+      "bio": "<p>25+ years architecting and building large-scale networks. Co-founded Netris in 2018 and pioneered the NAAM category — network automation, abstraction, and multi-tenancy for cloud and AI infrastructure operators.</p>"
+    },
+    "andy-lapteff": {
+      "name": "Andy Lapteff",
+      "role": "Host",
+      "bio": "<p>Andy Lapteff is the Senior Product Marketing Manager for Data Center at Nokia, where he develops strategic content that drives awareness and engagement across the portfolio. Drawing on decades of experience in technical roles at Juniper, Fiserv, Comcast, and Verizon, Andy brings deep credibility and a practitioner’s perspective to his marketing work.&nbsp;</p><p><br></p><p>Andy is an active contributor to the networking community through his podcast, The Art of Network Engineering, and his leadership in the Pennsylvania Networking User Group.</p><p><br></p><p>In his spare time, Andy enjoys the outdoors with his family, photography, BBQ, playing guitar, fishing, running, and reading.</p><p><br><br></p>"
+    },
+    "anil-varanasi": {
+      "name": "Anil Varanasi",
+      "role": "Guest",
+      "bio": "<p>Anil Varanasi is the CEO of <a href=\"https://www.meter.com/\">Meter</a>, a San Francisco-based company that provides internet infrastructure for businesses. He co-founded the company with his brother, Sunil, in 2015. Meter’s full-stack approach combines hardware, software, and operations to provide enterprise-grade networks that are faster, more accessible, and more secure. Anil is also a member of the board of The Roots of Progress, a nonprofit dedicated to establishing a new philosophy of progress for the 21st century. He graduated from George Mason University with degrees in both economics and computer networking.</p>"
+    },
+    "aninda-chatterjee": {
+      "name": "Aninda Chatterjee",
+      "role": "Guest",
+      "bio": "<p>Aninda Chatterjee holds a Bachelor of Engineering degree in Information Science. His networking career started at AT&amp;T, troubleshooting Layer 1 circuit issues, eventually transitioning to customer support at Cisco TAC, specializing in Layer 2.<br><br>After his stint at Cisco TAC, he has held several roles across different organizations, with functions including escalation support for enterprise and data center engineering, designing, implementing, and troubleshooting enterprise and data center networks, and technical marketing for Cisco Software Defined Access (SDA), Juniper Networks and Nokia data center solutions.&nbsp;<br><br>Aninda actively writes on his personal blog, www.theasciiconstruct.com</p>"
+    },
+    "bart-castle": {
+      "name": "Bart Castle",
+      "role": "Guest",
+      "bio": "<p>Bart was an Artist, Musician, Geek, and Trainer.<br><br>His goal was to get others psyched about life and careers by sharing the many facets of his.&nbsp;<br><br>Bart was an artist and worked in oil, acrylic, water colors and pen and ink. You can find Bart's work on display and for sale in lovely Asheville, NC and online.&nbsp;<br><br>Bart was a a passionate multi-instrumentalist and it is music that kept him sane and brought him great satisfaction. Guitar. Flute. Bass. Didgeridoo.</p><p><br></p><p>Above all, Bart was a beautiful soul full of light and love, and we miss him dearly.&nbsp;</p><p><br></p><p>Love you Bart.&nbsp;</p>"
+    },
+    "beau-toop": {
+      "name": "Beau Toop",
+      "role": "Guest",
+      "bio": "<p>Audio engineer with a side of networking.&nbsp;</p>"
+    },
+    "brian-monroe": {
+      "name": "Brian Monroe",
+      "role": "Guest",
+      "bio": "<p>I am an experienced InfoSec leader and hands-on contributor.&nbsp; I \"grew up\" in technology via networking and system administration (Windows, Linux/Unix, and Novell, if anyone cares) with my share of scripting languages and experiences under my belt.<br><br>I've inherited security teams, and I've built my own.&nbsp; I've loved it every single time.<br><br>I am constantly growing and maturing as a leader, with my new focus being on working with the neurodivergent-heavy teams we tend to put together in Technology. Understanding how people operate, and building an environment of trust and acceptance makes for strong, innovative and (relatively) peaceful teams.<br><br>Not only have I \"run it all\", but I've \"done it all\".&nbsp; Security/gap engineering, operations, incident response, architecture/EA, security testing, vulnerability management, compliance reviews, developed governance plans and work in AWS, Azure, Google and Oracle Compute clouds.</p>"
+    },
+    "brittany-mussett": {
+      "name": "Brittany Mussett",
+      "role": "Guest",
+      "bio": "<p>Brittany is a Talent Acquisition professional with 8+ years of experience partnering with technical and enterprise teams — most recently supporting data, analytics, and AI-focused hiring in a complex, multi-business environment.<br><br>She's passionate about driving organizational growth and innovation through strategic talent acquisition. Brittany stays genuinely curious about technology and remains up-to-date with industry trends, emerging tools, and evolving best practices. She prides herself on fostering trust-based relationships, streamlining recruitment processes, and ensuring that both candidates and hiring teams have a seamless experience.</p>"
+    },
+    "carl-zellers": {
+      "name": "Carl Zellers",
+      "role": "Guest",
+      "bio": "<p>Experienced Network Engineer and life-long learner with a demonstrated history of working in the information technology and managed services industry.&nbsp; Skilled in Network Monitoring, Provisioning Troubleshooting, and Security.&nbsp; Self-motivated, driven, with a passion for leaving everything better than I found it.&nbsp; Strong information technology professional with a Bachelor of Science - Information Systems focused in Internetworking Technology from Strayer University.&nbsp; Active certifications: CCNP R/S, CCNP Enterprise, Cisco Certified Specialist - Network Security VPN Implementation, Cisco Certified Specialist - Enterprise Design, CCNA Security, CCNA R/S, CCT R/S, CMNA, JNCIA-Junos, JNCIA-SEC, JNCIA-Cloud, JNCDA, PCNSA, Network+, Security+, ITF+, Fortinet NSE2, eLearnSecurity eNDP.</p>"
+    },
+    "chris-denney": {
+      "name": "Chris Denney",
+      "role": "Guest",
+      "bio": "<p>Chris Denny is a Director of Network Communications for a transportation company, known for his hands-on, “get it done” approach to IT.&nbsp;</p><p><br></p><p>With no formal degree or certifications, Chris built his career through real-world experience; starting in a small consulting shop and growing into a role where he designs, deploys, and supports network infrastructure across distributed sites.&nbsp;</p><p><br></p><p>A self-described generalist, he’s worked across networking, systems, telecom, and end-user support, often stepping in wherever the business needs him most.&nbsp;</p><p><br></p><p>Chris attributes his success to strong communication skills, adaptability, and a willingness to take on the work others avoid. He’s a firm believer that soft skills, persistence, and ownership are just as valuable, if not more, than traditional credentials in building a successful IT career.&nbsp;</p>"
+    },
+    "chris-grundemann": {
+      "name": "Chris Grundemann",
+      "role": "Guest",
+      "bio": "<p>For the past two decades, I've worked across network infrastructure operations: service providers, data centers, interconnection platforms, and emerging infrastructure like AI compute and edge networks. I've seen what works and what doesn't when organizations build or transform their NetOps—from manual, siloed operations to automated, agile systems.<br><br>At Khadga Consulting, I advise executives on the full journey: the technology decisions, the organizational design, and the cultural foundations that separate successful operations from expensive tool \"shelfware.\"<br><br>I organize AutoCon (1,000+ infrastructure professionals annually), chair the OIX Association, and co-founded IX-Denver. I hold 8 patents in network technology. But more importantly, I've helped infrastructure operators navigate the messy reality of network operations at scale: the part that doesn't fit in vendor slide decks.</p>"
+    },
+    "chris-randall": {
+      "name": "Chris Randall",
+      "role": "Guest",
+      "bio": "<p>Azure Infrastructure Engineer. Dabbling in Terraform.</p>"
+    },
+    "christopher-hart": {
+      "name": "Christopher Hart",
+      "role": "Guest",
+      "bio": "<p>Chris is a Software Consulting Engineer at Cisco’s RTP campus and prior to that, was a TAC engineer on the Data Center Routing &amp; Switching team.&nbsp;</p><p><br></p><p>Chris graduated from East Carolina University in 2020 with a Bachelor’s of Science in Industrial Technology with a concentration in Information and Computer Technology. Chris holds a CCNA and DevNet Associate certification, and is a proud member of the DevNet Class of 2020.</p><p>Chris is familiar with a number of programming languages, but is strongest in Python.</p><p><br></p>"
+    },
+    "colin-doyle": {
+      "name": "Colin Doyle",
+      "role": "Guest",
+      "bio": "<p>Colin Doyle started his networking journey in 1999, eager for a front-row seat to the pending global collapse promised by the Y2K bug. After overcoming his disappointment when zombies failed to flood the streets, he joined a start-up and traveled the world for 10+ years building meeting networks for standards bodies. This lifestyle became incompatible with his interests when he met his wife and started a family, so he moved on to a networking systems integrator, then an networking equipment manufacturer.<br><br>Colin currently works as a Principal Consulting Engineer at Nokia focused on data center fabrics and AI. He enjoys learning new things, teaching what he knows, and building lego sets with his son because that's what his son is into and it's totally not because Colin really geeks out on legos even though he's in his 40's...</p>"
+    },
+    "dakota-seufert-snow": {
+      "name": "Dakota Seufert-Snow",
+      "role": "Guest",
+      "bio": "<p>Director of Network Operations by trade. I spend my time making networks more stable, more observable, and easier to support, monitoring, incident response, root cause work, maintenance planning, documentation, and tightening up operational processes.<br><br>I also create tech career content through The Bearded I.T. Dad, The I.T. Career Podcast, and the IT Career Accelerator community, helping people cut through the noise and build job-ready skills in IT and cybersecurity.<br><br>Always open to connecting with people who care about: reliability, clean operations, and real career growth.</p>"
+    },
+    "dan-baxter": {
+      "name": "Dan Baxter",
+      "role": "Guest",
+      "bio": "<p>Dan is a seasoned OOB professional with over 20+ years experience. &nbsp; His primary duties at Opengear include supporting our Strategic Accounts as Senior Sales Engineer and managing the US group of Sales Engineers and Solution Architects. &nbsp;<br><br>Dan's focus is on helping hyper-scale and enterprise customers find practical applications for Opengear's OOB solutions.&nbsp; This includes full life cycle design, deployment advice and automation integration. &nbsp;</p>"
+    },
+    "daniel-teycheney": {
+      "name": "Daniel Teycheney",
+      "role": "Guest",
+      "bio": "<p>Experienced automation, cloud, network and security professional with international experience in various technologies and company settings.<br><br>Daniel enjoys designing and building solutions, automating processes and working on team projects which make a real difference to a customers IT experience.<br><br>Put simply, Daniel likes to leave all teams, organizations and environments in a better position than when he found them.<br><br>The way Daniel approaches his work and interacts with others can be found here: https://blog.danielteycheney.com/posts/philosophies/<br><br>Github: https://github.com/writememe<br>Website: https://blog.danielteycheney.com<br>YouTube: https://www.youtube.com/channel/UCTjhvZ6rj2Hya4nszBfXoRg</p>"
+    },
+    "danny-finein": {
+      "name": "Danny Finein",
+      "role": "Guest",
+      "bio": "<p>Danny provides network solutions to create and maintain network architectures.&nbsp; He expands networks across geographical boundaries, while maintaining security and services inherent to a Local Area Network, to include voice, data, and streaming video.<br><br>Certifications available at https://www.credly.com/users/daniel-finein.f402dd33/badges</p>"
+    },
+    "david-alicea": {
+      "name": "David Alicea",
+      "role": "Guest",
+      "bio": "<p>A Solutions Engineer at Cisco who believes the way technology is implemented at an organization makes the difference between business success and just getting by. David's entire working life has been in some sort of IT role. The last ten years prior to Cisco he spent them as a Network Engineer, implementing Network, Voice, and Security solutions.</p>"
+    },
+    "david-henderson": {
+      "name": "David Henderson",
+      "role": "Guest",
+      "bio": "<p>David is a Principal Architect in NetDevOps with over 20 years of experience designing, operating, and transforming complex networks. His background spans TAC, project management at AT&amp;T, systems engineering, and senior network engineering, providing a comprehensive understanding of network lifecycles from design through operations and evolution.</p><p><br></p><p>At Presidio, he focuses on modernizing network operations through automation, source-of-truth systems, CI/CD pipelines, and programmatic workflows. He collaborates with customers and internal teams to define strategy, develop service offerings, build automation frameworks, and enable engineers on modern NetDevOps practices.</p><p><br></p><p>David specializes in turning complex, multi-domain environments into predictable, reliable, and repeatable systems. His work centers on architecting resilient infrastructures that align with business goals, industry best practices, and the evolving demands of network automation.</p>"
+    },
+    "deirra-footman": {
+      "name": "Deirra Footman",
+      "role": "Guest",
+      "bio": "<p>Deirra J. Footman is a network engineer and security professional with 15 years of experience across K–12 education, govtech, healthcare, finance, and consulting. Based in Baltimore, she developed an early interest in technology that led her to the Cisco Networking Academy and an internship with Baltimore City Public Schools, launching her career in IT.</p><p><br></p><p>She specializes in data center networking and security, with expertise in network refreshes, segmentation, and enterprise security solutions. Her technical focus includes Cisco ACI, ISE, and Nexus platforms, and she has led large-scale transformations centered on performance, scalability, and Zero Trust architecture.</p><p><br></p><p>Deirra is evolving into enterprise security leadership, focusing on strategy, resilience, and guiding teams through complex challenges. She is also the voice behind “Deirra Decoded,” where she shares insights through content and speaking, helping others grow in their careers.</p>"
+    },
+    "drew-conry-murray": {
+      "name": "Drew Conry-Murray",
+      "role": "Guest",
+      "bio": "<p>Drew has been covering enterprise IT as a writer and editor since 1998, with a focus on enterprise networks and data centers, cloud computing, and information security.</p><p><br></p><p>Before Packet Pushers, Drew was Director of Content &amp; Community for the Interop conference, where he led efforts to refocus content to emphasize independent, practitioner-focused learning on both core and emerging technologies. Before Interop, Drew was Editor in Chief at Network Computing, and has held senior editorial positions at InformationWeek and Network Magazine.</p><p><br></p><p>When he’s not influencing, Drew writes fiction. <a href=\"https://www.amazon.com/Wasteland-Blues-Scott-Christian-Carr/dp/1935738593/\">Some of it even gets published.</a></p>"
+    },
+    "duan-lightfoot": {
+      "name": "Du'An Lightfoot",
+      "role": "Guest",
+      "bio": "<p>Du'An is a Senior AI Engineer focused on agentic AI and multi-agent systems. In his current role, he builds demos, workshops, and reference workflows that help teams move from&nbsp; \"LLM curiosity” to reliable, measurable outcomes.&nbsp;<br><br>Du'An is known for building MCP servers and AI-first workflows that increase productivity, and for explaining complex AI in a way teams can actually use.&nbsp;<br><br>Du'An speaks on what’s actually possible with AI (AWS re:Invent, We Are Developers, AI Engineer World Fair, Code with Claude) and teaches practical agent patterns to a community of 50K+ YouTube subscribers.&nbsp;<br><br>His background (Air Force → network engineering → automation → cloud → AI) shaped how he works. Du'An always starts with the real problem, designs for scale and reliability, and measures results.&nbsp;<br><br></p>"
+    },
+    "eric-chou": {
+      "name": "Eric Chou",
+      "role": "Guest",
+      "bio": "<p>Eric is a networking professional with experience in cloud, service provider, and enterprise environments. He is a strong voice in the network automation community, ser4vive as an automation advocate, as well as an advisory board member of multiple network automation organizations.&nbsp;</p><p><br></p><p>Eric is an author:</p><p>\"Mastering Python Networking\" (Packt Publishing)</p><p>Distributed Denial of Service: Practical Detection and Mitigation (O'Reilly Media)</p><p><br></p><p>He's also a podcaster:</p><p>&nbsp;https://podcast.networkautomationnerds.com/<br><br>]GitHub: https://github.com/ericchou1, https://github.com/ericchou-python</p>"
+    },
+    "erika-dietrick": {
+      "name": "Erika Dietrick",
+      "role": "Guest",
+      "bio": "<p>I'm here to solve problems for the greater good and to learn whatever it takes to do so. Anyone can learn, and I prefer we do it together. We are all capable of so much more than we give ourselves credit for. My career is defined by these pillars:&nbsp;<br><br>* Learn cool stuff&nbsp;<br>* Try new things&nbsp;<br>* Help others&nbsp;<br>* Defy expectations&nbsp;<br><br>I value kindness, I’m not afraid to stand out, and I prefer to be down-to-earth; though, I know when to be assertive, when not to stand out for standing out’s sake, and when it’s necessary to toot my horn.&nbsp;<br><br>I’m proud to be an engineer. I’m a software engineer by training (MS from East Carolina), but I’ve also worked as a network engineer (CCNA, DevNet Associate), a security SME, and a sales engineer across startups and Fortune 500s alike. My tech career was a non-traditional transition from my previous roles as a barista, photographer, + more.&nbsp;</p>"
+    },
+    "ethan-banks": {
+      "name": "Ethan Banks",
+      "role": "Guest",
+      "bio": "<p>Founder of Packet Pushers, a podcast network for IT people. Recovering CCIE #20655. Co-host of the Heavy Networking, Tech Bytes &amp; N Is For Networking pods. Your network is not a democracy. Rig every election.</p>"
+    },
+    "ethan-jackson": {
+      "name": "Ethan Jackson",
+      "role": "Guest",
+      "bio": "<p>With over a decade of experience in the networking industry, I bring a blend of deep technical expertise and strategic vision across the Service Provider and AI/Data Centre environments.<br><br>As a Presales Systems Engineer II at HPE, I work with service providers, data center and enterprise customers to design scalable, future-ready network architectures.&nbsp;<br><br>I have supported multi-million-pound infrastructure projects and complex transformation initiatives, which align to long-term network strategy with the accelerating demands of routing, switching, AI, automation, and high-performance data centre networking.<br><br>In my current role, I have a strong focus on next-generation fabric design, high-capacity routing, and AI-optimised infrastructure, regularly contributing to strategic conversations around the evolution of data centre and service provider networks.</p>"
+    },
+    "eugene-byers-jr": {
+      "name": "Eugene Byers, Jr",
+      "role": "Guest",
+      "bio": "<p>Eugene is an IT professional with 5+ years of experience in helpdesk and tech support, plus over 2 years in QA focused on system reliability and user experience. I’m currently developing hands on skills in AWS, Linux, and networking to transition into a Cloud Support Engineer role.</p><p><br>Through project based learning, he's building practical cloud knowledge while drawing on years of experience solving technical issues and supporting users. Eugene is excited to bring his experience, curiosity, and drive to a team where he can grow and contribute from day one.</p>"
+    },
+    "eyvonne-sharp": {
+      "name": "Eyvonne Sharp",
+      "role": "Guest",
+      "bio": "<p>Eyvonne Sharp leads an incredible team of cloud infrastructure customer engineers as the Head of North American Customer Engineering for Infrastructure Modernization at Google Cloud. In her spare time, she <a href=\"https://www.notion.so/Eyvonne-s-Public-Reading-List-975936d5581949378aeeac1cdc840c4f\">reads</a>, <a href=\"https://esharp.net/\">writes</a>, and enjoys time with her husband and 4 kiddos. She's an occasional flutist and wannabe philosopher.</p>"
+    },
+    "frank-padikkala": {
+      "name": "Frank Padikkala",
+      "role": "Guest",
+      "bio": "<p>Frank Padikkala is an award-winning Technology Architect, Evangelist, and Keynote Speaker specializing in AV/IT convergence, cybersecurity, and networked media solutions. With a strong foundation in IT and cybersecurity, Frank champions intentional and purposeful design, leveraging technology to create seamless end-user experiences.<br><br>As a Senior Technical Sales Architect at Zoom, he helps customers visualize and execute design visions built on the Zoom platform, bridging the ever-blurring lines between AV, IT, and UC.<br><br>Frank has held key roles at some of the biggest names in technology and AV, including Audinate, Panasonic, and Diversified, where he worked on networked AV, large-scale media transport, and IT-integrated AV solutions. His expertise spans sales engineering and enablement, product development and advocacy, and solution architecture, making him a well-rounded leader in the evolving AV/IT landscape.</p>"
+    },
+    "geoffrey-anderson": {
+      "name": "Geoffrey Anderson",
+      "role": "Guest",
+      "bio": "<p><br>An experienced product manager in the high-tech industry.&nbsp; I bring a strong technical background (BS Physics, SJSU) as well as outstanding interpersonal skills to be a results based leader in the organization. &nbsp;<br><br>Great customer savvy, ability to talk at multiple levels within an organization and a passion for the technology contribute to my success.<br><br>Success to me is working to improve the product ideation and development process and increase both velocity, and readiness at launch to remove any barriers to a smooth ramp.</p>"
+    },
+    "girard-kavelines": {
+      "name": "Girard Kavelines",
+      "role": "Guest",
+      "bio": "<p><br>Girard Kavelines has over 15 years of experience as an IT Professional, working in many different areas and roles from IT Helpdesk, Network Technician, Network and System Administrator, and IT administrator. Specializing in Networking, Security &amp; Virtualization. He is currently working toward achieving his CCNA, and then pursuing this CCNP. He blogs regularly at TechHouse570. For his endless work as a blogger Girard has been recognized as a VMware vExpert &amp; Cisco Champion.</p>"
+    },
+    "greg-grimes": {
+      "name": "Greg Grimes",
+      "role": "Guest",
+      "bio": "<p>Greg is a seasoned network engineer with over 20 years of experience. He is currently a Professional Services Engineer for a regional ISP/MSP/VAR. Greg performs pre and post-sales work with a focus on post-sales network engineering.&nbsp;</p><p>Greg installs and configures routers, switches, access points, and firewalls. Greg started as a network engineer for Mississippi State University. He likes to tell people that you haven't lived until you have 20k bad actors on the inside of your network.</p>"
+    },
+    "heather-donnelly": {
+      "name": "Heather Donnelly",
+      "role": "Guest",
+      "bio": "<p>Heather is a Senior Network Engineer with almost 20 years’ experience in diverse, network-heavy technical roles. She also have some systems administration, automation, and cloud-related experience.</p>"
+    },
+    "iain-geddes": {
+      "name": "Iain Geddes",
+      "role": "Guest",
+      "bio": "<p>A highly motivated Engineering Professional with a proven track record in the deployment and support of Optical (SDH, DWDM, OTN), IP and Storage networks, together with their associated management systems.&nbsp;<br><br>With more than 20 years of technical experience I have regularly demonstrated exemplary problem solving and negotiation skills, and an ability to quickly adapt.</p>"
+    },
+    "j-metz": {
+      "name": "J Metz",
+      "role": "Guest",
+      "bio": "<p>J is Technical Director for Systems Design for AMD where he works to coordinate and lead strategy on various industry initiatives related to systems architecture, including advanced networking and storage. He has a unique ability to dissect and explain complex concepts and strategies, and is passionate about the inner workings and application of emerging technologies.<br><br>J has previously held roles in both startup and Fortune 100 companies as a Field CTO, R&amp;D Engineer, Solutions Architect, and Systems Engineer. He is and has been a leader in several key industry standards groups, currently Chair of SNIA as well as the Chair of the Ultra Ethernet Consortium (UEC). Previously, he was on the board of the Fibre Channel Industry Association (FCIA) and Non-Volatile Memory Express (NVMe) organizations. A popular blogger and active on Twitter, his areas of expertise include both storage and networking for AI and HPC environments.<br><br></p>"
+    },
+    "james-bensley": {
+      "name": "James Bensley",
+      "role": "Guest",
+      "bio": "<p>James has been in networking for nearly 20 years, almost entirely in the service provider and carrier space. He's worked on everything from crimping cables to automation, from 1st line support to designing networks with thousands of PoPs. Currently he works as the network architect at Inter.link and focuses on steering the long term technical strategy of the network.</p>"
+    },
+    "jared-cordova": {
+      "name": "Jared Cordova",
+      "role": "Guest",
+      "bio": "<p>Jared Cordova is an IP Consulting Engineer at Nokia, based in Irving, Texas. He holds a computer science degree from Washington and Lee University. Outside of his professional endeavors, Jared is a beast of a rugby player.</p>"
+    },
+    "jason-gintert": {
+      "name": "Jason Gintert",
+      "role": "Guest",
+      "bio": "<p>Fascination with technology and its transformative potential has been a part of me as long as I can remember.&nbsp;<br><br>Entering the technology field during the 90s ISP boom, I was fortunate to navigate the accompanying dot com chaos, coming through it with invaluable experience and perspective. I've held diverse roles and responsibilities from junior engineer to founder, each reinforcing a fundamental truth: outcomes supersede almost everything else.</p>"
+    },
+    "jason-gooley": {
+      "name": "Jason Gooley",
+      "role": "Guest",
+      "bio": "<p>Jason Gooley, CCIEx2 (RS, SP) No. 38759, a seasoned networking professional with over 30 years of industry experience, is renowned for his engaging teaching style and passion for helping others succeed. He holds two Cisco Certified Internetwork Expert certifications and works as an independent author and trainer. Jason has authored numerous Cisco Press books, blogs for Learning@Cisco, and is recognized as a four-time CiscoLive Distinguished Speaker. He is involved in the development of CCIE exams, certification training and co-founded the Chicago Network Operators Group (CHI-NOG). His YouTube show, @MetalDevOps, explores the intersection of metal music and technology. Known as \"The Godfather of Programmability,\" Jason drives advancements in the industry of network programmability and automation. Additionally, he is a Cisco Champion, Cisco Network Academy Ambassador, and philanthropist.</p>"
+    },
+    "jeff-clark": {
+      "name": "Jeff Clark",
+      "role": "Guest",
+      "bio": "<p>Jeff translates Geek into English!<br><br>His superpower is making complex technology easy to understand. As a pre-sales Systems Engineer at Fortinet, Jeff bridges the gap between intricate cybersecurity solutions and real-world needs. His job is all about breaking down technical jargon into clear, relatable concepts that help clients feel confident about their technology decisions.<br><br>When Jeff isn't demystifying the world of network security, he's diving into audiobooks, exploring the latest tech trends, or finding creative ways to help others embrace the art of technology—with a touch of humor and a lot of heart.</p>"
+    },
+    "jeff-mclaughlin": {
+      "name": "Jeff McLaughlin",
+      "role": "Guest",
+      "bio": "<p>I lead a team of product managers and technical marketing engineers at Cisco Systems.&nbsp; I work on unifying our enterprise networking experience across our different platforms, and some exciting new things like digital twin and sustainability.&nbsp; I used to lead a large team of technical marketing engineers covering Cisco's enterprise networking and security products, as well as our competitive research team.<br><br>I've done a lot of jobs in this industry, from help desk guy, to in-house network engineer, to TAC support for routing protocols, to partner sales engineer.&nbsp; I am an active double CCIE in Enterprise Infrastructure/Security (#14023), a former JNCIE Service Provider (#2332), and a Hall of Fame Speaker at Cisco Live.<br><br>My probably-too-honest blog is here:&nbsp; http://www.subnetzero.info<br><br>Full CV:&nbsp; http://www.subnetzero.info/cv</p>"
+    },
+    "joe-lemaire": {
+      "name": "Joe Lemaire",
+      "role": "Guest",
+      "bio": "<p>Joe is an infrastructure architect providing the infrastructure to drinking in the US!</p>"
+    },
+    "john-capobianco": {
+      "name": "John Capobianco",
+      "role": "Guest",
+      "bio": "<p>John is the Head of AI &amp; Developer Relations at Itential, and a technology leader, developer advocate, and builder at the intersection of AI and network automation. With a career spanning enterprise, government, and cloud networking, John has held roles including Head of Developer Relations at Selector AI, where he focused on AI-driven observability, configuration intelligence, and autonomous network operations, as well as Cisco AI Technical Leader and Senior Network Architect for the Parliament of Canada / House of Commons. He brings deep, hands-on experience applying automation and AI in highly regulated, mission-critical environments. His work centers on helping large organizations adopt AI safely while maintaining reliability, security, and operational trust. John is a former professor at St. Lawrence College, an author, speaker, and educator. He is the author of Automate Your Network (self-published, 2019) and the Cisco Press pyATS book (2024).&nbsp;</p>"
+    },
+    "jordan-villarreal": {
+      "name": "Jordan Villarreal",
+      "role": "Guest",
+      "bio": "<p>With over 20 years of network engineering experience, Jordan is a Developer Advocate at OpsMill, creators of Infrahub. His role is to bridge pre/post-sales engineering with customer advocacy, tailoring solutions to meet customer needs through discovery calls, infrastructure design, and strategic product guidance.&nbsp;<br><br>Jordan creates proof of concepts and example code, enhancing customer decision-making and understanding using Python, Ansible, and other network automation tools. As the voice of the customer, he influences product features and partnerships, fostering thought leadership. Jordan actively engages in the community, participating in webinars, hosting monthly community meetups, and speaking at conferences on network automation and cloud-native technologies.&nbsp;</p>"
+    },
+    "josh-morris": {
+      "name": "Josh Morris",
+      "role": "Guest",
+      "bio": "<p>Recovering architect turned director with over 20 years' experience in enterprise networking, dedicated to delivering robust end-to-end solutions from inception to post-delivery support. I balance focus on industry trends and best practices with battle-tested, experience-based methods that meet real enterprise needs.<br><br>I've learned that the best technical leadership comes from understanding both the big picture and the path to execution. I still get energized by the creative challenge of complex problems and lead by example—rolling up my sleeves to tackle technical work alongside my team. These days I'm focused on building innovative strategies that drive solutions forward.<br><br>The network is never \"done\"—it evolves with the business. I strive to balance stability and innovation, meeting today's needs while building for tomorrow's challenges.</p>"
+    },
+    "keith-barker": {
+      "name": "Keith Barker",
+      "role": "Guest",
+      "bio": "<h1>Nugget trainer since 2012</h1><p><br></p><p>“The best part of being a trainer is making a difference in the life of a student. When a motivated learner and the correct training meet at the right time, the results are amazing.”</p><p><br></p><p>Keith Barker discovered a love for computers and networking in 1984 and began his IT career in 1985 at Electronic Data Systems (EDS). He has worked with companies including Paramount Pictures, Blue Cross, and several government agencies. Keith loves to teach and spends most of his time creating fun and useful videos for CBT Nuggets.<br><br><b>Connect with Keith:</b></p><ul><li><a href=\"https://www.youtube.com/user/Keith6783\">YouTube</a></li><li><br></li></ul><p><b>Certifications: </b>Cisco CCIE (2x), CISSP, Network+, Security+, VMware, Palo Alto, Check Point</p><p><br></p><p><b>Areas of expertise: </b>Networking and Security</p><p><br></p><p><br></p>"
+    },
+    "kevin-camacho": {
+      "name": "Kevin Camacho",
+      "role": "Guest",
+      "bio": "<p>Graduated with a B.S from Wayne State College. Major: Computer Information Systems-Networking.</p><p><br></p>"
+    },
+    "kevin-myers": {
+      "name": "Kevin Myers",
+      "role": "Guest",
+      "bio": "<p>Kevin is a Network Architect that’s spent the last 25 years working in network engineering/IT across Service Provider, Enterprise, SMB/SME and Government sectors.&nbsp; Kevin has a strong focus on open and commodity networking that often includes vendors like MikroTik and IP Infusion. His work in this area has aided hundreds of rural, regional and non-profit ISPs in designing and building service provider networks to help bridge the digital divide and connect millions of people to the Internet. Kevin is also a strong advocate for IPv6 and has worked with dozens of ASNs over the years to migrate to the next generation of the Internet Protocol.&nbsp; When he’s not tinkering with MikroTik, BGP, MPLS or IPv6, Kevin can be found: playing Chess, building Lego, attending his wife’s musical theatre performances and arbitrating Minecraft disputes between 4 very geeky kids.</p>"
+    },
+    "knox-hutchinson": {
+      "name": "Knox Hutchinson",
+      "role": "Guest",
+      "bio": "<p>Founder at Transit AI, experienced IT professional, specializing in network, cloud, and systems infrastructure, database management, and security.</p><p>CBT Nuggets Trainer since 2018.</p><p><b>Certifications: </b>Microsoft MCSE: Cloud Platform and Infrastructure, Microsoft MCP: Administering SQL Server 2012/2014 Databases, Cisco DevNet Professional, Cisco CCNP: Enterprise, Certified Meraki Network Operator (CMNO), JNCIA-JUNOS, JNCIA-DevOps, Tableau Desktop Qualified Associate, and CompTIA Network+</p><p><b>Areas of expertise: </b>Data analysis and visualization, business intelligence solutions</p>"
+    },
+    "kori-younger-rongey": {
+      "name": "Kori (Younger) Rongey",
+      "role": "Guest",
+      "bio": "<p>Kori is a Federal Systems Engineer at Cisco. After obtaining her Bachelors degree in Business, Information Systems, and Cybersecurity Kori began work at a fast paced Industrial Automation startup supporting the aerospace and defense industry. Here her passion for Industrial Control Systems Security was born. Kori now works as a part of the IOT specialist group at Cisco supporting Federal customers on Industrial Networking, Security, and Wireless technologies.</p><p>Kori has a passion for her work supporting critical infrastructure and the growing Internet of Things. She enjoys educating others on the importance of security beyond compliance and the consequences of security incidents in industrial environments.</p><p>Kori’s purpose is to help others find their passions in technology helping ensure STEM is a place where everyone has a voice.</p>"
+    },
+    "lexie-cooper": {
+      "name": "Lexie Cooper",
+      "role": "Guest",
+      "bio": "<p>Lexie Cooper is a network integration engineer at an aerospace company. She has six years of experience as a network engineer, having begun her career at an ISP before moving on to rocket networks. She also produces fun educational videos about networking online under the username @tracketpacer.</p>"
+    },
+    "lily-clark": {
+      "name": "Lily Clark",
+      "role": "Guest",
+      "bio": "<p>Lily Clark is an offensive security consultant specializing in penetration testing and cybersecurity strategy. She transitioned into tech from a non-traditional background, discovering cybersecurity while working in customer support at INE. Through self-study and hands-on labs, she built foundational skills in networking, security, and ethical hacking, earning her first penetration testing certification and launching her career in offensive security.</p><p><br></p><p>Lily focuses on identifying and exploiting vulnerabilities so organizations can remediate them before real attackers do. Known for her curiosity and resilience, she advocates for continuous learning and non-linear career paths into tech. She is active in the cybersecurity community, encouraging others to learn in public, build skills through practice, and leverage community support to grow.</p>"
+    },
+    "luis-garcia-jr": {
+      "name": "Luis Garcia Jr",
+      "role": "Guest",
+      "bio": "<p>Luis has 5 years in various IT roles including Help Desk and a Security Operations Center Analyst . Former Network &amp; Security Administrator. Luis has a passion for Networking and Cyber Security.&nbsp; He is always willing to learn and adapt to different situations and jump in wherever he is needed to ensure that his team will succeed.</p>"
+    },
+    "manny-pimentel": {
+      "name": "Manny Pimentel",
+      "role": "Guest",
+      "bio": "<p>Motivated Network Engineer with a passion for technology with four years of experience and training in both Network Engineering and Server Administration and a wealth of IT Support experience.</p>"
+    },
+    "mansoor-alam": {
+      "name": "Mansoor Alam",
+      "role": "Guest",
+      "bio": "<p>Over the years, Mansoor gained extensive experience working in diverse and challenging environments, dealing with various technologies and platforms. Mansoor attributes his success to his keen attention to detail. He is not only eager to learn and stay updated with the latest industry trends but he's passionate about sharing his knowledge and expertise to help build a successful team.<br><br>Technical Skills:<br>• CISCO Platforms: CRS-1, CRS-3, CRS-8, CRS-16, CRS-X, ASR9K, ASR9922, NCS5K, NCS6K<br>series Routers, Cisco Catalyst 3750, 2950 and 3500XL series switches<br>• JUNIPER Platforms: T-1600, T-4000, TXP, TXP-3D, MX2020, MX960, MX480, MX240, EX4200,<br>• ARISTA: 7280CR/SR, 7010SR<br>• NOKIA (ALCATEL-LUCENT): 7750SR, 7705SAR, 7210SAS, and 7250IXR<br>• Network Tools: SNMP, Wireshark, Log Analysis, Packet Tracer, SecureCRT, Solar Winds, GNS3, CA<br>Spectrum, SevOne, BRIX, Telcordia, HPNA, JIRA, NETBRAIN<br>• DevOPs: Working knowledge of Python, YAML, JSON and XML</p>"
+    },
+    "matt-leuschner": {
+      "name": "Matt Leuschner",
+      "role": "Guest",
+      "bio": "<p>Matt Leuschner is an engineer with over 20 years of experience across a wide range of IT technologies.&nbsp; His career includes experience in end-user services and support, virtualization technologies, storage solutions, high-performance computing, as well as the design, configuration, and operation of the network infrastructure supporting those IT systems.&nbsp; This diverse background provides Matt with a unique perspective to troubleshooting and building more resilient end-to-end systems and networks.&nbsp; He also enjoys learning and working through the challenges of deploying new technology.</p><p><br>Currently, Matt works as a Solutions Engineer for Cisco.&nbsp;</p><p><a href=\"https://www.linkedin.com/in/matt-leuschner/\"><br></a><br></p>"
+    },
+    "matthew-ouellette": {
+      "name": "Matthew Ouellette",
+      "role": "Guest",
+      "bio": "<p>Matt is a network engineering leader with a strong track record in designing and implementing high-performance infrastructures. He has driven improvements in performance, resiliency, and security while leading teams and collaborating across organizations. His expertise includes network design, automation, business continuity, migrations, and project management.</p><p><br></p><p>Most recently, he served as a Network Designer on a client engagement with World Wide Technology, where he assessed LAN environments, developed upgrade strategies, and guided network refresh initiatives. He worked closely with stakeholders and leadership to align technical solutions with business goals and provide infrastructure recommendations.</p><p><br></p><p>He is known for his technical expertise, clear communication, and ability to deliver reliable, scalable solutions.</p>"
+    },
+    "micheline-murphy": {
+      "name": "Micheline Murphy",
+      "role": "Guest",
+      "bio": "<p>Combining almost two decades of experience as a skilled communicator with high-level technical expertise in Route/Switch, Data Center, and Cisco ACI to help others transition to new solutions.i<br><br>Major strengths include efficiently driving complex projects to successful and timely completion, effectively drive technical conversations, and successfully impart difficult information to diverse audiences.<br><br>Technical specialty areas include Cisco ACI, VXLAN, and Cisco NS-OS</p>"
+    },
+    "mike-bushong": {
+      "name": "Mike Bushong",
+      "role": "Guest",
+      "bio": "<p>Vice President of Data Center at Nokia, where he has remit over strategy and go-to-market. Mike joined Nokia having served separately as the General Manager for Juniper Networks’ Data Center and Software businesses, during which time he led efforts in data center operations, multicloud, and automation, including leading the acquisition of Apstra. Mike has also led Brocade’s Data Center and Software businesses, having driven product and strategy for data center switching, automation, SDN, and NFV. Mike was also a pioneer in the software-defined networking space, responsible for the first carrier-grade implementation of OpenFlow, and having been a part of the executive team at high-flying SDN player Plexxi (later acquired by HPE).</p>"
+    },
+    "munachimso-nwaiwu": {
+      "name": "Munachimso Nwaiwu",
+      "role": "Guest",
+      "bio": "<p>Munachimso Nwaiwu is a Network Automation Engineer at Google, driven to build and optimize high-performance network infrastructure. He excels in automating deployments, enhancing network security, and streamlining operations to ensure efficiency and reliability.<br><br>At Google, Muna played a key role in enhancing the backbone network, including expanding capacity, optimizing performance, and streamlining decommissioning procedures. He also significantly improved the reliability of backbone network activations through proactive bug identification and resolution.<br><br>Muna's experience spans a range of network engineering roles. He consistently delivered impactful solutions, including automating deployments, developing tools and scripts, enhancing network security, designing network modeling libraries, and collaborating cross-functionally to ensure seamless network operations.</p><p><br></p>"
+    },
+    "ned-bellavance": {
+      "name": "Ned Bellavance",
+      "role": "Guest",
+      "bio": "<p>Ned is an IT professional with more than 20 years of experience in the field. He's been a helpdesk operator, systems administrator, cloud architect, and product manager. In Ned's newest incarnation, he is the Founder of Ned in the Cloud LLC. He develops courses for Pluralsight, runs multiple podcasts, writes books, and creates original content for technology vendors.</p><p><br></p><p>Ned is a Microsoft MVP since 2017 and a HashiCorp Ambassador since 2020.</p>"
+    },
+    "nicholas-calcutti": {
+      "name": "Nicholas Calcutti",
+      "role": "Guest",
+      "bio": "<p>Nicholas Calcutti is an accomplished IT professional with a robust background in network security, IT operations, and strategic project management. Currently pursuing a Doctorate in Business Administration, Nicholas combines technical expertise with strong business acumen to drive technological advancements and enhance organizational efficiency.</p><p>​</p><p>Throughout his career, he has led significant initiatives to upgrade network infrastructures, develop comprehensive cybersecurity policies, and streamline IT processes. His commitment to improving cybersecurity postures and implementing disaster recovery plans has been instrumental in protecting critical data and ensuring business continuity.</p><p>​</p><p>As an educator, Nicholas shares his extensive knowledge by teaching various computer science courses. He excels in managing cross-functional teams, collaborating with stakeholders, and aligning IT strategies with business objectives.&nbsp;</p>"
+    },
+    "nick-russo": {
+      "name": "Nick Russo",
+      "role": "Guest",
+      "bio": "<p>Nick is a networking expert with a strong interest in all things DevOps, including the core concepts of Lean/Theory of Constraints. A big proponent of Cisco DevNet, he loves to read and learn new things. Nick is best known for his intense focus on customer value, not market hype.&nbsp;</p>"
+    },
+    "pat-allen": {
+      "name": "Pat Allen",
+      "role": "Guest",
+      "bio": "<p>With over 20 years of experience as a network engineer, Pat has developed deep expertise in designing, optimizing, and troubleshooting complex network infrastructures. His career spans telecommunications, data centers, MSPs, healthcare, hospitality, finance, banking, and retail, where he built a strong problem-solving mindset and passion for reliable connectivity. Recently, he transitioned into a management role, applying his technical foundation to lead teams, align initiatives with business goals, and bridge engineering with leadership.</p><p><br></p><p>Pat is the creator of Layer8packet, a blog and newsletter focused on the intersection of network engineering and management, sharing insights from technical deep dives to leadership strategies with a rapidly growing audience.</p><p><br></p><p>Outside of work, he runs a BBQ side business and is developing a comic book—creative outlets that complement his technology-focused career.</p>"
+    },
+    "patrick-mccabe": {
+      "name": "Patrick McCabe",
+      "role": "Guest",
+      "bio": "<p>Patrick McCabe is a technology leader focused on AI-era data center networking, infrastructure innovation, and modern enterprise architecture. With deep experience spanning networking, cloud, and cybersecurity, Patrick works at the intersection of scalable infrastructure and next-generation AI workloads, helping organizations rethink how networks are designed for performance, predictability, and automation.</p><p>At Nokia, Patrick has been involved in advancing conversations around AI networking, ecosystem collaboration, and the operational demands of large-scale data center environments. He brings a practical perspective on how enterprises can evolve beyond traditional architectures to support the speed, scale, and reliability requirements of modern AI infrastructure.</p>"
+    },
+    "peter-brown": {
+      "name": "Peter Brown",
+      "role": "Guest",
+      "bio": "<p>Peter Brown is a best-selling writer and novelist living in St. Paul, Minnesota, retired from a career as a management consultant. He is the author of five books. His work has appeared in national and international publications including <em>The New Yorker</em> magazine, <em>New York Times</em>, <em>Times</em> of London, <em>Toronto Globe, Salon.com</em>, American Public Radio, and others.</p><p><br></p><p>Make It Stick:</p><p>https://www.makeitstick.com/</p>"
+    },
+    "peter-sprygada": {
+      "name": "Peter Sprygada",
+      "role": "Guest",
+      "bio": "<p>Innovative, results-driven and experienced technologist passionate about introducing enabling technologies with an overall vision focused on delivering the customer experience, driving cost out of information technology assets and maximizing return on investment. Proven success marketing industry leading solutions through the fusion of customer requirements, market acceptance and engineering ingenuity. Recognized ability to thrive in dynamic, fast‐paced environments, promoting positive, winning attitudes and fostering teamwork &amp; collaboration.<br><br></p>"
+    },
+    "radia-perlman": {
+      "name": "Radia Perlman",
+      "role": "Guest",
+      "bio": "<p>Radia Perlman is a pioneering software engineer and inventor, often called the “mother of the internet” for her groundbreaking work on networking protocols, most notably the spanning tree protocol (STP), which enables loop-free operation in Ethernet networks and became fundamental to modern LANs.</p><p><br></p><p>She earned a bachelor’s degree in mathematics from MIT and later completed her master’s and PhD there, focusing on network protocols. Beyond STP, Perlman also created TRILL (Transparent Interconnection of Lots of Links), designed to improve scalability and efficiency in large networks.</p><p><br></p><p>She has authored influential textbooks and contributed to research in networking and tangible computing. Perlman’s work has earned her numerous honors, including induction into both the Internet Hall of Fame and the National Inventors Hall of Fame.</p><p><br></p>"
+    },
+    "ramtin-rampour": {
+      "name": "Ramtin Rampour",
+      "role": "Guest",
+      "bio": "<p>Ramtin is a Solutions Architect at Opengear, where he helps customers design, deploy, troubleshoot, and automate out-of-band management solutions. He joined Opengear in 2011 as one of the company’s earliest U.S. employees, starting in manufacturing before moving into support, sales engineering, and eventually solutions architecture. His career path gives him deep hands-on knowledge of Opengear products, from the hardware level to real-world customer deployments. Ramtin specializes in helping network teams build resilient remote access, zero-touch provisioning, automation workflows, and recovery paths for critical infrastructure. His story is also a strong example of career growth through curiosity, initiative, and making your goals known.</p>"
+    },
+    "remington-loose": {
+      "name": "Remington Loose",
+      "role": "Guest",
+      "bio": "<p>I moved into the networking industry primarily via an Operations Center - so my foci tend towards accurate troubleshooting and attention to details. I find high pressure environments suit me and perceive my work with a strong sense of ownership. I prize efficiency and data-driven decision-making; especially when approaching large projects.</p>"
+    },
+    "robin-canela": {
+      "name": "Robin Canela",
+      "role": "Guest",
+      "bio": "<p>Robin's IT journey began in the late 90s his brother brought home their first computer—a Dell Precision Desktop. That moment ignited a lifelong passion for technology, leading him from tinkering and building PCs to a career in IT that spans various roles and disciplines.<br><br>In his current role as Manager of Corporate Applications, Robin leads a skilled team of Application and Data Engineers, driving professional development through targeted mentorship, personalized growth plans, and consistent performance reviews. His leadership ensures that projects align with timelines, resource availability, and budget constraints. He collaborate closely with business leaders to prioritize workloads and deliver critical initiatives on time and within scope.<br><br></p><p>Robin's home lab is his playground, equipped with servers, routers, switches, and firewalls that he uses to simulate real-world scenarios.</p>"
+    },
+    "roddie-hasan": {
+      "name": "Roddie Hasan",
+      "role": "Guest",
+      "bio": "<ul><li>Technical Solutions Architect at Cisco Systems Inc. focussed on Enterprise Networks, Cisco DNA Center, and SD-WAN</li><li>Cisco Press author of a <a href=\"https://www.amazon.com/Cisco-Software-Defined-Access-Networking-Technology/dp/0136448380?ref=ccie.tv\">Cisco Software-Defined Access book</a></li><li>A really bad hockey player who plays old-people hockey on weekends</li><li>CCIE #7472</li><li>A licensed Private Pilot who rarely has the time or funds to fly</li><li>A home chef who really dislikes baking</li><li>A husband, and father of two 20-somethings who contribute to my grey hairs</li><li>I also have six (6) SIX cats.&nbsp; Yes, six.&nbsp; Don’t ask; you don’t want to know</li></ul><p><br></p>"
+    },
+    "russ-white": {
+      "name": "Russ White",
+      "role": "Guest",
+      "bio": "<p>Russ has built, broken, and fixed complex long haul, data center, campus, and mobile networks across verticals, cultures, and physical environments.<br><br>He help people flourish and grow communities.Russ wrote many books, trained a lot of engineers, and helped developed the CCDE and CCAr certifications.<br><br>He am passionate about privacy, security, and simplicity.<br><br>Russ is a lifelong student of the intersection between technology and culture, earning a Masters in technology and Ph.D. in philosophy from SEBTS.</p>"
+    },
+    "scott-robohn": {
+      "name": "Scott Robohn",
+      "role": "Guest",
+      "bio": "<p>Scott has over 30 years of experience in Internet Infrastructure. He's served in a variety of roles in network operations, support, engineering, architecture, technical sales, and leadership. In 2023, Scott started his own consulting company to help a wide variety of interesting clients with projects in Networking, Operations, Automation, AI, Mobility, Security, Silicon, and more. He is a co-founder of the Network Automation Forum and the founder of the Total Network Operations project and podcast.</p>"
+    },
+    "serena-dipenti": {
+      "name": "Serena DiPenti",
+      "role": "Guest",
+      "bio": "<p>Serena is a network engineer, cybersecurity professional, and tech content creator best known online as “She Networks.” She built a large following by creating short-form videos that make networking, cybersecurity, and IT concepts more approachable and entertaining for a broader audience.&nbsp;</p><p>Serena previously worked at Cisco in TAC and customer success engineering roles focused on data center and server virtualization technologies, including UCS and ACI. She later transitioned into offensive security work while continuing to advocate for women in tech and share educational content across platforms like TikTok, Twitter/X, and YouTube.</p>"
+    },
+    "shala-warner": {
+      "name": "Shala Warner",
+      "role": "Guest",
+      "bio": "<p>Shala is an IT professional with over 15 years of experience across network engineering and technical support. She began her career in the Oil &amp; Gas industry, serving as a Network Engineer and Lead Technical Support Engineer, where she provided onsite networking, hardware, and application support—including working aboard crude oil vessels and supporting users at corporate campuses.</p><p><br></p><p>She later worked as an Onsite Support Technician for an IT solutions firm serving hedge funds and private equity clients, delivering high-level support both onsite and remotely.&nbsp;</p><p><br></p><p>Shala is known for her strong communication, collaboration, and problem-solving skills, along with her ability to mentor others and manage competing priorities. She is passionate about continuous learning and enjoys coding in her spare time to explore new technologies.</p><p><br></p><p>She holds a B.S. in Computer Information Systems and is CCNA certified.</p>"
+    },
+    "shean-leigon": {
+      "name": "Shean Leigon",
+      "role": "Guest",
+      "bio": "<p>Shean Leigon is a Sr. Product Manager for Apstra at Juniper Networks. He brings 20 years of experience in various organizations, including the United States Air Force, Lockheed Martin, and Caesars Entertainment where he developed and implemented scalable network solutions to drive the organizations missions forward. His expertise includes Data Center, Cloud, and SDN.</p>"
+    },
+    "stefano-gridelli": {
+      "name": "Stefano Gridelli",
+      "role": "Guest",
+      "bio": "<p>As part of the NetBeez team, Stefano helps medium and large sized enterprises minimize network downtime by accelerating incident resolution. NetBeez is a digital experience monitoring platform that provides proactive alerts, real-time and historical data to manage distributed and complex networks.<br><br></p>"
+    },
+    "taylor-harris": {
+      "name": "Taylor Harris",
+      "role": "Guest",
+      "bio": "<p>My name is Taylor and I am a Sr. Systems Engineer specializing in Network and Datacenter Engineering at one of the largest network and server manufacturers in the world. My engineering journey is driven by a deep curiosity for how large-scale infrastructures operate, paired with a passion for hands-on experimentation in my Home Lab. Before joining the OEM world, I spent several years at a Partner evolving through various engineering roles, and I’ve had the privilege of shaping the next generation of defenders as an Adjunct Professor and Cyber Range Advisor at my alma mater.</p><p><br></p><p>Continuous learning is the backbone of engineering. If I'm not architecting at work, I'm likely breaking and fixing things in my home lab to stay at the edge of what's possible.</p>"
+    },
+    "teneyia-wilson": {
+      "name": "Teneyia Wilson",
+      "role": "Guest",
+      "bio": "<p>Teneyia's focus is on delivering innovative network architecture solutions. Her expertise includes designing, troubleshooting, and ensuring reliable and secure connectivity for enterprise, service provider and data center environments. Her goals are to contribute to the success of projects, grow her skills, knowledge and be challenged.&nbsp;</p>"
+    },
+    "tim-bertino": {
+      "name": "Tim Bertino",
+      "role": "Guest",
+      "bio": "<p>Tim is a network infrastructure enthusiast. He have been in information technology in one capacity or another since 2007 (college) and professionally since 2010. Tim's passion is network design. He is inspired by people around the world who are passionate about tech and treat it as a community to interact with and help others.<br><br>Tim's personal network infrastructure/career blog:<br>https://netication.com/<br><br></p>"
+    },
+    "tim-mcconnaughy": {
+      "name": "Tim McConnaughy",
+      "role": "Guest",
+      "bio": "<p>Tim's professional experience is that of a technical chameleon; able to adopt and understand technologies as needed. Understanding the fundamentals of technology allows Tim to quickly assimilate new solutions and bring value faster.<br><br>Tim's been a network administrators, system administrator, firewall jockey, collaboration engineer, network consultant, as well as a network and cloud network architect.<br><br>His passion for learning new technologies and helping others understand them has made Tim a good Technical Marketing Engineer and content creator, which is where his passion lies.</p><p><br></p><p><br></p>"
+    },
+    "tim-titus": {
+      "name": "Tim Titus",
+      "role": "Guest",
+      "bio": "<p>Tim Titus, Founder and CTO of PathSolutions, is a network geek and proud of it. Before starting his network troubleshooting company, he spent more than 25 years working for small and large companies in a variety of roles: from Network Engineer to Network Manager to Network Director. Tim has taught college-level networking courses and is a member of the CSM Computer Information Science Advisory Board. He has also worked as a member of Interop’s NOC team. Tim’s ongoing commitment to network performance excellence started early; in 1984, he was the founder of his high school’s computer club—before computers were cool or commonplace. All of this led Tim to found PathSolutions in his garage (true story). Today PathSolutions has more than 500 customers, ranging from SMBs to the Fortune 1,000.</p>"
+    },
+    "tom-hollingsworth": {
+      "name": "Tom Hollingsworth",
+      "role": "Guest",
+      "bio": "<p>Event lead for Tech Field Day focused on enterprise networking, wireless, and security. Former networking and systems engineer specializing in voice and security, as well as data switching and routing.&nbsp; Well-versed in Cisco equipment of all types, along with certifications and specializations in several diverse areas.<br><br>Specialties: CCIE #29213, Network configuration, Network Troubleshooting Voice-over-IP (VoIP) configuration, VoIP Troubleshooting, Wireless configuration, Wireless Troubleshooting<br><br>CCNA, CCDA, CCNP, CCDP, CCVP, CCSP, MCSE, MCSA, Novell MCNE, VCP3</p>"
+    },
+    "tom-lawrence": {
+      "name": "Tom Lawrence",
+      "role": "Guest",
+      "bio": "<p>Tom creates tutorials focused on network engineering, security, and IT, drawing from his real-world experience implementing solutions. Tom's goal is to empower people through educational tutorials to configure things securely and effectively.</p>"
+    },
+    "will-robbins": {
+      "name": "Will Robbins",
+      "role": "Guest",
+      "bio": "<p>Will Robbins is a seasoned Network Architect with a career sparked at 16 by the Cisco Networking Academy and fueled by a passion for building rock-solid digital infrastructure. Over the years, he’s tackled networking challenges across land and sea—from 12 years managing enterprise systems at Ferguson Enterprises, to designing tailored solutions at Unisys, to navigating complex shipboard networks for Carnival Cruise Lines. Today, he brings that depth of experience to PRA Group, where he architects resilient, business-driven network solutions.</p><p><br></p><p>Outside the network stack, he’s a hands-on hardware enthusiast who loves converting old workstations into high-performance gaming rigs. When he’s not optimizing systems, he’s sharpening his focus through Silat and Muay Thai training.</p>"
+    },
+    "william-collins": {
+      "name": "William Collins",
+      "role": "Guest",
+      "bio": "<p>William Collins is the Director of Tech Evagelism at Alkira, and he is the Found and Host of the Cloud Gambit Podcast.</p>"
+    },
+    "zig-zsiga": {
+      "name": "Zig Zsiga",
+      "role": "Guest",
+      "bio": "<p>Coach, Mentor, Leader, Trusted Advisor,&nbsp; Influencer, and Thought Leader<br><br>Business Architect - CCDE 2016::32, Dual CCIE (R&amp;S, SP) #44883, CISSP<br><br>Cisco Champion 2017<br><br>Designed and Implemented:<br>WAN/MPLS Architectures, Security Architectures, DMVPN / VPN Architectures, Campus LAN Architectures, Data Center (Nexus) Architectures, WAN Optimization Architectures, Wireless Architectures, QoS Architectures<br><br>Core Technology Specialty:<br>R&amp;S Design and Implementation, Redundant Internet Design and Implementation, Security Architectures, DC / Nexus Design and Implementation, Wireless Design and Implementation, Disaster Recovery Design and Implementation, F5 GTM/LTM load-balancing, ISE/802.1x Design and Implementation, Riverbed WAN Optimization Design and Implementation, MPLS WAN Design and Implementation<br><br>CCDE<br>CCIE R&amp;S<br>CCIE SP<br>CISSP<br>MCSE<br>Net+<br>Sec+</p>"
+    }
+  }
+}

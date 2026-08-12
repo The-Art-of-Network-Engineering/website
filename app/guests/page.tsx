@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/guests' },
 };
 
-type GuestSummary = { name: string; slug: string; count: number };
+type GuestSummary = { name: string; slug: string; count: number; imageUrl: string | null };
 
 function allGuests(): GuestSummary[] {
   const bySlug = new Map<string, GuestSummary>();
@@ -23,8 +23,9 @@ function allGuests(): GuestSummary[] {
       const existing = bySlug.get(slug);
       if (existing) {
         existing.count += 1;
+        if (!existing.imageUrl && g.imageUrl) existing.imageUrl = g.imageUrl;
       } else {
-        bySlug.set(slug, { name: g.name, slug, count: 1 });
+        bySlug.set(slug, { name: g.name, slug, count: 1, imageUrl: g.imageUrl });
       }
     }
   }
@@ -48,12 +49,19 @@ export default function GuestsPage() {
           <li key={g.slug}>
             <Link
               href={`/guests/${g.slug}`}
-              className="group flex items-baseline justify-between gap-4 border border-border bg-surface hover:border-accent-blue transition-colors px-4 py-3 rounded-sm"
+              className="group flex items-center gap-3 border border-border bg-surface hover:border-accent-blue transition-colors px-4 py-3 rounded-sm"
             >
+              {g.imageUrl && (
+                <img
+                  src={g.imageUrl}
+                  alt=""
+                  className="h-9 w-9 flex-shrink-0 rounded-full border border-border object-cover"
+                />
+              )}
               <span className="text-sm text-text font-semibold group-hover:text-accent-green transition-colors">
                 {g.name}
               </span>
-              <span className="flex-shrink-0 text-xs text-text-muted font-mono uppercase tracking-label">
+              <span className="ml-auto flex-shrink-0 text-xs text-text-muted font-mono uppercase tracking-label">
                 {g.count} {g.count === 1 ? 'episode' : 'episodes'}
               </span>
             </Link>

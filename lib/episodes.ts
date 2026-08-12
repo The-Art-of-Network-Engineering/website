@@ -1,6 +1,7 @@
 import { XMLParser } from 'fast-xml-parser';
 import sanitizeHtml from 'sanitize-html';
 import slugOverrides from '../data/slug_overrides.json';
+import contributorsData from '../data/contributors.json';
 
 // Buzzsprout show notes arrive as raw <content:encoded> HTML and are rendered
 // via dangerouslySetInnerHTML on the episode page. Sanitize at the parse
@@ -115,6 +116,35 @@ export const slugFromAudioUrl = (url: string): string => {
   if (id && overrides[id]) return overrides[id];
   return (match?.[2] ?? stem).toLowerCase();
 };
+
+// Guest bios come from data/contributors.json (synced weekly from the Buzzsprout
+// admin by scripts/sync_contributors.py). Headshot + personal URL are NOT here —
+// they're already public in each episode's guest entry (imageUrl/href), so a guest
+// page combines the public headshot/link with this admin-only bio + role.
+export type ContributorProfile = { name: string; role: string; bio: string };
+
+const contributorProfiles = (contributorsData as {
+  profiles: Record<string, ContributorProfile>;
+}).profiles;
+
+// The bio HTML is sanitized here (same allowlist as show notes) before it reaches
+// dangerouslySetInnerHTML on the guest page — defense in depth on scraped content.
+export function guestProfile(slug: string): (ContributorProfile & { bioHtml: string }) | null {
+  const p = contributorProfiles[slug];
+  if (!p) return null;
+  return { ...p, bioHtml: p.bio ? sanitizeShowNotes(p.bio) : '' };
+}
+
+// Every guest of the episode a blog post is about, as {name, slug} for linking to
+// their profile. Used by the blog template so each post auto-links its guests.
+export function guestsForEpisodeSlug(
+  feed: Feed,
+  episodeSlug: string,
+): { name: string; slug: string }[] {
+  const ep = feed.episodes.find((e) => e.slug === episodeSlug);
+  if (!ep) return [];
+  return orderedGuests(ep).map((g) => ({ name: g.name, slug: guestSlug(g.name) }));
+}
 
 const safeIsoDate = (raw: string): string => {
   const d = new Date(raw);
