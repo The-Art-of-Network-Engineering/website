@@ -1,8 +1,113 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-07-22T13:00:05.793979Z",
-  "total_videos": 611,
+  "last_updated": "2026-08-12T13:00:06.564804Z",
+  "total_videos": 625,
   "videos": [
+    {
+      "video_id": "xTXEEKgUx7w",
+      "title": "Tech Burnout? Why Python Feels Impossible (and How to Fix It!) #shorts",
+      "title_norm": "tech burnout why python feels impossible and how to fix it shorts",
+      "url": "https://www.youtube.com/watch?v=xTXEEKgUx7w",
+      "published_at": "2026-08-12T11:59:36Z"
+    },
+    {
+      "video_id": "isI9U5eOlyg",
+      "title": "500 Hours of Foosball, 20 Hours on Your Career | Mike Bushong on Staying Valuable",
+      "title_norm": "500 hours of foosball 20 hours on your career mike bushong on staying valuable",
+      "url": "https://www.youtube.com/watch?v=isI9U5eOlyg",
+      "published_at": "2026-08-12T10:00:23Z"
+    },
+    {
+      "video_id": "LQ7bZy-3CqE",
+      "title": "Carl Zellers: Network Career Path and Cisco Exam Prep",
+      "title_norm": "carl zellers network career path and cisco exam prep",
+      "url": "https://www.youtube.com/watch?v=LQ7bZy-3CqE",
+      "published_at": "2026-08-12T04:52:27Z"
+    },
+    {
+      "video_id": "r4DwKxe6oVI",
+      "title": "CLI Training: Is All That Time A HUGE Waste? #shorts",
+      "title_norm": "cli training is all that time a huge waste shorts",
+      "url": "https://www.youtube.com/watch?v=r4DwKxe6oVI",
+      "published_at": "2026-08-11T12:03:25Z"
+    },
+    {
+      "video_id": "GrHsxEsEfqo",
+      "title": "Can We Reframe Our Network Engineering Identity? 💡🔧 #shorts",
+      "title_norm": "can we reframe our network engineering identity shorts",
+      "url": "https://www.youtube.com/watch?v=GrHsxEsEfqo",
+      "published_at": "2026-08-10T11:55:34Z"
+    },
+    {
+      "video_id": "Zpw1KG4E5HU",
+      "title": "Network Engineers Resist Automation: The \"Swivel Chair\" Mentality! #shorts",
+      "title_norm": "network engineers resist automation the swivel chair mentality shorts",
+      "url": "https://www.youtube.com/watch?v=Zpw1KG4E5HU",
+      "published_at": "2026-08-07T12:00:28Z"
+    },
+    {
+      "video_id": "kefED_ZRpAo",
+      "title": "Transit AI Solves Complex Network Issues in 45 SECONDS! #shorts",
+      "title_norm": "transit ai solves complex network issues in 45 seconds shorts",
+      "url": "https://www.youtube.com/watch?v=kefED_ZRpAo",
+      "published_at": "2026-08-06T12:01:23Z"
+    },
+    {
+      "video_id": "tYFObFTA66s",
+      "title": "Cursor for Network Engineers? Meet Transit AI (Sponsored)",
+      "title_norm": "cursor for network engineers meet transit ai sponsored",
+      "url": "https://www.youtube.com/watch?v=tYFObFTA66s",
+      "published_at": "2026-08-05T10:00:35Z"
+    },
+    {
+      "video_id": "P4Ms8u03m00",
+      "title": "Network Automation: Why Aren't We There Yet? Find Out Now! #shorts",
+      "title_norm": "network automation why arent we there yet find out now shorts",
+      "url": "https://www.youtube.com/watch?v=P4Ms8u03m00",
+      "published_at": "2026-08-04T11:57:23Z"
+    },
+    {
+      "video_id": "vPlsz-Yzw4Q",
+      "title": "AI Code: Slop or Genius? Does It Even Matter? #shorts",
+      "title_norm": "ai code slop or genius does it even matter shorts",
+      "url": "https://www.youtube.com/watch?v=vPlsz-Yzw4Q",
+      "published_at": "2026-07-31T11:58:42Z"
+    },
+    {
+      "video_id": "UnS7AnLkPoY",
+      "title": "whoami: Who Are You Without the CLI?",
+      "title_norm": "whoami who are you without the cli",
+      "url": "https://www.youtube.com/watch?v=UnS7AnLkPoY",
+      "published_at": "2026-07-29T10:00:36Z"
+    },
+    {
+      "video_id": "gRLc3T1LMS4",
+      "title": "Why Keep Code Private? The Secret Behind HashiCorp & Terraform #shorts",
+      "title_norm": "why keep code private the secret behind hashicorp terraform shorts",
+      "url": "https://www.youtube.com/watch?v=gRLc3T1LMS4",
+      "published_at": "2026-07-28T11:57:27Z"
+    },
+    {
+      "video_id": "Rk5hfNwB9oI",
+      "title": "Proprietary Software Skills: Is Your Career Moat Drying Up? #shorts",
+      "title_norm": "proprietary software skills is your career moat drying up shorts",
+      "url": "https://www.youtube.com/watch?v=Rk5hfNwB9oI",
+      "published_at": "2026-07-27T12:04:28Z"
+    },
+    {
+      "video_id": "tajx5TACdXM",
+      "title": "AI Founders WARN: We Can't Put the Genie Back! #shorts",
+      "title_norm": "ai founders warn we cant put the genie back shorts",
+      "url": "https://www.youtube.com/watch?v=tajx5TACdXM",
+      "published_at": "2026-07-24T11:58:31Z"
+    },
+    {
+      "video_id": "Vbunwhq7_3Q",
+      "title": "LLMs Too Optimistic? Try My 'Soviet Judge' Idea Tool! #shorts",
+      "title_norm": "llms too optimistic try my soviet judge idea tool shorts",
+      "url": "https://www.youtube.com/watch?v=Vbunwhq7_3Q",
+      "published_at": "2026-07-23T12:03:24Z"
+    },
     {
       "video_id": "m22O7soNcPU",
       "title": "AI is Threatening Your Job & Humanity's Future! #shorts",
@@ -1755,8 +1860,8 @@
     },
     {
       "video_id": "WAAMmp3e9og",
-      "title": "We share how to successfully attend your first Cisco Live conference | Ep 147 Art of Net Eng",
-      "title_norm": "we share how to successfully attend your first cisco live conference ep 147 art of net eng",
+      "title": "Cisco Live Strategy: Sessions, Networking, and Survival Tips",
+      "title_norm": "cisco live strategy sessions networking and survival tips",
       "url": "https://www.youtube.com/watch?v=WAAMmp3e9og",
       "published_at": "2024-05-22T10:00:21Z"
     },
@@ -1958,8 +2063,8 @@
     },
     {
       "video_id": "9TkGcfGMh-Y",
-      "title": "We interview Network Engineering TikTok Creator AdjacentNode - Ep 141!",
-      "title_norm": "we interview network engineering tiktok creator adjacentnode ep 141",
+      "title": "Network Engineer Career Growth: Demo Architect and Marketing",
+      "title_norm": "network engineer career growth demo architect and marketing",
       "url": "https://www.youtube.com/watch?v=9TkGcfGMh-Y",
       "published_at": "2024-03-13T10:00:06Z"
     },
@@ -2077,8 +2182,8 @@
     },
     {
       "video_id": "a-OXn9dqWjw",
-      "title": "From Military Network Engineer to Deep Internet Analysis - Interview with Doug Madory",
-      "title_norm": "from military network engineer to deep internet analysis interview with doug madory",
+      "title": "BGP Analysis and Internet Routing with Doug Madory",
+      "title_norm": "bgp analysis and internet routing with doug madory",
       "url": "https://www.youtube.com/watch?v=a-OXn9dqWjw",
       "published_at": "2024-02-14T11:00:00Z"
     },
@@ -3064,8 +3169,8 @@
     },
     {
       "video_id": "p5RYer4JUOg",
-      "title": "We interview The Bearded IT Dad, Dakota Snow!",
-      "title_norm": "we interview the bearded it dad dakota snow",
+      "title": "Network Engineering Career and Management with Dakota Snow",
+      "title_norm": "network engineering career and management with dakota snow",
       "url": "https://www.youtube.com/watch?v=p5RYer4JUOg",
       "published_at": "2023-08-02T10:00:40Z"
     },
@@ -3127,8 +3232,8 @@
     },
     {
       "video_id": "fgAcf45Os4Q",
-      "title": "Why we almost quit Social Media!",
-      "title_norm": "why we almost quit social media",
+      "title": "Social Media for Network Engineers: Pros and Cons",
+      "title_norm": "social media for network engineers pros and cons",
       "url": "https://www.youtube.com/watch?v=fgAcf45Os4Q",
       "published_at": "2023-07-19T10:00:33Z"
     },
@@ -3148,8 +3253,8 @@
     },
     {
       "video_id": "UmeAchkWR3Y",
-      "title": "We talk about everything that came out of Cisco Live 2023!",
-      "title_norm": "we talk about everything that came out of cisco live 2023",
+      "title": "Cisco Live 2023 Recap: What Network Engineers Should Know",
+      "title_norm": "cisco live 2023 recap what network engineers should know",
       "url": "https://www.youtube.com/watch?v=UmeAchkWR3Y",
       "published_at": "2023-07-05T10:00:21Z"
     },
@@ -3190,22 +3295,22 @@
     },
     {
       "video_id": "g6-7UaJjnyA",
-      "title": "Want to learn more about Operational Technology?",
-      "title_norm": "want to learn more about operational technology",
+      "title": "Operational Technology OT vs IT: Differences",
+      "title_norm": "operational technology ot vs it differences",
       "url": "https://www.youtube.com/watch?v=g6-7UaJjnyA",
       "published_at": "2023-06-21T10:00:36Z"
     },
     {
       "video_id": "5l66iXcZ_zA",
-      "title": "Learn more about Juniper Apstra and how it solves the biggest problems for Network Engineers!",
-      "title_norm": "learn more about juniper apstra and how it solves the biggest problems for network engineers",
+      "title": "Network Automation with Juniper Apstra (Sponsored)",
+      "title_norm": "network automation with juniper apstra sponsored",
       "url": "https://www.youtube.com/watch?v=5l66iXcZ_zA",
       "published_at": "2023-06-07T10:00:08Z"
     },
     {
       "video_id": "UMy7ZnDyjJM",
-      "title": "We get great advice on how to transition from a Military Career and into a Civilian IT Career!",
-      "title_norm": "we get great advice on how to transition from a military career and into a civilian it career",
+      "title": "Military to Tech Career: Tips from Veterans",
+      "title_norm": "military to tech career tips from veterans",
       "url": "https://www.youtube.com/watch?v=UMy7ZnDyjJM",
       "published_at": "2023-05-24T10:00:21Z"
     },
@@ -3232,36 +3337,36 @@
     },
     {
       "video_id": "HYIT5nvWpQA",
-      "title": "We talk to Jeremy Stretch creator of NetBox and the Packet Life cheat sheets you use to study!",
-      "title_norm": "we talk to jeremy stretch creator of netbox and the packet life cheat sheets you use to study",
+      "title": "Jeremy Stretch: Network Engineer to Software Developer",
+      "title_norm": "jeremy stretch network engineer to software developer",
       "url": "https://www.youtube.com/watch?v=HYIT5nvWpQA",
       "published_at": "2023-04-26T10:00:09Z"
     },
     {
       "video_id": "bNyzZtgUaco",
-      "title": "What is Network As A Service? We tackle that and more in this Episode of AONE",
-      "title_norm": "what is network as a service we tackle that and more in this episode of aone",
+      "title": "Network as a Service (NaaS): What It Is and Why It Matters",
+      "title_norm": "network as a service naas what it is and why it matters",
       "url": "https://www.youtube.com/watch?v=bNyzZtgUaco",
       "published_at": "2023-04-12T10:00:21Z"
     },
     {
       "video_id": "sUYyi27m0qI",
-      "title": "What is an Internet Exchange Point? We discuss all that and more with Jason Gintert!",
-      "title_norm": "what is an internet exchange point we discuss all that and more with jason gintert",
+      "title": "Internet Exchanges and SD-WAN with Jason Gintert",
+      "title_norm": "internet exchanges and sdwan with jason gintert",
       "url": "https://www.youtube.com/watch?v=sUYyi27m0qI",
       "published_at": "2023-03-29T10:00:44Z"
     },
     {
       "video_id": "3yw2G6Q0vpk",
-      "title": "From the Cables 2 the Clouds - Interview with three Cloud Architects",
-      "title_norm": "from the cables 2 the clouds interview with three cloud architects",
+      "title": "Cloud Migration for Network Engineers: Expert Tips",
+      "title_norm": "cloud migration for network engineers expert tips",
       "url": "https://www.youtube.com/watch?v=3yw2G6Q0vpk",
       "published_at": "2023-03-15T10:00:02Z"
     },
     {
       "video_id": "4YrEZh85HN4",
-      "title": "We talk to a Cloud Solutions Architect and get advice on How to jump start your Cloud Career!",
-      "title_norm": "we talk to a cloud solutions architect and get advice on how to jump start your cloud career",
+      "title": "Cloud and SDN for Network Engineers with Shean Legion",
+      "title_norm": "cloud and sdn for network engineers with shean legion",
       "url": "https://www.youtube.com/watch?v=4YrEZh85HN4",
       "published_at": "2023-03-01T11:00:02Z"
     },
@@ -3281,8 +3386,8 @@
     },
     {
       "video_id": "dHkx5VKoig4",
-      "title": "We review what we saw and learned at TechFieldDay's Networking Field Day 30!",
-      "title_norm": "we review what we saw and learned at techfielddays networking field day 30",
+      "title": "NFD30 Recap: Network Engineering Highlights with Girard Kavelines",
+      "title_norm": "nfd30 recap network engineering highlights with girard kavelines",
       "url": "https://www.youtube.com/watch?v=dHkx5VKoig4",
       "published_at": "2023-02-08T11:00:21Z"
     },
@@ -3295,15 +3400,15 @@
     },
     {
       "video_id": "Avh3cnV-8_k",
-      "title": "We're talking Wireless Networking with Rowell Dionicio from Clear to Send! AONE Ep 111",
-      "title_norm": "were talking wireless networking with rowell dionicio from clear to send aone ep 111",
+      "title": "Wireless Networks with Rowell Dionicio",
+      "title_norm": "wireless networks with rowell dionicio",
       "url": "https://www.youtube.com/watch?v=Avh3cnV-8_k",
       "published_at": "2023-02-01T11:00:07Z"
     },
     {
       "video_id": "3gd9Te-H7JU",
-      "title": "In this episode we discuss our favorite networking tools! Art of Network Engineering Podcast Ep 110",
-      "title_norm": "in this episode we discuss our favorite networking tools art of network engineering podcast ep 110",
+      "title": "Network Tools: Troubleshooting Commands and Methods",
+      "title_norm": "network tools troubleshooting commands and methods",
       "url": "https://www.youtube.com/watch?v=3gd9Te-H7JU",
       "published_at": "2023-01-18T11:00:03Z"
     },
@@ -3323,15 +3428,15 @@
     },
     {
       "video_id": "8ZGRlvv3ksQ",
-      "title": "In this episode Lexie and Tim talk all about Labs! Ep 109 - The Art of Network Engineering Podcast",
-      "title_norm": "in this episode lexie and tim talk all about labs ep 109 the art of network engineering podcast",
+      "title": "Home Labs and Study Labs for Network Engineers",
+      "title_norm": "home labs and study labs for network engineers",
       "url": "https://www.youtube.com/watch?v=8ZGRlvv3ksQ",
       "published_at": "2023-01-04T11:00:08Z"
     },
     {
       "video_id": "lHoNwuCGtpk",
-      "title": "We interview a panel of Technical Marketing Engineers to learn more about this position. Ep 108",
-      "title_norm": "we interview a panel of technical marketing engineers to learn more about this position ep 108",
+      "title": "Technical Marketing Engineer Role with Pete Lumbis and Wes Kennedy",
+      "title_norm": "technical marketing engineer role with pete lumbis and wes kennedy",
       "url": "https://www.youtube.com/watch?v=lHoNwuCGtpk",
       "published_at": "2022-12-21T05:00:16Z"
     },
@@ -3351,8 +3456,8 @@
     },
     {
       "video_id": "c-O-8GUVMDM",
-      "title": "Episode 105 - Leadership",
-      "title_norm": "episode 105 leadership",
+      "title": "Network Leadership Skills with Mike Bushong",
+      "title_norm": "network leadership skills with mike bushong",
       "url": "https://www.youtube.com/watch?v=c-O-8GUVMDM",
       "published_at": "2022-11-09T11:00:24Z"
     },
@@ -3372,22 +3477,22 @@
     },
     {
       "video_id": "bkxvYFrkXMs",
-      "title": "Chris Greer shows us packet capturing and analysis with Wireshark! Ep 103 of The Art of Network Eng.",
-      "title_norm": "chris greer shows us packet capturing and analysis with wireshark ep 103 of the art of network eng",
+      "title": "Packet Capturing and Wireshark Analysis with Chris Greer",
+      "title_norm": "packet capturing and wireshark analysis with chris greer",
       "url": "https://www.youtube.com/watch?v=bkxvYFrkXMs",
       "published_at": "2022-10-12T10:00:32Z"
     },
     {
       "video_id": "sJiqZZ5618M",
-      "title": "Iain Geddes teaches us about fiber and data transfer over light waves! Ep 102 of AONE",
-      "title_norm": "iain geddes teaches us about fiber and data transfer over light waves ep 102 of aone",
+      "title": "Fiber Optics Fundamentals with Iain Geddes",
+      "title_norm": "fiber optics fundamentals with iain geddes",
       "url": "https://www.youtube.com/watch?v=sJiqZZ5618M",
       "published_at": "2022-09-28T10:00:38Z"
     },
     {
       "video_id": "13ApeS-GQI0",
-      "title": "Learn more about Netris with CEO Alex - Ep 101 of The Art of Network Engineering",
-      "title_norm": "learn more about netris with ceo alex ep 101 of the art of network engineering",
+      "title": "Netris VPC Networking for On-Prem with Alex Saroyan",
+      "title_norm": "netris vpc networking for onprem with alex saroyan",
       "url": "https://www.youtube.com/watch?v=13ApeS-GQI0",
       "published_at": "2022-09-14T10:00:00Z"
     },
@@ -3414,57 +3519,57 @@
     },
     {
       "video_id": "WDXXNRh3dY4",
-      "title": "Mental Health Part 2 - Episode 99 The Art of Network Engineering",
-      "title_norm": "mental health part 2 episode 99 the art of network engineering",
+      "title": "Mental Health for Network Engineers: Coping Strategies",
+      "title_norm": "mental health for network engineers coping strategies",
       "url": "https://www.youtube.com/watch?v=WDXXNRh3dY4",
       "published_at": "2022-08-17T10:00:15Z"
     },
     {
       "video_id": "4FEBaAZrsFc",
-      "title": "Jason Gooley Returns to the show for an update! Ep 98 - The Art of Network Engineering",
-      "title_norm": "jason gooley returns to the show for an update ep 98 the art of network engineering",
+      "title": "Metal DevOps and Network Engineering with Jason Gooley",
+      "title_norm": "metal devops and network engineering with jason gooley",
       "url": "https://www.youtube.com/watch?v=4FEBaAZrsFc",
       "published_at": "2022-08-05T14:39:06Z"
     },
     {
       "video_id": "9uKHmadn_gE",
-      "title": "Ramtin started working in the warehouse and has worked his way up to Solutions Architect at OpenGear",
-      "title_norm": "ramtin started working in the warehouse and has worked his way up to solutions architect at opengear",
+      "title": "Out-of-Band Management with Open Gear's Ramtin Rampour (Sponsored)",
+      "title_norm": "outofband management with open gears ramtin rampour sponsored",
       "url": "https://www.youtube.com/watch?v=9uKHmadn_gE",
       "published_at": "2022-07-20T10:00:05Z"
     },
     {
       "video_id": "5Gec-b_H82M",
-      "title": "Interview with a Sr. Leader at Cisco! Jeff McLaughlin, Sr. Director of Technical Marketing Ep 96",
-      "title_norm": "interview with a sr leader at cisco jeff mclaughlin sr director of technical marketing ep 96",
+      "title": "Network Automation awith Jeff McLaughlin",
+      "title_norm": "network automation awith jeff mclaughlin",
       "url": "https://www.youtube.com/watch?v=5Gec-b_H82M",
       "published_at": "2022-07-06T10:00:07Z"
     },
     {
       "video_id": "2a5hMwtKmKw",
-      "title": "Interview with Kori Younger! Ep 95",
-      "title_norm": "interview with kori younger ep 95",
+      "title": "Network Engineering Career Stories with Kori Rongey",
+      "title_norm": "network engineering career stories with kori rongey",
       "url": "https://www.youtube.com/watch?v=2a5hMwtKmKw",
       "published_at": "2022-06-30T19:50:14Z"
     },
     {
       "video_id": "W-TiQ_UDDwo",
-      "title": "Everything you've ever wanted to know about the Cisco Certification program, and more! Ep 94",
-      "title_norm": "everything youve ever wanted to know about the cisco certification program and more ep 94",
+      "title": "CCNA Certification Program with Geoff Anderson",
+      "title_norm": "ccna certification program with geoff anderson",
       "url": "https://www.youtube.com/watch?v=W-TiQ_UDDwo",
       "published_at": "2022-06-08T10:00:15Z"
     },
     {
       "video_id": "evBfl-fMWKU",
-      "title": "Interview with Adam Hill, a consulting network engineer with a focus on Cloud Networking! Ep 93",
-      "title_norm": "interview with adam hill a consulting network engineer with a focus on cloud networking ep 93",
+      "title": "ISP Consulting Engineer Adam Hill",
+      "title_norm": "isp consulting engineer adam hill",
       "url": "https://www.youtube.com/watch?v=evBfl-fMWKU",
       "published_at": "2022-05-25T10:00:32Z"
     },
     {
       "video_id": "HsTaLliid9M",
-      "title": "We are Live in Ashville, NC for the first-ever AONE Live event! Ep 92",
-      "title_norm": "we are live in ashville nc for the firstever aone live event ep 92",
+      "title": "AONE Live Asheville: Our First Network Engineering In-Person Event",
+      "title_norm": "aone live asheville our first network engineering inperson event",
       "url": "https://www.youtube.com/watch?v=HsTaLliid9M",
       "published_at": "2022-05-11T10:00:09Z"
     },
@@ -3484,22 +3589,22 @@
     },
     {
       "video_id": "40HHicE6vu0",
-      "title": "Rocket Girl - We get an update from Lexie! Ep 90",
-      "title_norm": "rocket girl we get an update from lexie ep 90",
+      "title": "Avionics Integration Engineer at Blue Origin with Lexie Cooper",
+      "title_norm": "avionics integration engineer at blue origin with lexie cooper",
       "url": "https://www.youtube.com/watch?v=40HHicE6vu0",
       "published_at": "2022-04-13T10:00:03Z"
     },
     {
       "video_id": "-0gzwHtRwVU",
-      "title": "You know her from TikTok as SheNetworks, we're excited to interview Serena!",
-      "title_norm": "you know her from tiktok as shenetworks were excited to interview serena",
+      "title": "Build a Network Engineering Brand on TikTok with SheNetworks",
+      "title_norm": "build a network engineering brand on tiktok with shenetworks",
       "url": "https://www.youtube.com/watch?v=-0gzwHtRwVU",
       "published_at": "2022-04-06T10:00:00Z"
     },
     {
       "video_id": "lJANLuCbseU",
-      "title": "John Capobianco Returns! We get the full update on his new position as a Developer Advocate Ep 88",
-      "title_norm": "john capobianco returns we get the full update on his new position as a developer advocate ep 88",
+      "title": "Cisco Developer Advocate John Capobianco",
+      "title_norm": "cisco developer advocate john capobianco",
       "url": "https://www.youtube.com/watch?v=lJANLuCbseU",
       "published_at": "2022-03-30T10:00:24Z"
     },
@@ -3512,22 +3617,22 @@
     },
     {
       "video_id": "bqMlp7DEgZo",
-      "title": "PathSolutions (Sponsored) - Ep 86",
-      "title_norm": "pathsolutions sponsored ep 86",
+      "title": "Path Solutions Automated Troubleshooting Platform with Tim Titus (Sponsored)",
+      "title_norm": "path solutions automated troubleshooting platform with tim titus sponsored",
       "url": "https://www.youtube.com/watch?v=bqMlp7DEgZo",
       "published_at": "2022-03-16T10:00:30Z"
     },
     {
       "video_id": "wWj07gBD7Dc",
-      "title": "She left college with her Bachelors, CCNA, and CCNP all thanks to Cisco Network Academy - Ep 85",
-      "title_norm": "she left college with her bachelors ccna and ccnp all thanks to cisco network academy ep 85",
+      "title": "Network Engineering Career with Heather Donnelly",
+      "title_norm": "network engineering career with heather donnelly",
       "url": "https://www.youtube.com/watch?v=wWj07gBD7Dc",
       "published_at": "2022-03-09T13:32:25Z"
     },
     {
       "video_id": "CpUgXHuIBkw",
-      "title": "Wanna know what it's like to work in Cisco's Technical Assistance Center?",
-      "title_norm": "wanna know what its like to work in ciscos technical assistance center",
+      "title": "Cisco TAC with Christopher Hart",
+      "title_norm": "cisco tac with christopher hart",
       "url": "https://www.youtube.com/watch?v=CpUgXHuIBkw",
       "published_at": "2022-03-02T11:00:11Z"
     },
@@ -3540,8 +3645,8 @@
     },
     {
       "video_id": "d3SZ31MwB00",
-      "title": "Want to know how to negotiate your salary? We share how we did it + get advice from professionals!",
-      "title_norm": "want to know how to negotiate your salary we share how we did it get advice from professionals",
+      "title": "Salary Negotiation for Network Engineers with Brittany Mussett",
+      "title_norm": "salary negotiation for network engineers with brittany mussett",
       "url": "https://www.youtube.com/watch?v=d3SZ31MwB00",
       "published_at": "2022-02-23T11:00:18Z"
     },
@@ -3561,8 +3666,8 @@
     },
     {
       "video_id": "9BjUkRXm_AY",
-      "title": "Real life network design and infrastructure overhaul discussion! Ep 81",
-      "title_norm": "real life network design and infrastructure overhaul discussion ep 81",
+      "title": "Data Center Design",
+      "title_norm": "data center design",
       "url": "https://www.youtube.com/watch?v=9BjUkRXm_AY",
       "published_at": "2022-02-09T11:00:04Z"
     },
@@ -3575,36 +3680,36 @@
     },
     {
       "video_id": "dhHJEUxx1zQ",
-      "title": "Interview with 2x CCIE and CCDE Nick Russo! Episode 80",
-      "title_norm": "interview with 2x ccie and ccde nick russo episode 80",
+      "title": "CCIE Career Path with Nick Russo",
+      "title_norm": "ccie career path with nick russo",
       "url": "https://www.youtube.com/watch?v=dhHJEUxx1zQ",
       "published_at": "2022-02-02T11:00:32Z"
     },
     {
       "video_id": "WC3bPccwoQ0",
-      "title": "#LabEveryday Creator! Ep 79 - Du'An Lightfoot",
-      "title_norm": "labeveryday creator ep 79 duan lightfoot",
+      "title": "LabEveryDay Creator Du'An Lightfoot",
+      "title_norm": "labeveryday creator duan lightfoot",
       "url": "https://www.youtube.com/watch?v=WC3bPccwoQ0",
       "published_at": "2022-01-26T11:00:15Z"
     },
     {
       "video_id": "cC6Qem8xgDI",
-      "title": "When is it time to move on? Ep 78 - Andy's Job Transition",
-      "title_norm": "when is it time to move on ep 78 andys job transition",
+      "title": "Network Engineer to Product Manager with Andy Lapteff",
+      "title_norm": "network engineer to product manager with andy lapteff",
       "url": "https://www.youtube.com/watch?v=cC6Qem8xgDI",
       "published_at": "2022-01-19T11:00:30Z"
     },
     {
       "video_id": "g94JVVwusNY",
-      "title": "New year, new goals! Ep 77 - 2022 Goals",
-      "title_norm": "new year new goals ep 77 2022 goals",
+      "title": "Network Engineering Goals for the New Year",
+      "title_norm": "network engineering goals for the new year",
       "url": "https://www.youtube.com/watch?v=g94JVVwusNY",
       "published_at": "2022-01-12T11:00:35Z"
     },
     {
       "video_id": "ws6QJESFsgE",
-      "title": "Diving Deep with Women Engineers - Ep 76 of The Art of Network Engineering",
-      "title_norm": "diving deep with women engineers ep 76 of the art of network engineering",
+      "title": "Women in Network Engineering Panel",
+      "title_norm": "women in network engineering panel",
       "url": "https://www.youtube.com/watch?v=ws6QJESFsgE",
       "published_at": "2022-01-05T11:00:24Z"
     },
@@ -3624,29 +3729,29 @@
     },
     {
       "video_id": "uGsRq5eUO-0",
-      "title": "Happy Holidays from all of us at AONE! Ep 74 - Holiday Special",
-      "title_norm": "happy holidays from all of us at aone ep 74 holiday special",
+      "title": "Holiday Special with Network Engineers",
+      "title_norm": "holiday special with network engineers",
       "url": "https://www.youtube.com/watch?v=uGsRq5eUO-0",
       "published_at": "2021-12-22T11:00:22Z"
     },
     {
       "video_id": "l--6WkrRjho",
-      "title": "From Student Help Desk worker to Solution Architect! Interview w/David Alicea - Ep 73 Zeros and Wons",
-      "title_norm": "from student help desk worker to solution architect interview wdavid alicea ep 73 zeros and wons",
+      "title": "Network Engineer Career Path with David Alicea",
+      "title_norm": "network engineer career path with david alicea",
       "url": "https://www.youtube.com/watch?v=l--6WkrRjho",
       "published_at": "2021-12-15T11:00:26Z"
     },
     {
       "video_id": "OhnXOoiwIGc",
-      "title": "Cooking up a New Career from Chef to Cloud Consultant - Interview with Chris Randall - Ep 72",
-      "title_norm": "cooking up a new career from chef to cloud consultant interview with chris randall ep 72",
+      "title": "From Chef to Cloud Consulting with Chris Randall",
+      "title_norm": "from chef to cloud consulting with chris randall",
       "url": "https://www.youtube.com/watch?v=OhnXOoiwIGc",
       "published_at": "2021-12-08T11:00:25Z"
     },
     {
       "video_id": "JEPRoL0LGFI",
-      "title": "Merlin the Auto-Magician!! From the factory floor to Automating Networks Ep 71 - John Capobianco",
-      "title_norm": "merlin the automagician from the factory floor to automating networks ep 71 john capobianco",
+      "title": "Network Automation Fundamentals with John Capobianco",
+      "title_norm": "network automation fundamentals with john capobianco",
       "url": "https://www.youtube.com/watch?v=JEPRoL0LGFI",
       "published_at": "2021-12-01T12:00:10Z"
     },
@@ -3659,22 +3764,22 @@
     },
     {
       "video_id": "EmJkBTH4My0",
-      "title": "Interview with Girard Kavelines! Ep 69 - Girard Kavelines",
-      "title_norm": "interview with girard kavelines ep 69 girard kavelines",
+      "title": "From Geek Squad to Network Engineering with Girard Kavelines",
+      "title_norm": "from geek squad to network engineering with girard kavelines",
       "url": "https://www.youtube.com/watch?v=EmJkBTH4My0",
       "published_at": "2021-11-17T11:00:13Z"
     },
     {
       "video_id": "H4LTKxYQ25U",
-      "title": "Cloudy with a chance of Networks! Ep 68 - Eyvonne Sharp",
-      "title_norm": "cloudy with a chance of networks ep 68 eyvonne sharp",
+      "title": "Cloud Networking with Eyvonne Sharp",
+      "title_norm": "cloud networking with eyvonne sharp",
       "url": "https://www.youtube.com/watch?v=H4LTKxYQ25U",
       "published_at": "2021-11-10T13:14:21Z"
     },
     {
       "video_id": "VPgP1LS-Wt8",
-      "title": "All of the Buzz about Netbeez! - Ep 67 - Netbeez w/ Stefano Gridelli, CEO",
-      "title_norm": "all of the buzz about netbeez ep 67 netbeez w stefano gridelli ceo",
+      "title": "Network Monitoring with Stefano Gridelli",
+      "title_norm": "network monitoring with stefano gridelli",
       "url": "https://www.youtube.com/watch?v=VPgP1LS-Wt8",
       "published_at": "2021-11-03T10:00:10Z"
     },
@@ -3687,36 +3792,36 @@
     },
     {
       "video_id": "O18PAeT6oRU",
-      "title": "Cisco Announced Cisco Live 2022 in Las Vegas IN PERSON! Ep 66 - Cisco live 2022",
-      "title_norm": "cisco announced cisco live 2022 in las vegas in person ep 66 cisco live 2022",
+      "title": "Cisco Live: Why Network Engineers Should Attend",
+      "title_norm": "cisco live why network engineers should attend",
       "url": "https://www.youtube.com/watch?v=O18PAeT6oRU",
       "published_at": "2021-10-27T10:00:08Z"
     },
     {
       "video_id": "YG0Kj12pOpA",
-      "title": "Network Design Series: Enterprise Campus at a high level! Ep 65 - Enterprise Campus",
-      "title_norm": "network design series enterprise campus at a high level ep 65 enterprise campus",
+      "title": "Enterprise Network Design Deep Dive",
+      "title_norm": "enterprise network design deep dive",
       "url": "https://www.youtube.com/watch?v=YG0Kj12pOpA",
       "published_at": "2021-10-13T10:00:13Z"
     },
     {
       "video_id": "6x9suTZQ1EU",
-      "title": "What are some non-networking skills that a Network Engineer should have? Ep 64 - Non-Network Skillz",
-      "title_norm": "what are some nonnetworking skills that a network engineer should have ep 64 nonnetwork skillz",
+      "title": "Non-Technical Skills Network Engineers Need",
+      "title_norm": "nontechnical skills network engineers need",
       "url": "https://www.youtube.com/watch?v=6x9suTZQ1EU",
       "published_at": "2021-10-06T10:00:07Z"
     },
     {
       "video_id": "Cu-DR0Fva-k",
-      "title": "AJ and Tim recap their NFD26 Experience - Ep 63 NFD26",
-      "title_norm": "aj and tim recap their nfd26 experience ep 63 nfd26",
+      "title": "Networking Field Day 26 Recap",
+      "title_norm": "networking field day 26 recap",
       "url": "https://www.youtube.com/watch?v=Cu-DR0Fva-k",
       "published_at": "2021-10-05T14:18:58Z"
     },
     {
       "video_id": "KaNEbNkaIxQ",
-      "title": "Not satisfied in your career? She rebooted her career at 28 in Networking! Ep 62 - Tracket Pacer",
-      "title_norm": "not satisfied in your career she rebooted her career at 28 in networking ep 62 tracket pacer",
+      "title": "Career Reset with Lexie Cooper",
+      "title_norm": "career reset with lexie cooper",
       "url": "https://www.youtube.com/watch?v=KaNEbNkaIxQ",
       "published_at": "2021-09-22T10:00:09Z"
     },
@@ -3736,15 +3841,15 @@
     },
     {
       "video_id": "XIt9GlbKif8",
-      "title": "We are talking about home labs - Why they are important - Physical vs Virtual - Ep 61 Home Labs!",
-      "title_norm": "we are talking about home labs why they are important physical vs virtual ep 61 home labs",
+      "title": "Home Labs for Network Engineers",
+      "title_norm": "home labs for network engineers",
       "url": "https://www.youtube.com/watch?v=XIt9GlbKif8",
       "published_at": "2021-09-15T10:00:13Z"
     },
     {
       "video_id": "dev2InlhcBc",
-      "title": "Are you being forced to return to the office, or is it optional? Ep 60 - Return to the Office!",
-      "title_norm": "are you being forced to return to the office or is it optional ep 60 return to the office",
+      "title": "Return to Office for Network Engineers",
+      "title_norm": "return to office for network engineers",
       "url": "https://www.youtube.com/watch?v=dev2InlhcBc",
       "published_at": "2021-09-08T09:36:46Z"
     },
@@ -3764,8 +3869,8 @@
     },
     {
       "video_id": "BB5RKbSvg1Q",
-      "title": "He went from selling ice cream to Network Security! Ep 58 - NetSecWheezy",
-      "title_norm": "he went from selling ice cream to network security ep 58 netsecwheezy",
+      "title": "Ice Cream Man to Network Engineer with Luis Garcia Jr",
+      "title_norm": "ice cream man to network engineer with luis garcia jr",
       "url": "https://www.youtube.com/watch?v=BB5RKbSvg1Q",
       "published_at": "2021-08-25T14:16:47Z"
     },
@@ -3778,8 +3883,8 @@
     },
     {
       "video_id": "QRENVDmjBzU",
-      "title": "We interview the face of Tech Field Day - Tom Hollingsworth! Ep 57 - Welcome to Tom's Corner",
-      "title_norm": "we interview the face of tech field day tom hollingsworth ep 57 welcome to toms corner",
+      "title": "Tech Field Day with Tom Hollingsworth",
+      "title_norm": "tech field day with tom hollingsworth",
       "url": "https://www.youtube.com/watch?v=QRENVDmjBzU",
       "published_at": "2021-08-18T10:00:24Z"
     },
@@ -3799,8 +3904,8 @@
     },
     {
       "video_id": "WQ_U3NLjZPw",
-      "title": "What is Change Management? (Besides every IT Pro's worst nightmare) Ep 55",
-      "title_norm": "what is change management besides every it pros worst nightmare ep 55",
+      "title": "Change Management in Network Engineering",
+      "title_norm": "change management in network engineering",
       "url": "https://www.youtube.com/watch?v=WQ_U3NLjZPw",
       "published_at": "2021-08-12T20:34:22Z"
     },
@@ -3813,15 +3918,15 @@
     },
     {
       "video_id": "dM9MxXow0YM",
-      "title": "Learn how to get started with your networking documentation! Ep 56 - Documentation",
-      "title_norm": "learn how to get started with your networking documentation ep 56 documentation",
+      "title": "Network Engineering Documentation Tools",
+      "title_norm": "network engineering documentation tools",
       "url": "https://www.youtube.com/watch?v=dM9MxXow0YM",
       "published_at": "2021-08-11T10:00:15Z"
     },
     {
       "video_id": "xh6cvagJLx8",
-      "title": "Interview w/CCIE, Pilot, Drummer, Cisco TSA, and Cisco Press Author Roddie Hasan! Ep 54 - eiddoR",
-      "title_norm": "interview wccie pilot drummer cisco tsa and cisco press author roddie hasan ep 54 eiddor",
+      "title": "Software-Defined Access with Roddie Hasan",
+      "title_norm": "softwaredefined access with roddie hasan",
       "url": "https://www.youtube.com/watch?v=xh6cvagJLx8",
       "published_at": "2021-07-28T10:00:21Z"
     },
@@ -3841,8 +3946,8 @@
     },
     {
       "video_id": "qRH-8e_fftI",
-      "title": "Hear how Manny went from working the Geek squad and jumped into Enterprise IT! Ep 53 - Manny",
-      "title_norm": "hear how manny went from working the geek squad and jumped into enterprise it ep 53 manny",
+      "title": "Break Into Enterprise Networking with Manny Pimentel",
+      "title_norm": "break into enterprise networking with manny pimentel",
       "url": "https://www.youtube.com/watch?v=qRH-8e_fftI",
       "published_at": "2021-07-21T10:00:17Z"
     },
@@ -3855,8 +3960,8 @@
     },
     {
       "video_id": "c2GbxMQ52sk",
-      "title": "Hear from a real Cyber Security Engineer! Ep 52 - Cinna-man",
-      "title_norm": "hear from a real cyber security engineer ep 52 cinnaman",
+      "title": "Cyber Security with Robin Canela",
+      "title_norm": "cyber security with robin canela",
       "url": "https://www.youtube.com/watch?v=c2GbxMQ52sk",
       "published_at": "2021-07-14T10:00:30Z"
     },
@@ -3883,22 +3988,22 @@
     },
     {
       "video_id": "DPkxTd-xC6U",
-      "title": "What is burnout and rust out? Learn what it is and how to avoid it! Ep 49 - Burnout / Rust out",
-      "title_norm": "what is burnout and rust out learn what it is and how to avoid it ep 49 burnout rust out",
+      "title": "Burnout in IT and Recovery Strategies",
+      "title_norm": "burnout in it and recovery strategies",
       "url": "https://www.youtube.com/watch?v=DPkxTd-xC6U",
       "published_at": "2021-07-07T17:01:20Z"
     },
     {
       "video_id": "afqDmFIr3dg",
-      "title": "What is SD-WAN?? We explain it! Ep 51 - SD-WAN",
-      "title_norm": "what is sdwan we explain it ep 51 sdwan",
+      "title": "SD-WAN for Beginners",
+      "title_norm": "sdwan for beginners",
       "url": "https://www.youtube.com/watch?v=afqDmFIr3dg",
       "published_at": "2021-07-07T10:00:02Z"
     },
     {
       "video_id": "CvJvjLhn2ws",
-      "title": "Ep 50 - Ask Us Anything",
-      "title_norm": "ep 50 ask us anything",
+      "title": "Network Engineering Q&A",
+      "title_norm": "network engineering qa",
       "url": "https://www.youtube.com/watch?v=CvJvjLhn2ws",
       "published_at": "2021-06-30T10:00:14Z"
     },
@@ -3932,36 +4037,36 @@
     },
     {
       "video_id": "bbHTlCgog9Q",
-      "title": "Want to know how to manage your time better? Ep 46 - Time Management",
-      "title_norm": "want to know how to manage your time better ep 46 time management",
+      "title": "Time Management Tips and Strategies",
+      "title_norm": "time management tips and strategies",
       "url": "https://www.youtube.com/watch?v=bbHTlCgog9Q",
       "published_at": "2021-06-02T10:00:15Z"
     },
     {
       "video_id": "ZCuMqRt3Z1w",
-      "title": "Ep 45 - Softskillz",
-      "title_norm": "ep 45 softskillz",
+      "title": "Soft Skills for Network Engineers",
+      "title_norm": "soft skills for network engineers",
       "url": "https://www.youtube.com/watch?v=ZCuMqRt3Z1w",
       "published_at": "2021-05-26T10:00:13Z"
     },
     {
       "video_id": "nbVVZzaoFA0",
-      "title": "Ep 44 - IT Factor",
-      "title_norm": "ep 44 it factor",
+      "title": "IT and AV with Frank Padikkala",
+      "title_norm": "it and av with frank padikkala",
       "url": "https://www.youtube.com/watch?v=nbVVZzaoFA0",
       "published_at": "2021-05-19T10:00:23Z"
     },
     {
       "video_id": "z1CKj7R9NNI",
-      "title": "Ep 43 - You get 5 seconds",
-      "title_norm": "ep 43 you get 5 seconds",
+      "title": "Fitness Trainer to Network Engineer with Teneyia Wilson",
+      "title_norm": "fitness trainer to network engineer with teneyia wilson",
       "url": "https://www.youtube.com/watch?v=z1CKj7R9NNI",
       "published_at": "2021-05-12T10:00:34Z"
     },
     {
       "video_id": "nzJeWRT9Hgc",
-      "title": "Ep 42 - A Look Back",
-      "title_norm": "ep 42 a look back",
+      "title": "Network Engineering Year in Review",
+      "title_norm": "network engineering year in review",
       "url": "https://www.youtube.com/watch?v=nzJeWRT9Hgc",
       "published_at": "2021-05-05T10:00:35Z"
     },
@@ -3974,8 +4079,8 @@
     },
     {
       "video_id": "4YqKjsT-T9I",
-      "title": "From NOC Engineer to Network Automation Engineer! Ep 40 - Automacho",
-      "title_norm": "from noc engineer to network automation engineer ep 40 automacho",
+      "title": "Network Automation with Kevin Camacho",
+      "title_norm": "network automation with kevin camacho",
       "url": "https://www.youtube.com/watch?v=4YqKjsT-T9I",
       "published_at": "2021-04-21T10:00:02Z"
     },
@@ -4009,29 +4114,29 @@
     },
     {
       "video_id": "jVya71lXFoo",
-      "title": "Ep 35 - Fortijeff",
-      "title_norm": "ep 35 fortijeff",
+      "title": "What is a Sales Engineer with Jeff Clark",
+      "title_norm": "what is a sales engineer with jeff clark",
       "url": "https://www.youtube.com/watch?v=jVya71lXFoo",
       "published_at": "2021-03-17T10:00:28Z"
     },
     {
       "video_id": "zzQNzLSIHHk",
-      "title": "Ep 34 - The Technical Interview",
-      "title_norm": "ep 34 the technical interview",
+      "title": "Technical Interviews for Network Engineers with Tim McConnaughy",
+      "title_norm": "technical interviews for network engineers with tim mcconnaughy",
       "url": "https://www.youtube.com/watch?v=zzQNzLSIHHk",
       "published_at": "2021-03-10T11:00:31Z"
     },
     {
       "video_id": "MTYfA1X2W4k",
-      "title": "Ep 33 - Cord Cutters",
-      "title_norm": "ep 33 cord cutters",
+      "title": "Streaming's Impact on Network Infrastructure",
+      "title_norm": "streamings impact on network infrastructure",
       "url": "https://www.youtube.com/watch?v=MTYfA1X2W4k",
       "published_at": "2021-03-05T13:13:39Z"
     },
     {
       "video_id": "yXk_3TEspfA",
-      "title": "Interview with Peter Brown, Co-Author of Make it Stick We talk about the science of learning Ep -32",
-      "title_norm": "interview with peter brown coauthor of make it stick we talk about the science of learning ep 32",
+      "title": "Pass More Exams with Author Peter Brown",
+      "title_norm": "pass more exams with author peter brown",
       "url": "https://www.youtube.com/watch?v=yXk_3TEspfA",
       "published_at": "2021-02-24T11:00:20Z"
     },
@@ -4044,22 +4149,22 @@
     },
     {
       "video_id": "OnC3cWUq4m0",
-      "title": "Ep 31 - Tim Bertino",
-      "title_norm": "ep 31 tim bertino",
+      "title": "Healthcare Networking with Tim Bertino",
+      "title_norm": "healthcare networking with tim bertino",
       "url": "https://www.youtube.com/watch?v=OnC3cWUq4m0",
       "published_at": "2021-02-17T11:00:19Z"
     },
     {
       "video_id": "FhoabTIarXo",
-      "title": "Ep 30 - Mental Health",
-      "title_norm": "ep 30 mental health",
+      "title": "Mental Health Tips for Network Engineers",
+      "title_norm": "mental health tips for network engineers",
       "url": "https://www.youtube.com/watch?v=FhoabTIarXo",
       "published_at": "2021-02-10T11:00:04Z"
     },
     {
       "video_id": "SV55SgQKJqI",
-      "title": "Ep 29 - Cable Guys",
-      "title_norm": "ep 29 cable guys",
+      "title": "How Two Cable Guys Became Network Engineers",
+      "title_norm": "how two cable guys became network engineers",
       "url": "https://www.youtube.com/watch?v=SV55SgQKJqI",
       "published_at": "2021-02-03T11:00:25Z"
     },
@@ -4072,8 +4177,8 @@
     },
     {
       "video_id": "1hE83cMpALk",
-      "title": "Ep 27 - CCENT Emeritus",
-      "title_norm": "ep 27 ccent emeritus",
+      "title": "Rural Network Engineering Jobs: Career Challenges",
+      "title_norm": "rural network engineering jobs career challenges",
       "url": "https://www.youtube.com/watch?v=1hE83cMpALk",
       "published_at": "2021-01-20T11:00:03Z"
     },
@@ -4086,29 +4191,29 @@
     },
     {
       "video_id": "AK-2xc1Ipks",
-      "title": "Ep 26 - Goal Hacks",
-      "title_norm": "ep 26 goal hacks",
+      "title": "Goal Tracking Strategies for Network Engineers",
+      "title_norm": "goal tracking strategies for network engineers",
       "url": "https://www.youtube.com/watch?v=AK-2xc1Ipks",
       "published_at": "2021-01-13T11:00:08Z"
     },
     {
       "video_id": "bnDVii3jm7Q",
-      "title": "Ep 25 - 2021 Goals",
-      "title_norm": "ep 25 2021 goals",
+      "title": "Network Engineering Goals for 2021",
+      "title_norm": "network engineering goals for 2021",
       "url": "https://www.youtube.com/watch?v=bnDVii3jm7Q",
       "published_at": "2021-01-06T11:00:30Z"
     },
     {
       "video_id": "2tj6CKGMuAc",
-      "title": "Ep 24 - From the Cab to TAC",
-      "title_norm": "ep 24 from the cab to tac",
+      "title": "Cisco TAC Career Path with Mansoor Alam",
+      "title_norm": "cisco tac career path with mansoor alam",
       "url": "https://www.youtube.com/watch?v=2tj6CKGMuAc",
       "published_at": "2020-12-30T11:00:00Z"
     },
     {
       "video_id": "hhWhCDSWX4Y",
-      "title": "Ep 23 - of IT",
-      "title_norm": "ep 23 of it",
+      "title": "Network Engineer Study Habits with Keith Barker",
+      "title_norm": "network engineer study habits with keith barker",
       "url": "https://www.youtube.com/watch?v=hhWhCDSWX4Y",
       "published_at": "2020-12-23T11:00:28Z"
     },
@@ -4121,8 +4226,8 @@
     },
     {
       "video_id": "kj1nuKl-stI",
-      "title": "Ep 22.- The OG",
-      "title_norm": "ep 22 the og",
+      "title": "Keith Barker's Journey to Two CCIEs",
+      "title_norm": "keith barkers journey to two ccies",
       "url": "https://www.youtube.com/watch?v=kj1nuKl-stI",
       "published_at": "2020-12-16T11:00:31Z"
     },
@@ -4135,8 +4240,8 @@
     },
     {
       "video_id": "WjA5AU2iRCE",
-      "title": "Ep 20 - The Top 10 Questions in Networking!",
-      "title_norm": "ep 20 the top 10 questions in networking",
+      "title": "Top 10 Networking Questions: Study Materials, Labs, Habits",
+      "title_norm": "top 10 networking questions study materials labs habits",
       "url": "https://www.youtube.com/watch?v=WjA5AU2iRCE",
       "published_at": "2020-12-02T11:00:32Z"
     },
@@ -4148,58 +4253,51 @@
       "published_at": "2020-11-25T11:00:14Z"
     },
     {
-      "video_id": "XRya3XKpjVA",
-      "title": "Ep 18 - Carl!",
-      "title_norm": "ep 18 carl",
-      "url": "https://www.youtube.com/watch?v=XRya3XKpjVA",
-      "published_at": "2020-11-18T11:00:07Z"
-    },
-    {
       "video_id": "OA_a1z78kng",
-      "title": "Ep 17 - The A.J. and Aaron Show",
-      "title_norm": "ep 17 the aj and aaron show",
+      "title": "Network Engineer Study Habits and Total Compensation",
+      "title_norm": "network engineer study habits and total compensation",
       "url": "https://www.youtube.com/watch?v=OA_a1z78kng",
       "published_at": "2020-11-11T11:00:12Z"
     },
     {
       "video_id": "WtQnKzSpRpY",
-      "title": "Ep 16 - What is a Network Engineer?",
-      "title_norm": "ep 16 what is a network engineer",
+      "title": "What is a Network Engineer? With Zig Zsiga",
+      "title_norm": "what is a network engineer with zig zsiga",
       "url": "https://www.youtube.com/watch?v=WtQnKzSpRpY",
       "published_at": "2020-11-04T11:00:27Z"
     },
     {
       "video_id": "h5WfCW18-VE",
-      "title": "Ep 15 - Knox",
-      "title_norm": "ep 15 knox",
+      "title": "Network Engineering Interview with Knox Hutchinson",
+      "title_norm": "network engineering interview with knox hutchinson",
       "url": "https://www.youtube.com/watch?v=h5WfCW18-VE",
       "published_at": "2020-10-28T10:00:09Z"
     },
     {
       "video_id": "ssJKCv0wq8g",
-      "title": "Ep 14 - Data",
-      "title_norm": "ep 14 data",
+      "title": "Knox Hutchinson on IT Training and Network Engineering",
+      "title_norm": "knox hutchinson on it training and network engineering",
       "url": "https://www.youtube.com/watch?v=ssJKCv0wq8g",
       "published_at": "2020-10-21T10:00:29Z"
     },
     {
       "video_id": "GYm5_UglDfw",
-      "title": "Episode 13 - CCIEby30",
-      "title_norm": "episode 13 ccieby30",
+      "title": "Network Engineering Career Path with Deirra Footman",
+      "title_norm": "network engineering career path with deirra footman",
       "url": "https://www.youtube.com/watch?v=GYm5_UglDfw",
       "published_at": "2020-10-14T10:00:09Z"
     },
     {
       "video_id": "jpUxDjts9ig",
-      "title": "Episode 12 - The Packet Pilot!",
-      "title_norm": "episode 12 the packet pilot",
+      "title": "From Help Desk to Network Engineering with Matthew Ouellette",
+      "title_norm": "from help desk to network engineering with matthew ouellette",
       "url": "https://www.youtube.com/watch?v=jpUxDjts9ig",
       "published_at": "2020-10-07T10:00:20Z"
     },
     {
       "video_id": "OayskWG3bfc",
-      "title": "Episode 11 - Gifted Lane!",
-      "title_norm": "episode 11 gifted lane",
+      "title": "Getting Into Network Engineering with Shala Warner",
+      "title_norm": "getting into network engineering with shala warner",
       "url": "https://www.youtube.com/watch?v=OayskWG3bfc",
       "published_at": "2020-09-30T10:00:14Z"
     },
@@ -4226,8 +4324,8 @@
     },
     {
       "video_id": "mu-tOfOSzrY",
-      "title": "Episode 7 - The Joe Show",
-      "title_norm": "episode 7 the joe show",
+      "title": "Infrastructure Architect Joe Lemaire on Network Engineering",
+      "title_norm": "infrastructure architect joe lemaire on network engineering",
       "url": "https://www.youtube.com/watch?v=mu-tOfOSzrY",
       "published_at": "2020-09-02T10:15:04Z"
     },
@@ -4240,8 +4338,8 @@
     },
     {
       "video_id": "2Ix3bj3m8H4",
-      "title": "Episode 6 - 24",
-      "title_norm": "episode 6 24",
+      "title": "Early Career Success: Taylor Harris at 24 with 4 Certs",
+      "title_norm": "early career success taylor harris at 24 with 4 certs",
       "url": "https://www.youtube.com/watch?v=2Ix3bj3m8H4",
       "published_at": "2020-08-26T10:15:01Z"
     },
@@ -4254,8 +4352,8 @@
     },
     {
       "video_id": "gXpxXR9L9cQ",
-      "title": "Episode 04 Personal Brand",
-      "title_norm": "episode 04 personal brand",
+      "title": "Personal Brand for Network Engineers: Stand Out",
+      "title_norm": "personal brand for network engineers stand out",
       "url": "https://www.youtube.com/watch?v=gXpxXR9L9cQ",
       "published_at": "2020-08-12T10:00:27Z"
     },
@@ -4268,8 +4366,8 @@
     },
     {
       "video_id": "PQaoYtpAQAM",
-      "title": "Episode 01 Meet the Team",
-      "title_norm": "episode 01 meet the team",
+      "title": "Meet the Art of Network Engineering Podcast Team",
+      "title_norm": "meet the art of network engineering podcast team",
       "url": "https://www.youtube.com/watch?v=PQaoYtpAQAM",
       "published_at": "2020-07-28T20:55:01Z"
     },
