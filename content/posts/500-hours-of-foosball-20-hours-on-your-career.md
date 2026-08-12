@@ -5,6 +5,7 @@ publishedAt: "2026-08-12"
 excerpt: "There's a lot of fear in tech right now: learn AI or get left behind, learn automation or become irrelevant. At AutoCon 5, Mike Bushong offered a better question than 'what do I have to learn so I don't become obsolete?' It starts with a developer who spent 500 hours getting good at foosball."
 author: "Andy Lapteff"
 coverImage: "/blog-images/500-hours-of-foosball-20-hours-on-your-career.jpg"
+episodeSlug: "500-hours-of-foosball-20-hours-on-your-career-mike-bushong-on-staying-valuable"
 ---
 
 There's a lot of fear in tech right now. Learn AI or get left behind. Learn automation or become irrelevant. Learn Python, cloud, APIs, or whatever new technology showed up in your feed this morning.
