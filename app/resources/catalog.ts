@@ -43,6 +43,7 @@ export const serviceProvider: Link[] = [
 ];
 
 export const labs: Link[] = [
+  { name: 'AONE Subnetting Practice', href: '/subnetting', note: 'Our own free, no-signup browser game for drilling subnetting until the math is automatic. Great warm-up before a cert exam.' },
   { name: 'Containerlab', href: 'https://containerlab.dev/', note: 'Container-based network labs defined in YAML. Spin up multi-vendor topologies in seconds. Where the modern lab community has been moving.' },
   { name: 'GNS3', href: 'https://www.gns3.com/', note: 'The long-standing favorite for emulating Cisco / Juniper / Arista images. Heavier than Containerlab but battle-tested.' },
   { name: 'EVE-NG', href: 'https://www.eve-ng.net/', note: 'Browser-accessible network emulator. Popular in study groups, supports a wide range of vendor images.' },
