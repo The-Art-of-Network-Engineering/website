@@ -13,11 +13,12 @@ export const metadata: Metadata = {
     'Sponsor The Art of Network Engineering. Reach ~2,800 network engineers per episode with consistent, predictable delivery.',
 };
 
+// Lifetime downloads and YouTube subscribers live in the StatsBand above (auto-
+// refreshed), so this curated row keeps only the sponsor-specific stats the band
+// does not show: per-episode reach and cross-platform touchpoints, with YoY.
 const stats = [
-  { value: metrics.lifetimeDownloadsShort, label: 'Lifetime downloads' },
   { value: '2,800', label: 'Downloads per episode', caption: '+26% YoY, first 60 days' },
   { value: '306K', label: 'Platform touchpoints', caption: '+14.2% YoY' },
-  { value: metrics.youtubeSubscribers, label: 'YouTube subscribers', caption: '+35.4% YoY' },
 ];
 
 const audience = [
