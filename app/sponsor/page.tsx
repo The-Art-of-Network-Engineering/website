@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import { SectionLabel } from '@/components/SectionLabel';
 import { StatCard } from '@/components/StatCard';
 import { StatsBand } from '@/components/StatsBand';
-import { metrics } from '@/lib/metrics';
 // Sponsor roster: single source of truth is sponsors.toml on the server, synced
 // here by sync_website_sponsors.py. Do not hand-edit this list.
 import partners from '@/data/sponsors.json';
@@ -12,14 +11,6 @@ export const metadata: Metadata = {
   description:
     'Sponsor The Art of Network Engineering. Reach ~2,800 network engineers per episode with consistent, predictable delivery.',
 };
-
-// Lifetime downloads and YouTube subscribers live in the StatsBand above (auto-
-// refreshed), so this curated row keeps only the sponsor-specific stats the band
-// does not show: per-episode reach and cross-platform touchpoints, with YoY.
-const stats = [
-  { value: '2,800', label: 'Downloads per episode', caption: '+26% YoY, first 60 days' },
-  { value: '306K', label: 'Platform touchpoints', caption: '+14.2% YoY' },
-];
 
 const audience = [
   { value: '70%', label: 'Aged 26–44, prime buying age' },
@@ -83,21 +74,8 @@ export default function SponsorPage() {
       {/* Live audience proof — auto-refreshed daily from metrics.json (same band as the homepage) */}
       <div className="mt-12">
         <StatsBand />
+        <p className="mt-6 text-sm text-text-muted">2026 USNUA Media Partner.</p>
       </div>
-
-      {/* Stats */}
-      <section className="mt-16">
-        <SectionLabel>By the numbers</SectionLabel>
-        <div className="mt-6 grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {stats.map((s) => (
-            <StatCard key={s.label} {...s} />
-          ))}
-        </div>
-        <p className="mt-6 max-w-3xl text-text-muted">
-          Discord community: <span className="text-text font-semibold">{metrics.discordMembers} members</span>.
-          2026 USNUA Media Partner.
-        </p>
-      </section>
 
       {/* Audience */}
       <section className="mt-16">
