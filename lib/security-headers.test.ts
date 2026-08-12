@@ -1,11 +1,13 @@
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 
-// Guards the exact bug that broke the subnetting game: the global clickjacking
-// headers (X-Frame-Options: DENY / frame-ancestors 'none') forbid ALL framing,
-// including the same-origin <iframe> the /subnetting page uses to embed the game.
-// The /subnetting-game/* rule must relax framing to same-origin, and the global
-// default must stay strict.
+// Guards the bug that broke the subnetting game: the global clickjacking headers
+// (X-Frame-Options: DENY / frame-ancestors 'none') forbid ALL framing, including
+// the same-origin <iframe> the /subnetting page uses to embed the game. Because
+// Cloudflare Pages _headers APPENDS per-path rules (it does not override a
+// same-named header), the framing policy has to be set once globally to
+// SAMEORIGIN / frame-ancestors 'self': permit our own origin to frame us, still
+// block every cross-origin framer.
 const headers = readFileSync('public/_headers', 'utf-8');
 
 function blockFor(pathGlob: string): string {
@@ -22,19 +24,25 @@ function blockFor(pathGlob: string): string {
 }
 
 describe('_headers framing policy', () => {
-  it('keeps the global default strict (DENY / frame-ancestors none)', () => {
-    const global = blockFor('/*');
-    expect(global).toMatch(/X-Frame-Options:\s*DENY/);
-    expect(global).toMatch(/frame-ancestors 'none'/);
+  const global = blockFor('/*');
+
+  it('allows same-origin framing so the embedded subnetting game loads', () => {
+    expect(global).toMatch(/X-Frame-Options:\s*SAMEORIGIN/);
+    expect(global).toMatch(/frame-ancestors 'self'/);
   });
 
-  it('allows the subnetting game to be framed by our own origin', () => {
-    const game = blockFor('/subnetting-game/*');
-    expect(game).not.toBe('');
-    expect(game).toMatch(/X-Frame-Options:\s*SAMEORIGIN/);
-    expect(game).toMatch(/frame-ancestors 'self'/);
-    // must NOT re-forbid framing for this path
-    expect(game).not.toMatch(/frame-ancestors 'none'/);
-    expect(game).not.toMatch(/X-Frame-Options:\s*DENY/);
+  it('does NOT use a policy that blocks all framing (DENY / none)', () => {
+    expect(global).not.toMatch(/X-Frame-Options:\s*DENY/);
+    expect(global).not.toMatch(/frame-ancestors 'none'/);
+  });
+
+  it('still blocks cross-origin framers (no wildcard frame-ancestors)', () => {
+    expect(global).not.toMatch(/frame-ancestors[^;]*\*/);
+  });
+
+  it('does not add a stacked per-path framing rule (Pages appends, so it would not override)', () => {
+    // A /subnetting-game/* rule setting X-Frame-Options again would ship a second,
+    // conflicting header. The policy must live only in the global /* block.
+    expect(blockFor('/subnetting-game/*')).toBe('');
   });
 });
