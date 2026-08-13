@@ -8,6 +8,7 @@ import partners from '@/data/sponsors.json';
 // Reviewed reach numbers (native Buzzsprout windows + YoY). Same file the snapshot
 // PDF reads, so the two never drift. Derived from the 12-month YoY analysis.
 import reachData from '@/data/media_kit_reach.json';
+import { metrics } from '@/lib/metrics';
 
 export const metadata: Metadata = {
   title: 'Sponsor AONE',
@@ -28,7 +29,7 @@ const packages = [
   {
     name: 'Dynamic Mid-roll Ad',
     tag: 'Recurring · entire catalog',
-    desc: 'A dynamically inserted mid-roll spot across all 200+ episodes for your contract term. Our best-performing, most sought-after placement. Roughly 9,300 impressions every month from the back catalog alone.',
+    desc: `A dynamically inserted mid-roll spot across all 200+ episodes for your contract term. Our best-performing, most sought-after placement. Roughly ${metrics.catalogMonthly} impressions every month from the back catalog alone.`,
   },
   {
     name: 'Dedicated Interview',
