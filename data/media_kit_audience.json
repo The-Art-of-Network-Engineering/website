@@ -1,0 +1,143 @@
+{
+  "source": "buzzsprout dashboard (all-time)",
+  "geography": {
+    "continents": [
+      {
+        "name": "North America",
+        "downloads": 6147,
+        "pct": 63
+      },
+      {
+        "name": "South America",
+        "downloads": 74,
+        "pct": 0
+      },
+      {
+        "name": "Europe",
+        "downloads": 2229,
+        "pct": 23
+      },
+      {
+        "name": "Asia",
+        "downloads": 530,
+        "pct": 5
+      },
+      {
+        "name": "Africa",
+        "downloads": 192,
+        "pct": 1
+      },
+      {
+        "name": "Oceania",
+        "downloads": 475,
+        "pct": 4
+      }
+    ],
+    "top_countries": [
+      {
+        "name": "United States",
+        "pct": 58,
+        "downloads": 5673
+      },
+      {
+        "name": "United Kingdom",
+        "pct": 5,
+        "downloads": 521
+      },
+      {
+        "name": "Canada",
+        "pct": 4,
+        "downloads": 413
+      },
+      {
+        "name": "Australia",
+        "pct": 3,
+        "downloads": 351
+      },
+      {
+        "name": "Germany",
+        "pct": 3,
+        "downloads": 313
+      },
+      {
+        "name": "Sweden",
+        "pct": 1,
+        "downloads": 166
+      }
+    ]
+  },
+  "apps": [
+    {
+      "name": "Apple Podcasts",
+      "pct": 43
+    },
+    {
+      "name": "Spotify",
+      "pct": 17
+    },
+    {
+      "name": "Overcast",
+      "pct": 8
+    },
+    {
+      "name": "Podcast Addict",
+      "pct": 7
+    },
+    {
+      "name": "Pocket Casts",
+      "pct": 5
+    }
+  ],
+  "devices": [
+    {
+      "name": "Apple iPhone",
+      "pct": 62
+    },
+    {
+      "name": "Android Phone",
+      "pct": 24
+    },
+    {
+      "name": "Unknown Device",
+      "pct": 9
+    },
+    {
+      "name": "Windows Computer",
+      "pct": 1
+    },
+    {
+      "name": "Unknown Computer",
+      "pct": 1
+    },
+    {
+      "name": "Mobile",
+      "pct": 87
+    },
+    {
+      "name": "Unknown",
+      "pct": 8
+    },
+    {
+      "name": "Computer",
+      "pct": 3
+    },
+    {
+      "name": "Smart Speaker",
+      "pct": 0
+    },
+    {
+      "name": "Smart TV",
+      "pct": 0
+    }
+  ],
+  "top_app": [
+    "Apple Podcasts",
+    43
+  ],
+  "top_device": [
+    "Apple iPhone",
+    62
+  ],
+  "mobile_pct": 87,
+  "updated_at": "2026-08-13T14:02:43.359297+00:00"
+}
