@@ -26,9 +26,9 @@ const reach = reachData.windows;
 
 const packages = [
   {
-    name: 'Dynamic Audio Ad',
+    name: 'Dynamic Mid-roll Ad',
     tag: 'Recurring · entire catalog',
-    desc: 'A pre-roll and mid-roll dynamically inserted across all 200+ episodes for your contract term. Roughly 9,300 impressions every month from the back catalog alone.',
+    desc: 'A dynamically inserted mid-roll spot across all 200+ episodes for your contract term. Our best-performing, most sought-after placement. Roughly 9,300 impressions every month from the back catalog alone.',
   },
   {
     name: 'Dedicated Interview',
