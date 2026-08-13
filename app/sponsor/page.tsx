@@ -5,11 +5,14 @@ import { StatsBand } from '@/components/StatsBand';
 // Sponsor roster: single source of truth is sponsors.toml on the server, synced
 // here by sync_website_sponsors.py. Do not hand-edit this list.
 import partners from '@/data/sponsors.json';
+// Reviewed reach numbers (native Buzzsprout windows + YoY). Same file the snapshot
+// PDF reads, so the two never drift. Derived from the 12-month YoY analysis.
+import reachData from '@/data/media_kit_reach.json';
 
 export const metadata: Metadata = {
   title: 'Sponsor AONE',
   description:
-    'Sponsor The Art of Network Engineering. Reach ~2,800 network engineers per episode with consistent, predictable delivery.',
+    'Sponsor The Art of Network Engineering. Reach thousands of network engineers per episode — a targeted practitioner audience growing double digits year over year.',
 };
 
 const audience = [
@@ -19,12 +22,7 @@ const audience = [
   { value: '64%', label: 'North America (20% Europe, global reach)' },
 ];
 
-const reach = [
-  { window: 'First 7 days', dl: '1,500 downloads' },
-  { window: 'First 30 days', dl: '2,300 downloads' },
-  { window: 'First 60 days', dl: '2,800 downloads' },
-  { window: 'Catalog / month', dl: '9,300 downloads' },
-];
+const reach = reachData.windows;
 
 const packages = [
   {
@@ -64,9 +62,9 @@ export default function SponsorPage() {
         <span className="text-accent-green">build, evaluate, and buy</span>.
       </h1>
       <p className="mt-6 max-w-3xl text-text-muted text-lg">
-        Each AONE episode reaches roughly 2,800 network engineers and architects when they're
-        actively evaluating tools, solving problems, and advancing their careers. 80% are hands-on
-        practitioners who recommend and specify what their teams buy. They aren't generic
+        Each AONE episode reaches 2,500+ network engineers and architects in its first 90 days and
+        4,000+ over its lifetime, with every window up double digits year over year. 80% are
+        hands-on practitioners who recommend and specify what their teams buy. They aren't generic
         impressions. They're one of the most targeted practitioner audiences in network
         infrastructure.
       </p>
@@ -94,13 +92,19 @@ export default function SponsorPage() {
           {reach.map((r) => (
             <div key={r.window} className="bg-surface border border-border p-6 rounded-sm">
               <p className="text-xs uppercase tracking-label text-text-muted">{r.window}</p>
-              <p className="mt-3 font-display text-2xl text-accent-green">{r.dl}</p>
+              <p className="mt-3 font-display text-2xl text-accent-green">
+                {r.downloads.toLocaleString('en-US')}{' '}
+                <span className="text-sm text-text-muted font-sans">downloads</span>
+              </p>
+              <p className="mt-1 text-xs font-mono text-accent-blue">+{r.yoy}% YoY</p>
             </div>
           ))}
         </div>
         <p className="mt-6 max-w-3xl text-text-muted">
           We don't rely on viral episodes. Sponsors get consistent, predictable reach across every
-          release, and that baseline is growing year over year.
+          release, and every window is up double digits year over year. Episodes keep earning
+          downloads for years, averaging {reachData.lifetime_per_episode.toLocaleString('en-US')}+ over
+          their lifetime.
         </p>
       </section>
 
