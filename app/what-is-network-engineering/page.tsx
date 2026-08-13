@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SectionLabel } from '@/components/SectionLabel';
+import { metrics } from '@/lib/metrics';
 
 export const metadata: Metadata = {
   title: 'What Is Network Engineering?',
@@ -289,7 +290,7 @@ export default function WhatIsNetworkEngineeringPage() {
             <SectionLabel>About AONE</SectionLabel>
             <p className="mt-4 text-sm text-text">
               The Art of Network Engineering is an independent podcast for network engineers
-              and infrastructure professionals, with 200+ episodes, a 3,500-member Discord, and
+              and infrastructure professionals, with 200+ episodes, a {metrics.discordMembers}-member Discord, and
               The Shortest Path, our newsletter for network engineers.
             </p>
             <Link href="/about" className="mt-4 inline-block text-sm text-accent-blue">

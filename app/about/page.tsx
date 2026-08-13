@@ -47,13 +47,13 @@ export default function AboutPage() {
               <p>
                 AONE launched in July 2020. Six years and 200+ episodes later, it's one of the
                 largest independent media platforms built specifically for network engineers
-                and infrastructure professionals, approaching one million lifetime downloads,
-                with a per-episode audience that grows year over year.
+                and infrastructure professionals, with {metrics.lifetimeDownloads} lifetime downloads
+                and a per-episode audience that grows year over year.
               </p>
               <p>
                 What started as a podcast has grown into a multi-channel platform: long-form
                 audio interviews, short and long-form video on YouTube, a Discord community of
-                3,500 engineers, and The Shortest Path, our newsletter for network engineers.
+                {' '}{metrics.discordMembers} engineers, and The Shortest Path, our newsletter for network engineers.
               </p>
             </div>
           </section>
@@ -135,7 +135,7 @@ export default function AboutPage() {
               <li>
                 Community:{' '}
                 <a href="https://artofnetworkengineering.com/iaatj" target="_blank" rel="noopener noreferrer">
-                  Join the Discord (3,500+ engineers)
+                  Join the Discord ({metrics.discordMembers}+ engineers)
                 </a>
               </li>
             </ul>
@@ -156,7 +156,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <dt className="text-text-muted">Downloads per episode</dt>
-                <dd className="font-display text-2xl text-accent-green">2,800</dd>
+                <dd className="font-display text-2xl text-accent-green">{metrics.perEpisodeLifetime}+</dd>
               </div>
               <div>
                 <dt className="text-text-muted">YouTube subscribers</dt>
@@ -164,7 +164,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <dt className="text-text-muted">Discord community</dt>
-                <dd className="font-display text-2xl text-accent-green">3,500+</dd>
+                <dd className="font-display text-2xl text-accent-green">{metrics.discordMembers}+</dd>
               </div>
             </dl>
           </div>

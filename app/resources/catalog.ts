@@ -120,7 +120,7 @@ export const dashboardGroups: { label: string; links: Link[] }[] = [
 ];
 
 export const communities: Link[] = [
-  { name: 'AONE Discord', href: 'https://artofnetworkengineering.com/iaatj', note: '3,500+ network engineers, infrastructure pros, and career-switchers. Active daily.' },
+  { name: 'AONE Discord', href: 'https://artofnetworkengineering.com/iaatj', note: 'Thousands of network engineers, infrastructure pros, and career-switchers. Active daily.' },
   { name: 'USNUA — US Networking User Association', href: 'https://usnua.com/', note: 'Community-run networking association for practitioners across the US.' },
   { name: 'r/networking', href: 'https://www.reddit.com/r/networking/', note: 'The largest general networking subreddit. Career questions, troubleshooting, vendor discussion.' },
   { name: 'r/ccna', href: 'https://www.reddit.com/r/ccna/', note: 'Study group, exam tips, and lab questions for Cisco\'s flagship certification.' },
