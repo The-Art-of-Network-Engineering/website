@@ -7,6 +7,7 @@ import { NewsletterPopup } from '@/components/NewsletterPopup';
 import { SectionLabel } from '@/components/SectionLabel';
 import { StatsBand } from '@/components/StatsBand';
 import { SubscribeButtons } from '@/components/SubscribeButtons';
+import { metrics } from '@/lib/metrics';
 
 const typedFeed = feed as Feed;
 
@@ -158,8 +159,9 @@ export default function Home() {
           Reach the network engineers who <span className="text-accent-green">build, evaluate, and buy</span>.
         </h2>
         <p className="mt-4 max-w-2xl text-text-muted">
-          Approaching one million lifetime downloads. 2,800 engineers per episode. 9,300 monthly catalog
-          impressions across 200+ shows.
+          {metrics.lifetimeDownloadsShort} lifetime downloads. {metrics.perEpisode90d} engineers per
+          episode in its first 90 days. {metrics.catalogMonthly} monthly catalog impressions across
+          200+ shows.
         </p>
         <div className="mt-6">
           <Link

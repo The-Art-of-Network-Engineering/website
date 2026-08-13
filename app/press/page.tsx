@@ -28,7 +28,7 @@ const facts = [
   { label: 'Episodes', value: '200+' },
   { label: 'Lifetime downloads', value: metrics.lifetimeDownloadsShort },
   { label: 'YouTube subscribers', value: `${metrics.youtubeSubscribers}+` },
-  { label: 'Discord members', value: '3,500+' },
+  { label: 'Discord members', value: `${metrics.discordMembers}+` },
   { label: 'Cadence', value: 'New episodes every other week' },
 ];
 
