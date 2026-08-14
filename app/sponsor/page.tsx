@@ -34,7 +34,12 @@ const packages = [
   {
     name: 'Dynamic Pre-roll Ad',
     tag: 'Recurring · entire catalog',
-    desc: `A dynamically inserted pre-roll spot across all 200+ episodes for your contract term. Sold on its own, or alongside the mid-roll to own both ends of the episode. Roughly ${metrics.catalogMonthly} impressions every month from the back catalog alone.`,
+    desc: `A dynamically inserted 30-second pre-roll across all 200+ episodes for your contract term. Sold on its own, or booked with the mid-roll to own both ends of the episode. Roughly ${metrics.catalogMonthly} impressions every month from the back catalog alone.`,
+  },
+  {
+    name: 'Dynamic Audio, Both Slots',
+    tag: 'Recurring · entire catalog',
+    desc: `The 30-second pre-roll and the mid-roll together, dynamically inserted across all 200+ episodes. Your voice at the open and again in the body of the same episode, on roughly ${metrics.catalogMonthly} downloads a month.`,
   },
   {
     name: 'Dedicated Interview',
