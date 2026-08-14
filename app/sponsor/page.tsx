@@ -32,6 +32,11 @@ const packages = [
     desc: `A dynamically inserted mid-roll spot across all 200+ episodes for your contract term. Our best-performing, most sought-after placement. Roughly ${metrics.catalogMonthly} impressions every month from the back catalog alone.`,
   },
   {
+    name: 'Dynamic Pre-roll Ad',
+    tag: 'Recurring · entire catalog',
+    desc: `A dynamically inserted pre-roll spot across all 200+ episodes for your contract term. Sold on its own, or alongside the mid-roll to own both ends of the episode. Roughly ${metrics.catalogMonthly} impressions every month from the back catalog alone.`,
+  },
+  {
     name: 'Dedicated Interview',
     tag: 'Full episode · audio + video',
     desc: 'A full-length episode built around your product, team, or story. Andy hosts, you bring a voice. Audio and YouTube.',
