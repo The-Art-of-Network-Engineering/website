@@ -5,6 +5,7 @@ publishedAt: "2026-06-17"
 excerpt: "Network engineering rarely advertises its off-ramps. Andy sits down with Patrick McCabe on the move into vendor-side product marketing: why it suits engineers who lean toward communication, what changes when you stop translating outages and start translating products, and why most engineers never hear this path exists."
 author: "The AONE Team"
 coverImage: "/blog-images/network-engineering-to-product-marketing.jpg"
+episodeSlug: "from-network-engineer-to-product-marketing-a-career-path-for-communicators"
 ---
 
 For a lot of network engineers, the career arc feels predetermined. Help desk to NOC, NOC to operations, operations to architecture, and then, somewhere along the way, burnout. You spend years surviving outages and maintenance windows and the kind of pressure that comes with touching production systems that thousands, sometimes millions, of people depend on. It can feel like the only direction left is up the same ladder, into roles that have most of the same weight and none of the relief.

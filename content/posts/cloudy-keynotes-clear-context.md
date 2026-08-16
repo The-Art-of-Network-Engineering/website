@@ -5,6 +5,7 @@ publishedAt: "2025-11-19"
 excerpt: "Public cloud is amazing. It's also not magic. Resiliency myths, public speaking wins, and why MCP matters for NetOps."
 author: "The AONE Team"
 coverImage: "/blog-images/cloudy-keynotes-clear-context.jpg"
+episodeSlug: "resilience-reputation-and-mcp"
 ---
 
 ## Cloudy Keynotes, Clear Context

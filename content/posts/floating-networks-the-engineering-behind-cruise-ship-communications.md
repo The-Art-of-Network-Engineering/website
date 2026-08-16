@@ -5,6 +5,7 @@ publishedAt: "2025-06-19"
 excerpt: "When most people picture a cruise ship, they imagine endless buffets, sun-soaked decks, and bustling entertainment venues, not a high-tech nerve center humming below deck. But behind the scenes, modern cruise ships are..."
 author: "The AONE Team"
 coverImage: "/blog-images/floating-networks-the-engineering-behind-cruise-ship-communications.jpg"
+episodeSlug: "lan-ho-navigating-cruise-ship-networking"
 ---
 
 When most people picture a cruise ship, they imagine endless buffets, sun-soaked decks, and bustling entertainment venues, not a high-tech nerve center humming below deck. But behind the scenes, modern cruise ships are marvels of both hospitality and IT engineering. The technology infrastructure running a cruise ship is every bit as sophisticated as many land-based enterprises.

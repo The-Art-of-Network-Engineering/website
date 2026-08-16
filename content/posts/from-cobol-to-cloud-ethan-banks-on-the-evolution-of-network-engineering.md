@@ -5,6 +5,7 @@ publishedAt: "2025-08-13"
 excerpt: "The evolution of network engineering has been a fascinating journey to witness, and few people have had a better vantage point than Ethan Banks, co-founder of Packet Pushers. In a recent episode of The Art of Network..."
 author: "The AONE Team"
 coverImage: "/blog-images/from-cobol-to-cloud-ethan-banks-on-the-evolution-of-network-engineering.jpg"
+episodeSlug: "the-art-of-pushing-packets-with-ethan-banks"
 ---
 
 The evolution of network engineering has been a fascinating journey to witness, and few people have had a better vantage point than [Ethan Banks](https://www.linkedin.com/in/ethanbanks/), co-founder of [Packet Pushers](https://www.linkedin.com/company/packet-pushers-interactive-llc/). In a recent episode of *The Art of Network Engineering* podcast, Ethan shared stories from his career that reveal just how much our industry has transformed, and where it might be heading next.

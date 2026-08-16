@@ -5,6 +5,7 @@ publishedAt: "2025-11-05"
 excerpt: "If you can't map your work to the business's priorities, your best ideas die in the hallway. Here are the ways engineering types self-sabotage their careers."
 author: "The AONE Team"
 coverImage: "/blog-images/learn-the-business.jpg"
+episodeSlug: "learn-the-business-grow-your-career"
 ---
 
 If you've worked in networking long enough, you've probably had this thought during a company all-hands:

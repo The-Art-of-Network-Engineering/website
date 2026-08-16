@@ -5,6 +5,7 @@ publishedAt: "2025-04-23"
 excerpt: "In a recent episode of The Art of Network Engineering podcast, hosts Andy Lapteff and Jeff Clark welcomed Erika Dietrick—known online as “Erika the Dev”—to tackle a long-standing cultural and technical divide in IT: the..."
 author: "The AONE Team"
 coverImage: "/blog-images/bridging-the-divide-between-developers-and-network-engineers.jpg"
+episodeSlug: "developers-vs-network-engineers"
 ---
 
 In a recent episode of *The Art of Network Engineering* podcast, hosts Andy Lapteff and Jeff Clark welcomed Erika Dietrick—known online as “Erika the Dev”—to tackle a long-standing cultural and technical divide in IT: the disconnect between network engineers and software developers.

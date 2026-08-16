@@ -5,6 +5,7 @@ publishedAt: "2025-02-26"
 excerpt: "As artificial intelligence (AI) advances at a frantic pace, so do the demands placed on network infrastructure. The age-old debate between Ethernet and InfiniBand is taking center stage once again, particularly as AI..."
 author: "Andy Lapteff"
 coverImage: "/blog-images/ethernet-vs-infiniband-the-battle-for-ai-networking-supremacy.jpg"
+episodeSlug: "making-ethernet-cool-again-the-ultra-ethernet-consortium"
 ---
 
 As artificial intelligence (AI) advances at a frantic pace, so do the demands placed on network infrastructure. The age-old debate between Ethernet and InfiniBand is taking center stage once again, particularly as AI workloads push the boundaries of performance, scalability, and efficiency. In our latest podcast episode, industry experts dive into this very topic, exploring how UltraEthernet is emerging as a contender in AI networking.

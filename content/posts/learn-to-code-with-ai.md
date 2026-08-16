@@ -5,6 +5,7 @@ publishedAt: "2026-01-28"
 excerpt: "If you're a network engineer who's tried to learn Python and struggled, you're not alone — and AI changes both the opportunity and the risk."
 author: "The AONE Team"
 coverImage: "/blog-images/learn-to-code-with-ai.jpg"
+episodeSlug: "learn-to-code-with-ai"
 ---
 
 If you're a network engineer who's tried to learn Python and struggled, you're not alone.

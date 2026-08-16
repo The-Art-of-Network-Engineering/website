@@ -5,6 +5,7 @@ publishedAt: "2025-04-09"
 excerpt: "Git has revolutionized software development over the past two decades, but many network engineers still view it as a tool exclusively for developers. This mindset creates an artificial barrier between networking..."
 author: "The AONE Team"
 coverImage: "/blog-images/fork-yeah-git-in-network-engineering.jpg"
+episodeSlug: "fork-yeah-git-in-network-engineering"
 ---
 
 Git has revolutionized software development over the past two decades, but many network engineers still view it as a tool exclusively for developers. This mindset creates an artificial barrier between networking professionals and powerful tools that could dramatically improve their workflows and productivity. As we explored in our recent episode of *The Art of Network Engineering*, this resistance often stems from a fundamental misunderstanding about what Git actually is and how it can benefit network operations.

@@ -5,6 +5,7 @@ publishedAt: "2025-05-21"
 excerpt: "The convergence of traditional network engineering and software development is reshaping the networking industry. This transformation was front and center in our latest The Art of Network Engineering podcast episode,..."
 author: "The AONE Team"
 coverImage: "/blog-images/network-engineering-isnt-dead-its-evolving.jpg"
+episodeSlug: "the-unicorn-network-engineer"
 ---
 
 The convergence of traditional network engineering and software development is reshaping the networking industry. This transformation was front and center in our latest [The Art of Network Engineering](https://www.linkedin.com/company/artofneteng/) podcast episode, where we spoke with [Munachimso (Munachi/Muna) Nwaiwu](https://www.linkedin.com/in/nwaiwumunachimso?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACmSqqcBmYMdxOz-GVLfYR_UcJoxVRPjjfw), a Network Automation Engineer at Google, whose journey from Nigeria to one of the world’s biggest tech companies offers both inspiration and insight for the future of our field.
