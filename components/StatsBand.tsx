@@ -28,6 +28,7 @@ const REACH: { label: string; value: number; caption?: string }[] = [
 const FOLLOWERS: { label: string; value: number }[] = [
   { label: 'YouTube subscribers', value: raw.auto.youtube_subscribers },
   { label: 'TikTok followers', value: raw.manual.tiktok_followers },
+  { label: 'Instagram followers', value: raw.manual.instagram_followers },
   { label: 'X followers', value: raw.manual.x_followers },
   { label: 'LinkedIn followers', value: raw.manual.linkedin_followers },
   { label: 'Discord members', value: raw.manual.discord_members },
@@ -91,7 +92,7 @@ export function StatsBand() {
       <div className="mt-10">
         <SectionLabel>Following</SectionLabel>
       </div>
-      <div className="mt-6 grid grid-cols-2 md:grid-cols-5 gap-x-6 gap-y-8">
+      <div className="mt-6 grid grid-cols-2 md:grid-cols-6 gap-x-6 gap-y-8">
         {FOLLOWERS.map((s) => (
           <div key={s.label}>
             <div className="font-display text-2xl md:text-4xl text-accent-blue tabular-nums leading-none">
