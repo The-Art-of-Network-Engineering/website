@@ -23,6 +23,8 @@ export const metrics = {
   // manual (hand-maintained in metrics.json)
   xFollowers: nf(raw.manual.x_followers),
   linkedinFollowers: nf(raw.manual.linkedin_followers),
+  tiktokFollowers: nf(raw.manual.tiktok_followers),
+  instagramFollowers: nf(raw.manual.instagram_followers),
   discordMembers: nf(raw.manual.discord_members),
   updatedAt: raw.updated_at,
   // reviewed reach (media_kit_reach.json) — the canonical per-episode + catalog numbers
