@@ -1,15 +1,6 @@
 import Link from 'next/link';
 import { SectionLabel } from './SectionLabel';
-
-const social = [
-  { href: 'https://podcasts.apple.com/us/podcast/the-art-of-network-engineering/id1525015389', label: 'Apple Podcasts' },
-  { href: 'https://open.spotify.com/show/0pMKATLfuXd19vvg2xlntA', label: 'Spotify' },
-  { href: 'https://www.youtube.com/@artofneteng', label: 'YouTube' },
-  { href: 'https://artofnetworkengineering.com/iaatj', label: 'Discord' },
-  { href: 'https://www.linkedin.com/company/artofneteng/', label: 'LinkedIn' },
-  { href: 'https://x.com/artofneteng', label: 'X / Twitter' },
-  { href: 'https://www.tiktok.com/@artofneteng', label: 'TikTok' },
-];
+import { social } from './socialLinks';
 
 export function Footer() {
   return (
@@ -17,14 +8,23 @@ export function Footer() {
       <div className="mx-auto max-w-content px-6 py-12 grid gap-12 md:grid-cols-3">
         <div>
           <SectionLabel>Connect</SectionLabel>
-          <ul className="mt-4 space-y-2 text-sm">
-            <li><Link href="/listen">All podcast apps</Link></li>
-            {social.map((s) => (
-              <li key={s.href}>
-                <a href={s.href} target="_blank" rel="noopener noreferrer">{s.label}</a>
-              </li>
+          <p className="mt-4 text-sm">
+            <Link href="/listen">All podcast apps</Link>
+          </p>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {social.map(({ href, label, Icon }) => (
+              <a
+                key={href}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-border bg-surface text-text hover:border-accent-green hover:text-accent-green px-3 py-1.5 text-sm rounded-sm transition-colors"
+              >
+                <Icon aria-hidden className="shrink-0 text-[18px]" />
+                <span>{label}</span>
+              </a>
             ))}
-          </ul>
+          </div>
         </div>
         <div>
           <SectionLabel>Articles</SectionLabel>
