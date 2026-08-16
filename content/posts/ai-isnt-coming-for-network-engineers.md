@@ -3,6 +3,8 @@ title: "AI Isn't Coming for Network Engineers. It's Coming for the 2 A.M. Outage
 slug: "ai-isnt-coming-for-network-engineers"
 publishedAt: "2026-08-05"
 excerpt: "Ask a developer if they use AI and you'll hear 'of course.' Ask a network engineer and you'll hear 'not on my production network.' We sat back down with Knox Hutchinson to talk about Transit AI, and why the real question isn't whether AI replaces engineers, but whether it can take the 2 a.m. investigation off their plate."
+coverImage: "/blog-images/ai-isnt-coming-for-network-engineers.jpg"
+episodeSlug: "cursor-for-network-engineers-meet-transit-ai"
 author: "The AONE Team"
 ---
 
