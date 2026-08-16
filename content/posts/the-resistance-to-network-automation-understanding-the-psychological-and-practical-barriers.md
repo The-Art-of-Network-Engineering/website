@@ -5,6 +5,7 @@ publishedAt: "2025-03-13"
 excerpt: "Network automation has long been heralded as the game-changer that would revolutionize networking. It promises easier management, fewer errors, and more time for strategic, high-value work. Yet, despite these clear..."
 author: "The AONE Team"
 coverImage: "/blog-images/the-resistance-to-network-automation-understanding-the-psychological-and-practical-barriers.jpg"
+episodeSlug: "is-network-automation-worth-the-struggle"
 ---
 
 Network automation has long been heralded as the game-changer that would revolutionize networking. It promises easier management, fewer errors, and more time for strategic, high-value work. Yet, despite these clear advantages, adoption rates remain surprisingly low, with estimates hovering around just 20-30%. Why is this shift, which seems so inevitable, still met with such resistance?

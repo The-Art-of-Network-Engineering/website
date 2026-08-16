@@ -5,6 +5,7 @@ publishedAt: "2025-12-31"
 excerpt: "Technical skills will get you in the room. Communication skills determine whether your ideas survive once you're there."
 author: "The AONE Team"
 coverImage: "/blog-images/communication-is-a-super-power.jpg"
+episodeSlug: "why-engineers-struggle-to-communicate-and-how-to-fix-it-fast"
 ---
 
 Technical skills will get you in the room. Communication skills determine whether your ideas survive once you're there.

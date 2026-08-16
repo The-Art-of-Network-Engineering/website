@@ -5,6 +5,7 @@ publishedAt: "2025-10-08"
 excerpt: "Learning Python as a network engineer isn't easy. It's frustrating. It's humbling. And sometimes it's downright boring — but it's also necessary."
 author: "The AONE Team"
 coverImage: "/blog-images/python-party-ii-struggling-labbing-and-learning.jpg"
+episodeSlug: "python-party-episode-2"
 ---
 
 Learning Python as a network engineer isn't easy. It's frustrating. It's humbling. And sometimes… It's downright boring.

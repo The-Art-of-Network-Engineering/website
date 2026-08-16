@@ -5,6 +5,8 @@ import feed from '@/data/episodes.json';
 import seoOverrides from '@/data/episode_seo.json';
 import type { Feed, Episode } from '@/lib/episodes';
 import { orderedGuests, guestSlug } from '@/lib/episodes';
+import { getAllPosts } from '@/lib/posts';
+import { postsForEpisode } from '@/lib/related-posts';
 import { SectionLabel } from '@/components/SectionLabel';
 import { SubscribeButtons } from '@/components/SubscribeButtons';
 import { formatDate, formatDuration } from '@/lib/format';
@@ -77,6 +79,9 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
 
   const playerId = playerIdFromEpisode(ep);
   const guests = orderedGuests(ep);
+  // Episode pages draw the traffic; the companion posts drew none until they
+  // were linked from here.
+  const relatedPosts = postsForEpisode(getAllPosts(), ep.slug);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -223,6 +228,23 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
                     </li>
                   );
                 })}
+              </ul>
+            </div>
+          )}
+          {relatedPosts.length > 0 && (
+            <div className="mb-8">
+              <SectionLabel>Read more</SectionLabel>
+              <ul className="mt-4 space-y-3">
+                {relatedPosts.map((post) => (
+                  <li key={post.slug}>
+                    <Link
+                      href={`/blog/${post.slug}`}
+                      className="text-sm text-accent-blue hover:underline"
+                    >
+                      {post.title}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           )}

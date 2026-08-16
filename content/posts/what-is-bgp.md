@@ -5,6 +5,7 @@ publishedAt: "2025-09-10"
 excerpt: "TL;DR"
 author: "The AONE Team"
 coverImage: "/blog-images/what-is-bgp.jpg"
+episodeSlug: "what-is-bgp-a-simple-explanation-every-network-engineer-should-know"
 ---
 
 TL;DR

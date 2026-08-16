@@ -5,6 +5,7 @@ publishedAt: "2025-07-02"
 excerpt: "In the world of network engineering, staying organized isn't just helpful, it's essential. Between managing complex projects, documenting troubleshooting steps, and constantly learning new technologies, engineers juggle..."
 author: "The AONE Team"
 coverImage: "/blog-images/productivity-tools-for-network-engineers-whats-in-your-toolbox.jpg"
+episodeSlug: "tech-tidying-sanity-saving-apps"
 ---
 
 In the world of network engineering, staying organized isn't just helpful, it's essential. Between managing complex projects, documenting troubleshooting steps, and constantly learning new technologies, engineers juggle more digital clutter than ever. That’s why, in our latest episode of *The Art of Network Engineering*, [Andy Lapteff 🛠️💬](https://www.linkedin.com/in/andylapteff/) and [Jeff Clark](https://www.linkedin.com/in/jeff-clark-5492307/) crack open their personal toolkits to share how they stay organized and productive.

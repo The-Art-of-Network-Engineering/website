@@ -5,6 +5,7 @@ publishedAt: "2025-10-07"
 excerpt: "If you’ve skimmed network engineer job postings lately, you’ve noticed the pattern: automation experience required. Not “nice to have.” Required. Employers expect fluency with APIs, version control, repeatable..."
 author: "The AONE Team"
 coverImage: "/blog-images/python-party-launch.jpg"
+episodeSlug: "python-party-episode-1"
 ---
 
 If you’ve skimmed network engineer job postings lately, you’ve noticed the pattern: **automation experience required**. Not “nice to have.” Required. Employers expect fluency with APIs, version control, repeatable workflows, and the ability to turn tribal CLI knowledge into code that anyone on the team can run safely.

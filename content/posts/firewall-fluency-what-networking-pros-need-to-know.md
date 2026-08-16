@@ -5,6 +5,7 @@ publishedAt: "2025-03-26"
 excerpt: "For much of our careers, many of us in network engineering have lived comfortably in the lower layers of the OSI model. Layer 2? We speak it fluently. Layer 3? That’s our bread and butter. But what about Layer 7—or even..."
 author: "The AONE Team"
 coverImage: "/blog-images/firewall-fluency-what-networking-pros-need-to-know.jpg"
+episodeSlug: "firewalls-are-friends"
 ---
 
 For much of our careers, many of us in network engineering have lived comfortably in the lower layers of the OSI model. Layer 2? We speak it fluently. Layer 3? That’s our bread and butter. But what about Layer 7—or even just understanding what’s happening at Layer 4 and beyond in today’s security landscape?

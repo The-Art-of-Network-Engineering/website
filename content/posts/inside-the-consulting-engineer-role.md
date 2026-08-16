@@ -5,6 +5,7 @@ publishedAt: "2025-05-07"
 excerpt: "In the latest episode of The Art of Network Engineering, we pulled back the curtain on a role that many in the industry admire—but few truly understand: the Consulting Engineer (CE). Joined by Nokia’s Principal..."
 author: "The AONE Team"
 coverImage: "/blog-images/inside-the-consulting-engineer-role.jpg"
+episodeSlug: "what-does-a-consulting-engineer-do-salary-skills-and-career-path-explained"
 ---
 
 In the latest episode of *The Art of Network Engineering*, we pulled back the curtain on a role that many in the industry admire—but few truly understand: the Consulting Engineer (CE). Joined by Nokia’s Principal Consulting Engineer Colin Doyle and CE Jared Cordova, we explored the nuances of this unique position that blends deep technical expertise with real-world customer impact.

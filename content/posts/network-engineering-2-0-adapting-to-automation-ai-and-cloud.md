@@ -5,6 +5,7 @@ publishedAt: "2025-02-13"
 excerpt: "In our latest podcast episode, we listen in on the (PA)NUG podcast panel of William Collins, Andy Lapteff, Ned Bellavance, and Drew Conry-Murray, as they dive deep into the evolving world of network engineering, a field..."
 author: "The AONE Team"
 coverImage: "/blog-images/network-engineering-2-0-adapting-to-automation-ai-and-cloud.jpg"
+episodeSlug: "building-tomorrow-s-network-engineers"
 ---
 
 In our latest podcast episode, we listen in on the (PA)NUG podcast panel of William Collins, Andy Lapteff, Ned Bellavance, and Drew Conry-Murray, as they dive deep into the evolving world of network engineering, a field that has undergone transformative changes in recent years. With rapid advancements in technology, especially in cloud computing and automation, the requirements and skills needed for network engineers are shifting significantly. This panel discussion features industry veterans who each share their personal journeys through the profession, illustrating the diverse paths one can take in this dynamic landscape.
