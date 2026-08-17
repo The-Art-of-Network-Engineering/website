@@ -4,7 +4,7 @@ import { StatCard } from '@/components/StatCard';
 import { StatsBand } from '@/components/StatsBand';
 // Sponsor roster: single source of truth is sponsors.toml on the server, synced
 // here by sync_website_sponsors.py. Do not hand-edit this list.
-import partners from '@/data/sponsors.json';
+import { sponsorCategories } from '@/components/sponsorLogos';
 // Reviewed reach numbers (native Buzzsprout windows + YoY). Same file the snapshot
 // PDF reads, so the two never drift. Derived from the 12-month YoY analysis.
 import reachData from '@/data/media_kit_reach.json';
@@ -151,14 +151,17 @@ export default function SponsorPage() {
       {/* Partners */}
       <section className="mt-16 border-t border-border pt-12">
         <SectionLabel>Brands that partner with us</SectionLabel>
-        <div className="mt-6 flex flex-wrap gap-3">
-          {partners.map((p) => (
-            <span
-              key={p}
-              className="bg-surface border border-border text-text px-4 py-2 text-sm rounded-sm"
-            >
-              {p}
-            </span>
+        <div className="mt-8 space-y-8">
+          {sponsorCategories.map(({ category, logos }) => (
+            <div key={category} className="grid gap-4 md:grid-cols-[190px_1fr] md:items-center">
+              <p className="text-xs uppercase tracking-label text-accent-green">{category}</p>
+              <div className="flex flex-wrap items-center gap-x-10 gap-y-5">
+                {logos.map(({ name, src }) => (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img key={name} src={src} alt={name} className="h-8 w-auto object-contain" />
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </section>
