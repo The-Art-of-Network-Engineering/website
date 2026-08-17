@@ -8,14 +8,15 @@
   },
   "scripts": {
     "fetch-episodes": "tsx scripts/fetch-episodes.ts",
-    "prebuild": "npm run fetch-episodes",
+    "prebuild": "npm run fetch-episodes && npm run hash-logos",
     "dev": "next dev -H 0.0.0.0 -p 3000",
     "build": "next build",
     "postbuild": "tsx scripts/generate-redirects.ts",
     "start": "next start -H 0.0.0.0 -p 3000",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "hash-logos": "tsx scripts/hash-sponsor-logos.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
