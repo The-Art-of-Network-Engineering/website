@@ -58,8 +58,7 @@ export default function AboutPage() {
               <p>
                 Video isn&apos;t an add-on for us, it&apos;s how we&apos;ve made the show since January 2021.
                 Every episode since then ships with a full video version, on YouTube from the start
-                and on Apple Podcasts and Spotify the moment each supported it. Five-plus years of it,
-                and the rest of the field is only now catching up.
+                and on Apple Podcasts and Spotify the moment each supported it. Five-plus years of it.
               </p>
             </div>
           </section>
