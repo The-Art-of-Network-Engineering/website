@@ -5,7 +5,7 @@ import { social } from './socialLinks';
 export function Footer() {
   return (
     <footer className="mt-24 border-t border-border">
-      <div className="mx-auto max-w-content px-6 py-12 grid gap-12 md:grid-cols-3">
+      <div className="mx-auto max-w-content px-6 py-12 grid gap-12 md:grid-cols-2">
         <div>
           <SectionLabel>Connect</SectionLabel>
           <p className="mt-4 text-sm">
@@ -25,20 +25,6 @@ export function Footer() {
               </a>
             ))}
           </div>
-        </div>
-        <div>
-          <SectionLabel>Articles</SectionLabel>
-          <ul className="mt-4 space-y-2 text-sm">
-            <li>
-              <a
-                href="https://www.linkedin.com/company/artofneteng/posts/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Read on LinkedIn
-              </a>
-            </li>
-          </ul>
         </div>
         <div>
           <SectionLabel>Contact</SectionLabel>
