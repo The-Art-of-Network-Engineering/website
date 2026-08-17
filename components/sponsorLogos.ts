@@ -12,7 +12,9 @@ export const sponsorCategories: SponsorCategory[] = [
       { name: 'Itential', src: '/sponsors/itential.png' },
       { name: 'Forward Networks', src: '/sponsors/forward-networks.png' },
       { name: 'Unimus', src: '/sponsors/unimus.png' },
-      { name: 'Transit AI', src: '/sponsors/transit-ai.png' },
+      // ?v=2 busts the stale browser/edge cache: the old (wrong) logo and the correct
+      // horizontal-reverse logo share this exact path, so a version bump forces a refetch.
+      { name: 'Transit AI', src: '/sponsors/transit-ai.png?v=2' },
     ],
   },
   {
