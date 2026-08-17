@@ -4,6 +4,7 @@ slug: "the-network-effect"
 publishedAt: "2026-07-16"
 excerpt: "Why does the thing everyone already uses keep winning, even when it isn't the best built? A conversation with William Collins on network effects, moats, the cold start problem, and why you can copy a product but never the crowd that believes in it."
 author: "Andy Lapteff"
+coverImage: "/blog-images/the-network-effect.jpg"
 ---
 
 Picture two group chats.
