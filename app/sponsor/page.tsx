@@ -25,21 +25,23 @@ const audience = [
 
 const reach = reachData.windows;
 
+// Matches the media-kit "Products & Pricing" slide. Prices stay private (rate card is
+// 1:1 collateral), so the public page shows the products and points to a call for pricing.
 const packages = [
   {
-    name: 'Dynamic Mid-roll Ad',
-    tag: 'Recurring · entire catalog',
-    desc: `A dynamically inserted mid-roll spot across all 200+ episodes for your contract term. Our best-performing, most sought-after placement. Roughly ${metrics.catalogMonthly} impressions every month from the back catalog alone.`,
+    name: 'Baked-in Pre-roll Ad',
+    tag: 'Host-read · audio + video',
+    desc: 'A 30-second host-read ad baked into one episode, permanent, in both the audio and the YouTube video. Roughly 2,500 impressions per episode, with 4-packs available.',
   },
   {
-    name: 'Dynamic Pre-roll Ad',
-    tag: 'Recurring · entire catalog',
-    desc: `A dynamically inserted 30-second pre-roll across all 200+ episodes for your contract term. Sold on its own, or booked with the mid-roll to own both ends of the episode. Roughly ${metrics.catalogMonthly} impressions every month from the back catalog alone.`,
+    name: 'Baked-in Mid-roll Ad',
+    tag: 'Host-read · audio + video',
+    desc: 'A 60-second host-read ad baked into one episode, permanent, in both the audio and the YouTube video. Our best-read spot, with 4-packs available.',
   },
   {
-    name: 'Dynamic Audio, Both Slots',
+    name: 'Dynamic Audio Ad',
     tag: 'Recurring · entire catalog',
-    desc: `The 30-second pre-roll and the mid-roll together, dynamically inserted across all 200+ episodes. Your voice at the open and again in the body of the same episode, on roughly ${metrics.catalogMonthly} downloads a month.`,
+    desc: `A dynamically inserted spot across all 200+ episodes for your contract term, as a pre-roll, mid-roll, or post-roll. Roughly ${metrics.catalogMonthly} impressions every month from the back catalog alone.`,
   },
   {
     name: 'Dedicated Interview',
@@ -47,19 +49,24 @@ const packages = [
     desc: 'A full-length episode built around your product, team, or story. Andy hosts, you bring a voice. Audio and YouTube.',
   },
   {
-    name: 'Featured Episode',
-    tag: 'Host-read · audio + video',
-    desc: 'A 60-second host-read spot in one episode, across both the audio and the YouTube video. Permanent placement.',
+    name: 'Newsletter Ad',
+    tag: 'The Shortest Path newsletter',
+    desc: 'Your message in The Shortest Path, our newsletter for network engineers, priced by placement: featured, standard, or classified.',
   },
   {
-    name: 'Pre-roll Ad',
-    tag: 'Host-read · audio',
-    desc: 'A 30-second host-read spot at the top of one audio episode. Permanent, so it keeps working as the episode ages.',
+    name: 'Sponsored Blog Post',
+    tag: 'Evergreen · SEO',
+    desc: 'An AONE-written blog post covering your company, product, or service. Permanent and searchable on the AONE blog, and promoted across our channels.',
   },
   {
     name: 'Category Exclusivity',
     tag: 'Add-on · limited',
     desc: 'One partner per category. No competitors run on the show for your contract term. Stacks on any package.',
+  },
+  {
+    name: 'Short-form Video',
+    tag: 'Add-on',
+    desc: 'A highlight cut from your sponsored episode, with captions, published across all AONE channels. Dedicated standalone clips are available too.',
   },
 ];
 
@@ -160,7 +167,7 @@ export default function SponsorPage() {
       <section className="mt-16 border-t border-border pt-12">
         <SectionLabel>Ways to sponsor</SectionLabel>
         <p className="mt-4 max-w-3xl text-text">
-          Five ways to reach the audience, from a single host-read spot to an always-on catalog
+          Several ways to reach the audience, from a single host-read ad to an always-on catalog
           campaign. Bulk discounts and category exclusivity available. Book a call and we'll build a
           package around your goals.
         </p>
@@ -172,7 +179,7 @@ export default function SponsorPage() {
               <p className="mt-2 text-sm text-text-muted">{p.desc}</p>
             </div>
           ))}
-          <div className="bg-surface border border-border p-6 rounded-sm flex flex-col justify-center">
+          <div className="bg-surface border border-border p-6 rounded-sm flex flex-col justify-center md:col-span-2">
             <h3 className="font-display text-xl text-accent-green">Pricing</h3>
             <p className="mt-2 text-sm text-text-muted">
               Rates depend on the mix and term. Book a 15-minute call or request the media kit and
