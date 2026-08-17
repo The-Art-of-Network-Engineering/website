@@ -5,6 +5,7 @@ publishedAt: "2026-07-16"
 excerpt: "Why does the thing everyone already uses keep winning, even when it isn't the best built? A conversation with William Collins on network effects, moats, the cold start problem, and why you can copy a product but never the crowd that believes in it."
 author: "Andy Lapteff"
 coverImage: "/blog-images/the-network-effect.jpg"
+episodeSlug: "the-biggest-myth-about-open-source"
 ---
 
 Picture two group chats.
@@ -27,7 +28,7 @@ Here's the part that trips people up. We're trained to believe the best product 
 
 ## Why this matters if you're building something
 
-[William Collins](https://www.linkedin.com/in/william-collins/) said the word "network effect" a lot when we recorded in Munich, and it took me a minute to catch why he kept circling back to it.
+[William Collins](/episodes/the-biggest-myth-about-open-source) said the word "network effect" a lot when we recorded in Munich, and it took me a minute to catch why he kept circling back to it.
 
 We were talking about moats. Everybody in startup circles talks about moats, and most people get it wrong. They point at their code, or their feature, or their clever architecture and call that the moat. William's whole point was that the moat is almost never the code.
 
