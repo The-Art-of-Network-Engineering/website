@@ -1,0 +1,50 @@
+# The guards in this repo (content integrity, sponsor roster, nav behaviour) only ever ran
+# when someone ran them by hand: Cloudflare Pages builds the site but never invokes vitest.
+# This makes them actually gate a push.
+#
+# Deliberately hermetic: no network, no secrets. `npm run prebuild` fetches episodes from
+# Buzzsprout, so we call `next build` directly and rely on the committed data/episodes.json.
+# A CI job that needs the outside world fails for reasons that have nothing to do with the
+# change under test, and a flaky gate gets ignored.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install (locked)
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Tests
+        run: npx vitest run
+
+      # The sponsor wall renders from a generated file. If someone edits the roster in
+      # lib/sponsorLogos.gen.ts and forgets to regenerate, the site silently keeps showing
+      # the old wall. Regenerate and fail if the result differs from what was committed.
+      - name: Generated sponsor logos are up to date
+        run: |
+          npx tsx scripts/hash-sponsor-logos.ts
+          if ! git diff --quiet -- components/sponsorLogos.ts; then
+            echo "::error::components/sponsorLogos.ts is stale. Run: npx tsx scripts/hash-sponsor-logos.ts"
+            git diff -- components/sponsorLogos.ts
+            exit 1
+          fi
+
+      - name: Build
+        run: npx next build
