@@ -1,4 +1,8 @@
+'use client';
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { useEffect, useRef } from 'react';
 
 const navItems = [
   { href: '/about', label: 'About' },
@@ -14,6 +18,22 @@ const navItems = [
 ];
 
 export function Header() {
+  // The mobile menu is a native <details>, so it keeps working with JS disabled. But Next
+  // navigates client-side without remounting the header, so `open` survived the page change
+  // and the menu stayed on screen until you dismissed it by hand. Close it on navigation.
+  const menu = useRef<HTMLDetailsElement>(null);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    if (menu.current) menu.current.open = false;
+  }, [pathname]);
+
+  // Tapping the link for the page you're already on doesn't change the pathname, so the
+  // effect above never fires. Close it on the click too.
+  const closeMenu = () => {
+    if (menu.current) menu.current.open = false;
+  };
+
   return (
     <header className="border-b border-border">
       <div className="mx-auto max-w-content px-6 py-4 flex items-center justify-between gap-4">
@@ -40,7 +60,7 @@ export function Header() {
         </nav>
 
         {/* Mobile menu: native <details>/<summary> works in static export, no JS needed */}
-        <details className="md:hidden relative group">
+        <details ref={menu} className="md:hidden relative group">
           <summary
             aria-label="Open menu"
             className="list-none cursor-pointer text-text p-2 -mr-2 rounded-sm hover:bg-surface [&::-webkit-details-marker]:hidden"
@@ -84,6 +104,7 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
+                onClick={closeMenu}
                 className="text-text hover:text-accent-green hover:bg-bg px-4 py-3 text-sm"
               >
                 {item.label}
