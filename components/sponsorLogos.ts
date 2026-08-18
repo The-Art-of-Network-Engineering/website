@@ -2,91 +2,70 @@
 // Each src carries an 8-char content hash (?v=) so replacing a logo's bytes changes its URL
 // and busts browser/edge cache. Regenerated on every build (see package.json prebuild).
 export type SponsorLogo = { name: string; src: string };
-export type SponsorCategory = { category: string; logos: SponsorLogo[] };
 
-export const sponsorCategories: SponsorCategory[] = [
+export const sponsorLogos: SponsorLogo[] = [
   {
-    "category": "Network Automation",
-    "logos": [
-      {
-        "name": "Juniper Apstra",
-        "src": "/sponsors/juniper-apstra.png?v=857708ee"
-      },
-      {
-        "name": "Itential",
-        "src": "/sponsors/itential.png?v=b5f00898"
-      },
-      {
-        "name": "Forward Networks",
-        "src": "/sponsors/forward-networks.png?v=9510f594"
-      },
-      {
-        "name": "Unimus",
-        "src": "/sponsors/unimus.png?v=43080f98"
-      },
-      {
-        "name": "Transit AI",
-        "src": "/sponsors/transit-ai.png?v=34c08ca0"
-      }
-    ]
+    "name": "Juniper Apstra",
+    "src": "/sponsors/juniper-apstra.png?v=857708ee"
   },
   {
-    "category": "Observability & Monitoring",
-    "logos": [
-      {
-        "name": "Kentik",
-        "src": "/sponsors/kentik.png?v=0512dbf1"
-      },
-      {
-        "name": "NetAlly",
-        "src": "/sponsors/netally.png?v=ae92da46"
-      },
-      {
-        "name": "PathSolutions",
-        "src": "/sponsors/pathsolutions.png?v=5f889c35"
-      },
-      {
-        "name": "Augtera",
-        "src": "/sponsors/augtera.png?v=6358d701"
-      }
-    ]
+    "name": "Itential",
+    "src": "/sponsors/itential.png?v=b5f00898"
   },
   {
-    "category": "Infrastructure & Hardware",
-    "logos": [
-      {
-        "name": "Meter",
-        "src": "/sponsors/meter.png?v=3da43a1f"
-      },
-      {
-        "name": "Opengear",
-        "src": "/sponsors/opengear.png?v=f3934b82"
-      },
-      {
-        "name": "Celona",
-        "src": "/sponsors/celona.png?v=befab149"
-      },
-      {
-        "name": "Netris",
-        "src": "/sponsors/netris.png?v=77d06817"
-      }
-    ]
+    "name": "Forward Networks",
+    "src": "/sponsors/forward-networks.png?v=9510f594"
   },
   {
-    "category": "Training & Community",
-    "logos": [
-      {
-        "name": "Cisco Press",
-        "src": "/sponsors/cisco-press.png?v=6d5c7a88"
-      },
-      {
-        "name": "Boson",
-        "src": "/sponsors/boson.png?v=16f74047"
-      },
-      {
-        "name": "USNUA",
-        "src": "/sponsors/usnua.png?v=cb442fca"
-      }
-    ]
+    "name": "Unimus",
+    "src": "/sponsors/unimus.png?v=43080f98"
+  },
+  {
+    "name": "Transit AI",
+    "src": "/sponsors/transit-ai.png?v=34c08ca0"
+  },
+  {
+    "name": "Kentik",
+    "src": "/sponsors/kentik.png?v=0512dbf1"
+  },
+  {
+    "name": "NetAlly",
+    "src": "/sponsors/netally.png?v=ae92da46"
+  },
+  {
+    "name": "PathSolutions",
+    "src": "/sponsors/pathsolutions.png?v=5f889c35"
+  },
+  {
+    "name": "Augtera",
+    "src": "/sponsors/augtera.png?v=6358d701"
+  },
+  {
+    "name": "Meter",
+    "src": "/sponsors/meter.png?v=3da43a1f"
+  },
+  {
+    "name": "Opengear",
+    "src": "/sponsors/opengear.png?v=f3934b82"
+  },
+  {
+    "name": "Celona",
+    "src": "/sponsors/celona.png?v=befab149"
+  },
+  {
+    "name": "Netris",
+    "src": "/sponsors/netris.png?v=77d06817"
+  },
+  {
+    "name": "Cisco Press",
+    "src": "/sponsors/cisco-press.png?v=6d5c7a88"
+  },
+  {
+    "name": "Boson",
+    "src": "/sponsors/boson.png?v=16f74047"
+  },
+  {
+    "name": "USNUA",
+    "src": "/sponsors/usnua.png?v=cb442fca"
   }
 ];

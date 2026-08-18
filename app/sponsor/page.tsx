@@ -4,7 +4,7 @@ import { StatCard } from '@/components/StatCard';
 import { StatsBand } from '@/components/StatsBand';
 // Sponsor roster: single source of truth is sponsors.toml on the server, synced
 // here by sync_website_sponsors.py. Do not hand-edit this list.
-import { sponsorCategories } from '@/components/sponsorLogos';
+import { sponsorLogos } from '@/components/sponsorLogos';
 // Reviewed reach numbers (native Buzzsprout windows + YoY). Same file the snapshot
 // PDF reads, so the two never drift. Derived from the 12-month YoY analysis.
 import reachData from '@/data/media_kit_reach.json';
@@ -151,17 +151,17 @@ export default function SponsorPage() {
       {/* Partners */}
       <section className="mt-16 border-t border-border pt-12">
         <SectionLabel>Brands that partner with us</SectionLabel>
-        <div className="mt-8 space-y-8">
-          {sponsorCategories.map(({ category, logos }) => (
-            <div key={category} className="grid gap-4 md:grid-cols-[190px_1fr] md:items-center">
-              <p className="text-xs uppercase tracking-label text-accent-green">{category}</p>
-              <div className="flex flex-wrap items-center gap-x-10 gap-y-5">
-                {logos.map(({ name, src }) => (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img key={name} src={src} alt={name} className="h-8 w-auto object-contain" />
-                ))}
-              </div>
-            </div>
+        {/* Flat wall, no category headings: the roster speaks for itself, and
+            grouping mislabelled partners while implying a category was taken. */}
+        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-10 gap-y-10 items-center">
+          {sponsorLogos.map(({ name, src }) => (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              key={name}
+              src={src}
+              alt={name}
+              className="h-9 w-auto max-w-full object-contain justify-self-center"
+            />
           ))}
         </div>
       </section>
