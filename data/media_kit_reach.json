@@ -1,11 +1,27 @@
 {
-  "_note": "Reviewed, defensible sponsor reach numbers. SINGLE SOURCE for both the sponsor page and the snapshot PDF (scripts/generate_snapshot.py reads this) so they never drift or contradict. Derived from podcast_stats.py true 12-month YoY analysis (this year 0-365d vs last year 365-730d, n=20-27/window; catalog from Buzzsprout real monthly totals). Reviewed 2026-08-13. Update via the analysis, not by hand.",
-  "reviewed_at": "2026-08-14",
-  "windows": [
-    { "window": "First 7 days", "downloads": 1540, "yoy": 14 },
-    { "window": "First 30 days", "downloads": 2170, "yoy": 15 },
-    { "window": "First 90 days", "downloads": 2500, "yoy": 12 },
-    { "window": "Catalog / month", "downloads": 9500, "yoy": 10 }
-  ],
-  "lifetime_per_episode": 4000
+ "_note": "Reviewed, defensible sponsor reach numbers. SINGLE SOURCE for both the sponsor page and the snapshot PDF (scripts/generate_snapshot.py reads this) so they never drift or contradict. Derived from podcast_stats.py true 12-month YoY analysis (this year 0-365d vs last year 365-730d, n=20-27/window; catalog from Buzzsprout real monthly totals). Reviewed 2026-08-13. Update via the analysis, not by hand.",
+ "reviewed_at": "2026-08-14",
+ "windows": [
+  {
+   "window": "First 7 days",
+   "downloads": 1540,
+   "yoy": 14
+  },
+  {
+   "window": "First 30 days",
+   "downloads": 2170,
+   "yoy": 15
+  },
+  {
+   "window": "First 90 days",
+   "downloads": 2500,
+   "yoy": 12
+  },
+  {
+   "window": "Catalog / month",
+   "downloads": 9300,
+   "yoy": 12
+  }
+ ],
+ "lifetime_per_episode": 4000
 }
