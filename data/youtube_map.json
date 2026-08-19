@@ -1,8 +1,43 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-08-12T13:00:06.564804Z",
-  "total_videos": 625,
+  "last_updated": "2026-08-19T13:00:06.030312Z",
+  "total_videos": 630,
   "videos": [
+    {
+      "video_id": "6xbZU-jMEc0",
+      "title": "Why People FAIL: Industry Duress & Automation Blame Game! #shorts",
+      "title_norm": "why people fail industry duress automation blame game shorts",
+      "url": "https://www.youtube.com/watch?v=6xbZU-jMEc0",
+      "published_at": "2026-08-19T11:55:41Z"
+    },
+    {
+      "video_id": "bLPO8IQmlbQ",
+      "title": "Career Growth: Are Your Expectations Met By Your Effort? #shorts",
+      "title_norm": "career growth are your expectations met by your effort shorts",
+      "url": "https://www.youtube.com/watch?v=bLPO8IQmlbQ",
+      "published_at": "2026-08-18T11:59:45Z"
+    },
+    {
+      "video_id": "TqPOd0yLy4Y",
+      "title": "Network Engineers: Lost Without CLI? Python's Threat! #shorts",
+      "title_norm": "network engineers lost without cli pythons threat shorts",
+      "url": "https://www.youtube.com/watch?v=TqPOd0yLy4Y",
+      "published_at": "2026-08-17T11:56:35Z"
+    },
+    {
+      "video_id": "N7HF7THH5TU",
+      "title": "Self-Driving Cars: Less Stress, More Relaxing Commutes, No Time Saved! #shorts",
+      "title_norm": "selfdriving cars less stress more relaxing commutes no time saved shorts",
+      "url": "https://www.youtube.com/watch?v=N7HF7THH5TU",
+      "published_at": "2026-08-14T11:59:23Z"
+    },
+    {
+      "video_id": "c9Ai6GePeqM",
+      "title": "AI is Taking Over: Can We Compel Engagement? #shorts",
+      "title_norm": "ai is taking over can we compel engagement shorts",
+      "url": "https://www.youtube.com/watch?v=c9Ai6GePeqM",
+      "published_at": "2026-08-13T12:04:26Z"
+    },
     {
       "video_id": "xTXEEKgUx7w",
       "title": "Tech Burnout? Why Python Feels Impossible (and How to Fix It!) #shorts",
