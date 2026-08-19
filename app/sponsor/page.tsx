@@ -8,6 +8,9 @@ import { sponsorLogos } from '@/components/sponsorLogos';
 // Reviewed reach numbers (native Buzzsprout windows + YoY). Same file the snapshot
 // PDF reads, so the two never drift. Derived from the 12-month YoY analysis.
 import reachData from '@/data/media_kit_reach.json';
+// Audience demographics are blended from real Apple/Spotify/YouTube data (demographics.py),
+// not a stale survey. Role/seniority is intentionally absent — no platform reports job titles.
+import demographics from '@/data/demographics.json';
 import { metrics } from '@/lib/metrics';
 
 export const metadata: Metadata = {
@@ -17,10 +20,10 @@ export const metadata: Metadata = {
 };
 
 const audience = [
-  { value: '70%', label: 'Aged 26–44, prime buying age' },
-  { value: '80%', label: 'Hands-on practitioners, recommend & specify tools' },
-  { value: '20%', label: 'Director / VP / C-Suite, decision-making authority' },
-  { value: '64%', label: 'North America (20% Europe, global reach)' },
+  { value: `${demographics.age_25_44_pct}%`, label: 'Aged 25–44, prime buying age' },
+  { value: `${demographics.north_america_pct}%`, label: 'North America, primary geography' },
+  { value: `${demographics.us_pct}%`, label: 'United States, largest single market' },
+  { value: `${demographics.countries}`, label: 'Countries — a genuinely global audience' },
 ];
 
 const reach = reachData.windows;
@@ -81,10 +84,10 @@ export default function SponsorPage() {
       </h1>
       <p className="mt-6 max-w-3xl text-text-muted text-lg">
         Each AONE episode reaches 2,500+ network engineers and architects in its first 90 days and
-        4,000+ over its lifetime, with every window up double digits year over year. 80% are
-        hands-on practitioners who recommend and specify what their teams buy. They aren't generic
-        impressions. They're one of the most targeted practitioner audiences in network
-        infrastructure.
+        4,000+ over its lifetime, with every window up double digits year over year. They are
+        hands-on engineers who recommend and specify what their teams buy, alongside the leaders who
+        approve it. They aren't generic impressions. They're one of the most targeted practitioner
+        audiences in network infrastructure.
       </p>
 
       {/* Live audience proof — auto-refreshed daily from metrics.json (same band as the homepage) */}
