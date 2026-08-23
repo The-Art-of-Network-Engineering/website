@@ -11,6 +11,9 @@ import reachData from '@/data/media_kit_reach.json';
 // Audience demographics are blended from real Apple/Spotify/YouTube data (demographics.py),
 // not a stale survey. Role/seniority is intentionally absent — no platform reports job titles.
 import demographics from '@/data/demographics.json';
+// Third-party research citations (Gartner, Sounds Profitable) — external facts, tracked with
+// source + year + URL (spec 2026-08-23-metrics-pipeline-completeness, R5). Not our metrics.
+import citations from '@/data/external_citations.json';
 import { metrics } from '@/lib/metrics';
 
 export const metadata: Metadata = {
@@ -34,7 +37,7 @@ const packages = [
   {
     name: 'Baked-in Pre-roll Ad',
     tag: 'Host-read · audio + video',
-    desc: 'A 30-second host-read ad baked into one episode, permanent, in both the audio and the YouTube video. Roughly 2,500 impressions per episode, with 4-packs available.',
+    desc: `A 30-second host-read ad baked into one episode, permanent, in both the audio and the YouTube video. Roughly ${metrics.perEpisode90d} impressions per episode, with 4-packs available.`,
   },
   {
     name: 'Baked-in Mid-roll Ad',
@@ -44,7 +47,7 @@ const packages = [
   {
     name: 'Dynamic Audio Ad',
     tag: 'Recurring · entire catalog',
-    desc: `A dynamically inserted spot across all 200+ episodes for your contract term, as a pre-roll, mid-roll, or post-roll. Roughly ${metrics.catalogMonthly} impressions every month from the back catalog alone.`,
+    desc: `A dynamically inserted spot across all ${metrics.episodesRounded} episodes for your contract term, as a pre-roll, mid-roll, or post-roll. Roughly ${metrics.catalogMonthly} impressions every month from the back catalog alone.`,
   },
   {
     name: 'Dedicated Interview',
@@ -83,14 +86,15 @@ export default function SponsorPage() {
         <span className="text-accent-green">build, evaluate, and buy</span>.
       </h1>
       <p className="mt-6 max-w-3xl text-text-muted text-lg">
-        Each AONE episode reaches 2,500+ network engineers and architects in its first 90 days and
-        4,000+ over its lifetime, with every window up double digits year over year. They are
+        Each AONE episode reaches {metrics.perEpisode90d}+ network engineers and architects in its
+        first 90 days and {metrics.perEpisodeLifetime}+ over its lifetime, with every window up
+        double digits year over year. They are
         hands-on engineers who recommend and specify what their teams buy, alongside the leaders who
         approve it. They aren't generic impressions. They're one of the most targeted practitioner
         audiences in network infrastructure.
       </p>
 
-      {/* Live audience proof — auto-refreshed daily from metrics.json (same band as the homepage) */}
+      {/* Live audience proof — auto-refreshed weekly from metrics.json (same band as the homepage) */}
       <div className="mt-12">
         <StatsBand />
         <p className="mt-6 text-sm text-text-muted">2026 USNUA Media Partner.</p>
@@ -133,21 +137,15 @@ export default function SponsorPage() {
       <section className="mt-16 border-t border-border pt-12">
         <SectionLabel>Why podcasts work for B2B</SectionLabel>
         <div className="mt-6 grid md:grid-cols-2 gap-6">
-          <div className="bg-surface border border-border p-6 rounded-sm">
-            <p className="font-display text-3xl text-accent-green">60%</p>
-            <p className="mt-2 text-text">
-              of the B2B buying journey is now complete before a buyer contacts sales.
-            </p>
-            <p className="mt-1 text-xs text-text-muted">6sense, 2025</p>
-          </div>
-          <div className="bg-surface border border-border p-6 rounded-sm">
-            <p className="font-display text-3xl text-accent-green">86%</p>
-            <p className="mt-2 text-text">
-              of daily podcast listeners recall an ad they heard in the past week, the highest of
-              any medium.
-            </p>
-            <p className="mt-1 text-xs text-text-muted">Sounds Profitable, 2025</p>
-          </div>
+          {citations.map((c) => (
+            <div key={c.source} className="bg-surface border border-border p-6 rounded-sm">
+              <p className="font-display text-3xl text-accent-green">{c.figure}</p>
+              <p className="mt-2 text-text">{c.claim}.</p>
+              <p className="mt-1 text-xs text-text-muted">
+                {c.source}, {c.year}
+              </p>
+            </div>
+          ))}
         </div>
       </section>
 
