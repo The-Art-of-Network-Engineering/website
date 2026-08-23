@@ -45,7 +45,7 @@ export default function AboutPage() {
             <SectionLabel>Where it started</SectionLabel>
             <div className="mt-4 space-y-4">
               <p>
-                AONE launched in July 2020. Six years and 200+ episodes later, it's one of the
+                AONE launched in July 2020. Six years and {metrics.episodesRounded} episodes later, it's one of the
                 largest independent media platforms built specifically for network engineers
                 and infrastructure professionals, with {metrics.lifetimeDownloads} lifetime downloads
                 and a per-episode audience that grows year over year.
@@ -157,7 +157,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <dt className="text-text-muted">Episodes published</dt>
-                <dd className="font-display text-2xl text-accent-green">200+</dd>
+                <dd className="font-display text-2xl text-accent-green">{metrics.episodesRounded}</dd>
               </div>
               <div>
                 <dt className="text-text-muted">Downloads per episode</dt>

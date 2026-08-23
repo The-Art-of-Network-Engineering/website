@@ -18,6 +18,7 @@ export const metrics = {
   youtubeSubscribers: nf(raw.auto.youtube_subscribers),
   youtubeViews: nf(raw.auto.youtube_views),
   episodes: raw.auto.episodes,
+  episodesRounded: `${Math.floor(raw.auto.episodes / 100) * 100}+`, // "200+", auto-rolls to "300+"
   lifetimeDownloads: nf(raw.auto.lifetime_downloads),
   lifetimeDownloadsShort: kFormat(raw.auto.lifetime_downloads),
   // manual (hand-maintained in metrics.json)

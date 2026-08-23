@@ -254,7 +254,7 @@ export default function WhatIsNetworkEngineeringPage() {
           <section>
             <h2 className="text-2xl font-bold">Where to go from here</h2>
             <p className="mt-3">
-              The Art of Network Engineering has published 200+ episodes with practicing
+              The Art of Network Engineering has published {metrics.episodesRounded} episodes with practicing
               network engineers, architects, vendors, educators, and career-changers. A handful
               of episodes that pair well with this page:
             </p>
@@ -290,7 +290,7 @@ export default function WhatIsNetworkEngineeringPage() {
             <SectionLabel>About AONE</SectionLabel>
             <p className="mt-4 text-sm text-text">
               The Art of Network Engineering is an independent podcast for network engineers
-              and infrastructure professionals, with 200+ episodes, a {metrics.discordMembers}-member Discord, and
+              and infrastructure professionals, with {metrics.episodesRounded} episodes, a {metrics.discordMembers}-member Discord, and
               The Shortest Path, our newsletter for network engineers.
             </p>
             <Link href="/about" className="mt-4 inline-block text-sm text-accent-blue">

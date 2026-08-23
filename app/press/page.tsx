@@ -14,7 +14,7 @@ const SHORT_BIO =
   'Andy Lapteff is the host of The Art of Network Engineering and a Senior Product Marketing Manager at Nokia. After two decades in tech, including years as a network engineer at Comcast, Fiserv, and Juniper, he now champions the people behind the infrastructure that runs our digital lives.';
 
 const LONG_BIO =
-  'Andy Lapteff is the host of The Art of Network Engineering and a Senior Product Marketing Manager at Nokia, where he leads messaging for the Data Center Networks portfolio and its Event-Driven Automation (EDA) platform. Over two decades in tech, he worked as a network engineer at Comcast, Fiserv, and Juniper, which is why he writes, presents, and evangelizes for the engineers and architects who have to live with the technology. He has shared the AutoCon main stage with 800+ attendees, opened Networking Field Day 39, emceed NFD 40, and spoken at multiple network user groups (NUGs), including New York and Pennsylvania.\n\nAndy and a few friends started The Art of Network Engineering in 2020. He took full ownership in 2024 and now runs it as an independent media business with 200+ episodes, approaching 1 million lifetime downloads, and a sponsor roster that includes Cisco Press, Juniper Apstra, Itential, Forward Networks, Meter, and Kentik. AONE was named a 2026 USNUA Media Partner. Andy also helps lead PANUG, the Pennsylvania chapter of USNUA, and is a passionate advocate for newcomers breaking into IT. Off the mic, he is usually outdoors with his family, behind a camera, or at the grill.';
+  `Andy Lapteff is the host of The Art of Network Engineering and a Senior Product Marketing Manager at Nokia, where he leads messaging for the Data Center Networks portfolio and its Event-Driven Automation (EDA) platform. Over two decades in tech, he worked as a network engineer at Comcast, Fiserv, and Juniper, which is why he writes, presents, and evangelizes for the engineers and architects who have to live with the technology. He has shared the AutoCon main stage with 800+ attendees, opened Networking Field Day 39, emceed NFD 40, and spoken at multiple network user groups (NUGs), including New York and Pennsylvania.\n\nAndy and a few friends started The Art of Network Engineering in 2020. He took full ownership in 2024 and now runs it as an independent media business with ${metrics.episodesRounded} episodes, approaching 1 million lifetime downloads, and a sponsor roster that includes Cisco Press, Juniper Apstra, Itential, Forward Networks, Meter, and Kentik. AONE was named a 2026 USNUA Media Partner. Andy also helps lead PANUG, the Pennsylvania chapter of USNUA, and is a passionate advocate for newcomers breaking into IT. Off the mic, he is usually outdoors with his family, behind a camera, or at the grill.`;
 
 const SHOW_ONELINER = 'Where network engineers come to grow.';
 
@@ -25,7 +25,7 @@ const facts = [
   { label: 'Host', value: 'Andy Lapteff' },
   { label: 'Day job', value: 'Sr. PMM, Data Center Networks at Nokia' },
   { label: 'On air since', value: '2020' },
-  { label: 'Episodes', value: '200+' },
+  { label: 'Episodes', value: metrics.episodesRounded },
   { label: 'Lifetime downloads', value: metrics.lifetimeDownloadsShort },
   { label: 'YouTube subscribers', value: `${metrics.youtubeSubscribers}+` },
   { label: 'Discord members', value: `${metrics.discordMembers}+` },
