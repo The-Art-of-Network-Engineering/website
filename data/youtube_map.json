@@ -1,8 +1,22 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-08-19T13:00:06.030312Z",
-  "total_videos": 630,
+  "last_updated": "2026-08-23T02:16:14.391949Z",
+  "total_videos": 632,
   "videos": [
+    {
+      "video_id": "02o0tDZjOd0",
+      "title": "Network Engineers: Automate or Go Extinct! Future Shock! #shorts",
+      "title_norm": "network engineers automate or go extinct future shock shorts",
+      "url": "https://www.youtube.com/watch?v=02o0tDZjOd0",
+      "published_at": "2026-08-21T12:04:53Z"
+    },
+    {
+      "video_id": "evxZGk9o3Is",
+      "title": "Automation is Coming For EVERYTHING... Except THIS? #shorts",
+      "title_norm": "automation is coming for everything except this shorts",
+      "url": "https://www.youtube.com/watch?v=evxZGk9o3Is",
+      "published_at": "2026-08-20T12:01:36Z"
+    },
     {
       "video_id": "6xbZU-jMEc0",
       "title": "Why People FAIL: Industry Duress & Automation Blame Game! #shorts",
