@@ -97,7 +97,6 @@ export default function SponsorPage() {
       {/* Live audience proof — auto-refreshed weekly from metrics.json (same band as the homepage) */}
       <div className="mt-12">
         <StatsBand />
-        <p className="mt-6 text-sm text-text-muted">2026 USNUA Media Partner.</p>
       </div>
 
       {/* Audience */}
