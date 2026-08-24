@@ -10,6 +10,7 @@ import { postsForEpisode } from '@/lib/related-posts';
 import { SectionLabel } from '@/components/SectionLabel';
 import { SubscribeButtons } from '@/components/SubscribeButtons';
 import { formatDate, formatDuration } from '@/lib/format';
+import { stripSelfLinks } from '@/lib/self-links';
 
 const typedFeed = feed as Feed;
 
@@ -170,7 +171,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ slug: 
           <SectionLabel>Show notes</SectionLabel>
           <div
             className="prose prose-invert max-w-none mt-4 text-text [&_a]:text-accent-blue [&_a:hover]:text-accent-green"
-            dangerouslySetInnerHTML={{ __html: ep.showNotesHtml }}
+            dangerouslySetInnerHTML={{ __html: stripSelfLinks(ep.showNotesHtml, ep.slug) }}
           />
         </div>
         <aside>
