@@ -1,8 +1,36 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-08-23T02:16:28.599364Z",
-  "total_videos": 632,
+  "last_updated": "2026-08-26T12:00:07.404012Z",
+  "total_videos": 636,
   "videos": [
+    {
+      "video_id": "3jqtcpN2L10",
+      "title": "Pragmatic Advice in an AI World 🚀 #shorts",
+      "title_norm": "pragmatic advice in an ai world shorts",
+      "url": "https://www.youtube.com/watch?v=3jqtcpN2L10",
+      "published_at": "2026-08-26T11:55:44Z"
+    },
+    {
+      "video_id": "9iWDteEhYk0",
+      "title": "Stop Vibe Coding: Start Spec-Driven Development, with John Capobianco",
+      "title_norm": "stop vibe coding start specdriven development with john capobianco",
+      "url": "https://www.youtube.com/watch?v=9iWDteEhYk0",
+      "published_at": "2026-08-26T10:00:31Z"
+    },
+    {
+      "video_id": "hGLn0hHna60",
+      "title": "AI vs Experts: Do We Still Need Deep Knowledge? #shorts",
+      "title_norm": "ai vs experts do we still need deep knowledge shorts",
+      "url": "https://www.youtube.com/watch?v=hGLn0hHna60",
+      "published_at": "2026-08-25T12:01:42Z"
+    },
+    {
+      "video_id": "CHrhTfnfqBc",
+      "title": "Boost Your Career: The Lottery of Opportunity & Engineering Secrets! #shorts",
+      "title_norm": "boost your career the lottery of opportunity engineering secrets shorts",
+      "url": "https://www.youtube.com/watch?v=CHrhTfnfqBc",
+      "published_at": "2026-08-24T11:58:47Z"
+    },
     {
       "video_id": "02o0tDZjOd0",
       "title": "Network Engineers: Automate or Go Extinct! Future Shock! #shorts",
