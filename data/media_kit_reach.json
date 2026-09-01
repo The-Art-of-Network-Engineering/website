@@ -21,7 +21,7 @@
    "yoy": 14
   }
  ],
- "lifetime_per_episode": 4471,
+ "lifetime_per_episode": 4473,
  "_note": "Reviewed, defensible sponsor reach numbers. SINGLE SOURCE for both the sponsor page and the snapshot PDF (scripts/generate_snapshot.py reads this) so they never drift or contradict. Derived from podcast_stats.py true 12-month YoY analysis (this year 0-365d vs last year 365-730d, n=20-27/window; catalog from Buzzsprout real monthly totals). Reviewed 2026-08-13. Update via the analysis, not by hand.",
- "refreshed_at": "2026-08-30"
+ "refreshed_at": "2026-09-01"
 }

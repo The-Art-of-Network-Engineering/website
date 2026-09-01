@@ -4,6 +4,6 @@
  "north_america_pct": 58,
  "countries": 99,
  "buyer_line": "Network engineers and architects who evaluate and specify tooling, alongside the leaders who approve it.",
- "generated_on": "2026-08-18",
+ "generated_on": "2026-09-01",
  "_method": "Consumption-weighted blend of YouTube views + Spotify plays + Apple plays from media_kit_audience.json. Age = 25-44 (YT) / 23-44 (Spotify). Role/seniority is NOT platform-measurable and is intentionally omitted."
 }
