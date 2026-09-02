@@ -7,3 +7,7 @@ out
 .vercel
 coverage
 *.tsbuildinfo
+
+# Published at build time by prebuild (fetch-episodes / publish-metrics). Committing a
+# build artifact is what let data/episodes.json go three weeks stale.
+public/api/
