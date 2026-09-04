@@ -160,7 +160,7 @@ export default function Home() {
         </h2>
         <p className="mt-4 max-w-2xl text-text-muted">
           {metrics.lifetimeDownloadsShort} lifetime downloads. {metrics.perEpisode90d} engineers per
-          episode in its first 90 days. {metrics.catalogMonthly} monthly catalog impressions across
+          episode in its first 90 days. {metrics.catalogMonthly} monthly catalog impressions across{' '}
           {metrics.episodesRounded} shows.
         </p>
         <div className="mt-6">
