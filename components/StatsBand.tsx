@@ -77,10 +77,10 @@ export function StatsBand() {
   return (
     <section ref={ref} className="py-10 md:py-12 border-t border-border">
       <SectionLabel>The reach</SectionLabel>
-      <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-x-8 md:gap-x-12 gap-y-8">
+      <div className="mt-6 grid grid-cols-2 xl:grid-cols-4 gap-x-8 md:gap-x-12 gap-y-8">
         {REACH.map((s) => (
           <div key={s.label}>
-            <div className="font-display text-3xl md:text-4xl lg:text-5xl text-accent-green tabular-nums leading-none">
+            <div className="font-display text-3xl sm:text-4xl text-accent-green tabular-nums leading-none">
               {fmt(s.value * p)}
             </div>
             <div className="mt-2 text-sm text-text">{s.label}</div>
@@ -92,10 +92,10 @@ export function StatsBand() {
       <div className="mt-10">
         <SectionLabel>Following</SectionLabel>
       </div>
-      <div className="mt-6 grid grid-cols-2 md:grid-cols-6 gap-x-8 md:gap-x-10 gap-y-8">
+      <div className="mt-6 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-x-8 md:gap-x-10 gap-y-8">
         {FOLLOWERS.map((s) => (
           <div key={s.label}>
-            <div className="font-display text-2xl md:text-3xl lg:text-4xl text-accent-blue tabular-nums leading-none">
+            <div className="font-display text-2xl sm:text-3xl text-accent-blue tabular-nums leading-none">
               {fmt(s.value * p)}
             </div>
             <div className="mt-2 text-sm text-text">{s.label}</div>
