@@ -35,6 +35,8 @@ export function Footer() {
               </a>
             </li>
             <li><Link href="/press">Press kit</Link></li>
+            <li><Link href="/support">Support</Link></li>
+            <li><Link href="/privacy">Privacy policy</Link></li>
           </ul>
         </div>
       </div>
