@@ -7,7 +7,11 @@
 // If the app changes what it collects, this file changes with it, or the policy becomes a lie
 // and the App Privacy label stops matching the app (which Apple rejects).
 
-export const SUPPORT_EMAIL = 'andy@artofnetworkengineering.com';
+// App Review Guideline 1.5 requires this address to actually work: "Failure to include
+// accurate and up-to-date contact information not only frustrates customers, but may violate
+// the law in some countries or regions." It must be a live alias or routing rule on the
+// Workspace domain before this ships, or App Review mail and customer mail both vanish.
+export const SUPPORT_EMAIL = 'support@artofnetworkengineering.com';
 
 export type LegalSection = { heading: string; paragraphs: string[] };
 export type LegalPage = { title: string; intro: string; lastUpdated: string; sections: LegalSection[] };
