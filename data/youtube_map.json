@@ -1,8 +1,36 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-09-02T13:00:06.958210Z",
-  "total_videos": 641,
+  "last_updated": "2026-09-09T13:00:06.297894Z",
+  "total_videos": 645,
   "videos": [
+    {
+      "video_id": "5Xh1ssnXUVQ",
+      "title": "The Power Of Curiosity | Drew Conry-Murray",
+      "title_norm": "the power of curiosity drew conrymurray",
+      "url": "https://www.youtube.com/watch?v=5Xh1ssnXUVQ",
+      "published_at": "2026-09-09T11:24:28Z"
+    },
+    {
+      "video_id": "S8zpG2KJ2QE",
+      "title": "AI Builds Your Game: From Constitution to Code! #shorts",
+      "title_norm": "ai builds your game from constitution to code shorts",
+      "url": "https://www.youtube.com/watch?v=S8zpG2KJ2QE",
+      "published_at": "2026-09-07T11:58:43Z"
+    },
+    {
+      "video_id": "49yZQbMRV_Q",
+      "title": "Spec-Driven Development: Code Smarter, Not Harder! #shorts",
+      "title_norm": "specdriven development code smarter not harder shorts",
+      "url": "https://www.youtube.com/watch?v=49yZQbMRV_Q",
+      "published_at": "2026-09-04T12:04:39Z"
+    },
+    {
+      "video_id": "ATFndrDZEsA",
+      "title": "Build Software Faster: Spec-Driven vs. Test-Driven Development #shorts",
+      "title_norm": "build software faster specdriven vs testdriven development shorts",
+      "url": "https://www.youtube.com/watch?v=ATFndrDZEsA",
+      "published_at": "2026-09-03T12:02:38Z"
+    },
     {
       "video_id": "VZIVIYTIIB0",
       "title": "Lower Expectations or Boost Effort? The Choice is Yours! #shorts",
