@@ -1,7 +1,7 @@
 ---
 title: "How an English Major Became One of Networking's Biggest Voices"
 slug: "how-an-english-major-became-one-of-networkings-biggest-voices"
-publishedAt: "2026-09-10"
+publishedAt: "2026-09-09"
 excerpt: "An English major walks into an interview with a firewall company barely knowing what a firewall is. Thirty years later he co-hosts one of the biggest shows in networking. Drew Conry-Murray on learning the thing you do not understand yet."
 author: "Andy Lapteff"
 coverImage: "/blog-images/how-an-english-major-became-one-of-networkings-biggest-voices.jpg"
