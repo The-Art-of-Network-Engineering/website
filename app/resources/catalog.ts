@@ -175,6 +175,8 @@ export const gitGithub: Link[] = [
   { name: 'GitHub Docs: Get Started', href: 'https://docs.github.com/en/get-started', note: 'The official, always-current reference for everything from your first commit to SSH keys and pull requests.' },
   { name: 'GitHub Foundations (Microsoft Learn)', href: 'https://learn.microsoft.com/en-us/training/paths/github-foundations/', note: 'A free two-part learning path that maps to the GitHub Foundations certification. Structured enough to give an automation newcomer a real syllabus.' },
   { name: 'Pro Git (2nd ed.)', href: 'https://git-scm.com/book/en/v2', note: 'The canonical Git book, free online under Creative Commons. The reference you come back to when "git is hard" really means "I don\'t understand the object model yet."' },
+  { name: 'Learn Git Branching', href: 'https://learngitbranching.js.org/', note: 'An interactive visual tutorial. You type real git commands and watch the branch tree move in front of you, which makes rebase and merge click in a way reading about them does not.' },
+  { name: 'Oh Shit, Git!?!', href: 'https://ohshitgit.com/', note: 'Plain-language fixes for the git mistakes everyone makes. Committed to the wrong branch, need to undo a commit, accidentally wiped your changes. Look up the situation, copy the commands. A profanity-free mirror is at dangitgit.com.' },
 ];
 
 export const diagramming: Link[] = [
