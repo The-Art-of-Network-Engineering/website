@@ -7,6 +7,29 @@
   },
   "episodes": [
     {
+      "id": "Buzzsprout-19776636",
+      "slug": "the-power-of-curiosity-drew-conry-murray",
+      "title": "The Power Of Curiosity | Drew Conry-Murray",
+      "publishedAt": "2026-09-09T10:00:00.000Z",
+      "durationSeconds": 3807,
+      "audioUrl": "https://www.buzzsprout.com/2127872/episodes/19776636-the-power-of-curiosity-drew-conry-murray.mp3",
+      "showNotesHtml": "<p>How does an English major with no technical background become one of the most recognizable voices in network engineering?</p><p>Drew Conry-Murray didn't start his career configuring routers, chasing certifications, or working in a NOC. He started as a copy editor who barely understood the networking articles crossing his desk.</p><p>Then someone threw him into a technical interview with a firewall vendor.</p><p>He had to figure it out.</p><p>That moment became part of a career spanning Network Computing, Interop, Packet Pushers, Network Break, Heavy Networking, and years of conversations with some of the smartest people in the networking industry.</p><p>In this episode of The Art of Network Engineering, Andy sits down with Drew to talk about the career behind the microphone: learning networking without formal technical training, developing the ability to ask better questions, surviving layoffs and career uncertainty, building relationships that create opportunities, and adapting as technology changes.</p><p>And, inevitably, they get into AI.</p><p>Drew explains why network engineers should become conversant with AI without assuming they need to become AI experts, why understanding software may matter more than writing every line yourself, and why human relationships still create an advantage even as technology becomes more capable.  </p><p>In this episode:</p><ul><li> How Drew went from English major to networking journalist </li><li> Learning networking by being thrown into the deep end </li><li> Why asking good questions is a technical skill </li><li> The uncomfortable reality that learning in tech never ends </li><li> Drew's path from Network Computing and Interop to Packet Pushers </li><li> What losing a job does to your identity </li><li> Why relationships create career opportunities </li><li> Whether network engineers really need to learn Python </li><li> How AI may reshape technical careers </li><li> Why being good at your job isn't always enough </li></ul><p>One of the strongest lessons from Drew's career is simple: you don't need to know everything before you start. You need enough curiosity to keep figuring out the next thing.</p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/2127872/fan_mail/new\" rel=\"noopener noreferrer\">Send us Fan Mail</a></p>  <p><a rel=\"noopener noreferrer\" href=\"https://www.buzzsprout.com/2127872/support\" target=\"_blank\">Support the show</a></p><p>For everything AONE:  <a href=\"https://artofnetworkengineering.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://artofnetworkengineering.com/</a></p>",
+      "summary": "How does an English major with no technical background become one of the most recognizable voices in network engineering? Drew Conry-Murray didn't start his career configuring routers, chasing certifications, or working in a NOC. He started as a copy editor who barely understood the networking articles crossing his desk. Then someone threw him into a technical interview with a firewall vendor. He had to figure it out. That moment became part of a career spanning Network Computing, Interop, Pa...",
+      "guests": [
+        {
+          "name": "Drew Conry-Murray",
+          "imageUrl": "https://storage.buzzsprout.com/6m1s54ur81e22pu3g6mmzoj6519u",
+          "href": "https://www.linkedin.com/in/andrewconrymurray/"
+        }
+      ],
+      "artworkUrl": null,
+      "youtube": {
+        "videoId": "5Xh1ssnXUVQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/5Xh1ssnXUVQ/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=5Xh1ssnXUVQ"
+      }
+    },
+    {
       "id": "Buzzsprout-19697288",
       "slug": "stop-vibe-coding-start-spec-driven-development-with-john-capobianco",
       "title": "Stop Vibe Coding: Start Spec-Driven Development, with John Capobianco",

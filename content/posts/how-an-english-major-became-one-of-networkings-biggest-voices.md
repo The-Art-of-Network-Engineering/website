@@ -4,10 +4,11 @@ slug: "how-an-english-major-became-one-of-networkings-biggest-voices"
 publishedAt: "2026-09-09"
 excerpt: "An English major walks into an interview with a firewall company barely knowing what a firewall is. Thirty years later he co-hosts one of the biggest shows in networking. Drew Conry-Murray on learning the thing you do not understand yet."
 author: "Andy Lapteff"
+episodeSlug: "the-power-of-curiosity-drew-conry-murray"
 coverImage: "/blog-images/how-an-english-major-became-one-of-networkings-biggest-voices.jpg"
 ---
 
-If you've listened to Drew Conry-Murray on Packet Pushers, you probably know him as the guy asking smart questions of very technical people.
+If you've listened to [Drew Conry-Murray](/guests/drew-conry-murray) on [Packet Pushers](https://packetpushers.net), you probably know him as the guy asking smart questions of very technical people.
 
 I've listened to Packet Pushers for at least ten years, and that's one of the things I've always appreciated about Drew. He can sit in a conversation about some deeply technical networking topic, understand what's happening, contribute to it, and ask the question that moves the conversation somewhere interesting.
 
