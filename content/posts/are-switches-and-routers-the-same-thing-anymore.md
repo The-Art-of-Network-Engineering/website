@@ -1,22 +1,22 @@
 ---
-title: "Are Switches and Routers the Same Thing Anymore?"
+title: "Swouter"
 slug: "are-switches-and-routers-the-same-thing-anymore"
 publishedAt: "2026-09-10"
-excerpt: "Modern switches run BGP, build routing tables, and forward packets between subnets at line rate. So are they routers now? One camp says the distinction is dead. The other says look at the hardware. They are both right, and that turns out to be the interesting part."
+excerpt: "Modern switches run BGP, build route tables, and forward packets between subnets at line rate. So is a switch a router now? One camp says the distinction is dead. The other says look at the hardware. They are both right, and that turns out to be the interesting part."
 author: "Andy Lapteff"
 ---
 
-I have somehow found myself in multiple networking religious debates lately. Not tabs versus spaces, not OSPF versus IS-IS, not whether you should use VLAN 1. This one is more fundamental: **is there a difference between a router and a switch anymore?**
+I participated in a networking religious debate recently, which reminded me why simplicity is so difficult. We can't seem to agree on fundamentals, like: is there a difference between a router and a switch?
 
-One camp says the distinction is basically dead. Modern switches route. They run BGP, build routing tables, participate in EVPN fabrics, and forward packets between IP subnets at line rate. If I configure a routed interface on a data center switch and it receives an IP packet, performs a longest-prefix match, decrements the TTL, rewrites the Layer 2 header and forwards the packet out another interface, what exactly is it doing if not routing?
+One camp says the distinction is dead. Modern switches started routing decades ago. They run BGP, build route tables, participate in EVPN fabrics, and forward packets between IP subnets at line rate. If I configure a routed interface on a data center switch and it receives an IP packet, performs a longest-prefix match, decrements the TTL, rewrites the Layer 2 header and forwards the packet out to another interface, what is it doing if not routing?
 
 Fair argument.
 
-The other camp says of course they're different, and points at hardware architecture, buffering, interface density, forwarding resources, service capabilities, QoS, scale and intended use. Also a fair argument.
+The other camp says they're different, and points at hardware architecture, buffering, interface density, forwarding resources, service capabilities, QoS, scale and intended use. Also a fair argument.
 
-So who's right? Annoyingly, both of them. And I think the reason network engineers can argue about this for hours is that we're arguing about several different things while using the same two words.
+So who's right? Annoyingly, both of them. The reason network engineers can argue about this for hours is that we're arguing about several different things while using the same two words.
 
-## The simple answer we all learned
+## The simple answer we were taught
 
 Most of us learned some version of this early on. A switch connects devices within a network, a router connects different networks. Or: switches forward frames using MAC addresses, routers forward packets using IP addresses.
 
@@ -24,9 +24,9 @@ That's still a useful teaching model. A traditional Layer 2 Ethernet switch lear
 
 Nice and clean. Also nowhere near sufficient to describe modern networking.
 
-## Then we gave the switch a routing table
+## Then we gave the switch a route table
 
-Layer 3 switches complicated the story. Once a switch can maintain an IP routing table and perform Layer 3 forwarding, the neat distinction starts falling apart.
+Layer 3 switches complicate the story. Once a switch can maintain an IP route table and perform Layer 3 forwarding, the clean demarc falls apart.
 
 Put two VLAN interfaces on a multilayer switch, 10.10.10.1/24 and 10.20.20.1/24. A host in the first subnet sends traffic to a host in the second. The switch receives the frame, recognizes that the destination MAC belongs to its Layer 3 interface, examines the destination IP, performs a Layer 3 lookup, selects the outgoing interface, decrements TTL, rewrites the Ethernet header and forwards the packet.
 
@@ -34,9 +34,9 @@ That's routing. There isn't an asterisk next to it. It isn't "switch-routing." T
 
 Today's data center switches go considerably further than inter-VLAN routing. Modern platforms run BGP, IS-IS or OSPF, carry huge numbers of routes, provide ECMP, build Layer 3 leaf-spine fabrics, terminate VXLAN tunnels and use EVPN as their control plane. Some data centers intentionally push Layer 3 all the way to the top of rack.
 
-So if your definition of a router is simply a device capable of routing IP packets, then congratulations, your Layer 3 switch is a router. Functionally, at that moment, it absolutely is.
+So if your definition of a router is simply a device capable of routing IP packets, your Layer 3 switch is a router. Functionally, at that moment, it is.
 
-But that's where I think the "routers and switches are the same thing" argument goes too far.
+But that's where the "routers and switches are the same thing" argument goes too far.
 
 ## Capability is not the same thing as architecture
 
@@ -50,11 +50,11 @@ A modern data center switch may be optimized around extremely high Ethernet port
 
 A service-provider or edge router may be optimized around a different set entirely: very large routing and forwarding tables, sophisticated hierarchical QoS, deep buffering, MPLS and Segment Routing, large-scale BGP, internet peering, subscriber and service constructs, extensive traffic engineering, multiple transport requirements, control-plane resiliency, and advanced telemetry and OAM.
 
-There is significant overlap between those lists. They aren't identical. That's the distinction.
+There is significant overlap between those lists, but they aren't identical.
 
-## "But they both use ASICs now"
+## But they both use ASICs now
 
-This is where another historical explanation starts causing trouble. You may have heard that switches forward packets in hardware while routers forward packets in software. That once helped distinguish certain classes of product. It is not a useful universal distinction today, because high-performance routers absolutely forward in hardware.
+This is where another historical explanation causes trouble. You may have been taught that switches forward packets in hardware while routers forward packets in software. That used to help distinguish certain classes of products. It is not a useful distinction today, because high-performance routers also forward in hardware.
 
 Modern networking equipment separates the control plane from the forwarding plane. The control plane runs BGP, IS-IS, OSPF, EVPN and the rest to determine reachability, and those results program forwarding information into hardware. Once the forwarding plane is programmed, specialized silicon performs lookups and forwarding at enormous rates. Modern switches do this. Modern routers do this.
 
@@ -62,9 +62,9 @@ The interesting question isn't hardware or software. It's what kind of forwardin
 
 ## Merchant silicon changed the conversation
 
-This is especially obvious in the data center. The rise of extremely capable merchant switching silicon dramatically expanded what we can do with devices we traditionally called switches. One ASIC can support enormous Ethernet bandwidth while also handling sophisticated Layer 3 forwarding, tunneling, ACLs, telemetry and ECMP.
+This is most obvious in the data center. The rise of extremely capable merchant switching silicon dramatically expanded what we can do with devices we traditionally called switches. One ASIC can support enormous Ethernet bandwidth while also handling sophisticated Layer 3 forwarding, tunneling, ACLs, telemetry and ECMP.
 
-That allowed data center architectures to become increasingly routed. Instead of building giant Layer 2 domains and routing somewhere farther upstream, we build Clos fabrics where leaf and spine devices exchange routes using BGP. The "switches" are routing constantly. IP routing may be one of their primary jobs.
+That allowed data center architectures to become increasingly routed. Instead of building giant Layer 2 domains and routing them upstream, we build Clos fabrics where leaf and spine devices exchange routes via BGP. The "switches" are routing, constantly. IP routing is one of their primary jobs.
 
 At that point, calling something a switch tells you less about whether it routes and more about the class of platform and the environment it was optimized for.
 
@@ -82,9 +82,9 @@ Different network environments experience different traffic patterns. Inside a d
 
 This isn't an absolute rule. There are deep-buffer switches, shallow-buffer platforms, and many architectures in between. That's precisely the point: "does it route?" doesn't tell you enough about the hardware.
 
-## QoS is another good example
+## QoS is another example
 
-Both switches and routers support QoS. That statement tells us almost nothing.
+Both switches and routers support QoS. That statement tells us nothing.
 
 The meaningful questions are how many queues, how sophisticated the classification is, how scheduling works, how much buffering is available, whether you can implement hierarchical QoS and at how many levels, what happens during congestion, and whether policies can be applied at the scale the application demands.
 
@@ -108,7 +108,7 @@ So what is it? A router? A switch? Yes. And that isn't marketing nonsense, it il
 
 ## Maybe we're asking the wrong question
 
-This is where I've landed after these debates. "Is this a router or a switch?" is increasingly the wrong first question. The better ones are what role the device is performing, what capabilities that role requires, what the hardware is optimized for, what scale it supports, and what compromises were made in its design.
+"Is this a router or a switch?" is the wrong question. The better questions are what role the device is performing, what capabilities that role requires, what the hardware is optimized for, what scale it supports, and what compromises were made in its design.
 
 Imagine two devices. Both have 32 high-speed Ethernet interfaces, both run BGP, both support IPv4 and IPv6, both perform line-rate Layer 3 forwarding, both support EVPN and VXLAN. On a whiteboard they look almost identical.
 
@@ -120,11 +120,11 @@ Calling both "routers" because they route packets loses useful information. Call
 
 A switch can route without becoming equivalent to every device we call a router. A router can switch Ethernet frames without becoming equivalent to every device we call a switch.
 
-At the packet-forwarding level, the distinction has become extremely blurry. At the product architecture level, meaningful differences remain. That's the nuance that gets lost in the religious debate.
+At the packet-forwarding level, the distinction has become blurry. At the product architecture level, meaningful differences remain. That's the nuance that gets lost in the religious debate.
 
 "Switches can route" is true. "Therefore switches and routers are the same thing" is too simplistic. It's like saying servers and laptops are the same because both execute x86 instructions. Technically interesting, operationally useless.
 
-## The labels still have value
+## The labels have value
 
 I don't think we need to throw away the words "router" and "switch." They still communicate something. If you tell me you're installing a 48-port access switch, I have a reasonable mental model of what you're doing. If you tell me you're installing an internet edge router receiving full BGP tables from multiple providers, I have a very different one.
 
@@ -132,6 +132,8 @@ If you tell me you're building a BGP EVPN leaf-spine fabric, though, now things 
 
 Tell me about the architecture. The forwarding silicon. The buffers. The forwarding tables. The services. The port density. The traffic patterns. Tell me what happens when something fails, and what problem the device was designed to solve.
 
-Because in modern networking, what a box does matters a lot more than what somebody printed on the front of it.
+Because in modern networking, what a box does matters more than what somebody printed on the front of it.
 
-And if you still want to argue about whether it's technically a router or a switch afterward? Fine. That's what networking conferences are for.
+If you still want to argue about whether it's technically a router or a switch afterward? Fine. That's what social media is for.
+
+/Andy
