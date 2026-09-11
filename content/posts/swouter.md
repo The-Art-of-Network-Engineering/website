@@ -1,10 +1,10 @@
 ---
 title: "Swouter"
-slug: "are-switches-and-routers-the-same-thing-anymore"
+slug: "swouter"
 publishedAt: "2026-09-10"
 excerpt: "Modern switches run BGP, build routing tables, and forward packets between subnets at line rate. So is a switch a router now? One camp says the distinction is dead. The other says look at the hardware. They are both right, and that turns out to be the interesting part."
 author: "Andy Lapteff"
-coverImage: "/blog-images/are-switches-and-routers-the-same-thing-anymore.jpg"
+coverImage: "/blog-images/swouter.jpg"
 ---
 
 A few weeks ago on a work call, I found myself in a heated debate about something I thought our industry settled a long time ago. In today's modern networks, is there a difference between a switch and router?
