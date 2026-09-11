@@ -2,14 +2,14 @@
 title: "Swouter"
 slug: "are-switches-and-routers-the-same-thing-anymore"
 publishedAt: "2026-09-10"
-excerpt: "Modern switches run BGP, build route tables, and forward packets between subnets at line rate. So is a switch a router now? One camp says the distinction is dead. The other says look at the hardware. They are both right, and that turns out to be the interesting part."
+excerpt: "Modern switches run BGP, build routing tables, and forward packets between subnets at line rate. So is a switch a router now? One camp says the distinction is dead. The other says look at the hardware. They are both right, and that turns out to be the interesting part."
 author: "Andy Lapteff"
 coverImage: "/blog-images/are-switches-and-routers-the-same-thing-anymore.jpg"
 ---
 
 A few weeks ago on a work call, I found myself in a heated debate about something I thought our industry settled a long time ago. In today's modern networks, is there a difference between a switch and router?
 
-One camp says there isn't. Modern switches started routing decades ago. They run BGP, build route tables, participate in EVPN fabrics, and forward packets between IP subnets at line rate. If I configure a routed interface on a data center switch and it receives an IP packet, performs a longest-prefix match, decrements the TTL, rewrites the Layer 2 header and forwards the packet out to another interface, what is it doing if not routing?
+One camp says there isn't. Modern switches started routing decades ago. They run BGP, build routing tables, participate in EVPN fabrics, and forward packets between IP subnets at line rate. If I configure a routed interface on a data center switch and it receives an IP packet, performs a longest-prefix match, decrements the TTL, rewrites the Layer 2 header and forwards the packet out to another interface, what is it doing if not routing?
 
 Fair argument.
 
@@ -25,9 +25,9 @@ That's still a useful teaching model. A traditional Layer 2 Ethernet switch lear
 
 Nice and clean. Also nowhere near sufficient to describe modern networking.
 
-## Then we gave the switch a route table
+## Then we gave the switch a routing table
 
-Layer 3 switches complicate the story. Once a switch can maintain an IP route table and perform Layer 3 forwarding, the clean demarc falls apart.
+Layer 3 switches complicate the story. Once a switch can maintain an IP routing table and perform Layer 3 forwarding, the clean demarc falls apart.
 
 Put two VLAN interfaces on a multilayer switch, 10.10.10.1/24 and 10.20.20.1/24. A host in the first subnet sends traffic to a host in the second. The switch receives the frame, recognizes that the destination MAC belongs to its Layer 3 interface, examines the destination IP, performs a Layer 3 lookup, selects the outgoing interface, decrements TTL, rewrites the Ethernet header and forwards the packet.
 
