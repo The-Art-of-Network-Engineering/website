@@ -4,9 +4,10 @@ slug: "are-switches-and-routers-the-same-thing-anymore"
 publishedAt: "2026-09-10"
 excerpt: "Modern switches run BGP, build route tables, and forward packets between subnets at line rate. So is a switch a router now? One camp says the distinction is dead. The other says look at the hardware. They are both right, and that turns out to be the interesting part."
 author: "Andy Lapteff"
+coverImage: "/blog-images/are-switches-and-routers-the-same-thing-anymore.jpg"
 ---
 
-I participated in a networking religious debate recently, which reminded me why simplicity is so difficult. We can't seem to agree on fundamentals, like: is there a difference between a router and a switch?
+A few weeks ago during a work call, I found myself in a passionate networking debate about something we should all agree on. Are modern switches and routers identical?
 
 One camp says the distinction is dead. Modern switches started routing decades ago. They run BGP, build route tables, participate in EVPN fabrics, and forward packets between IP subnets at line rate. If I configure a routed interface on a data center switch and it receives an IP packet, performs a longest-prefix match, decrements the TTL, rewrites the Layer 2 header and forwards the packet out to another interface, what is it doing if not routing?
 
