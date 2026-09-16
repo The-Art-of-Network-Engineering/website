@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-09-09T13:00:06.297894Z",
-  "total_videos": 645,
+  "last_updated": "2026-09-16T13:00:08.811426Z",
+  "total_videos": 646,
   "videos": [
+    {
+      "video_id": "9dO6IEvPzIw",
+      "title": "English Major Becomes Tech Guru: The Drew Conry-Murray Story! #shorts",
+      "title_norm": "english major becomes tech guru the drew conrymurray story shorts",
+      "url": "https://www.youtube.com/watch?v=9dO6IEvPzIw",
+      "published_at": "2026-09-10T15:49:53Z"
+    },
     {
       "video_id": "5Xh1ssnXUVQ",
       "title": "The Power Of Curiosity | Drew Conry-Murray",
@@ -3652,8 +3659,8 @@
     },
     {
       "video_id": "riEMdqzBrzk",
-      "title": "Network Validation - Proof is in the right tool!",
-      "title_norm": "network validation proof is in the right tool",
+      "title": "Network Validation with NetAlly EtherScope (Sponsored)",
+      "title_norm": "network validation with netally etherscope sponsored",
       "url": "https://www.youtube.com/watch?v=riEMdqzBrzk",
       "published_at": "2022-08-17T20:01:20Z"
     },
@@ -3778,8 +3785,8 @@
     },
     {
       "video_id": "u4F8BUoHDao",
-      "title": "Who is NetAlly and How can their tools help us as Network Engineers?",
-      "title_norm": "who is netally and how can their tools help us as network engineers",
+      "title": "Who is NetAlly and How can their tools help us as Network Engineers? (Sponsored)",
+      "title_norm": "who is netally and how can their tools help us as network engineers sponsored",
       "url": "https://www.youtube.com/watch?v=u4F8BUoHDao",
       "published_at": "2022-02-25T21:00:18Z"
     },
