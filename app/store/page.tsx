@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import { SectionLabel } from '@/components/SectionLabel';
 
 export const metadata: Metadata = {
-  title: 'Merch',
+  title: 'Store',
   description:
-    'Official AONE merch on Crowdmade: shirts, hoodies, and gear for network engineers and infrastructure pros.',
+    'The official AONE store on Crowdmade: shirts, hoodies, and gear for network engineers and infrastructure pros.',
 };
 
-export default function MerchPage() {
+export default function StorePage() {
   return (
     <div className="mx-auto max-w-content px-6 py-16">
-      <SectionLabel>Merch</SectionLabel>
+      <SectionLabel>Store</SectionLabel>
       <h1 className="mt-4 font-display text-4xl md:text-5xl leading-tight">
         Wear the show.
       </h1>

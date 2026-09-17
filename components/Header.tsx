@@ -9,7 +9,7 @@ const navItems = [
   { href: '/blog', label: 'Blog' },
   { href: '/episodes', label: 'Episodes' },
   { href: '/guests', label: 'Guests' },
-  { href: '/merch', label: 'Merch' },
+  { href: '/store', label: 'Store' },
   { href: '/newsletter', label: 'Newsletter' },
   { href: '/press', label: 'Press' },
   { href: '/resources', label: 'Resources' },
