@@ -49,6 +49,14 @@ export default function Home() {
             <a href="#newsletter" className="text-accent-blue">
               Get the newsletter →
             </a>
+            <a
+              href="https://youtu.be/jz2SkYU3i9I"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent-blue"
+            >
+              The AONE app is coming →
+            </a>
           </p>
         </div>
       </section>
