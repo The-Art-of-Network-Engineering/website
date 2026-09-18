@@ -6,6 +6,10 @@ import matter from 'gray-matter';
 const manualRules = [
   '/work-with-us /sponsor 301',
   '/work-with-us/ /sponsor 301',
+  // Renamed 2026-09-18: "Merch" -> "Swag" (Andy's call). Both forms, because links
+  // in the wild carry a trailing slash about half the time.
+  '/merch /swag 301',
+  '/merch/ /swag 301',
 ];
 
 // Auto-generate 301s from the old WordPress URL pattern (/YYYY/MM/DD/slug/)
