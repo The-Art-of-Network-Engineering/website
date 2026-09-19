@@ -131,7 +131,7 @@ export default function Home() {
         <div className="mt-4 max-w-2xl overflow-hidden rounded-sm border border-border">
           <Image
             src="/shortest-path-banner.png"
-            alt="The Shortest Path, Your Career's Control Plane"
+            alt="The Shortest Path, the best path isn't always the shortest"
             width={1200}
             height={360}
             className="h-auto w-full"
