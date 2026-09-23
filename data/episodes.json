@@ -7,6 +7,34 @@
   },
   "episodes": [
     {
+      "id": "Buzzsprout-19844195",
+      "slug": "the-network-automation-paradox-you-need-time-to-save-time",
+      "title": "The Network Automation Paradox - You Need Time To Save Time",
+      "publishedAt": "2026-09-23T10:00:00.000Z",
+      "durationSeconds": 3313,
+      "audioUrl": "https://www.buzzsprout.com/2127872/episodes/19844195-the-network-automation-paradox-you-need-time-to-save-time.mp3",
+      "showNotesHtml": "<p>Everyone says network engineers need to automate.</p><p>Learn Python. Learn Ansible. Build a source of truth. Learn Git. Test your changes. Stop doing everything manually.</p><p>There’s just one problem:</p><p>When?</p><p>At AutoCon 5 in Munich, Andy Lapteff sits down with Dutch network automation consultants Bart Dorlandt and Bart Smeding for a conversation that starts with Python and eventually lands somewhere much more interesting: time.</p><p>Automation can turn three hours of work into three minutes. But getting there requires engineers to invest time they often don’t have, or don’t feel permitted to protect.</p><p>Andy knows that firsthand. At one point in his career, his manager gave him an entire day every week to learn automation. Instead, Andy kept using that day to catch up on operational work.</p><p>Why?</p><p>That question opens a much bigger conversation about engineering culture, burnout, professional identity, European and American attitudes toward work, change freezes, technical debt, and the endless tension between keeping today’s network running and building a better way to operate it tomorrow.</p><p>This isn’t another lecture telling network engineers to “learn Python.”</p><p>It’s a conversation about why that advice is so much easier to give than to follow, and what has to change if we want network automation to become common.</p><p><b>Bart Dorlandt: <br /></b>https://www.linkedin.com/in/bartdorlandt/</p><p><b>Bart Smeding:<br /></b>https://www.linkedin.com/in/bartsmeding/</p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/2127872/fan_mail/new\" rel=\"noopener noreferrer\">Send us Fan Mail</a></p>  <p><a rel=\"noopener noreferrer\" href=\"https://www.buzzsprout.com/2127872/support\" target=\"_blank\">Support the show</a></p><p>For everything AONE:  <a href=\"https://artofnetworkengineering.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://artofnetworkengineering.com/</a></p>",
+      "summary": "Everyone says network engineers need to automate. Learn Python. Learn Ansible. Build a source of truth. Learn Git. Test your changes. Stop doing everything manually. There’s just one problem: When? At AutoCon 5 in Munich, Andy Lapteff sits down with Dutch network automation consultants Bart Dorlandt and Bart Smeding for a conversation that starts with Python and eventually lands somewhere much more interesting: time. Automation can turn three hours of work into three minutes. But getting ther...",
+      "guests": [
+        {
+          "name": "Bart Dorlandt",
+          "imageUrl": "https://storage.buzzsprout.com/xpog06iht7yxpbs1c8ukmk8ugw6b",
+          "href": "https://www.linkedin.com/in/bartdorlandt/"
+        },
+        {
+          "name": "Bart Smeding",
+          "imageUrl": "https://storage.buzzsprout.com/8c26bqvjn3yqyht7k5nz1t22sy7i",
+          "href": "https://www.linkedin.com/in/bartsmeding/"
+        }
+      ],
+      "artworkUrl": null,
+      "youtube": {
+        "videoId": "L9i66Psi-H0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/L9i66Psi-H0/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=L9i66Psi-H0"
+      }
+    },
+    {
       "id": "Buzzsprout-19776636",
       "slug": "the-power-of-curiosity-drew-conry-murray",
       "title": "The Power Of Curiosity | Drew Conry-Murray",
