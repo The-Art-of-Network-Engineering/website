@@ -5,6 +5,7 @@ publishedAt: "2026-09-23"
 excerpt: "Years ago a boss gave me every Tuesday to learn Python, protected, no company work. I spent every one of them writing the next week's change scripts. Two Dutch automation consultants heard that story in Munich and gave me the answer nobody gives in the US: two priorities, pick one."
 author: "Andy Lapteff"
 episodeSlug: "the-network-automation-paradox-you-need-time-to-save-time"
+coverImage: "/blog-images/my-boss-gave-me-tuesdays-i-gave-them-back.jpg"
 ---
 
 Munich. A hotel conference room set up as a podcast studio. Two Dutch network automation consultants, both named Bart, across the table from me.
