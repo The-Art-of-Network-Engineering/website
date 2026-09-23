@@ -69,8 +69,6 @@ That's a much harder trade than "learn Python" makes it sound.
 
 ## Automation has a time problem
 
-This is the paradox I hadn't been able to put into words before that conversation.
-
 Automation gives you time back. Bart Smeding described building something that turned roughly three hours of work into a couple of minutes, and once you've felt that, the value is obvious. But before automation can give you time, you have to give automation time. That first script takes longer than doing the task by hand. Building the source of truth takes time. Learning Git, understanding APIs, testing, failing, sitting there staring at an error message you don't understand for two hours: all of it takes time. The payoff comes later.
 
 That creates a brutal incentive problem inside an overloaded engineering organization. The busier the team becomes, the more valuable automation becomes. But the busier the team becomes, the less capacity it has to build automation. So today's urgent work keeps beating tomorrow's important work. Tuesday becomes another operations day. And eventually everyone wonders why the automation initiative never went anywhere.
