@@ -19,7 +19,7 @@ Build a source of truth. With what hours? Who populates it? I have 15,000 device
 
 Find a use case. Start small. Learn Git. Learn APIs. Test your changes. All good advice. But I'm drowning now.
 
-About forty minutes in, I stopped playing the character and told them something true.
+About forty minutes in, I stopped playing the character and told them a secret.
 
 At one job, years ago, I went to my boss and told him I didn't know when I was supposed to learn automation. I was studying for my CCNP at night. I was working four or five maintenance windows a week, with the normal daytime workload on top. And now you want me to learn Python too?
 
