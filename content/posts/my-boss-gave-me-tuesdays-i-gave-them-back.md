@@ -31,7 +31,7 @@ Every Tuesday, the backlog was sitting right there. Four of us doing the work of
 
 I never caught up. Nobody does. The wheel doesn't have an exit.
 
-Bart Dorlandt listened to all of this and said, "Congratulations, you're still human." Then he said the part that has been rattling around my head ever since. That was your golden moment. Go off Teams. Go off Slack. Do your thing.
+Bart Dorlandt listened to all of this and said, "Congratulations, you're still human." Then: go off Teams. Go off Slack. Do your thing.
 
 Go off Teams? I laughed. Teams is on my phone. I was reachable seven days a week. A full workday with the door shut felt like a foreign country.
 
