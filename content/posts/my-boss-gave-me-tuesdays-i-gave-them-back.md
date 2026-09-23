@@ -39,7 +39,7 @@ Which, it turned out, was the point.
 
 ## Two priorities. Pick one.
 
-Bart Dorlandt and Bart Smeding are Dutch, and as the conversation went on, something unexpected happened. A conversation about network automation became a conversation about work culture.
+Bart Dorlandt and Bart Smeding are Dutch, and our network automation conversation pivoted to work culture.
 
 I kept presenting the same problem in different forms. Learn Python and you'll get time back. Fine, but I'm drowning now. Build a source of truth. With what time? Automate populating the source of truth. Great, first I have to learn to write the script that automates populating the source of truth. Around and around we went.
 
