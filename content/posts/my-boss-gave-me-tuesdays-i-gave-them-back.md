@@ -85,8 +85,6 @@ And engineers own part of this too. My boss did what I asked. He gave me the tim
 
 ## The question I can't answer
 
-Near the end, Bart Dorlandt asked another question I haven't stopped thinking about.
-
 We were talking about how fragile networks can feel and all the process we've built around that fragility. Change reviews. Maintenance windows. Approvals. And change freezes. In the US, plenty of organizations reach the most commercially important weeks of the year and decide: don't touch the network.
 
 Bart asked whether anyone had compared the numbers. Does the network break less during the month nobody touches it? Or does a change freeze mostly give us the feeling of safety while technical debt keeps accumulating underneath? Then he asked the more interesting version. Does a network need continuous work to stay healthy?
