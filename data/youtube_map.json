@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-09-23T10:05:07.867581Z",
-  "total_videos": 647,
+  "last_updated": "2026-09-23T12:00:08.578276Z",
+  "total_videos": 648,
   "videos": [
+    {
+      "video_id": "L9i66Psi-H0",
+      "title": "The Network Automation Paradox - You Need Time To Save Time",
+      "title_norm": "the network automation paradox you need time to save time",
+      "url": "https://www.youtube.com/watch?v=L9i66Psi-H0",
+      "published_at": "2026-09-23T11:16:10Z"
+    },
     {
       "video_id": "jz2SkYU3i9I",
       "title": "The AONE App: Everything We Know, in Your Pocket",
