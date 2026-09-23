@@ -51,7 +51,7 @@ Sitting there in Munich, I started doing the arithmetic out loud. When I learned
 
 Maybe Python wasn't uniquely difficult. Maybe I had given one skill hundreds of protected hours and expected to acquire another in the scraps left over after work, maintenance windows, certifications, family and life.
 
-And there was another uncomfortable piece of it. The CLI was who I was.
+And there was the uncomfortable truth. The CLI was my professional identity.
 
 ## The human regex
 
