@@ -7,7 +7,7 @@ author: "Andy Lapteff"
 episodeSlug: "the-network-automation-paradox-you-need-time-to-save-time"
 ---
 
-Munich. A hotel room set up as a podcast studio. Two Dutch network automation consultants, both named Bart, across the table from me.
+Munich. A hotel conference room set up as a podcast studio. Two Dutch network automation consultants, both named Bart, across the table from me.
 
 I had come to play a character I know well: the traditional network engineer who won't automate. I would give them every objection I had heard over the years, and plenty I had made myself, and make them argue me out of it.
 
