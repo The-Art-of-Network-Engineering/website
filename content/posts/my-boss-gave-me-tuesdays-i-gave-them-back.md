@@ -101,7 +101,7 @@ If you lead an engineering organization, don't tell your engineers automation is
 
 And if you're the engineer lucky enough to have a manager who makes that space for you, don't make the mistake I did. Close Teams. Let something wait. Be bad at something new for a while. Protect Tuesday.
 
-The strange thing about automation is that everyone sells it as a way to save time. Nobody talks enough about the time you have to spend first.
+Automation is sold as a way to save time, but no one talks about the time required to learn automation. If leadership permits skilling up during the work week but doesn't lighten the workload, their permission is lip service.
 
 My boss gave me Tuesdays. I gave them back. I wouldn't make that mistake again.
 
