@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T11:31:25.915923+00:00",
+  "updated_at": "2026-09-28T11:31:33.882985+00:00",
   "source": "buzzsprout admin contributors",
   "profiles": {
     "adam-hill": {
@@ -36,6 +36,16 @@
       "name": "Bart Castle",
       "role": "Guest",
       "bio": "<p>Bart was an Artist, Musician, Geek, and Trainer.<br><br>His goal was to get others psyched about life and careers by sharing the many facets of his.&nbsp;<br><br>Bart was an artist and worked in oil, acrylic, water colors and pen and ink. You can find Bart's work on display and for sale in lovely Asheville, NC and online.&nbsp;<br><br>Bart was a a passionate multi-instrumentalist and it is music that kept him sane and brought him great satisfaction. Guitar. Flute. Bass. Didgeridoo.</p><p><br></p><p>Above all, Bart was a beautiful soul full of light and love, and we miss him dearly.&nbsp;</p><p><br></p><p>Love you Bart.&nbsp;</p>"
+    },
+    "bart-dorlandt": {
+      "name": "Bart Dorlandt",
+      "role": "Guest",
+      "bio": "<p>Bart is a network automation architect based in Amersfoort, the Netherlands, and the founder of Dream Networking &amp; Automation. For over twenty years, networks have been more than a profession for him. They’re a fascination. From the moment Bart came in contact with networking during his bachelor studies, he was hooked on understanding how things connect, and more importantly, how to make them work better.</p><p>That curiosity took Bart all the way to CCIE #43200, through years of designing, building, and troubleshooting networks across industries and borders. But somewhere along the way, he started asking a different question: <em>why are we still doing this by hand?</em></p>"
+    },
+    "bart-smeding": {
+      "name": "Bart Smeding",
+      "role": "Guest",
+      "bio": "<p>As a dedicated professional specializing in network and infrastructure automation, I am passionate about helping companies embrace automation to streamline their operations. My expertise lies in building robust automation platforms, seamlessly onboarding both brownfield and greenfield networks, and delivering comprehensive training to ensure teams can independently utilize and expand these platforms.</p>"
     },
     "beau-toop": {
       "name": "Beau Toop",
