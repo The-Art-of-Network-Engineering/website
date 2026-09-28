@@ -36,8 +36,8 @@ const reach = reachData.windows;
 const packages = [
   {
     name: 'Baked-in Pre-roll Ad',
-    tag: 'Host-read · audio only',
-    desc: `A 30-second host-read ad baked into one episode, permanent, reaching every platform that episode does, including Spotify and Apple Podcasts. Roughly ${metrics.perEpisode90d} impressions per episode, with 4-packs available.`,
+    tag: 'Host-read · audio + video',
+    desc: `A 30-second host-read ad baked into one episode, permanent, reaching every platform that episode does, including Spotify, Apple Podcasts, and YouTube. Roughly ${metrics.perEpisode90d} impressions per episode, with 4-packs available.`,
   },
   {
     name: 'Baked-in Mid-roll Ad',
