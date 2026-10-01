@@ -30,6 +30,7 @@ export const courses: Link[] = [
   { name: 'Stanford CS244 — Advanced Topics in Networking', href: 'https://web.stanford.edu/class/cs244/', note: 'Graduate-level networking course with public materials. Datacenter networks, congestion control, SDN. For when you want to go beyond practitioner depth.' },
   { name: 'MIT 6.829 — Computer Networks (OCW)', href: 'https://ocw.mit.edu/courses/6-829-computer-networks-fall-2002/', note: 'Older but foundational graduate networking course. The protocol design and queuing-theory chapters still pay dividends.' },
   { name: 'TryHackMe', href: 'https://tryhackme.com/', note: 'Browser-based security labs that start from the basics, useful for network engineers building hands-on offensive and defensive skills. The core learning paths have free rooms without payment.' },
+  { name: 'Free Range Networking / Networklessons Free Content', href: 'https://networklessons.com/free', note: 'Free lessons on core routing and switching topics that help NOC staff build the design depth needed to move into engineering roles.' },
 ];
 
 export const serviceProvider: Link[] = [
@@ -167,6 +168,9 @@ export const automation: Link[] = [
   { name: 'Batfish', href: 'https://www.batfish.org/', note: 'Static analysis for network configurations. Models what your network will do before you push the change. The closest thing the network world has to a type checker.' },
   { name: 'LibreNMS', href: 'https://www.librenms.org/', note: 'Free, community-driven network monitoring system. SNMP-based, broad vendor support, fast to stand up for a homelab or a small shop.' },
   { name: 'ntopng', href: 'https://www.ntop.org/products/traffic-analysis/ntop/', note: 'Open source traffic monitoring tool that shows flows, hosts, and protocols in near real time. Good for seeing what is on the wire when troubleshooting live traffic.' },
+  { name: 'NetBox Documentation', href: 'https://netboxlabs.com/docs/netbox/', note: 'Official docs for NetBox, the source-of-truth tool for documenting IPs, devices, cabling, and more. Helps you keep network documentation accurate and queryable.' },
+  { name: 'NetBox Documentation', href: 'https://netboxlabs.com/docs/netbox/en/stable/', note: 'Official docs for NetBox, the source-of-truth tool many teams use to track IPs, devices, and cabling for automation workflows.' },
+  { name: 'Nornir Documentation', href: 'https://nornir.readthedocs.io/en/latest/', note: 'Python automation framework for network engineers who want to run tasks across many devices without learning a separate DSL.' },
 ];
 
 export const gitGithub: Link[] = [
@@ -205,6 +209,7 @@ export const careerData: Link[] = [
   { name: 'Robert Half — Technology Salary Guide', href: 'https://www.roberthalf.com/us/en/insights/salary-guide/technology', note: 'Annual salary benchmarks across IT and networking roles, by region and experience level.' },
   { name: 'Glassdoor — Network Engineer salaries', href: 'https://www.glassdoor.com/Salaries/network-engineer-salary-SRCH_KO0,16.htm', note: 'Crowdsourced salary data filtered to network engineer roles. Useful as a second data point when negotiating.' },
   { name: 'ZipRecruiter — Network Engineer jobs', href: 'https://www.ziprecruiter.com/Jobs/Network-Engineer', note: 'High-volume job feed for network engineer postings. Good for seeing what employers are actually asking for right now.' },
+  { name: 'Patrick McKenzie: Salary Negotiation', href: 'https://www.kalzumeus.com/2012/01/23/salary-negotiation/', note: 'A long, practical essay on how salary offers work and how to negotiate them, including scripts. Applies directly to network engineering offers.' },
 ];
 
 export const books: Link[] = [
@@ -216,6 +221,8 @@ export const books: Link[] = [
   { name: 'BGP Design and Implementation — Zhang & Bartell', href: 'https://www.amazon.com/BGP-Design-Implementation-Randy-Zhang/dp/1587051095', note: 'A working engineer\'s book on real BGP designs. Older, but the design patterns still apply when you sit in front of a route reflector.' },
   { name: 'The Pragmatic Programmer — Hunt & Thomas', href: 'https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052', note: 'The book on engineering hygiene. Not networking-specific, but every habit in it translates directly to network automation and operations work.' },
   { name: 'The Phoenix Project — Gene Kim et al.', href: 'https://itrevolution.com/product/the-phoenix-project/', note: 'A novel about an IT department under fire. Required reading for anyone working at the application/infra boundary.' },
+  { name: 'Google SRE Book: Change Management (Release Engineering & related chapters)', href: 'https://sre.google/sre-book/release-engineering/', note: 'Free online book that explains how Google handles releases and changes with safety in mind. Useful for anyone building a change process that reduces risk.' },
+  { name: 'Atlassian Change Management Guide', href: 'https://www.atlassian.com/itsm/change-management', note: 'A free guide covering change types, approval workflows, and post-change review. A solid starting point for setting up a sane change process.' },
 ];
 
 export const biases: Link[] = [
