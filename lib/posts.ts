@@ -33,8 +33,24 @@ export function publicationMoment(publishedAt: string): Date {
   return new Date(Date.UTC(y, (m ?? 1) - 1, d ?? 1, 12, 0, 0));
 }
 
-export function isPublic(post: Pick<Post, 'publishedAt'>, now: Date = new Date()): boolean {
-  return now.getTime() >= publicationMoment(post.publishedAt).getTime();
+// YYYY-MM-DD for a moment, read in America/New_York. Used to compare calendar
+// dates without the hour-boundary edge cases (like Intl's midnight "24") that
+// come with computing an exact moment.
+function etDateString(d: Date): string {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(d);
+}
+
+// Episode-tied posts wait for 8 AM ET so the post and the episode it accompanies
+// drop together. A post with no episodeSlug isn't coordinating with anything, so
+// it's public as soon as its date arrives in ET, any time of day.
+export function isPublic(
+  post: Pick<Post, 'publishedAt' | 'episodeSlug'>,
+  now: Date = new Date()
+): boolean {
+  if (post.episodeSlug) {
+    return now.getTime() >= publicationMoment(post.publishedAt).getTime();
+  }
+  return etDateString(now) >= post.publishedAt;
 }
 
 function readAllPostFiles(): Post[] {
