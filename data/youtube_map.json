@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-10-09T12:00:06.900125Z",
-  "total_videos": 648,
+  "last_updated": "2026-10-10T01:16:35.128168Z",
+  "total_videos": 649,
   "videos": [
+    {
+      "video_id": "dKop5Uoyiok",
+      "title": "AI, Systems Thinking, and the Future of Network Engineers",
+      "title_norm": "ai systems thinking and the future of network engineers",
+      "url": "https://www.youtube.com/watch?v=dKop5Uoyiok",
+      "published_at": "2026-10-10T00:55:05Z"
+    },
     {
       "video_id": "L9i66Psi-H0",
       "title": "The Network Automation Paradox - You Need Time To Save Time",

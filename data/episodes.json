@@ -7,6 +7,29 @@
   },
   "episodes": [
     {
+      "id": "Buzzsprout-19916600",
+      "slug": "ai-systems-thinking-and-the-future-of-network-engineers",
+      "title": "AI, Systems Thinking, and the Future of Network Engineers",
+      "publishedAt": "2026-10-07T10:00:00.000Z",
+      "durationSeconds": 4466,
+      "audioUrl": "https://www.buzzsprout.com/2127872/episodes/19916600-ai-systems-thinking-and-the-future-of-network-engineers.mp3",
+      "showNotesHtml": "<p>AI can write code, troubleshoot systems, build applications, analyze telemetry, and increasingly take actions on our behalf.</p><p>So what happens to humans?</p><p>In this episode of The Art of Network Engineering, Andy sits down with Ryan Booth to explore what becomes more valuable as AI gets better at doing the work humans do.</p><p>The conversation starts with systems thinking. Everyone from technology leaders to engineers is talking about the need for systems thinkers, but what does that mean? Are network engineers better positioned for it than they realize?</p><p>Ryan explains why working with increasingly capable AI systems pushed him away from thinking like an individual engineer and toward thinking more like a manager, architect, and orchestrator. Instead of specifying every task, the job increasingly becomes defining outcomes, understanding dependencies, evaluating results, and deciding how much autonomy to give the system.</p><p>Andy and Ryan discuss human-in-the-loop automation, AI agents, building trust through progressively greater responsibility, the limits of today's systems, and why replacing people may be the wrong way to think about AI.</p><p>They also get into the fear surrounding AI, the enormous economic incentives driving its development, parallels with previous technology revolutions, and what engineers should do right now to prepare.</p><p>The takeaway isn't to outrun AI.</p><p>It's to learn how to use it, understand the systems around it, and become more valuable at the level where judgment, integration, leadership, and context matter.</p><p>Topics include:</p><p>• Systems thinking for network engineers<br />• AI agents and autonomous systems<br />• Human-in-the-loop automation<br />• How to build trust in AI systems<br />• AI-assisted network troubleshooting<br />• The changing role of engineers<br />• Learning AI through personal projects<br />• Automation, orchestration, and architecture<br />• AI risk, hype, and uncertainty<br />• What technical professionals should learn next</p><p>Ryan Booth: https://abstractryan.ai</p><p><br /></p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/2127872/fan_mail/new\" rel=\"noopener noreferrer\">Send us Fan Mail</a></p>  <p><a rel=\"noopener noreferrer\" href=\"https://www.buzzsprout.com/2127872/support\" target=\"_blank\">Support the show</a></p><p>For everything AONE:  <a href=\"https://artofnetworkengineering.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://artofnetworkengineering.com/</a></p>",
+      "summary": "AI can write code, troubleshoot systems, build applications, analyze telemetry, and increasingly take actions on our behalf. So what happens to humans? In this episode of The Art of Network Engineering, Andy sits down with Ryan Booth to explore what becomes more valuable as AI gets better at doing the work humans do. The conversation starts with systems thinking. Everyone from technology leaders to engineers is talking about the need for systems thinkers, but what does that mean? Are network ...",
+      "guests": [
+        {
+          "name": "Ryan Booth",
+          "imageUrl": "https://storage.buzzsprout.com/a8bnzc867pjj1en3uoqzm1ghg9tj",
+          "href": "https://www.linkedin.com/in/ryanbooth15/"
+        }
+      ],
+      "artworkUrl": null,
+      "youtube": {
+        "videoId": "dKop5Uoyiok",
+        "thumbnailUrl": "https://i.ytimg.com/vi/dKop5Uoyiok/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=dKop5Uoyiok"
+      }
+    },
+    {
       "id": "Buzzsprout-19844195",
       "slug": "the-network-automation-paradox-you-need-time-to-save-time",
       "title": "The Network Automation Paradox - You Need Time To Save Time",
