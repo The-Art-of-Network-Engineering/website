@@ -10,6 +10,12 @@ const manualRules = [
   // in the wild carry a trailing slash about half the time.
   '/merch /swag 301',
   '/merch/ /swag 301',
+  // NAF State of Network Automation survey (Chris Grundemann, Oct 2026). Points at the
+  // AONE-only SurveyMonkey collector (r/SoNA2026), not the public front-door survey link
+  // (r/StateOfNetworkAutomation2026), so every signup through this path is attributable
+  // to the AONE ad read.
+  '/sona https://www.surveymonkey.com/r/SoNA2026 301',
+  '/sona/ https://www.surveymonkey.com/r/SoNA2026 301',
 ];
 
 // Auto-generate 301s from the old WordPress URL pattern (/YYYY/MM/DD/slug/)
