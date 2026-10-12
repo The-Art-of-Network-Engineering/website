@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-12T13:00:06+00:00",
+  "updated_at": "2026-10-12T14:21:07+00:00",
   "auto": {
     "youtube_subscribers": 10500,
     "youtube_views": 613597,
     "youtube_videos": 649,
-    "lifetime_downloads": 0,
+    "lifetime_downloads": 952761,
     "episodes": 212,
-    "recent_avg_downloads": 0,
+    "recent_avg_downloads": 2366,
     "youtube_shorts_count": 268,
     "youtube_shorts_views": 191936
   },
@@ -22,5 +22,8 @@
     "tiktok_videos": 453,
     "tiktok_post_views_60d": 95300,
     "tiktok_post_views_365d": 699900
+  },
+  "last_errors": {
+    "buzzsprout": "Episodes API returned no total_plays for any episode from 2026-10-10 and the collector wrote 0. Restored 2026-10-12: lifetime from the dashboard, recent_avg from the last good value (2,366)."
   }
 }
