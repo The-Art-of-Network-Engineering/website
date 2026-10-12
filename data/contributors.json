@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T11:31:33.882985+00:00",
+  "updated_at": "2026-10-12T11:31:40.999294+00:00",
   "source": "buzzsprout admin contributors",
   "profiles": {
     "adam-hill": {
@@ -391,6 +391,11 @@
       "name": "Russ White",
       "role": "Guest",
       "bio": "<p>Russ has built, broken, and fixed complex long haul, data center, campus, and mobile networks across verticals, cultures, and physical environments.<br><br>He help people flourish and grow communities.Russ wrote many books, trained a lot of engineers, and helped developed the CCDE and CCAr certifications.<br><br>He am passionate about privacy, security, and simplicity.<br><br>Russ is a lifelong student of the intersection between technology and culture, earning a Masters in technology and Ph.D. in philosophy from SEBTS.</p>"
+    },
+    "ryan-booth": {
+      "name": "Ryan Booth",
+      "role": "Guest",
+      "bio": "<p>I turn AI from experimentation into real, production-ready systems that improve how teams work.</p><p><br>My background spans platform engineering, cloud infrastructure, and AI-driven workflows, with a focus on building scalable systems. I’ve worked across engineering, product, and operations to identify high-value opportunities, rapidly prototype solutions, and deliver them into production environments where they drive measurable impact.<br><br>More recently, I've focused on agentic AI systems, including building workflows that leverage LLMs, retrieval-augmented generation (RAG), and automation to reduce manual effort and improve consistency across teams. I’m particularly interested in designing systems that are not only technically sound, but also usable, reliable, and adopted in real-world environments.</p>"
     },
     "scott-robohn": {
       "name": "Scott Robohn",
