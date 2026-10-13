@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-12T14:21:07+00:00",
+  "updated_at": "2026-10-13T12:50:09+00:00",
   "auto": {
     "youtube_subscribers": 10500,
     "youtube_views": 613597,
-    "youtube_videos": 649,
-    "lifetime_downloads": 952761,
+    "youtube_videos": 650,
+    "lifetime_downloads": 952980,
     "episodes": 212,
     "recent_avg_downloads": 2366,
     "youtube_shorts_count": 268,
@@ -12,18 +12,15 @@
   },
   "manual": {
     "x_followers": 19800,
-    "linkedin_followers": 9313,
-    "discord_members": 3555,
+    "linkedin_followers": 9321,
+    "discord_members": 3556,
     "spotify_hours_2025": 17500,
     "platform_touchpoints_2025": 306000,
-    "instagram_followers": 6936,
+    "instagram_followers": 6934,
     "tiktok_followers": 11800,
     "tiktok_likes": 52700,
     "tiktok_videos": 453,
     "tiktok_post_views_60d": 95300,
     "tiktok_post_views_365d": 699900
-  },
-  "last_errors": {
-    "buzzsprout": "Episodes API returned no total_plays for any episode from 2026-10-10 and the collector wrote 0. Restored 2026-10-12: lifetime from the dashboard, recent_avg from the last good value (2,366)."
   }
 }
