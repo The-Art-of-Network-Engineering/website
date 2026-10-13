@@ -5,6 +5,7 @@ import { StatsBand } from '@/components/StatsBand';
 // Sponsor roster: single source of truth is sponsors.toml on the server, synced
 // here by sync_website_sponsors.py. Do not hand-edit this list.
 import { sponsorLogos } from '@/components/sponsorLogos';
+import { sponsorHref } from '@/lib/sponsorLinks';
 // Reviewed reach numbers (native Buzzsprout windows + YoY). Same file the snapshot
 // PDF reads, so the two never drift. Derived from the 12-month YoY analysis.
 import reachData from '@/data/media_kit_reach.json';
@@ -154,15 +155,30 @@ export default function SponsorPage() {
         {/* Flat wall, no category headings: the roster speaks for itself, and
             grouping mislabelled partners while implying a category was taken. */}
         <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-10 gap-y-10 items-center">
-          {sponsorLogos.map(({ name, src }) => (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              key={name}
-              src={src}
-              alt={name}
-              className="h-9 w-auto max-w-full object-contain justify-self-center"
-            />
-          ))}
+          {sponsorLogos.map(({ name, src }) => {
+            const href = sponsorHref(name);
+            const logo = (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={src}
+                alt={name}
+                className="h-9 w-auto max-w-full object-contain"
+              />
+            );
+            return href ? (
+              <a
+                key={name}
+                href={href}
+                target="_blank"
+                rel="noopener"
+                className="justify-self-center transition-opacity hover:opacity-70"
+              >
+                {logo}
+              </a>
+            ) : (
+              <div key={name} className="justify-self-center">{logo}</div>
+            );
+          })}
         </div>
       </section>
 
