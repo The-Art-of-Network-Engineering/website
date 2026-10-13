@@ -1,43 +1,8 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-10-13T10:05:07.454591Z",
-  "total_videos": 654,
+  "last_updated": "2026-10-13T12:00:07.885492Z",
+  "total_videos": 649,
   "videos": [
-    {
-      "video_id": "ZABjTev32iA",
-      "title": "Why Most Network Designs Are Flawed",
-      "title_norm": "why most network designs are flawed",
-      "url": "https://www.youtube.com/watch?v=ZABjTev32iA",
-      "published_at": "2026-10-13T09:20:18Z"
-    },
-    {
-      "video_id": "KApsdfyEYHc",
-      "title": "The Biggest Myth About Open Source",
-      "title_norm": "the biggest myth about open source",
-      "url": "https://www.youtube.com/watch?v=KApsdfyEYHc",
-      "published_at": "2026-10-13T08:08:14Z"
-    },
-    {
-      "video_id": "xVET5atlmwg",
-      "title": "Stop Vibe Coding: Start Spec-Driven Development, with John Capobianco",
-      "title_norm": "stop vibe coding start specdriven development with john capobianco",
-      "url": "https://www.youtube.com/watch?v=xVET5atlmwg",
-      "published_at": "2026-10-13T08:06:31Z"
-    },
-    {
-      "video_id": "0IQ6rRn3a_k",
-      "title": "500 Hours of Foosball, 20 Hours on Your Career | Mike Bushong on Staying Valuable",
-      "title_norm": "500 hours of foosball 20 hours on your career mike bushong on staying valuable",
-      "url": "https://www.youtube.com/watch?v=0IQ6rRn3a_k",
-      "published_at": "2026-10-13T07:48:34Z"
-    },
-    {
-      "video_id": "Zb_wdw-jWzI",
-      "title": "whoami: Network Engineering's Identity Crisis",
-      "title_norm": "whoami network engineerings identity crisis",
-      "url": "https://www.youtube.com/watch?v=Zb_wdw-jWzI",
-      "published_at": "2026-10-13T07:41:40Z"
-    },
     {
       "video_id": "dKop5Uoyiok",
       "title": "AI, Systems Thinking, and the Future of Network Engineers",
