@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-15T12:50:10+00:00",
+  "updated_at": "2026-10-16T12:50:08+00:00",
   "auto": {
     "youtube_subscribers": 10500,
-    "youtube_views": 615093,
+    "youtube_views": 615162,
     "youtube_videos": 650,
     "lifetime_downloads": 953481,
     "episodes": 212,
@@ -12,15 +12,18 @@
   },
   "manual": {
     "x_followers": 19800,
-    "linkedin_followers": 9346,
-    "discord_members": 3559,
+    "linkedin_followers": 9360,
+    "discord_members": 3558,
     "spotify_hours_2025": 17500,
     "platform_touchpoints_2025": 306000,
-    "instagram_followers": 6927,
+    "instagram_followers": 6923,
     "tiktok_followers": 11800,
     "tiktok_likes": 52700,
     "tiktok_videos": 453,
     "tiktok_post_views_60d": 95300,
     "tiktok_post_views_365d": 699900
+  },
+  "last_errors": {
+    "buzzsprout_lifetime": "no believable lifetime total from the API or the dashboard; kept the last good value"
   }
 }
