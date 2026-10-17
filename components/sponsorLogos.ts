@@ -67,5 +67,9 @@ export const sponsorLogos: SponsorLogo[] = [
   {
     "name": "USNUA",
     "src": "/sponsors/usnua.png?v=cb442fca"
+  },
+  {
+    "name": "NAF",
+    "src": "/sponsors/naf.png?v=b50b2c2a"
   }
 ];
