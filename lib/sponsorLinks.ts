@@ -18,6 +18,7 @@ export const SPONSOR_LINKS: Record<string, string> = {
   'Cisco Press': 'https://www.ciscopress.com/',
   'Boson': 'https://www.boson.com/',
   'USNUA': 'https://www.usnua.com/',
+  'NAF': 'https://networkautomation.forum/',
 };
 
 // Sponsors shown without a link, on purpose. Every roster name must be linked or listed here,

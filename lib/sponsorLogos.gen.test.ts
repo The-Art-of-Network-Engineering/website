@@ -14,7 +14,7 @@ describe('sponsor logo content-hash generation', () => {
 
   it('gives every logo a content-hashed src', () => {
     const all = buildLogos(SPONSOR_ROSTER, stub);
-    expect(all).toHaveLength(16);
+    expect(all).toHaveLength(17);
     for (const l of all) {
       expect(l.src).toMatch(/^\/sponsors\/[a-z0-9-]+\.png\?v=[a-z0-9]+$/);
     }

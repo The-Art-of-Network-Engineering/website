@@ -16,6 +16,7 @@ export const SPONSOR_ROSTER: string[] = [
   'Transit AI', 'Kentik', 'NetAlly', 'PathSolutions',
   'Augtera', 'Meter', 'Opengear', 'Celona',
   'Netris', 'Cisco Press', 'Boson', 'USNUA',
+  'NAF',
 ];
 
 /** Logo display name -> /public/sponsors file basename. */
