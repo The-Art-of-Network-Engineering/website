@@ -15,9 +15,11 @@ export type Post = {
 
 const POSTS_DIR = join(process.cwd(), 'content/posts');
 
-// Returns the moment a post becomes public: 8 AM America/New_York on the
-// publishedAt date. Picks the UTC hour (12 or 13) that maps to 08:00 ET on
-// that calendar date, so EDT/EST transitions are handled automatically.
+// Returns the moment a post becomes public: 6 AM America/New_York on the
+// publishedAt date, the minute the podcast episode goes live. Picks the UTC hour
+// (10 or 11) that maps to 06:00 ET on that calendar date, so EDT/EST transitions
+// are handled automatically. (Was 8 AM until 2026-10-20, which put every episode's
+// post two hours behind it. trigger-pages-rebuild.sh already rebuilds at 06:05 ET.)
 export function publicationMoment(publishedAt: string): Date {
   const [y, m, d] = publishedAt.split('-').map(Number);
   const fmt = new Intl.DateTimeFormat('en-US', {
@@ -25,12 +27,12 @@ export function publicationMoment(publishedAt: string): Date {
     hour: 'numeric',
     hour12: false,
   });
-  for (const hourUTC of [12, 13]) {
+  for (const hourUTC of [10, 11]) {
     const candidate = new Date(Date.UTC(y, (m ?? 1) - 1, d ?? 1, hourUTC, 0, 0));
     const localHour = parseInt(fmt.format(candidate), 10);
-    if (localHour === 8) return candidate;
+    if (localHour === 6) return candidate;
   }
-  return new Date(Date.UTC(y, (m ?? 1) - 1, d ?? 1, 12, 0, 0));
+  return new Date(Date.UTC(y, (m ?? 1) - 1, d ?? 1, 10, 0, 0));
 }
 
 // YYYY-MM-DD for a moment, read in America/New_York. Used to compare calendar
@@ -40,7 +42,7 @@ function etDateString(d: Date): string {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York' }).format(d);
 }
 
-// Episode-tied posts wait for 8 AM ET so the post and the episode it accompanies
+// Episode-tied posts wait for 6 AM ET so the post and the episode it accompanies
 // drop together. A post with no episodeSlug isn't coordinating with anything, so
 // it's public as soon as its date arrives in ET, any time of day.
 export function isPublic(
