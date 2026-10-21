@@ -3,6 +3,7 @@ title: "From Ethernet to AI: Earning a Network Engineer’s Trust"
 slug: "from-ethernet-to-ai-earning-a-network-engineer-s-trust"
 publishedAt: "2026-10-21"
 excerpt: "Before AI, there was Ethernet -- and network engineers had to learn to trust that too. Andy sits down with Scott Robohn at Networking Field Day 41 to trace how trust gets built in new technology, from a 1990s vendor bake-off at Bell Atlantic to what it takes to trust an AI agent near a production network today."
+coverImage: "/blog-images/from-ethernet-to-ai-earning-a-network-engineer-s-trust.jpg"
 episodeSlug: "from-ethernet-to-ai-earning-a-network-engineer-s-trust"
 author: "Andy Lapteff"
 ---
