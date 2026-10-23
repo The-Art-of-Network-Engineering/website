@@ -11,6 +11,10 @@ type PostCard = {
   publishedAt: string;
   excerpt?: string;
   coverImage?: string;
+  // Full body text, used ONLY for search matching (filterPosts) -- never rendered.
+  // A real search miss (2026-10-23): title/excerpt alone couldn't find a post by
+  // what it's actually about, only by its headline wording.
+  body?: string;
 };
 
 export function BlogSearch({ posts }: { posts: PostCard[] }) {

@@ -93,6 +93,30 @@ describe('filterPosts', () => {
   it('tolerates a missing excerpt and returns [] on no match', () => {
     expect(filterPosts(posts, 'zzz')).toEqual([]);
   });
+  it('matches on the body when the term is in neither the title nor the excerpt', () => {
+    // Real bug, 2026-10-23: a post can be about a topic without that topic's exact
+    // wording appearing in its headline or excerpt.
+    const withBodies = [
+      {
+        title: 'Can Network Engineers Build Real Software with AI?',
+        excerpt: 'A trip to Munich and a subnetting game.',
+        body: 'John taught me spec-driven development and I became hopeful.',
+      },
+      { title: 'Unrelated', excerpt: 'Nothing to do with it.', body: 'Also unrelated text.' },
+    ];
+    expect(filterPosts(withBodies, 'spec driven development').map((p) => p.title)).toEqual([
+      'Can Network Engineers Build Real Software with AI?',
+    ]);
+  });
+  it('tolerates posts with no body field at all, not just an empty one', () => {
+    expect(filterPosts(posts, 'foosball').map((p) => p.title)).toEqual(['500 Hours of Foosball']);
+  });
+  it('treats hyphens and spaces as the same word boundary in either direction', () => {
+    const p = [{ title: 'T', excerpt: 'spec-driven development', body: undefined }];
+    expect(filterPosts(p, 'spec driven')).toHaveLength(1);       // spaced query, hyphenated text
+    const q = [{ title: 'T', excerpt: 'spec driven development', body: undefined }];
+    expect(filterPosts(q, 'spec-driven')).toHaveLength(1);       // hyphenated query, spaced text
+  });
 });
 
 describe('guestProfile', () => {

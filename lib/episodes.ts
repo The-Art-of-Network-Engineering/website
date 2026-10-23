@@ -143,16 +143,30 @@ export function filterByName<T extends { name: string }>(items: T[], query: stri
   return items.filter((it) => it.name.toLowerCase().includes(q));
 }
 
-// Blog search: match a post by title OR excerpt so a topic word finds the post
-// even when it's not in the headline. Empty query returns everything.
-export function filterPosts<T extends { title: string; excerpt?: string }>(
+// Hyphens and spaces are the same word boundary for search purposes -- "spec
+// driven" must find "spec-driven". Caught by the test for this fix itself: the
+// real post text is hyphenated, Andy's real query had spaces, and a literal
+// substring match doesn't bridge that on its own.
+function normalizeForSearch(s: string): string {
+  return s.toLowerCase().replace(/[-‐-―]/g, ' ');
+}
+
+// Blog search: match a post by title, excerpt, OR body so a topic word finds the
+// post even when it's only mentioned in the writing itself. REAL BUG, 2026-10-23:
+// title/excerpt-only search missed the Munich / John Capobianco post for "spec
+// driven development" -- the phrase appears five times in the body, zero times in
+// the title or excerpt. Empty query returns everything.
+export function filterPosts<T extends { title: string; excerpt?: string; body?: string }>(
   posts: T[],
   query: string,
 ): T[] {
-  const q = query.trim().toLowerCase();
+  const q = normalizeForSearch(query.trim());
   if (!q) return posts;
   return posts.filter(
-    (p) => p.title.toLowerCase().includes(q) || (p.excerpt ?? '').toLowerCase().includes(q),
+    (p) =>
+      normalizeForSearch(p.title).includes(q) ||
+      normalizeForSearch(p.excerpt ?? '').includes(q) ||
+      normalizeForSearch(p.body ?? '').includes(q),
   );
 }
 

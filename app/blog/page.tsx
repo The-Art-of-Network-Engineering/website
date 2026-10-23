@@ -11,13 +11,20 @@ export const metadata: Metadata = {
 
 export default function BlogIndex() {
   const posts = getAllPosts();
-  // Only the card fields cross to the client component — not the full post bodies.
+  // The body crosses to the client too now (2026-10-23), for search ONLY -- never
+  // rendered, see BlogSearch's PostCard type. This is a fully static export
+  // (output: 'export' in next.config), so there is no server to search on; client-
+  // side is the only option. Title/excerpt-only search missed real posts by their
+  // actual topic, only finding them by headline wording -- confirmed live, the
+  // Munich / John Capobianco post for "spec driven development" (in the body five
+  // times, in neither the title nor the excerpt).
   const cards = posts.map((p) => ({
     slug: p.slug,
     title: p.title,
     publishedAt: p.publishedAt,
     excerpt: p.excerpt,
     coverImage: p.coverImage,
+    body: p.bodyMarkdown,
   }));
 
   if (posts.length === 0) {
