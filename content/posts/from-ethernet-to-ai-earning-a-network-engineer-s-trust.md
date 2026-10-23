@@ -20,7 +20,7 @@ They brought loaner equipment from four vendors into the Data Network Control Ce
 
 I wanted to understand what those tests looked like. Was it enough to see a route and successfully ping something? Scott described going beyond that, using test traffic and taking account of the applications the network needed to support. One example was a training group using X Windows, with servers and clients in different locations. The proposed infrastructure needed to support that environment. Each vendor would face the same minimum requirements before the team considered a limited production trial.
 
-That’s a useful example of how trust develops in infrastructure. The team could examine behavior that mattered to their own users and applications. Passing those tests gave them a basis for taking the next step into a limited trial, where they could learn more. I kept asking how long all of this took. Scott’s recollection was a couple of weeks per vendor, although he was careful to say his memory of the overall timeline was fuzzy. It required time, equipment, and people who knew what they needed to find out.
+That’s a useful example of how trust develops in infrastructure. The team could examine behavior that mattered to their own users and applications. Passing those tests gave them a basis for taking the next step into a limited trial, where they could learn more. I kept asking how long all of this took. Scott’s recollection was a couple of weeks per vendor. When I added up the calls and the planning, he thought the whole process took less than six months, though he was careful to say his memory was fuzzy. Later in our conversation I called it five. It required time, equipment, and people who knew what they needed to find out.
 
 That pace feels very different from the AI conversation happening around us. We hear that we need to start using these tools everywhere, and the tools themselves keep changing. Scott made the point that many of the voices encouraging rapid adoption don’t carry production responsibility for our networks. He wasn’t dismissing what vendors are doing. They have products to explain, and some of those products can help us. But the engineer who has to answer for an outage still needs to understand what’s being introduced and how it behaves.
 
@@ -44,7 +44,7 @@ An agent could potentially help with that collection, leaving the engineer with 
 
 Scott and I wandered into some bigger questions before we stopped recording, the kind neither of us can settle on a podcast. One of them is still with me.
 
-His team at Bell Atlantic earned its trust over a couple of weeks per vendor, with a test plan and a pile of loaner equipment. Nobody is offering me weeks. The tools change faster than I can write the tests, and the people telling me to hurry aren't the ones who get paged when something breaks.
+His team at Bell Atlantic took months to earn its trust, a couple of weeks per vendor, with a test plan and a pile of loaner equipment. Nobody is offering me months. The tools change faster than I can write the tests, and the people telling me to hurry aren't the ones who get paged when something breaks.
 
 The method is the part I've settled. Write down the job. Define what a good result looks like, and treat anything else as a reason to look closer. My first job for an agent is read-only: collecting the routes, the reachability and the recent changes, the work I once wrote a Word document to cover.
 
