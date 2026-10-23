@@ -42,6 +42,12 @@ Troubleshooting is where I can see that becoming useful. When I worked on WANs a
 
 An agent could potentially help with that collection, leaving the engineer with the results to review when they arrive. I’ve also seen LLM tools work through logs across several devices and pull out information that would take me longer to find manually. That gives me a specific job to evaluate. I can inspect what it found, compare it with the underlying information, and see whether it continues to be useful. I’d want that experience before giving the same tool permission to start fixing things.
 
-Scott and I wandered into some big questions during this conversation, including concerns about AI that neither of us can resolve on a podcast. I appreciated having his earlier networking experiences to return to. His team at Bell Atlantic had a way to find out whether equipment could support their environment. The Lumen example showed the work involved in earning confidence in individual automated workflows. Even my modest success with an episode outline came with a task I understood and an opportunity to review the result. When I think about where to use these tools next, those are experiences I can draw on. The media kit with the wrong numbers belongs on that list too.
+Scott and I wandered into some bigger questions before we stopped recording, the kind neither of us can settle on a podcast. One of them is still with me.
+
+His team at Bell Atlantic earned its trust over a couple of weeks per vendor, with a test plan and a pile of loaner equipment. Nobody is offering me weeks. The tools change faster than I can write the tests, and the people telling me to hurry aren't the ones who get paged when something breaks.
+
+The method is the part I've settled. Write down the job. Define what a good result looks like, and treat anything else as a reason to look closer. My first job for an agent is read-only: collecting the routes, the reachability and the recent changes, the work I once wrote a Word document to cover.
+
+What I don't have yet is the second answer. What would an agent have to show you before it earned a second job?
 
 Listen to the full conversation with Scott Robohn on [The Art of Network Engineering](https://artofnetworkengineering.com/episodes/from-ethernet-to-ai-earning-a-network-engineer-s-trust) or [watch it on YouTube](https://youtu.be/B4lPt_Nxb7U).
