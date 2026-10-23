@@ -44,4 +44,4 @@ An agent could potentially help with that collection, leaving the engineer with 
 
 Scott and I wandered into some big questions during this conversation, including concerns about AI that neither of us can resolve on a podcast. I appreciated having his earlier networking experiences to return to. His team at Bell Atlantic had a way to find out whether equipment could support their environment. The Lumen example showed the work involved in earning confidence in individual automated workflows. Even my modest success with an episode outline came with a task I understood and an opportunity to review the result. When I think about where to use these tools next, those are experiences I can draw on. The media kit with the wrong numbers belongs on that list too.
 
-Listen to the full conversation with Scott Robohn on The Art of Network Engineering at artofnetworkengineering.com or watch it on our YouTube channel.
+Listen to the full conversation with Scott Robohn on [The Art of Network Engineering](https://artofnetworkengineering.com/episodes/from-ethernet-to-ai-earning-a-network-engineer-s-trust) or [watch it on YouTube](https://youtu.be/B4lPt_Nxb7U).
