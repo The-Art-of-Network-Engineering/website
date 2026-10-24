@@ -7,6 +7,23 @@
   },
   "episodes": [
     {
+      "id": "Buzzsprout-19994876",
+      "slug": "from-ethernet-to-ai-earning-a-network-engineer-s-trust",
+      "title": "From Ethernet to AI: Earning a Network Engineer’s Trust",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "durationSeconds": 2333,
+      "audioUrl": "https://www.buzzsprout.com/2127872/episodes/19994876-from-ethernet-to-ai-earning-a-network-engineer-s-trust.mp3",
+      "showNotesHtml": "<p>What does new technology have to prove before you trust it with your network?<br />Scott Robohn joins Andy Lapteff for a conversation about earning trust, from Ethernet interoperability and vendor bake-offs to network automation and AI. Recorded at Networking Field Day 41, they explore how explicit testing, clear permissions, error handling, and human judgment help engineers decide when a system is ready for more responsibility.<br />Scott revisits a four-vendor evaluation at Bell Atlantic and describes lessons from Lumen’s approach to automating workflows. Andy shares a less comfortable example: software he built with AI that helped him get work done while failures went unnoticed.<br />The conversation also explores AI adoption pressure, the value of critical thinking, and why a read-only troubleshooting workflow can be a useful first step toward building confidence in a new tool.<br />Listen for a practical discussion of how trust develops in network technology, and what AI still needs to earn.</p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/2127872/fan_mail/new\" rel=\"noopener noreferrer\">Send us Fan Mail</a></p> <p><a rel=\"noopener noreferrer\" href=\"https://www.buzzsprout.com/2127872/support\" target=\"_blank\">Support the show</a></p><p>For everything AONE:  <a href=\"https://artofnetworkengineering.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://artofnetworkengineering.com/</a></p>",
+      "summary": "What does new technology have to prove before you trust it with your network? Scott Robohn joins Andy Lapteff for a conversation about earning trust, from Ethernet interoperability and vendor bake-offs to network automation and AI. Recorded at Networking Field Day 41, they explore how explicit testing, clear permissions, error handling, and human judgment help engineers decide when a system is ready for more responsibility. Scott revisits a four-vendor evaluation at Bell Atlantic and describe...",
+      "guests": [],
+      "artworkUrl": null,
+      "youtube": {
+        "videoId": "B4lPt_Nxb7U",
+        "thumbnailUrl": "https://i.ytimg.com/vi/B4lPt_Nxb7U/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=B4lPt_Nxb7U"
+      }
+    },
+    {
       "id": "Buzzsprout-19916600",
       "slug": "ai-systems-thinking-and-the-future-of-network-engineers",
       "title": "AI, Systems Thinking, and the Future of Network Engineers",
