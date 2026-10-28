@@ -6,6 +6,10 @@ import { StatsBand } from '@/components/StatsBand';
 // here by sync_website_sponsors.py. Do not hand-edit this list.
 import { sponsorLogos } from '@/components/sponsorLogos';
 import { sponsorHref } from '@/lib/sponsorLinks';
+// Equal visual weight per logo (not equal height), from measured aspect ratios.
+import { SPONSOR_ASPECTS } from '@/lib/sponsorLogoAspects';
+import { SPONSOR_SIZE_OVERRIDES } from '@/lib/sponsorLogoOverrides';
+import { balanceRows, sizeWall } from '@/lib/sponsorLogoSize';
 // Reviewed reach numbers (native Buzzsprout windows + YoY). Same file the snapshot
 // PDF reads, so the two never drift. Derived from the 12-month YoY analysis.
 import reachData from '@/data/media_kit_reach.json';
@@ -78,6 +82,18 @@ const packages = [
 ];
 
 export default function SponsorPage() {
+  const logoSizes = sizeWall(
+    sponsorLogos.map(({ name }) => ({ name, aspect: SPONSOR_ASPECTS[name] })),
+    SPONSOR_SIZE_OVERRIDES,
+  );
+  // 1104px = max-w-content (72rem) minus the page's px-6 gutters; gap-x-10 = 40px.
+  const rows = balanceRows(
+    sponsorLogos.map(({ name }) => logoSizes[name].w),
+    1104,
+    40,
+  );
+  let cursor = 0;
+  const logoRows = rows.map((r) => sponsorLogos.slice(cursor, (cursor += r.items.length)));
   return (
     <div className="mx-auto max-w-content px-6 py-16">
       {/* Hero */}
@@ -154,31 +170,47 @@ export default function SponsorPage() {
         <SectionLabel>Brands that partner with us</SectionLabel>
         {/* Flat wall, no category headings: the roster speaks for itself, and
             grouping mislabelled partners while implying a category was taken. */}
-        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-10 gap-y-10 items-center">
-          {sponsorLogos.map(({ name, src }) => {
-            const href = sponsorHref(name);
-            const logo = (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={src}
-                alt={name}
-                className="h-9 w-auto max-w-full object-contain"
-              />
-            );
-            return href ? (
-              <a
-                key={name}
-                href={href}
-                target="_blank"
-                rel="noopener"
-                className="justify-self-center transition-opacity hover:opacity-70"
-              >
-                {logo}
-              </a>
-            ) : (
-              <div key={name} className="justify-self-center">{logo}</div>
-            );
-          })}
+        <div className="mt-8 flex flex-col gap-y-10" data-testid="sponsor-wall">
+          {logoRows.map((row) => (
+            // Each row is its own centred line, so the short last row sits in the middle.
+            // flex-wrap lets a row break further on narrow screens.
+            <div
+              key={row[0].name}
+              className="flex flex-wrap justify-center items-center gap-x-10 gap-y-10"
+              data-testid="sponsor-wall-row"
+            >
+              {row.map(({ name, src }) => {
+                const href = sponsorHref(name);
+                const logo = (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={src}
+                    alt={name}
+                    style={{
+                      width: `${logoSizes[name].w}px`,
+                      maxWidth: '100%',
+                      height: 'auto',
+                      aspectRatio: `${logoSizes[name].w} / ${logoSizes[name].h}`,
+                    }}
+                    className="object-contain"
+                  />
+                );
+                return href ? (
+                  <a
+                    key={name}
+                    href={href}
+                    target="_blank"
+                    rel="noopener"
+                    className="transition-opacity hover:opacity-70"
+                  >
+                    {logo}
+                  </a>
+                ) : (
+                  <div key={name}>{logo}</div>
+                );
+              })}
+            </div>
+          ))}
         </div>
       </section>
 

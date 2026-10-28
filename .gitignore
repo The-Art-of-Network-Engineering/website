@@ -11,3 +11,6 @@ coverage
 # Published at build time by prebuild (fetch-episodes / publish-metrics). Committing a
 # build artifact is what let data/episodes.json go three weeks stale.
 public/api/
+
+# Local before/after renders of the sponsor wall
+preview/
