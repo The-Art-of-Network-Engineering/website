@@ -41,6 +41,7 @@ export const serviceProvider: Link[] = [
   { name: 'Ubuntu-based ADHD/burnout resource: Tarsnap essay \'On the Care and Feeding of Engineers\'', href: 'https://www.usenix.org/system/files/login/articles/login_summer19_09_beyer.pdf', note: 'A USENIX article on sustainable on-call and reducing operational toil, useful for engineers whose stress comes from paging and firefighting.' },
   { name: 'Google SRE Book, chapter on Eliminating Toil', href: 'https://sre.google/sre-book/eliminating-toil/', note: 'Free online chapter that explains how repetitive manual work drains teams and how to cut it down, which helps prevent operational burnout.' },
   { name: 'Google SRE Workbook, \'Being On-Call\'', href: 'https://sre.google/sre-book/being-on-call/', note: 'Free chapter covering on-call load, healthy rotations, and psychological safety, aimed at engineers carrying pager duty.' },
+  { name: 'NANOG On-Demand Learning', href: 'https://www.nanog.org/resources/nanog-on-demand/', note: 'Free recorded talks from operator conferences that show the kind of work senior network engineers do, helpful for picking a direction beyond the NOC.' },
 ];
 
 export const labs: Link[] = [
@@ -69,6 +70,7 @@ export const rfcs: Link[] = [
   { name: 'RFC 1925 — The Twelve Networking Truths', href: 'https://datatracker.ietf.org/doc/html/rfc1925', note: 'Two pages, deeply funny, eerily true. Required reading at least once a year.' },
   { name: 'RFC 5880: Bidirectional Forwarding Detection (BFD)', href: 'https://www.rfc-editor.org/rfc/rfc5880', note: 'Defines the protocol for fast detection of link and path failures between forwarding engines. Worth reading if you rely on BFD to catch outages quickly in production.' },
   { name: 'RFC 9315: Intent-Based Networking - Concepts and Definitions', href: 'https://www.rfc-editor.org/rfc/rfc9315.html', note: 'An IRTF document that defines intent-based networking terms and concepts, useful for understanding where automation and AI-driven intent fit in network operations.' },
+  { name: 'RFC 2119: Key words for use in RFCs to Indicate Requirement Levels', href: 'https://www.rfc-editor.org/rfc/rfc2119', note: 'Defines MUST, SHOULD, and MAY so your change plans and standards documents say exactly what is required versus optional.' },
 ];
 
 export const blogs: Link[] = [
@@ -171,6 +173,8 @@ export const automation: Link[] = [
   { name: 'NetBox Documentation', href: 'https://netboxlabs.com/docs/netbox/', note: 'Official docs for NetBox, the source-of-truth tool for documenting IPs, devices, cabling, and more. Helps you keep network documentation accurate and queryable.' },
   { name: 'NetBox Documentation', href: 'https://netboxlabs.com/docs/netbox/en/stable/', note: 'Official docs for NetBox, the source-of-truth tool many teams use to track IPs, devices, and cabling for automation workflows.' },
   { name: 'Nornir Documentation', href: 'https://nornir.readthedocs.io/en/latest/', note: 'Python automation framework for network engineers who want to run tasks across many devices without learning a separate DSL.' },
+  { name: 'Google SRE Book: Managing Incidents', href: 'https://sre.google/sre-book/managing-incidents/', note: 'A free chapter from Google\'s SRE book on how to run incident response with clear roles and communication, useful when documenting what happened and why.' },
+  { name: 'Ansible Network Getting Started Guide', href: 'https://docs.ansible.com/ansible/latest/network/getting_started/index.html', note: 'Red Hat\'s own walkthrough for automating network gear with Ansible. Covers the first playbooks and inventory setup that most teams start with.' },
 ];
 
 export const gitGithub: Link[] = [
