@@ -336,3 +336,5 @@ I ended it thinking about the software I'd already built, the problems it solved
 Because sometimes you don't need another bulldozer.
 
 **You need to figure out who's driving the ones you've already got.**
+
+Listen to the full conversation with Remmington Loose on [The Art of Network Engineering](https://artofnetworkengineering.com/episodes/ai-agents-automation-and-systems-thinking-with-remmington-loose) or [watch it on YouTube](https://youtu.be/2I_VQQLxWfs).
