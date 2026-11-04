@@ -11,7 +11,7 @@ author: "Andy Lapteff"
 
 If you're a network engineer trying to make sense of AI, the terminology can feel overwhelming: models, agents, harnesses, orchestrators, context windows, memory. But network engineers may be starting on third base. Not because networking is machine learning, but because we've spent our careers troubleshooting interconnected systems and validating uncertain results.
 
-In a conversation on The Art of Network Engineering, Remington Luce of St. Jude Children's Research Hospital described how he moved from experimenting with AI tools to building a multi-agent workflow for solutions architecture. His explanations offer a practical framework for engineers who want to understand the technology rather than memorize the jargon.
+In a conversation on The Art of Network Engineering, Remington Loose of St. Jude Children's Research Hospital described how he moved from experimenting with AI tools to building a multi-agent workflow for solutions architecture. His explanations offer a practical framework for engineers who want to understand the technology rather than memorize the jargon.
 
 What makes something an AI agent?
 
@@ -81,4 +81,4 @@ The terminology is new. Many of the engineering problems aren't.
 
 AI introduces genuinely new capabilities and risks. But communication between components, state management, dependencies, troubleshooting, and validation are problems network engineers already know how to approach. The opportunity is to apply that experience while learning the parts that are truly different.
 
-Based on the conversation with Remington Luce on [The Art of Network Engineering](https://artofnetworkengineering.com/episodes/why-network-engineers-are-built-for-the-ai-era). Listen to the full episode, or [watch it on YouTube](https://youtu.be/2I_VQQLxWfs), for his detailed account of the St. Jude architecture workflow and the broader discussion of AI tooling and engineering judgment.
+Based on the conversation with Remington Loose on [The Art of Network Engineering](https://artofnetworkengineering.com/episodes/why-network-engineers-are-built-for-the-ai-era). Listen to the full episode, or [watch it on YouTube](https://youtu.be/2I_VQQLxWfs), for his detailed account of the St. Jude architecture workflow and the broader discussion of AI tooling and engineering judgment.
