@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-03T13:00:08.557744Z",
-  "total_videos": 650,
+  "last_updated": "2026-11-04T12:28:25.971342Z",
+  "total_videos": 651,
   "videos": [
+    {
+      "video_id": "2I_VQQLxWfs",
+      "title": "Why Network Engineers Are Built for the AI Era",
+      "title_norm": "why network engineers are built for the ai era",
+      "url": "https://www.youtube.com/watch?v=2I_VQQLxWfs",
+      "published_at": "2026-11-04T11:00:43Z"
+    },
     {
       "video_id": "B4lPt_Nxb7U",
       "title": "From Ethernet to AI: Earning a Network Engineer’s Trust",
