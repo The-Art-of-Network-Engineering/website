@@ -7,6 +7,8 @@ coverImage: "/blog-images/the-bulldozer-analogy.jpg"
 episodeSlug: "why-network-engineers-are-built-for-the-ai-era"
 author: "Remington Loose"
 ---
+*A way to explain the model, the software around it, and who directs the work.*
+
 ## Automation and LLM agents
 
 **An LLM agent uses a model during execution to help decide what happens next.** It chooses actions, reads the results, and adjusts its approach. A fixed workflow follows steps set in code.
@@ -14,8 +16,6 @@ author: "Remington Loose"
 A script can run an agent, and cron can start one. Neither tells you whether the work is agentic. Using AI to write a script does not make that script an agent; adding a model call to a fixed workflow does not establish that either.
 
 *This page uses "agent" to mean an LLM agent. The broader AI definition also includes rule-based agents. References: [IBM: Types of AI agents](https://www.ibm.com/think/topics/ai-agent-types) and [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents).*
-
-![A wireframe bulldozer with a front blade and rear backhoe at a lake excavation, with an access ramp, site plan, field manual, and perimeter fence. Numbered labels link the model to the bulldozer, the harness to its controls, tools to the blade and rear backhoe, context to the site plan, skills to the field manual, and boundaries to the fence.](/blog-images/the-bulldozer-analogy-diagram.jpg)
 
 ### 01 / Model
 Interprets inputs and produces outputs using what it learned during training. Choose it for the work you need done.
