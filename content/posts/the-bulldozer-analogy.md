@@ -1,15 +1,15 @@
 ---
-title: "The Bulldozer Analogy"
+title: "The Bulldozer Analogy: How AI Models and Agents Work"
 slug: "the-bulldozer-analogy"
 publishedAt: "2026-11-04"
-excerpt: "A way to explain the model, the software around it, and who directs the work."
+excerpt: "A way to explain how an AI model, the software around it, and the person directing it fit together."
 coverImage: "/blog-images/the-bulldozer-analogy.jpg"
 episodeSlug: "why-network-engineers-are-built-for-the-ai-era"
 author: "Remington Loose"
 ---
-*A way to explain the model, the software around it, and who directs the work.*
+*A way to explain how an AI model, the software around it, and the person directing it fit together.*
 
-Remington Loose used this analogy on today's episode to explain how a model, the software around it, and the person directing the work fit together.
+Remington Loose used this analogy in his conversation with Andy Lapteff on [Why Network Engineers Are Built for the AI Era](https://artofnetworkengineering.com/episodes/why-network-engineers-are-built-for-the-ai-era), to explain how an AI model, the software around it, and the person directing the work fit together.
 
 Picture a bulldozer hired to build a lake. The bulldozer is the model: it does the digging. Whether you end up with a lake or a mess in the neighbor's yard depends on everything around the machine: who is driving it, what attachments it has, what site plan it is working from, what the operator knows, and where the fence is.
 
