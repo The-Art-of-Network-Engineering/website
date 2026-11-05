@@ -9,6 +9,12 @@ author: "Remington Loose"
 ---
 *A way to explain the model, the software around it, and who directs the work.*
 
+Remington Loose used this analogy on today's episode to explain how a model, the software around it, and the person directing the work fit together.
+
+Picture a bulldozer hired to build a lake. The bulldozer is the model: it does the digging. Whether you end up with a lake or a mess in the neighbor's yard depends on everything around the machine: who is driving it, what attachments it has, what site plan it is working from, what the operator knows, and where the fence is.
+
+That is the whole analogy. The rest of this page names each part.
+
 ## Automation and LLM agents
 
 **An LLM agent uses a model during execution to help decide what happens next.** It chooses actions, reads the results, and adjusts its approach. A fixed workflow follows steps set in code.
