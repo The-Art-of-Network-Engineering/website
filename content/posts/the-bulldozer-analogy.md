@@ -24,21 +24,27 @@ A script can run an agent, and cron can start one. Neither tells you whether the
 *This page uses "agent" to mean an LLM agent. The broader AI definition also includes rule-based agents. References: [IBM: Types of AI agents](https://www.ibm.com/think/topics/ai-agent-types) and [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents).*
 
 ### 01 / Model
+![The model, labeled on the bulldozer itself.](/blog-images/the-bulldozer-analogy-model.jpg)
 Interprets inputs and produces outputs using what it learned during training. Choose it for the work you need done.
 
 ### 02 / Harness
+![The harness, labeled on the bulldozer's cab and controls.](/blog-images/the-bulldozer-analogy-harness.jpg)
 The software around the model. It manages the session, supplies context, handles tool calls, and applies configured controls.
 
 ### 03 / Tools
+![Tools, labeled on the front blade and rear backhoe.](/blog-images/the-bulldozer-analogy-tools.jpg)
 Let the system do something: search, query a database, run code, or change a file. The model requests an action; software executes it.
 
 ### 04 / Context
+![Context, labeled on the site plan.](/blog-images/the-bulldozer-analogy-context.jpg)
 What the model has to work with now: the task, instructions, conversation, documents, selected memories, and tool results.
 
 ### 05 / Skills
+![Skills, labeled on the field manual.](/blog-images/the-bulldozer-analogy-skills.jpg)
 Reusable methods for doing the work. They can include instructions, examples, scripts, and reference material.
 
 ### 06 / Boundaries
+![Boundaries, labeled on the perimeter fence.](/blog-images/the-bulldozer-analogy-boundaries.jpg)
 Permissions, approvals, and resource limits set constraints on actions. Validation checks whether the work meets the requirements.
 
 ## What can it handle?
