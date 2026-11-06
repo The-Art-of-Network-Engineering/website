@@ -47,15 +47,15 @@ Reusable methods for doing the work. They can include instructions, examples, sc
 ![Boundaries, labeled on the perimeter fence.](/blog-images/the-bulldozer-analogy-boundaries.jpg)
 Permissions, approvals, and resource limits set constraints on actions. Validation checks whether the work meets the requirements.
 
-## What can it handle?
+## Choosing a model
 
-**Inputs and outputs.** Check text, image, audio, and video support in each direction. A model that understands an image may not generate one. Some features require another model or tool.
+**Inputs and outputs.** Check which formats the model supports in each direction: text, image, audio, video. A model that understands an image may not generate one. Some of these require a separate model or tool.
 
-**Performance on your work.** Test it on the tasks you expect it to do, including reasoning, coding, following instructions, and producing the formats your systems need.
+**Performance.** Test the model on the specific tasks you need it to do: reasoning, coding, following instructions, producing the formats your systems need.
 
-**Context window.** How much can it work with at once? Instructions, history, documents, and tool results share a finite window. A large window does not guarantee that every detail will be used correctly.
+**Context window.** How much can the model work with at once? Instructions, history, documents, and tool results all share one finite window. A large window does not guarantee every detail in it gets used correctly.
 
-**Tools, memory, and skills.** Check how well the model uses them and whether the harness supports them. Saved memory must be retrieved and supplied; skills must be made available. Neither changes the model's trained weights.
+**Tools, memory, and skills.** Check how well the model uses them, and whether the harness you are using supports them at all. Saved memory has to be retrieved and supplied back to the model; skills have to be made available to it. Neither one changes the model's trained weights.
 
 ## Operate the machine or delegate the job
 
