@@ -98,7 +98,7 @@ export default function AboutPage() {
               />
               <div className="space-y-3">
                 <p>
-                  <strong className="text-text">Andy Lapteff</strong> hosts and produces AONE.
+                  <strong className="text-text">Andy Lapteff</strong> owns, hosts, and produces AONE.
                   Network engineer by background, operator by necessity. He runs the show solo
                   with help from occasional co-hosts and a network of friends across the industry.
                 </p>
