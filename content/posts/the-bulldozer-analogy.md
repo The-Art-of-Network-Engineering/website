@@ -41,6 +41,8 @@ Permissions, approvals, and resource limits set constraints on actions. Validati
 
 **An agent is what you get when you hand a model a goal instead of a fixed set of steps, and let it work toward that goal on its own.** Build a lake over there, not a program listing every coordinate to dig. The model uses the harness to choose actions, runs tools, reads the results, and decides what to do next, continuing until it reaches the goal, hits a limit, or needs to ask you something.
 
+![A closed loop: the model decides an action, Boundaries check it, Tools carry it out, and the result updates Context, which the model reads before deciding again. Harness runs the loop; Skills feed into the model's decision.](/blog-images/the-bulldozer-analogy-loop.jpg)
+
 A fixed workflow is different: it follows steps set in code. A script can run an agent, and cron can start one. Neither tells you whether the work is agentic. Using AI to write a script does not make that script an agent; adding a model call to a fixed workflow does not establish that either. What makes it agentic is whether the model is deciding the next step, not just producing an answer inside steps someone already wrote.
 
 *This page uses "agent" to mean an LLM agent. The broader AI definition also includes rule-based agents. References: [IBM: Types of AI agents](https://www.ibm.com/think/topics/ai-agent-types) and [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents).*
