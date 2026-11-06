@@ -19,7 +19,7 @@ Interprets inputs and produces outputs using what it learned during training. Ch
 
 ### 02 / Harness
 ![The harness, labeled on the bulldozer's cab and controls.](/blog-images/the-bulldozer-analogy-harness.jpg)
-The software around the model. It manages the session, supplies context, handles tool calls, and applies configured controls. Claude Code, the tool Remington and Andy both use, is a harness: it gives the model access to a terminal and files, keeps track of the conversation, and lets the model decide what to check next instead of following a fixed script. ChatGPT's own app is a harness around its models. So is Cursor, around a coding model. A script that calls a model once for one answer and moves on to the next hard-coded step is not using a harness in this sense. There is no loop, and nothing is deciding what happens next except the code someone already wrote.
+The software around the model: the controls it acts through. It manages the session, supplies context, handles tool calls, and applies configured limits. Claude Code, the tool Remington and Andy both use, is a harness: it gives the model access to a terminal and files, keeps track of the conversation, and lets the model decide what to check next instead of following a fixed script. ChatGPT's own app is a harness around its models. So is Cursor, around a coding model. A script that calls a model once for one answer and moves on to the next hard-coded step is not using a harness in this sense. There is no loop, and nothing is deciding what happens next except the code someone already wrote.
 
 ### 03 / Tools
 ![Tools, labeled on the front blade and rear backhoe.](/blog-images/the-bulldozer-analogy-tools.jpg)
