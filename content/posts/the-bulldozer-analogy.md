@@ -13,14 +13,6 @@ author: "Remington Loose"
 
 Picture a bulldozer hired to build a lake. The bulldozer is the model: it does the digging. Whether you end up with a lake or a mess in the neighbor's yard depends on everything around the machine: who is driving it, what attachments it has, what site plan it is working from, what the operator knows, and where the fence is.
 
-## What makes something an agent?
-
-**An agent is what you get when you hand the model a goal instead of a fixed set of steps, and let it work toward that goal on its own.** Build a lake over there, not a program listing every coordinate to dig. The model uses the harness to choose actions, runs tools, reads the results, and decides what to do next, continuing until it reaches the goal, hits a limit, or needs to ask you something.
-
-A fixed workflow is different: it follows steps set in code. A script can run an agent, and cron can start one. Neither tells you whether the work is agentic. Using AI to write a script does not make that script an agent; adding a model call to a fixed workflow does not establish that either. What makes it agentic is whether the model is deciding the next step, not just producing an answer inside steps someone already wrote.
-
-*This page uses "agent" to mean an LLM agent. The broader AI definition also includes rule-based agents. References: [IBM: Types of AI agents](https://www.ibm.com/think/topics/ai-agent-types) and [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents).*
-
 ### 01 / Model
 ![The model, labeled on the bulldozer itself.](/blog-images/the-bulldozer-analogy-model.jpg)
 Interprets inputs and produces outputs using what it learned during training. Choose it for the work you need done. Claude writing this sentence is a model. GPT-image generating the illustration above is a model. A small, cheap model that just decides whether an email is spam is still a model, doing a much narrower job.
@@ -44,6 +36,14 @@ Reusable methods for doing the work. They can include instructions, examples, sc
 ### 06 / Boundaries
 ![Boundaries, labeled on the perimeter fence.](/blog-images/the-bulldozer-analogy-boundaries.jpg)
 Permissions, approvals, and resource limits set constraints on actions. Validation checks whether the work meets the requirements. A rule that an agent can read files but needs approval before changing or deleting one. A spending limit on how much an agent can rack up calling paid APIs in a day. A requirement that a person reviews a change before it ships.
+
+## What makes something an agent?
+
+**An agent is what you get when you hand a model a goal instead of a fixed set of steps, and let it work toward that goal on its own.** Build a lake over there, not a program listing every coordinate to dig. The model uses the harness to choose actions, runs tools, reads the results, and decides what to do next, continuing until it reaches the goal, hits a limit, or needs to ask you something.
+
+A fixed workflow is different: it follows steps set in code. A script can run an agent, and cron can start one. Neither tells you whether the work is agentic. Using AI to write a script does not make that script an agent; adding a model call to a fixed workflow does not establish that either. What makes it agentic is whether the model is deciding the next step, not just producing an answer inside steps someone already wrote.
+
+*This page uses "agent" to mean an LLM agent. The broader AI definition also includes rule-based agents. References: [IBM: Types of AI agents](https://www.ibm.com/think/topics/ai-agent-types) and [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents).*
 
 ## Choosing a model
 
