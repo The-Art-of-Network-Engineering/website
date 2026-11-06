@@ -13,7 +13,7 @@ Remington Loose used this analogy in his conversation with Andy Lapteff on [Why 
 
 Picture a bulldozer hired to build a lake. The bulldozer is the model: it does the digging. Whether you end up with a lake or a mess in the neighbor's yard depends on everything around the machine: who is driving it, what attachments it has, what site plan it is working from, what the operator knows, and where the fence is.
 
-That is the whole analogy. The rest of this page names each part.
+That is the whole analogy. The rest of this post names each part.
 
 ## Automation and LLM agents
 
