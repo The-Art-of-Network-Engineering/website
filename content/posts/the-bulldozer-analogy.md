@@ -71,8 +71,10 @@ That coordinating layer is orchestration. Software like n8n does this job for ag
 
 You do not always need this. A single agent with a clear goal is often enough. Orchestration earns its complexity when the job genuinely splits into pieces that need different tools, different context, or different expertise, and something has to manage how they hand off to each other.
 
-Go back to the bulldozer. It does not know it is building a lake, and it does not know why the lake belongs there. It knows how to dig once someone points it at a target. That is true of the model inside any agent, no matter how good the harness, the tools, or the orchestration around it. Remington put it simply: let the model handle the how and the what. Stay the driver of the why.
+Go back to the bulldozer. It does not know it is building a lake, and it does not know why the lake belongs there. It knows how to dig once someone points it at a target. That is true of the model inside any agent, no matter how good the harness, the tools, or the orchestration around it.
+
+Remington put it this way: hand the model the how and the what, and stay the driver of the why. In practice, that means not taking its answer as the final word. Ask an agent which of 2,800 routes didn't come back after a maintenance window, and it will find them. Ask it why, and it will give you an answer, stated with full confidence whether or not it is right. So you test it, the same way you would if a teammate told you something was working: not because the model can't be trusted, but because checking is still the engineer's job.
 
 ---
 
-*Analogy by Remington Loose, from his conversation on [The Art of Network Engineering](https://artofnetworkengineering.com/episodes/why-network-engineers-are-built-for-the-ai-era) (also on [YouTube](https://youtu.be/2I_VQQLxWfs)). Writing, illustration, and page development assisted by AI.*
+*Analogy by Remington Loose, from his conversation on [The Art of Network Engineering](https://artofnetworkengineering.com/episodes/why-network-engineers-are-built-for-the-ai-era) (also on [YouTube](https://youtu.be/2I_VQQLxWfs)).*
