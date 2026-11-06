@@ -23,27 +23,27 @@ A fixed workflow is different: it follows steps set in code. A script can run an
 
 ### 01 / Model
 ![The model, labeled on the bulldozer itself.](/blog-images/the-bulldozer-analogy-model.jpg)
-Interprets inputs and produces outputs using what it learned during training. Choose it for the work you need done.
+Interprets inputs and produces outputs using what it learned during training. Choose it for the work you need done. Claude writing this sentence is a model. GPT-image generating the illustration above is a model. A small, cheap model that just decides whether an email is spam is still a model, doing a much narrower job.
 
 ### 02 / Harness
 ![The harness, labeled on the bulldozer's cab and controls.](/blog-images/the-bulldozer-analogy-harness.jpg)
-The software around the model. It manages the session, supplies context, handles tool calls, and applies configured controls.
+The software around the model. It manages the session, supplies context, handles tool calls, and applies configured controls. Claude Code, the tool Remington and Andy both use, is a harness: it gives the model access to a terminal and files, keeps track of the conversation, and lets the model decide what to check next instead of following a fixed script. ChatGPT's own app is a harness around its models. So is Cursor, around a coding model. A script that calls a model once for one answer and moves on to the next hard-coded step is not using a harness in this sense. There is no loop, and nothing is deciding what happens next except the code someone already wrote.
 
 ### 03 / Tools
 ![Tools, labeled on the front blade and rear backhoe.](/blog-images/the-bulldozer-analogy-tools.jpg)
-Let the system do something: search, query a database, run code, or change a file. The model requests an action; software executes it.
+Let the system do something: search, query a database, run code, or change a file. The model requests an action; software executes it. A web search. A terminal command. A function that edits a file or publishes a web page. In Claude Code specifically, these are the tools that let an agent read a codebase, run tests, and ship a fix, rather than just describe one.
 
 ### 04 / Context
 ![Context, labeled on the site plan.](/blog-images/the-bulldozer-analogy-context.jpg)
-What the model has to work with now: the task, instructions, conversation, documents, selected memories, and tool results.
+What the model has to work with now: the task, instructions, conversation, documents, selected memories, and tool results. The transcript of this episode, handed to a model to help draft this post, is context. So is a style guide loaded at the start of a session, or the last ten messages of a conversation.
 
 ### 05 / Skills
 ![Skills, labeled on the field manual.](/blog-images/the-bulldozer-analogy-skills.jpg)
-Reusable methods for doing the work. They can include instructions, examples, scripts, and reference material.
+Reusable methods for doing the work. They can include instructions, examples, scripts, and reference material. A written checklist for how to troubleshoot a specific class of network issue, loaded whenever troubleshooting starts. A saved template for writing in a consistent voice, so the model does not need the same style rules repeated every time.
 
 ### 06 / Boundaries
 ![Boundaries, labeled on the perimeter fence.](/blog-images/the-bulldozer-analogy-boundaries.jpg)
-Permissions, approvals, and resource limits set constraints on actions. Validation checks whether the work meets the requirements.
+Permissions, approvals, and resource limits set constraints on actions. Validation checks whether the work meets the requirements. A rule that an agent can read files but needs approval before changing or deleting one. A spending limit on how much an agent can rack up calling paid APIs in a day. A requirement that a person reviews a change before it ships.
 
 ## Choosing a model
 
