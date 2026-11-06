@@ -9,7 +9,7 @@ author: "Remington Loose"
 ---
 *A way to explain how an AI model, the software around it, and the person directing it fit together.*
 
-Remington Loose used this analogy in his conversation with Andy Lapteff on [Why Network Engineers Are Built for the AI Era](https://artofnetworkengineering.com/episodes/why-network-engineers-are-built-for-the-ai-era), to explain how an AI model, the software around it, and the person directing the work fit together.
+[Remington Loose](https://artofnetworkengineering.com/guests/remington-loose) used this analogy in his conversation with Andy Lapteff on [Why Network Engineers Are Built for the AI Era](https://artofnetworkengineering.com/episodes/why-network-engineers-are-built-for-the-ai-era), to explain how an AI model, the software around it, and the person directing the work fit together.
 
 Picture a bulldozer hired to build a lake. The bulldozer is the model: it does the digging. Whether you end up with a lake or a mess in the neighbor's yard depends on everything around the machine: who is driving it, what attachments it has, what site plan it is working from, what the operator knows, and where the fence is.
 
