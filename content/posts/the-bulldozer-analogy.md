@@ -23,7 +23,7 @@ The software around the model: the controls it acts through. It manages the sess
 
 ### 03 / Tools
 ![Tools, labeled on the front blade and rear backhoe.](/blog-images/the-bulldozer-analogy-tools.jpg)
-Let the system do something: search, query a database, run code, or change a file. The model requests an action; software executes it. A web search. A terminal command. A function that edits a file or publishes a web page. In Claude Code specifically, these are the tools that let an agent read a codebase, run tests, and ship a fix, rather than just describe one.
+The model requests an action: a search, a database query, a line of code, a change to a file. Software executes it. In Claude Code, these are real, named tools. Bash runs a terminal command. Edit changes a line in a file. WebSearch checks a fact against the live internet. They're what let an agent read a codebase, run a test, and ship a fix, rather than just describe one.
 
 ### 04 / Context
 ![Context, labeled on the site plan.](/blog-images/the-bulldozer-analogy-context.jpg)
