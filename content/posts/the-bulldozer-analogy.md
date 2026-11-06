@@ -65,6 +65,16 @@ Permissions, approvals, and resource limits set constraints on actions. Validati
 
 A session can include both: you can direct one step and delegate the next.
 
+## Multiple machines on one site
+
+One bulldozer handles one job. A real construction site often runs several machines at once, each with its own operator and task, and something still has to decide who digs where, in what order, and what happens when one machine finds something the plan did not expect.
+
+That coordinating layer is orchestration. Software like n8n does this job for agents: you wire in a model, your tools, and a data source, then build a flow that hands a goal to one agent, takes its result, and passes it to the next. Remington's team at St. Jude built something similar by hand: one orchestrator agent took in a request, found the open questions, and handed each one to a specialist agent built to research just that question.
+
+You do not always need this. A single agent with a clear goal is often enough. Orchestration earns its complexity when the job genuinely splits into pieces that need different tools, different context, or different expertise, and something has to manage how they hand off to each other.
+
+Go back to the bulldozer. It does not know it is building a lake, and it does not know why the lake belongs there. It knows how to dig once someone points it at a target. That is true of the model inside any agent, no matter how good the harness, the tools, or the orchestration around it. Remington put it simply: let the model handle the how and the what. Stay the driver of the why.
+
 ---
 
 *Analogy by Remington Loose, from his conversation on [The Art of Network Engineering](https://artofnetworkengineering.com/episodes/why-network-engineers-are-built-for-the-ai-era) (also on [YouTube](https://youtu.be/2I_VQQLxWfs)). Writing, illustration, and page development assisted by AI.*
