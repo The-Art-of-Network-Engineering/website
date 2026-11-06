@@ -15,11 +15,11 @@ Picture a bulldozer hired to build a lake. The bulldozer is the model: it does t
 
 That is the whole analogy. The rest of this post names each part.
 
-## Automation and LLM agents
+## What makes something an agent?
 
-**An LLM agent uses a model during execution to help decide what happens next.** It chooses actions, reads the results, and adjusts its approach. A fixed workflow follows steps set in code.
+**An agent is what you get when you hand the model a goal instead of a fixed set of steps, and let it work toward that goal on its own.** Build a lake over there, not a program listing every coordinate to dig. The model uses the harness to choose actions, runs tools, reads the results, and decides what to do next, continuing until it reaches the goal, hits a limit, or needs to ask you something.
 
-A script can run an agent, and cron can start one. Neither tells you whether the work is agentic. Using AI to write a script does not make that script an agent; adding a model call to a fixed workflow does not establish that either.
+A fixed workflow is different: it follows steps set in code. A script can run an agent, and cron can start one. Neither tells you whether the work is agentic. Using AI to write a script does not make that script an agent; adding a model call to a fixed workflow does not establish that either. What makes it agentic is whether the model is deciding the next step, not just producing an answer inside steps someone already wrote.
 
 *This page uses "agent" to mean an LLM agent. The broader AI definition also includes rule-based agents. References: [IBM: Types of AI agents](https://www.ibm.com/think/topics/ai-agent-types) and [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents).*
 
