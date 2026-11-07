@@ -7,6 +7,29 @@
   },
   "episodes": [
     {
+      "id": "Buzzsprout-20065806",
+      "slug": "why-network-engineers-are-built-for-the-ai-era",
+      "title": "Why Network Engineers Are Built for the AI Era",
+      "publishedAt": "2026-11-04T11:00:00.000Z",
+      "durationSeconds": 3753,
+      "audioUrl": "https://www.buzzsprout.com/2127872/episodes/20065806-why-network-engineers-are-built-for-the-ai-era.mp3",
+      "showNotesHtml": "<p>What if network engineers are starting on third base in the AI era?</p><p>While others are learning how complex systems communicate, how to troubleshoot failures, and how to validate results, network engineers have spent years doing exactly that.</p><p>In this episode of The Art of Network Engineering, Andy sits down with Remington Loose from St. Jude Children's Research Hospital to explore why those hard-earned skills give network engineers an unexpected advantage in AI.</p><p>From AI agents and automation to systems thinking and large language models, they discuss how existing networking expertise translates into this new world.</p><p>But starting on third base doesn't mean you've scored. You still have to learn the tools, experiment, and understand where AI can help, and where human judgment remains essential.</p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/2127872/fan_mail/new\" rel=\"noopener noreferrer\">Send us Fan Mail</a></p> <p><a rel=\"noopener noreferrer\" href=\"https://www.buzzsprout.com/2127872/support\" target=\"_blank\">Support the show</a></p><p>For everything AONE:  <a href=\"https://artofnetworkengineering.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://artofnetworkengineering.com/</a></p>",
+      "summary": "What if network engineers are starting on third base in the AI era? While others are learning how complex systems communicate, how to troubleshoot failures, and how to validate results, network engineers have spent years doing exactly that. In this episode of The Art of Network Engineering, Andy sits down with Remington Loose from St. Jude Children's Research Hospital to explore why those hard-earned skills give network engineers an unexpected advantage in AI. From AI agents and automation to...",
+      "guests": [
+        {
+          "name": "Remington Loose",
+          "imageUrl": "https://storage.buzzsprout.com/0mlp8rgdy72zix5t91i29arxm9yf",
+          "href": "https://www.linkedin.com/in/remington/"
+        }
+      ],
+      "artworkUrl": null,
+      "youtube": {
+        "videoId": "2I_VQQLxWfs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/2I_VQQLxWfs/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=2I_VQQLxWfs"
+      }
+    },
+    {
       "id": "Buzzsprout-19994876",
       "slug": "from-ethernet-to-ai-earning-a-network-engineer-s-trust",
       "title": "From Ethernet to AI: Earning a Network Engineer’s Trust",
