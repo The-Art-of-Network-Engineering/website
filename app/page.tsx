@@ -50,12 +50,12 @@ export default function Home() {
               Get the newsletter →
             </a>
             <a
-              href="https://youtu.be/jz2SkYU3i9I"
+              href="https://apps.apple.com/us/app/the-art-of-network-engineering/id6813003554"
               target="_blank"
               rel="noopener noreferrer"
               className="text-accent-blue"
             >
-              The AONE app is coming →
+              Get the AONE app →
             </a>
           </p>
         </div>

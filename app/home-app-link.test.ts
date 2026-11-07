@@ -1,30 +1,28 @@
 import { readFileSync } from 'node:fs';
 import { describe, it, expect } from 'vitest';
 
-// Pre-launch: the homepage points at the first-look video because there is no
-// App Store link yet (2026-09-18: the app repo's latest commits are "document
-// App Store release steps" and the LLC signing fix). This test is MEANT to go
-// red at launch. When the store URL replaces the video, update it here on
-// purpose, so the flip is a decision and not something that drifts.
+// Launched 2026-11-07 (Andy): the App Store link replaced the first-look video in the
+// homepage hero row. This file used to assert the pre-launch state on purpose, so the
+// flip would be a decision and not something that drifted -- this is that decision.
 const SRC = readFileSync(new URL('./page.tsx', import.meta.url), 'utf-8');
-const VIDEO = 'https://youtu.be/jz2SkYU3i9I';
+const STORE_URL = 'https://apps.apple.com/us/app/the-art-of-network-engineering/id6813003554';
 
-describe('homepage app link, pre-launch', () => {
-  it('points at the first-look video until there is a store link', () => {
-    expect(SRC).toContain(VIDEO);
-    expect(SRC).toContain('The AONE app is coming');
+describe('homepage app link, post-launch', () => {
+  it('points at the real App Store listing', () => {
+    expect(SRC).toContain(STORE_URL);
+    expect(SRC).toContain('Get the AONE app');
   });
 
   it('sits in the hero link row, not in a section of its own', () => {
     const row = SRC.indexOf('All the ways to listen');
-    const link = SRC.indexOf(VIDEO);
+    const link = SRC.indexOf(STORE_URL);
     expect(row).toBeGreaterThan(-1);
     expect(link).toBeGreaterThan(row);
     expect(link - row).toBeLessThan(600);
   });
 
   it('opens in a new tab like the other external links on the page', () => {
-    const around = SRC.slice(SRC.indexOf(VIDEO), SRC.indexOf(VIDEO) + 200);
+    const around = SRC.slice(SRC.indexOf(STORE_URL), SRC.indexOf(STORE_URL) + 200);
     expect(around).toContain('target="_blank"');
     expect(around).toContain('rel="noopener noreferrer"');
   });
