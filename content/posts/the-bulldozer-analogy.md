@@ -27,7 +27,7 @@ The model requests an action: a search, a database query, a line of code, a chan
 
 ### 04 / Context
 ![Context, labeled on the site plan.](/blog-images/the-bulldozer-analogy-context.jpg)
-What the model has to work with now: the task, instructions, conversation, documents, selected memories, and tool results. The transcript of this episode, handed to a model to help draft this post, is context. So is a style guide loaded at the start of a session, or the last ten messages of a conversation.
+What the model has to work with: the task, instructions, conversation, documents, selected memories, and tool results. The transcript of this episode, handed to a model to help draft this post, is context. So is a style guide loaded at the start of a session, or the last ten messages of a conversation.
 
 ### 05 / Skills
 ![Skills, labeled on the field manual.](/blog-images/the-bulldozer-analogy-skills.jpg)
