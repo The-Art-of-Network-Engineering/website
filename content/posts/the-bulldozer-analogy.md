@@ -75,7 +75,7 @@ You do not always need this. A single agent with a clear goal is often enough. O
 
 Go back to the bulldozer. It does not know it is building a lake, and it does not know why the lake belongs there. It knows how to dig once someone points it at a target. That is true of the model inside any agent, no matter how good the harness, the tools, or the orchestration around it.
 
-Remington put it this way: hand the model the how and the what, and stay the driver of the why. In practice, that means not taking its answer as the final word. Ask an agent which of 2,800 routes didn't come back after a maintenance window, and it will find them. Ask it why, and it will give you an answer, stated with full confidence whether or not it is right. So you test it, the same way you would if a teammate told you something was working: not because the model can't be trusted, but because checking is still the engineer's job.
+Remington put it this way: hand the model the how and the what, and stay the driver of the why. In practice, that means not taking its answer as the final word. Ask an agent which of 2,800 routes didn't come back after a maintenance window, and it will find them. Ask it why, and it will give you an answer, stated with full confidence whether or not it is right. So you test it, the same way you would if a teammate told you something was working: not because the model can't be trusted, but because verifying is still the engineer's job.
 
 ---
 
