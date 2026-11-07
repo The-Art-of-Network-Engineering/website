@@ -42,22 +42,23 @@ export default function Home() {
         </p>
         <div className="mt-8">
           <SubscribeButtons />
-          <p className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm">
-            <Link href="/listen" className="text-accent-blue">
-              All the ways to listen →
-            </Link>
-            <a href="#newsletter" className="text-accent-blue">
-              Get the newsletter →
-            </a>
-            <a
-              href="https://apps.apple.com/us/app/the-art-of-network-engineering/id6813003554"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-accent-blue"
-            >
-              Get the AONE app →
-            </a>
-          </p>
+          <a
+            href="https://apps.apple.com/us/app/the-art-of-network-engineering/id6813003554"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 block max-w-sm overflow-hidden rounded-sm border border-border hover:border-accent-green transition-colors"
+          >
+            <Image
+              src="/app-promo.jpg"
+              alt="The Art of Network Engineering app icon. We have an app, now available for iPhone: podcasts, career stories, community."
+              width={1254}
+              height={1020}
+              className="h-auto w-full"
+            />
+            <div className="bg-surface p-4 flex items-center justify-center gap-2 text-sm font-semibold text-accent-green">
+              Download on the App Store →
+            </div>
+          </a>
         </div>
       </section>
 
