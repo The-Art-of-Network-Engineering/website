@@ -15,7 +15,7 @@ Picture a bulldozer hired to build a lake. The bulldozer is the model: it does t
 
 ### 01 / Model
 ![The model, labeled on the bulldozer itself.](/blog-images/the-bulldozer-analogy-model.jpg)
-Interprets inputs and produces outputs using what it learned during training. Choose it for the work you need done. Claude writing this sentence is a model. GPT-image generating the illustration above is a model. A small, cheap model that just decides whether an email is spam is still a model, doing a much narrower job.
+Interprets inputs and produces outputs using what it learned during training. Choose it for the work you need done. Claude is a model, the one writing this sentence. GPT-image is a model too, the one that generated the illustration above. A small, cheap model that just decides whether an email is spam is still a model, doing a much narrower job.
 
 ### 02 / Harness
 ![The harness, labeled on the bulldozer's cab and controls.](/blog-images/the-bulldozer-analogy-harness.jpg)
