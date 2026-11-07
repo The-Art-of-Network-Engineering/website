@@ -50,9 +50,9 @@ export default function Home() {
           >
             <Image
               src="/app-promo.jpg"
-              alt="The Art of Network Engineering app icon. We have an app, now available for iPhone: podcasts, career stories, community."
+              alt="The Art of Network Engineering app icon. Find Your Next Hop with the AONE app."
               width={1254}
-              height={1020}
+              height={930}
               className="h-auto w-full"
             />
             <div className="bg-surface p-4 flex items-center justify-center gap-2 text-sm font-semibold text-accent-green">
