@@ -9,6 +9,20 @@ import { formatDate } from '@/lib/format';
 import feed from '@/data/episodes.json';
 import type { Feed } from '@/lib/episodes';
 import { guestsForEpisodeSlug } from '@/lib/episodes';
+import { isExternalHref } from '@/lib/external-link';
+import type { ComponentPropsWithoutRef } from 'react';
+
+// A link off the AONE site opens in a new tab so reading the post never costs the
+// reader the page they were on (Andy, 2026-11-06). A link that stays on the site --
+// a guest page, the episode, /about -- opens the normal way, same tab.
+function PostLink({ href, children, ...props }: ComponentPropsWithoutRef<'a'>) {
+  const external = isExternalHref(href);
+  return (
+    <a href={href} {...props} {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
+      {children}
+    </a>
+  );
+}
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -75,7 +89,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
       <div className="mt-12 grid md:grid-cols-[2fr_1fr] gap-12">
         <div className="prose prose-invert max-w-none text-text [&_a]:text-accent-blue [&_a:hover]:text-accent-green">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.bodyMarkdown}</ReactMarkdown>
+          <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ a: PostLink }}>{post.bodyMarkdown}</ReactMarkdown>
         </div>
         <aside>
           {post.episodeSlug && (

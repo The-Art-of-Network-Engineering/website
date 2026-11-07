@@ -87,7 +87,7 @@ export default function AboutPage() {
             </ul>
           </section>
 
-          <section>
+          <section id="host">
             <SectionLabel>Host</SectionLabel>
             <div className="mt-4 flex flex-col sm:flex-row gap-6 items-start">
               <img
