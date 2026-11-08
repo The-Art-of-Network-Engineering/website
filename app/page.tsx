@@ -52,7 +52,7 @@ export default function Home() {
               src="/app-promo.jpg"
               alt="The Art of Network Engineering app icon. Find Your Next Hop with the AONE app."
               width={1254}
-              height={930}
+              height={815}
               className="h-auto w-full"
             />
             <div className="bg-surface p-4 flex items-center justify-center gap-2 text-sm font-semibold text-accent-green">
