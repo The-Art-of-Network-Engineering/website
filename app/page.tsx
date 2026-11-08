@@ -49,7 +49,7 @@ export default function Home() {
             className="mt-6 block max-w-sm overflow-hidden rounded-sm border border-border hover:border-accent-green transition-colors"
           >
             <Image
-              src="/app-promo.jpg"
+              src="/app-promo.png"
               alt="The Art of Network Engineering app icon. Find Your Next Hop with the AONE app."
               width={1254}
               height={815}

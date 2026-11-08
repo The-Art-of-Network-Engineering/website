@@ -18,7 +18,7 @@ describe('homepage app link, hero promo', () => {
   it('is the promo image wrapped in one clickable link, not just a text link', () => {
     const link = SRC.indexOf(STORE_URL);
     const around = SRC.slice(link, link + 600);
-    expect(around).toContain('/app-promo.jpg');
+    expect(around).toContain('/app-promo.png');
   });
 
   it('opens in a new tab like the other external links on the page', () => {
