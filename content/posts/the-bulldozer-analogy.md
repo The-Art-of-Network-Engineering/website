@@ -1,7 +1,7 @@
 ---
 title: "The Bulldozer Analogy: How AI Models and Agents Work"
 slug: "the-bulldozer-analogy"
-publishedAt: "2026-11-10"
+publishedAt: "2026-11-09"
 excerpt: "A way to explain how an AI model, the software around it, and the person directing it fit together."
 coverImage: "/blog-images/the-bulldozer-analogy.jpg"
 episodeSlug: "why-network-engineers-are-built-for-the-ai-era"
