@@ -48,16 +48,16 @@ export default function Home() {
             rel="noopener noreferrer"
             className="mt-6 block max-w-sm overflow-hidden rounded-sm border border-border hover:border-accent-green transition-colors"
           >
-            <Image
-              src="/app-promo.png"
-              alt="The Art of Network Engineering app icon. Find Your Next Hop with the AONE app."
-              width={1254}
-              height={815}
+            <video
+              src="/app-promo.mp4"
+              poster="/app-promo-poster.jpg"
+              autoPlay
+              loop
+              muted
+              playsInline
+              aria-label="The Art of Network Engineering app preview: Now Available, Download on the App Store."
               className="h-auto w-full"
             />
-            <div className="bg-surface p-4 flex items-center justify-center gap-2 text-sm font-semibold text-accent-green">
-              Download on the App Store →
-            </div>
           </a>
         </div>
       </section>
