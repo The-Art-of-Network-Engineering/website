@@ -31,22 +31,26 @@ export default function Home() {
     <div className="mx-auto max-w-content px-6">
       {/* Hero */}
       <section className="py-14 md:py-20">
-        <h1 className="font-display text-5xl md:text-6xl leading-tight">
-          Behind every network is a{' '}
-          <span className="text-accent-green">story</span>.
-        </h1>
-        <p className="mt-6 max-w-3xl text-text-muted text-lg">
-          The Art of Network Engineering delivers authentic conversations with engineers,
-          architects, and innovators building the infrastructure running our digital lives.
-          Technical depth, career insight, and compelling stories from the front lines of IT.
-        </p>
-        <div className="mt-8">
-          <SubscribeButtons />
+        <div className="flex flex-col md:flex-row md:items-center gap-10 md:gap-12">
+          <div className="md:flex-1 md:min-w-0">
+            <h1 className="font-display text-5xl md:text-6xl leading-tight">
+              Behind every network is a{' '}
+              <span className="text-accent-green">story</span>.
+            </h1>
+            <p className="mt-6 max-w-3xl text-text-muted text-lg">
+              The Art of Network Engineering delivers authentic conversations with engineers,
+              architects, and innovators building the infrastructure running our digital lives.
+              Technical depth, career insight, and compelling stories from the front lines of IT.
+            </p>
+            <div className="mt-8">
+              <SubscribeButtons />
+            </div>
+          </div>
           <a
             href="https://apps.apple.com/us/app/the-art-of-network-engineering/id6813003554"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 mx-auto block max-w-sm overflow-hidden rounded-sm border border-border hover:border-accent-green transition-colors"
+            className="mx-auto md:mx-0 block w-full max-w-sm md:flex-shrink-0 overflow-hidden rounded-sm border border-border hover:border-accent-green transition-colors"
           >
             <video
               src="/app-promo.mp4"
