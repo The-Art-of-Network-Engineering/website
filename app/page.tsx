@@ -46,7 +46,7 @@ export default function Home() {
             href="https://apps.apple.com/us/app/the-art-of-network-engineering/id6813003554"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 block max-w-sm overflow-hidden rounded-sm border border-border hover:border-accent-green transition-colors"
+            className="mt-6 mx-auto block max-w-sm overflow-hidden rounded-sm border border-border hover:border-accent-green transition-colors"
           >
             <video
               src="/app-promo.mp4"
