@@ -33,9 +33,10 @@ export default function Home() {
       <section className="py-14 md:py-20">
         <div className="flex flex-col md:flex-row md:items-center gap-10 md:gap-12">
           <div className="md:flex-1 md:min-w-0">
-            <h1 className="font-display text-5xl md:text-6xl leading-tight">
-              Behind every network is a{' '}
-              <span className="text-accent-green">story</span>.
+            <h1 className="font-display text-5xl leading-tight">
+              Behind every network
+              <br />
+              is a <span className="text-accent-green">story</span>.
             </h1>
             <p className="mt-6 max-w-3xl text-text-muted text-lg">
               The Art of Network Engineering delivers authentic conversations with engineers,
