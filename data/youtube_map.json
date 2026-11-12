@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-12T11:05:08.102151Z",
-  "total_videos": 651,
+  "last_updated": "2026-11-12T13:00:07.399504Z",
+  "total_videos": 652,
   "videos": [
+    {
+      "video_id": "QfAtuqnKPHw",
+      "title": "AI vs Workers: The Future of Employment #shorts",
+      "title_norm": "ai vs workers the future of employment shorts",
+      "url": "https://www.youtube.com/watch?v=QfAtuqnKPHw",
+      "published_at": "2026-11-12T12:59:15Z"
+    },
     {
       "video_id": "2I_VQQLxWfs",
       "title": "Why Network Engineers Are Built for the AI Era",
