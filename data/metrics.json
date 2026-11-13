@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-12T12:50:08+00:00",
+  "updated_at": "2026-11-13T12:50:08+00:00",
   "auto": {
     "youtube_subscribers": 10700,
-    "youtube_views": 629918,
-    "youtube_videos": 651,
-    "lifetime_downloads": 961808,
+    "youtube_views": 630575,
+    "youtube_videos": 652,
+    "lifetime_downloads": 962021,
     "episodes": 215,
     "recent_avg_downloads": 2366,
     "youtube_shorts_count": 268,
@@ -12,8 +12,8 @@
   },
   "manual": {
     "x_followers": 19800,
-    "linkedin_followers": 9573,
-    "discord_members": 3510,
+    "linkedin_followers": 9574,
+    "discord_members": 3508,
     "spotify_hours_2025": 17500,
     "platform_touchpoints_2025": 306000,
     "instagram_followers": 6895,
