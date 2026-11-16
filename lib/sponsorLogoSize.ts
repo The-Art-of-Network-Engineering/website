@@ -1,55 +1,43 @@
-// One sizing rule for the sponsor logo wall: equal visual weight, not equal height.
+// One sizing rule for the sponsor logo wall: the same target HEIGHT for every logo.
 // Spec: docs/specs/2026-10-23-sponsor-logos-one-roster-every-surface-design.md (server repo)
+// The media kit deck uses the same rule (brands_logo_layout.py in aone-platform); keep them equal.
 //
-// Equal height made squarer marks (Cisco Press, Netris, Boson, USNUA) tiny next to wide
-// wordmarks. Here every logo gets the same AREA, clamped by a box, then a set-level floor
-// lifts any logo narrower than a share of the median width so the small marks read like the rest.
-export type LogoBox = { area: number; maxW: number; maxH: number; minWidthShare: number };
+// History: equal height made squarer marks (Cisco Press, Netris, Boson, USNUA) tiny beside wide
+// wordmarks. Equal area (the first fix) overcorrected: those marks stood about 2.5x taller than
+// Juniper Apstra and Itential. The eye reads a wall by its height, so every logo gets the same
+// target height, with two clamps: a very wide wordmark shrinks to maxW, and a near-square or tall
+// mark may grow, up to growMax x the target height and never more, until it is minW wide.
+export type LogoBox = { height: number; maxW: number; minW: number; growMax: number };
 export type Size = { w: number; h: number };
 
-// Numbers chosen from the before/after preview, not guessed. Change them in one place.
-export const LOGO_BOX: LogoBox = { area: 5200, maxW: 210, maxH: 88, minWidthShare: 0.9 };
+// Numbers chosen from the rendered preview, not guessed. Change them in one place.
+export const LOGO_BOX: LogoBox = { height: 56, maxW: 320, minW: 140, growMax: 1.3 };
 
 export function logoSize(aspect: number, box: LogoBox): Size {
   if (typeof aspect !== 'number' || !Number.isFinite(aspect) || aspect <= 0) {
     throw new Error(`logoSize: unreadable aspect ratio ${String(aspect)}`);
   }
-  let w = Math.sqrt(box.area * aspect);
-  let h = w / aspect;
+  let h = box.height;
+  let w = h * aspect;
+  if (w < box.minW) { h = Math.min(box.minW / aspect, box.height * box.growMax); w = h * aspect; }
   if (w > box.maxW) { w = box.maxW; h = w / aspect; }
-  if (h > box.maxH) { h = box.maxH; w = h * aspect; }
   return { w: Math.round(w), h: Math.round(h) };
 }
-
-const median = (xs: number[]): number => {
-  const s = [...xs].sort((a, b) => a - b);
-  const m = Math.floor(s.length / 2);
-  return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
-};
 
 export type WallEntry = { name: string; aspect: number };
 export type Override = { scale: number; reason: string };
 
-/** Size every logo on the wall: equal area, per-logo overrides, then the narrow-logo floor. */
+/** Size every logo on the wall. An override scales the target height and must carry a reason. */
 export function sizeWall(
   entries: WallEntry[],
   overrides: Record<string, Override> = {},
   box: LogoBox = LOGO_BOX,
 ): Record<string, Size> {
-  const base = entries.map(({ name, aspect }) => {
-    const o = overrides[name];
-    const s = logoSize(aspect, o ? { ...box, area: box.area * o.scale * o.scale } : box);
-    return { name, aspect, ...s };
-  });
-  const floor = box.minWidthShare * median(base.map((b) => b.w));
   const out: Record<string, Size> = {};
-  for (const b of base) {
-    let { w, h } = b;
-    if (w < floor) {
-      w = Math.min(Math.round(floor), box.maxW, Math.round(box.maxH * b.aspect));
-      h = Math.round(w / b.aspect);
-    }
-    out[b.name] = { w, h };
+  for (const { name, aspect } of entries) {
+    const o = overrides[name];
+    if (o && !o.reason) throw new Error(`size override for ${name} needs a reason`);
+    out[name] = logoSize(aspect, o ? { ...box, height: box.height * o.scale } : box);
   }
   return out;
 }

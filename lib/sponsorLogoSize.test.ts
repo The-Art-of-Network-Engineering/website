@@ -13,23 +13,19 @@ const median = (xs: number[]) => {
 };
 const entries = (names: string[]) => names.map((name) => ({ name, aspect: SPONSOR_ASPECTS[name] }));
 
-describe('logoSize (equal visual weight)', () => {
-  it('a wide and a near-square logo get equal area within tolerance', () => {
-    const wide = logoSize(5, LOGO_BOX);
-    const square = logoSize(1.5, LOGO_BOX);
-    expect(Math.abs(wide.w * wide.h - square.w * square.h) / (wide.w * wide.h)).toBeLessThan(0.05);
-    expect(square.h).toBeGreaterThan(wide.h);
+describe('logoSize (same target height, width-capped, near-square marks may grow)', () => {
+  it('a wide logo gets exactly the target height', () => {
+    expect(logoSize(4, LOGO_BOX).h).toBe(LOGO_BOX.height);
   });
-  it('keeps the aspect ratio', () => {
-    const s = logoSize(4, LOGO_BOX);
-    expect(s.w / s.h).toBeCloseTo(4, 1);
+  it('a very wide logo shrinks to the width cap and keeps its aspect', () => {
+    const s = logoSize(20, LOGO_BOX);
+    expect(s.w).toBe(LOGO_BOX.maxW);
+    expect(s.w / s.h).toBeCloseTo(20, 0);
   });
-  it('never exceeds the caps', () => {
-    for (const a of [0.2, 1, 3, 8, 40]) {
-      const s = logoSize(a, LOGO_BOX);
-      expect(s.w).toBeLessThanOrEqual(LOGO_BOX.maxW);
-      expect(s.h).toBeLessThanOrEqual(LOGO_BOX.maxH);
-    }
+  it('a near-square logo grows, but never past growMax x the target height', () => {
+    const s = logoSize(1, LOGO_BOX);
+    expect(s.h).toBeGreaterThan(LOGO_BOX.height);
+    expect(s.h).toBeLessThanOrEqual(LOGO_BOX.height * LOGO_BOX.growMax + 1);
   });
   it('fails loudly on unreadable aspects instead of sizing to zero', () => {
     for (const bad of [0, -1, NaN, Infinity, undefined as unknown as number]) {
@@ -69,21 +65,30 @@ describe('overrides', () => {
   });
 });
 
-describe('sizeWall (the Andy complaint, as a test)', () => {
+describe('sizeWall (the Andy complaint, as hard acceptance tests)', () => {
   const sizes = sizeWall(entries(SPONSOR_ROSTER), SPONSOR_SIZE_OVERRIDES);
-  it('sizes every roster logo', () => {
+  const hs = Object.values(sizes).map((s) => s.h);
+  const ws = Object.values(sizes).map((s) => s.w);
+  it('sizes every roster logo, NAF included', () => {
     expect(Object.keys(sizes).sort()).toEqual([...SPONSOR_ROSTER].sort());
+    expect(sizes['NAF']).toBeDefined();
   });
-  it('Cisco Press, Netris, Boson and USNUA are at least 85% of the median logo width', () => {
-    const med = median(Object.values(sizes).map((s) => s.w));
-    for (const n of ['Cisco Press', 'Netris', 'Boson', 'USNUA']) {
-      expect(sizes[n].w / med, `${n} is ${sizes[n].w}px vs median ${med}`).toBeGreaterThanOrEqual(0.85);
+  it('rendered heights sit in a tight band: tallest is at most 1.5x the shortest', () => {
+    expect(Math.max(...hs) / Math.min(...hs)).toBeLessThanOrEqual(1.5);
+  });
+  it('no logo is wider than 2.2x the median width', () => {
+    expect(Math.max(...ws)).toBeLessThanOrEqual(2.2 * median(ws));
+  });
+  it('Cisco Press, Netris, Boson, USNUA and NAF are at least 85% of the median height', () => {
+    const med = median(hs);
+    for (const n of ['Cisco Press', 'Netris', 'Boson', 'USNUA', 'NAF']) {
+      expect(sizes[n].h / med, `${n} is ${sizes[n].h}px vs median ${med}`).toBeGreaterThanOrEqual(0.85);
     }
   });
-  it('no logo exceeds the caps', () => {
+  it('no logo exceeds the width cap or the grow cap', () => {
     for (const s of Object.values(sizes)) {
       expect(s.w).toBeLessThanOrEqual(LOGO_BOX.maxW);
-      expect(s.h).toBeLessThanOrEqual(LOGO_BOX.maxH);
+      expect(s.h).toBeLessThanOrEqual(LOGO_BOX.height * LOGO_BOX.growMax + 1);
     }
   });
 });
