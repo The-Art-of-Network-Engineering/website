@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-15T13:00:08.087779Z",
-  "total_videos": 654,
+  "last_updated": "2026-11-16T11:05:07.506677Z",
+  "total_videos": 655,
   "videos": [
+    {
+      "video_id": "MAj7CNK_Pmo",
+      "title": "Conquering Cisco NetAcad: Subnetting Anxiety and Beyond #shorts",
+      "title_norm": "conquering cisco netacad subnetting anxiety and beyond shorts",
+      "url": "https://www.youtube.com/watch?v=MAj7CNK_Pmo",
+      "published_at": "2026-11-15T13:01:35Z"
+    },
     {
       "video_id": "9kDt2sXdTcc",
       "title": "Laid Off! My Job Loss & Unexpected Second Chance #shorts",
