@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-16T13:00:06.923553Z",
-  "total_videos": 655,
+  "last_updated": "2026-11-17T11:05:07.433730Z",
+  "total_videos": 656,
   "videos": [
+    {
+      "video_id": "uy4pafBwwjY",
+      "title": "AI: Will It Create or Destroy Jobs? The Future of Work #shorts",
+      "title_norm": "ai will it create or destroy jobs the future of work shorts",
+      "url": "https://www.youtube.com/watch?v=uy4pafBwwjY",
+      "published_at": "2026-11-16T13:01:39Z"
+    },
     {
       "video_id": "MAj7CNK_Pmo",
       "title": "Conquering Cisco NetAcad: Subnetting Anxiety and Beyond #shorts",
