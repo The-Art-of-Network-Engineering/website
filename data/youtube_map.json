@@ -1,8 +1,22 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-17T13:00:07.873276Z",
-  "total_videos": 656,
+  "last_updated": "2026-11-18T11:05:07.461541Z",
+  "total_videos": 658,
   "videos": [
+    {
+      "video_id": "kHZ60I_nuG0",
+      "title": "The CCNA Isn't Enough: What Gets You Hired in Network Engineering",
+      "title_norm": "the ccna isnt enough what gets you hired in network engineering",
+      "url": "https://www.youtube.com/watch?v=kHZ60I_nuG0",
+      "published_at": "2026-11-18T11:00:19Z"
+    },
+    {
+      "video_id": "JbLVUFfnPmU",
+      "title": "From Laid Off to Full-Time: My Podcast Career Journey #shorts",
+      "title_norm": "from laid off to fulltime my podcast career journey shorts",
+      "url": "https://www.youtube.com/watch?v=JbLVUFfnPmU",
+      "published_at": "2026-11-17T13:02:55Z"
+    },
     {
       "video_id": "uy4pafBwwjY",
       "title": "AI: Will It Create or Destroy Jobs? The Future of Work #shorts",
