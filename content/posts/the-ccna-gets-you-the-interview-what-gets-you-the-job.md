@@ -13,7 +13,13 @@ How the hell do you become a network engineer in 2026?
 
 When I started studying for my CCNA around 2010, the advice was pretty straightforward. Get your CCNA. Build a home lab. Practice until you know what you're doing. Find some way to demonstrate that you can communicate.
 
-I followed that advice. I built a lab with old Cisco equipment, started blogging about what I was learning, and eventually made YouTube videos. When I interviewed for networking jobs, people would tell me I didn't have experience.
+I followed that advice. I built a lab with old Cisco equipment, started blogging about what I was learning, and eventually made YouTube videos.
+
+That lab wasn't just configs on a screen. I made my own Ethernet cables, straight-through, crossover, rollover, and when they didn't work, I bought a cable tester and figured out why. [One T1 connection taught me something no simulator ever could](https://www.permitipandyandy.com/blog/2016/04/14/youll-never-learn-this-in-gns): it has its own pinout, nothing like the cables I'd already learned.
+
+I [installed a card in my router just to get more ports](https://www.permitipandyandy.com/blog/2015/10/16/card-install-more-ports-yeah). I swapped memory in my 2800s. I built a rack and busted my knuckles on rack nuts more times than I want to admit. I learned the slow stuff nobody puts in a study guide: power management, remote access, cable management, keeping electrical noise out of a run. I even taught myself enough Linux to [configure my own terminal server](https://www.permitipandyandy.com/blog/2015/10/16/%EF%BB%BFconfiguring-a-cyclades-term-server), once I'd learned the hard way which cable it needed in the first place.
+
+When I interviewed for networking jobs, people would tell me I didn't have experience.
 
 Well, hold on. I had routers. I had switches. I'd configured routing protocols. I'd broken things and spent hours figuring out why they weren't working. Sure, my equipment was end-of-life, but I knew how to use it. That lab gave me the confidence to walk into an interview and defend what I knew.
 
