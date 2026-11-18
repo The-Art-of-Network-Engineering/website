@@ -2,19 +2,11 @@
 title: "The CCNA Gets You the Interview. What Gets You the Job?"
 slug: "the-ccna-gets-you-the-interview-what-gets-you-the-job"
 publishedAt: "2026-11-18"
-excerpt: "Dakota Snow went from operating bulldozers to becoming an IT hiring manager. Andy sits down with him to ask whether the CCNA is still enough to get hired in 2026, and what actually convinces a hiring manager to take a chance on someone."
+excerpt: "Dakota Snow went from operating bulldozers to becoming an IT hiring manager. Andy sits down with him to ask whether the CCNA is still enough to get hired in 2026, and what convinces a hiring manager to take a chance on someone."
 coverImage: "/blog-images/the-ccna-gets-you-the-interview-what-gets-you-the-job.jpg"
 episodeSlug: "the-ccna-isn-t-enough-what-gets-you-hired-in-network-engineering"
 author: "Andy Lapteff"
 ---
-"You know, I just, I started to go to college."
-
-Dakota Snow was sitting across from me at Networking Field Day 41 in Santa Clara, California, telling me about his career. I thought I knew his story. The guy has more than 75,000 YouTube subscribers, hundreds of videos, and a brand called The Bearded IT Dad. Surely he'd always been in tech.
-
-Nope.
-
-Before getting into IT, Dakota operated bulldozers. He made great money doing it, too, but he hated the work. College hadn't worked out for him, so he'd taken jobs that put food on the table. Eventually, he found his way into technology. And that got us talking about something I've been struggling to answer lately.
-
 How the hell do you become a network engineer in 2026?
 
 ## The Advice That Got Me Hired
