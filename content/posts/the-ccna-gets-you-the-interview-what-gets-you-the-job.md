@@ -21,17 +21,17 @@ I [installed a card in my router just to get more ports](https://www.permitipand
 
 When I interviewed for networking jobs, people would tell me I didn't have experience.
 
-Well, hold on. I had routers. I had switches. I'd configured routing protocols. I'd broken things and spent hours figuring out why they weren't working. Sure, my equipment was end-of-life, but I knew how to use it. That lab gave me the confidence to walk into an interview and defend what I knew.
+I had routers. I had switches. I'd configured routing protocols. I'd broken things and spent hours figuring out why they weren't working. Sure, my equipment was end-of-life, but I knew how to use it. That lab gave me the confidence to walk into an interview and defend what I knew.
 
 Eventually, someone gave me a shot. So when people ask me how to get into networking today, I want to give them that same advice. Except I'm not sure it's enough anymore.
 
 ## Is the CCNP the New CCNA?
 
-Dakota believes the CCNA is still an excellent certification. But he also thinks we've reached a point where having one doesn't necessarily distinguish you from other candidates. His argument is that we've spent years telling aspiring network engineers to get their CCNA, and they listened. Now hiring managers are looking at piles of resumes from people who followed that advice.
+Dakota believes the CCNA is still an excellent certification. But he thinks we've reached a point where having one doesn't distinguish you from other candidates. We've spent years telling aspiring network engineers to get their CCNA, and they listened. Now hiring managers are looking at piles of resumes from people who followed that advice.
 
-Dakota even suggested that the CCNP might be becoming the new CCNA. That got my attention. When I was coming up, the conventional wisdom was to get your CCNA, land a job, build several years of experience, and THEN pursue your CCNP. Getting a CCNP without production experience was almost frowned upon.
+Dakota suggested the CCNP might be becoming the new CCNA. When I was coming up, the conventional wisdom was to get your CCNA, land a job, build several years of experience, and THEN pursue your CCNP. Getting a CCNP without production experience was almost frowned upon.
 
-So I pushed Dakota on it. He's a hiring manager. Would he hire someone with a CCNP but absolutely no experience? His answer was no.
+He's a hiring manager. Would he hire someone with a CCNP but absolutely no experience? His answer was no.
 
 Interesting. The certification alone wasn't enough.
 
@@ -77,7 +77,7 @@ I've got three home labs sitting in my basement that I'd love to give away. I've
 
 I asked Dakota how he'd approach that. His answer was mentorship.
 
-Dakota pointed out that not everyone needs a home lab right now. Someone brand new to IT might benefit more from starting on a help desk, learning foundational skills, and working toward networking. Someone else might already have the technical knowledge but need help interviewing. You can't necessarily solve those two problems with the same advice. You need to understand the person.
+Dakota pointed out that not everyone needs a home lab right now. Someone brand new to IT might benefit more from starting on a help desk, learning foundational skills, and working toward networking. Someone else might already have the technical knowledge but need help interviewing. You can't solve those two problems with the same advice. You need to understand the person.
 
 ## Can You Charge for Helping People?
 
