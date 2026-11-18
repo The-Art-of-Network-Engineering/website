@@ -7,6 +7,29 @@
   },
   "episodes": [
     {
+      "id": "Buzzsprout-20100634",
+      "slug": "the-ccna-isn-t-enough-what-gets-you-hired-in-network-engineering",
+      "title": "The CCNA Isn't Enough: What Gets You Hired in Network Engineering",
+      "publishedAt": "2026-11-18T11:00:00.000Z",
+      "durationSeconds": 3451,
+      "audioUrl": "https://www.buzzsprout.com/2127872/episodes/20100634-the-ccna-isn-t-enough-what-gets-you-hired-in-network-engineering.mp3",
+      "showNotesHtml": "<p>Is the CCNA still enough to land your first network engineering job? What about the CCNP? And do physical home labs still matter when virtual labs are easier to build than ever?<br />Andy sits down with Dakota Snow, better known as The Bearded IT Dad, at Networking Field Day 41 in Santa Clara, California. Dakota shares his journey from operating bulldozers to working in IT, along with what he's learned as a hiring manager reviewing candidates. They get into why certifications are only the foundation, how home labs and content creation can demonstrate your skills, and why communication and genuine curiosity can matter more than another credential. The conversation also explores mentorship, finding your path into networking, and Dakota's IT Career Accelerator program, including its coaching and scholarship opportunities.</p><p><a target=\"_blank\" href=\"https://www.buzzsprout.com/2127872/fan_mail/new\" rel=\"noopener noreferrer\">Send us Fan Mail</a></p> <p><a rel=\"noopener noreferrer\" href=\"https://www.buzzsprout.com/2127872/support\" target=\"_blank\">Support the show</a></p><p>For everything AONE:  <a href=\"https://artofnetworkengineering.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://artofnetworkengineering.com/</a></p>",
+      "summary": "Is the CCNA still enough to land your first network engineering job? What about the CCNP? And do physical home labs still matter when virtual labs are easier to build than ever? Andy sits down with Dakota Snow, better known as The Bearded IT Dad, at Networking Field Day 41 in Santa Clara, California. Dakota shares his journey from operating bulldozers to working in IT, along with what he's learned as a hiring manager reviewing candidates. They get into why certifications are only the foundati...",
+      "guests": [
+        {
+          "name": "Dakota Seufert-Snow",
+          "imageUrl": "https://storage.buzzsprout.com/zkea7zn91inufd5579mr7jxwnba6",
+          "href": "https://www.linkedin.com/in/dakota-seufert-snow/"
+        }
+      ],
+      "artworkUrl": null,
+      "youtube": {
+        "videoId": "kHZ60I_nuG0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/kHZ60I_nuG0/maxresdefault.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=kHZ60I_nuG0"
+      }
+    },
+    {
       "id": "Buzzsprout-20065806",
       "slug": "why-network-engineers-are-built-for-the-ai-era",
       "title": "Why Network Engineers Are Built for the AI Era",
