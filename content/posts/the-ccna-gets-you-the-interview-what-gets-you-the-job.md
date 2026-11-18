@@ -23,7 +23,7 @@ When I interviewed for networking jobs, people would tell me I didn't have exper
 
 Well, hold on. I had routers. I had switches. I'd configured routing protocols. I'd broken things and spent hours figuring out why they weren't working. Sure, my equipment was end-of-life, but I knew how to use it. That lab gave me the confidence to walk into an interview and defend what I knew.
 
-Eventually, someone gave me a shot. So when people ask me how to get into networking today, I want to give them that same advice. Except I'm not sure it's enough anymore. Dakota had some thoughts about that.
+Eventually, someone gave me a shot. So when people ask me how to get into networking today, I want to give them that same advice. Except I'm not sure it's enough anymore.
 
 ## Is the CCNP the New CCNA?
 
@@ -47,8 +47,6 @@ I still think about that sometimes. Not because everyone needs physical equipmen
 
 But those three routers weren't really the point. I'd given someone an opportunity to practice. He didn't take it.
 
-Contrast that with a story Dakota told me about one of his own interviews.
-
 ## He Hadn't Even Left the Parking Lot
 
 Dakota was interviewing for his first job in IT. Toward the end of the interview, he asked a question he recommends to people today: was there anything he could do before the next interview to become a stronger candidate?
@@ -71,17 +69,15 @@ And something else came up repeatedly. Hunger.
 
 My wife played college basketball on a full scholarship. She has a saying I've always loved: "You can't teach hustle." Some players dive onto the hardwood for a loose ball. Others don't. Dakota and I kept coming back to that same idea.
 
-But there's another side to this conversation that I think matters just as much. If we're looking for people who want to learn, what are we doing to help them?
+If we're looking for people who want to learn, what are we doing to help them?
 
 ## Where Do We Find These People?
 
 I've got three home labs sitting in my basement that I'd love to give away. I've given away equipment before, and the problem isn't finding people who want free stuff. Trust me, announce a giveaway on YouTube and you'll find plenty. The problem is finding someone who could genuinely benefit from it: someone who wants to learn but can't afford equipment, someone trying to change careers, someone who just needs an opportunity.
 
-I asked Dakota how he'd approach that. His answer was mentorship. That sent our conversation in a direction I hadn't expected.
+I asked Dakota how he'd approach that. His answer was mentorship.
 
 Dakota pointed out that not everyone needs a home lab right now. Someone brand new to IT might benefit more from starting on a help desk, learning foundational skills, and working toward networking. Someone else might already have the technical knowledge but need help interviewing. You can't necessarily solve those two problems with the same advice. You need to understand the person.
-
-Dakota has been building something around that idea.
 
 ## Can You Charge for Helping People?
 
@@ -93,7 +89,7 @@ But Dakota described something different. His program has paid coaching, a free 
 
 That last part matters, because something I've been wrestling with is how to keep helping people when there are only so many hours in a day. Every hour I spend answering messages or working on content is an hour I'm not spending with my family. I love doing this, but time isn't unlimited.
 
-Dakota has been experimenting with ways to address that problem. He even built an asynchronous video coaching system so students can send questions and receive personalized video responses from their coaches. He told me he's tracked the outcomes of free and paid coaching, and that people who paid were more likely to follow through and report progress. He didn't have the exact numbers available during our conversation, so I won't pretend we established some universal rule about paid advice.
+He even built an asynchronous video coaching system so students can send questions and receive personalized video responses from their coaches. He told me he's tracked the outcomes of free and paid coaching, and that people who paid were more likely to follow through and report progress. He didn't have the exact numbers available during our conversation, so I won't pretend we established some universal rule about paid advice.
 
 But his experience raised an interesting question: does putting something into your own development change how seriously you take it? I've certainly experienced that. Putting money and years of effort into Cisco NetAcad kept me in it until I finished. Meanwhile, I've started and abandoned more free Python courses than I care to admit.
 
