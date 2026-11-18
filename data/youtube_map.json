@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-18T11:05:07.461541Z",
-  "total_videos": 658,
+  "last_updated": "2026-11-18T13:00:06.750578Z",
+  "total_videos": 659,
   "videos": [
+    {
+      "video_id": "TGDxFYVKm6I",
+      "title": "AI's Impact: Is Network Engineering Obsolete? #shorts",
+      "title_norm": "ais impact is network engineering obsolete shorts",
+      "url": "https://www.youtube.com/watch?v=TGDxFYVKm6I",
+      "published_at": "2026-11-18T12:57:31Z"
+    },
     {
       "video_id": "kHZ60I_nuG0",
       "title": "The CCNA Isn't Enough: What Gets You Hired in Network Engineering",
