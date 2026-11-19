@@ -39,11 +39,11 @@ This conversation reminded me of someone I worked with years ago. He was struggl
 
 He put them in his trunk. He never powered them on. I removed every obstacle between him and the knowledge he needed to succeed in his career, and he didn't take it. It reminds me of something my wife says: "you can't teach hustle."
 
-## He Hadn't Even Left the Parking Lot
+## He Hadn't Left the Parking Lot
 
 Dakota was interviewing for his first job in IT. Toward the end of the interview, he asked a question he recommends to people today: was there anything he could do before the next interview to become a stronger candidate?
 
-The interviewer mentioned that the organization used Cisco Meraki. At the time, Cisco offered free Meraki equipment through certain webinars. Dakota hadn't even left the parking lot before he was signing up.
+The interviewer mentioned that the organization used Cisco Meraki. At the time, Cisco offered free Meraki equipment through certain webinars. Dakota hadn't left the parking lot before he was signing up.
 
 He eventually got a firewall, switch, and access point, then integrated all three into his home network. He learned the equipment, configured protocols, built redundancy, and studied the topology. When he returned for his next interview, he explained everything he'd done.
 
