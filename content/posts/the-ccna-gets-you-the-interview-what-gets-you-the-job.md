@@ -37,7 +37,7 @@ Dakota is the hiring manager at his company, so when I asked if he'd hire a CCNP
 
 This conversation reminded me of someone I worked with years ago. He was struggling technically, and I thought a home lab might help him get comfortable with routing and switching. I had three Cisco 2620XM routers sitting in my rack, my first routers, the ones I'd spent countless hours learning on. So I pulled them out, drove about an hour, and gave them to him. Free.
 
-He put them in his trunk. He never powered them on. I removed every obstacle between him and the knowledge he needed to succeed in his career, and he didn't take it. It reminds me of something my wife says: "you can't teach hustle."
+He put them in his trunk. He never powered them on. I removed every obstacle between him and the knowledge he needed to succeed in his career, and he didn't take it.
 
 ## He Hadn't Left the Parking Lot
 
