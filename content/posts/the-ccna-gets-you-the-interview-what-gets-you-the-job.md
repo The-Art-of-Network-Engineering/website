@@ -27,7 +27,7 @@ Eventually, someone gave me a shot. Now when I'm asked by newcomers how to get i
 
 ## Is the CCNP the New CCNA?
 
-Dakota believes the CCNA is still an excellent certification. But he thinks we've reached a point where having one doesn't distinguish you from other candidates. We've spent years telling aspiring network engineers to get their CCNA, and they listened. Now hiring managers are looking at piles of resumes from people who followed that advice.
+To be clear, the CCNA is still the standard entry-level certification, and it's a great program. But Dakota thinks the job market is flooded. We spent years telling aspiring network engineers to get their CCNA, and they listened. Now hiring managers are looking at piles of resumes from people who followed that advice.
 
 Dakota suggested the CCNP might be becoming the new CCNA. When I was coming up, the conventional wisdom was to get your CCNA, land a job, build several years of experience, and THEN pursue your CCNP. Getting a CCNP without production experience was almost frowned upon.
 
