@@ -47,7 +47,7 @@ The interviewer mentioned that the organization used Cisco Meraki. At the time, 
 
 He eventually got a firewall, switch, and access point, then integrated all three into his home network. He learned the equipment, configured protocols, built redundancy, and studied the topology. When he returned for his next interview, he explained everything he'd done.
 
-The interview was incredibly short. Why? Because he'd already started doing the work they wanted to hire him for.
+The interview was incredibly short. Why? Because he started doing the work they wanted to hire him for.
 
 I love that story. Not because everyone needs to chase free equipment or spend every waking hour studying, but because Dakota asked what the employer needed, listened to the answer, and did something about it. He turned an interview into a demonstration. From a hiring manager's perspective, that's pretty compelling.
 
