@@ -17,13 +17,13 @@ I followed that advice. I built a lab with old Cisco equipment, started blogging
 
 That lab wasn't just configs on a screen. I made my own Ethernet cables, straight-through, crossover, rollover, and when they didn't work, I bought a cable tester and figured out why. [One T1 connection taught me something no simulator ever could](https://www.permitipandyandy.com/blog/2016/04/14/youll-never-learn-this-in-gns): it has its own pinout, nothing like the cables I learned in Cisco Networking Academy.
 
-I [installed a card in my router just to get more ports](https://www.permitipandyandy.com/blog/2015/10/16/card-install-more-ports-yeah). I swapped memory in my 2800s. I built a rack and busted my knuckles on rack nuts more times than I want to admit. I learned the slow stuff nobody puts in a study guide: power management, remote access, cable management, keeping electrical noise out of a run. I even taught myself enough Linux to [configure my own terminal server](https://www.permitipandyandy.com/blog/2015/10/16/%EF%BB%BFconfiguring-a-cyclades-term-server), once I'd learned the hard way which cable it needed in the first place.
+I [installed a card in my router just to get more ports](https://www.permitipandyandy.com/blog/2015/10/16/card-install-more-ports-yeah). I swapped memory in my 2800s. I built a rack and busted my knuckles on rack nuts. I learned the slow stuff nobody puts in a study guide: power management, remote access, cable management, keeping electrical noise out of a run. I taught myself enough Linux to [configure my own terminal server](https://www.permitipandyandy.com/blog/2015/10/16/%EF%BB%BFconfiguring-a-cyclades-term-server), after wasting weeks on crossover cables before I found out it needed rollover.
 
 When I interviewed for networking jobs, people would tell me I didn't have experience.
 
-I had routers. I had switches. I'd configured routing protocols. I'd broken things and spent hours figuring out why they weren't working. Sure, my equipment was end-of-life, but I knew how to use it. That lab gave me the confidence to walk into an interview and defend what I knew.
+I had routers. I had switches. I configured routing protocols. I broke things and spent hours troubleshooting them. Sure, my equipment was end-of-life, but I knew how to use it. That lab gave me the confidence to walk into an interview and defend what I knew.
 
-Eventually, someone gave me a shot. So when people ask me how to get into networking today, I want to give them that same advice. Except I'm not sure it's enough anymore.
+Eventually, someone gave me a shot. Now when I'm asked by newcomers how to get into network engineering, I don't feel like my advice from a few years ago is enough today.
 
 ## Is the CCNP the New CCNA?
 
@@ -91,7 +91,7 @@ That last part matters, because something I've been wrestling with is how to kee
 
 He even built an asynchronous video coaching system so students can send questions and receive personalized video responses from their coaches. He told me he's tracked the outcomes of free and paid coaching, and that people who paid were more likely to follow through and report progress. He didn't have the exact numbers available during our conversation, so I won't pretend we established some universal rule about paid advice.
 
-But his experience raised an interesting question: does putting something into your own development change how seriously you take it? I've certainly experienced that. Putting money and years of effort into Cisco NetAcad kept me in it until I finished. Meanwhile, I've started and abandoned more free Python courses than I care to admit.
+But his experience raised an interesting question: does putting something into your own development change how seriously you take it? I've certainly experienced that. Putting money and years of effort into Cisco NetAcad kept me in it until I finished. Meanwhile, I've started and abandoned a pile of free Python courses.
 
 Money isn't the only way to demonstrate commitment. But commitment has to show up somewhere.
 
