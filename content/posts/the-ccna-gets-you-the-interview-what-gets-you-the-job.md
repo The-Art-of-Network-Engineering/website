@@ -31,11 +31,7 @@ To be clear, the CCNA is still the standard entry-level certification, and it's 
 
 Dakota thinks the CCNP is the new CCNA. Back in the day the advice was, get your CCNA, land a job, build several years experience, then pursue your CCNP. Hiring managers frowned on a CCNP without production experience.
 
-He's a hiring manager. Would he hire someone with a CCNP but absolutely no experience? His answer was no.
-
-Interesting. The certification alone wasn't enough.
-
-But change the scenario slightly. What if that same candidate had a CCNP, an extensive home lab, and a YouTube channel documenting everything they'd learned? Now Dakota was interested. Very interested. Because that candidate wasn't just telling him they understood networking. They were showing him.
+Dakota is the hiring manager at his company, so when I asked if he'd hire a CCNP with no experience, he said "no." The certification isn't enough. But if that same candidate has a CCNP, an extensive home lab, and a YouTube channel documenting their learning journey, now he's very interested. This candidate isn't just saying they understand networking. They show what they know.
 
 ## Three Routers I Gave Away
 
