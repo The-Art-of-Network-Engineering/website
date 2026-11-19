@@ -49,7 +49,7 @@ He eventually got a firewall, switch, and access point, then integrated all thre
 
 The interview was incredibly short. Why? Because he started doing the work they wanted to hire him for.
 
-I love that story. Not because everyone needs to chase free equipment or spend every waking hour studying, but because Dakota asked what the employer needed, listened to the answer, and did something about it. He turned an interview into a demonstration. From a hiring manager's perspective, that's pretty compelling.
+I love that story because Dakota turned an interview into a demonstration. From a hiring manager's perspective, that's pure gold.
 
 ## What Are We Looking For?
 
