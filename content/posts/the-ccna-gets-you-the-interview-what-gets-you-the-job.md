@@ -53,7 +53,7 @@ I love that story because Dakota turned an interview into a demonstration. From 
 
 ## What Are We Looking For?
 
-At one point, I asked Dakota what makes someone stand out when he's hiring. He talked about communication skills, teamwork, and the willingness to keep learning. His organization has about 25 people, so bringing someone onto the team isn't simply a matter of checking technical boxes. They need to work well with everyone else.
+I asked Dakota what makes someone stand out when he's hiring. He talked about communication skills, teamwork, and the willingness to keep learning. His organization has about 25 people, so bringing someone onto the team isn't simply a matter of checking technical boxes. They need to work well with everyone else.
 
 A candidate who can explain their home lab, teach something on YouTube, or discuss a mistake they've made gives him information a certification can't. Can they communicate? Can they learn? Can they work through problems?
 
