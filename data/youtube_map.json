@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-19T13:00:08.280078Z",
-  "total_videos": 659,
+  "last_updated": "2026-11-20T11:05:07.159312Z",
+  "total_videos": 660,
   "videos": [
+    {
+      "video_id": "P8SmA150Au4",
+      "title": "From Copy Editor to Firewall Expert: An Unforgettable Meeting #shorts",
+      "title_norm": "from copy editor to firewall expert an unforgettable meeting shorts",
+      "url": "https://www.youtube.com/watch?v=P8SmA150Au4",
+      "published_at": "2026-11-19T13:02:30Z"
+    },
     {
       "video_id": "TGDxFYVKm6I",
       "title": "AI's Impact: Is Network Engineering Obsolete? #shorts",
