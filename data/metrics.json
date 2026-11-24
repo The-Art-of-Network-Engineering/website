@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-23T13:40:04+00:00",
+  "updated_at": "2026-11-24T12:50:05+00:00",
   "auto": {
-    "youtube_subscribers": 10900,
-    "youtube_views": 653851,
+    "youtube_subscribers": 11000,
+    "youtube_views": 659163,
     "youtube_videos": 664,
     "lifetime_downloads": 964294,
     "episodes": 215,
@@ -12,7 +12,7 @@
   },
   "manual": {
     "x_followers": 19800,
-    "linkedin_followers": 9666,
+    "linkedin_followers": 9672,
     "discord_members": 3500,
     "spotify_hours_2025": 17500,
     "platform_touchpoints_2025": 306000,
