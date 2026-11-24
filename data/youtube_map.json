@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-24T11:05:08.712600Z",
-  "total_videos": 664,
+  "last_updated": "2026-11-24T13:00:07.511822Z",
+  "total_videos": 665,
   "videos": [
+    {
+      "video_id": "ExCMK-YzGn4",
+      "title": "AI Safety: Can We Avoid Social Media’s Mistakes? #shorts",
+      "title_norm": "ai safety can we avoid social medias mistakes shorts",
+      "url": "https://www.youtube.com/watch?v=ExCMK-YzGn4",
+      "published_at": "2026-11-24T12:54:31Z"
+    },
     {
       "video_id": "RlamIu5ptY4",
       "title": "AI Safety: Are We Moving Too Fast? #shorts",
@@ -1055,351 +1062,351 @@
     },
     {
       "video_id": "-GYLGhHcp9I",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "BGP: More Policy, Less Speed - Internet's Slow Engine #shorts",
+      "title_norm": "bgp more policy less speed internets slow engine shorts",
       "url": "https://www.youtube.com/watch?v=-GYLGhHcp9I",
       "published_at": "2026-01-13T13:01:32Z"
     },
     {
       "video_id": "w-Suh_ds8zw",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "IS-IS vs OSPF: Is The Old Network Protocol Debate Still Relevant? #shorts",
+      "title_norm": "isis vs ospf is the old network protocol debate still relevant shorts",
       "url": "https://www.youtube.com/watch?v=w-Suh_ds8zw",
       "published_at": "2026-01-12T12:57:32Z"
     },
     {
       "video_id": "lIIokrtoyR8",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "BGP: The Internet's Garbage Can? Let's Discuss! #shorts",
+      "title_norm": "bgp the internets garbage can lets discuss shorts",
       "url": "https://www.youtube.com/watch?v=lIIokrtoyR8",
       "published_at": "2026-01-09T12:59:48Z"
     },
     {
       "video_id": "sV2zb3fakJM",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Separate your infrastructure from your workload #shorts",
+      "title_norm": "separate your infrastructure from your workload shorts",
       "url": "https://www.youtube.com/watch?v=sV2zb3fakJM",
       "published_at": "2026-01-08T12:56:30Z"
     },
     {
       "video_id": "LA1LK0ezcI4",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "If your Ops team can't support your design, your design is no good #shorts",
+      "title_norm": "if your ops team cant support your design your design is no good shorts",
       "url": "https://www.youtube.com/watch?v=LA1LK0ezcI4",
       "published_at": "2026-01-07T12:54:30Z"
     },
     {
       "video_id": "y3SCPyD9c_I",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "IS-IS Layer 2 Protocol? Mind-Blowing Network Routing Explained! #shorts",
+      "title_norm": "isis layer 2 protocol mindblowing network routing explained shorts",
       "url": "https://www.youtube.com/watch?v=y3SCPyD9c_I",
       "published_at": "2026-01-06T13:06:28Z"
     },
     {
       "video_id": "J9Dmnz9na0Q",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Dear IS-IS: No one likes you.  #shorts",
+      "title_norm": "dear isis no one likes you shorts",
       "url": "https://www.youtube.com/watch?v=J9Dmnz9na0Q",
       "published_at": "2026-01-05T13:04:31Z"
     },
     {
       "video_id": "lcOTWOxiZac",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Why Engineers Struggle to Communicate (And How to Fix It Fast)",
+      "title_norm": "why engineers struggle to communicate and how to fix it fast",
       "url": "https://www.youtube.com/watch?v=lcOTWOxiZac",
       "published_at": "2025-12-31T11:01:26Z"
     },
     {
       "video_id": "Q9wUtmxrkXI",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Diversify Your Network: Avoid Vendor Nightmares & Stay Ahead! #shorts",
+      "title_norm": "diversify your network avoid vendor nightmares stay ahead shorts",
       "url": "https://www.youtube.com/watch?v=Q9wUtmxrkXI",
       "published_at": "2025-12-24T13:02:32Z"
     },
     {
       "video_id": "D5qXr9U7TG4",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "DIY Automation: The Risk of Losing Your Tech Guru? #shorts",
+      "title_norm": "diy automation the risk of losing your tech guru shorts",
       "url": "https://www.youtube.com/watch?v=D5qXr9U7TG4",
       "published_at": "2025-12-23T12:56:35Z"
     },
     {
       "video_id": "EeFjv4NjlSQ",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Network Design: IS-IS vs OSPF, Finding the Best Network Solution! #shorts",
+      "title_norm": "network design isis vs ospf finding the best network solution shorts",
       "url": "https://www.youtube.com/watch?v=EeFjv4NjlSQ",
       "published_at": "2025-12-22T12:54:23Z"
     },
     {
       "video_id": "AVJcxd4LQrU",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Data Center Vendor Selection? Avoid These Mistakes! (Enterprise vs Hyper-scale) #shorts",
+      "title_norm": "data center vendor selection avoid these mistakes enterprise vs hyperscale shorts",
       "url": "https://www.youtube.com/watch?v=AVJcxd4LQrU",
       "published_at": "2025-12-21T12:54:39Z"
     },
     {
       "video_id": "d2-we9Ru6F4",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "OSPF vs IS-IS: Network Design Secrets for Large Networks #shorts",
+      "title_norm": "ospf vs isis network design secrets for large networks shorts",
       "url": "https://www.youtube.com/watch?v=d2-we9Ru6F4",
       "published_at": "2025-12-20T12:56:03Z"
     },
     {
       "video_id": "nR60QN6VIQo",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Network Engineers: Stop Arguing and Focus on Business Impact! #shorts",
+      "title_norm": "network engineers stop arguing and focus on business impact shorts",
       "url": "https://www.youtube.com/watch?v=nR60QN6VIQo",
       "published_at": "2025-12-19T13:04:30Z"
     },
     {
       "video_id": "pb6lYxHMq8g",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Vendor Gear: Smart Choices for Big Projects  #shorts",
+      "title_norm": "vendor gear smart choices for big projects shorts",
       "url": "https://www.youtube.com/watch?v=pb6lYxHMq8g",
       "published_at": "2025-12-18T13:01:37Z"
     },
     {
       "video_id": "CbCdD5OrzIo",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Stop Solving Problems That Aren't Yours! Business Choice Tips #shorts",
+      "title_norm": "stop solving problems that arent yours business choice tips shorts",
       "url": "https://www.youtube.com/watch?v=CbCdD5OrzIo",
       "published_at": "2025-12-17T12:58:34Z"
     },
     {
       "video_id": "C7HUeRaEdk8",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "What is IS-IS?",
+      "title_norm": "what is isis",
       "url": "https://www.youtube.com/watch?v=C7HUeRaEdk8",
       "published_at": "2025-12-17T11:00:32Z"
     },
     {
       "video_id": "_3TgIc0B8IM",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "As A Service: The Recurring Revenue Dilemma - Is it Worth It? #shorts",
+      "title_norm": "as a service the recurring revenue dilemma is it worth it shorts",
       "url": "https://www.youtube.com/watch?v=_3TgIc0B8IM",
       "published_at": "2025-12-16T13:05:33Z"
     },
     {
       "video_id": "5kDF4LzDHEI",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Cisco Data Center FAIL: Budget Cuts Led to Stupid Network Tricks! #shorts",
+      "title_norm": "cisco data center fail budget cuts led to stupid network tricks shorts",
       "url": "https://www.youtube.com/watch?v=5kDF4LzDHEI",
       "published_at": "2025-12-15T17:52:13Z"
     },
     {
       "video_id": "nmyJ-reFoJI",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Supply Chain Crisis: Why Diversifying Vendors Matters NOW! #shorts",
+      "title_norm": "supply chain crisis why diversifying vendors matters now shorts",
       "url": "https://www.youtube.com/watch?v=nmyJ-reFoJI",
       "published_at": "2025-12-08T12:56:43Z"
     },
     {
       "video_id": "a_Dl3bB_bM0",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Why Enterprises Were Afraid of Multi-Vendor Solutions! #shorts",
+      "title_norm": "why enterprises were afraid of multivendor solutions shorts",
       "url": "https://www.youtube.com/watch?v=a_Dl3bB_bM0",
       "published_at": "2025-12-05T13:02:38Z"
     },
     {
       "video_id": "91Y4uTZoVq4",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Cloud Computing: Why It Became Popular (And Why It Might Fail) #shorts",
+      "title_norm": "cloud computing why it became popular and why it might fail shorts",
       "url": "https://www.youtube.com/watch?v=91Y4uTZoVq4",
       "published_at": "2025-12-04T13:04:39Z"
     },
     {
       "video_id": "ivolrlekYZQ",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Don't Choose Tech Vendors Before Knowing Your Needs! #shorts",
+      "title_norm": "dont choose tech vendors before knowing your needs shorts",
       "url": "https://www.youtube.com/watch?v=ivolrlekYZQ",
       "published_at": "2025-12-03T13:03:38Z"
     },
     {
       "video_id": "mvpYV5j3TR8",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Building the Right Network",
+      "title_norm": "building the right network",
       "url": "https://www.youtube.com/watch?v=mvpYV5j3TR8",
       "published_at": "2025-12-03T11:01:45Z"
     },
     {
       "video_id": "hGwBXBD3kV4",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Cognitive Biases: How Your Brain Makes Bad Decisions! #shorts",
+      "title_norm": "cognitive biases how your brain makes bad decisions shorts",
       "url": "https://www.youtube.com/watch?v=hGwBXBD3kV4",
       "published_at": "2025-12-02T13:04:37Z"
     },
     {
       "video_id": "VH3V6RTspOc",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Why Company Messaging Fails: The Shareholder Problem #shorts",
+      "title_norm": "why company messaging fails the shareholder problem shorts",
       "url": "https://www.youtube.com/watch?v=VH3V6RTspOc",
       "published_at": "2025-11-26T12:58:38Z"
     },
     {
       "video_id": "f8mntsNbzjg",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Corporate Kool-Aid: My Journey From Skeptic to Leader #shorts",
+      "title_norm": "corporate koolaid my journey from skeptic to leader shorts",
       "url": "https://www.youtube.com/watch?v=f8mntsNbzjg",
       "published_at": "2025-11-25T12:56:05Z"
     },
     {
       "video_id": "v5U7wplzu6g",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Stop Wasting Time: What They're NOT Telling You #shorts",
+      "title_norm": "stop wasting time what theyre not telling you shorts",
       "url": "https://www.youtube.com/watch?v=v5U7wplzu6g",
       "published_at": "2025-11-24T13:00:50Z"
     },
     {
       "video_id": "Vyb-hKcqnJw",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Technical Leaders: What Matters in Organizations? #shorts",
+      "title_norm": "technical leaders what matters in organizations shorts",
       "url": "https://www.youtube.com/watch?v=Vyb-hKcqnJw",
       "published_at": "2025-11-21T12:55:04Z"
     },
     {
       "video_id": "reJhLlbRQuM",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Sales Engineers: Level Up Your Game & Close Deals! #shorts",
+      "title_norm": "sales engineers level up your game close deals shorts",
       "url": "https://www.youtube.com/watch?v=reJhLlbRQuM",
       "published_at": "2025-11-20T12:58:49Z"
     },
     {
       "video_id": "YMWt8n0FXUA",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Business Growth: Navigating Fast Expansion & Strategy #shorts",
+      "title_norm": "business growth navigating fast expansion strategy shorts",
       "url": "https://www.youtube.com/watch?v=YMWt8n0FXUA",
       "published_at": "2025-11-19T13:00:39Z"
     },
     {
       "video_id": "ounVThWV3mw",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Resilience, Reputation, and MCP",
+      "title_norm": "resilience reputation and mcp",
       "url": "https://www.youtube.com/watch?v=ounVThWV3mw",
       "published_at": "2025-11-19T11:01:42Z"
     },
     {
       "video_id": "pJMYkbabFsk",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Autonomous Decision-Making: Lead Like a Sports Team #shorts",
+      "title_norm": "autonomous decisionmaking lead like a sports team shorts",
       "url": "https://www.youtube.com/watch?v=pJMYkbabFsk",
       "published_at": "2025-11-18T12:54:46Z"
     },
     {
       "video_id": "W2SPqoKH8kw",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "AI Networking: Where the Money's At (and Why You Should Care) #shorts",
+      "title_norm": "ai networking where the moneys at and why you should care shorts",
       "url": "https://www.youtube.com/watch?v=W2SPqoKH8kw",
       "published_at": "2025-11-17T12:54:53Z"
     },
     {
       "video_id": "uyjsGzwUUhQ",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Everyone's in Sales: How to Advocate Your Ideas #shorts",
+      "title_norm": "everyones in sales how to advocate your ideas shorts",
       "url": "https://www.youtube.com/watch?v=uyjsGzwUUhQ",
       "published_at": "2025-11-14T12:56:49Z"
     },
     {
       "video_id": "6Aniyc6r5fg",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Monetizing AI: Real World Examples & Strategies #shorts",
+      "title_norm": "monetizing ai real world examples strategies shorts",
       "url": "https://www.youtube.com/watch?v=6Aniyc6r5fg",
       "published_at": "2025-11-13T12:57:40Z"
     },
     {
       "video_id": "Uds5WSCgLoU",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Humans to Mars: A Dream Launch with Lexi Cooper! #shorts",
+      "title_norm": "humans to mars a dream launch with lexi cooper shorts",
       "url": "https://www.youtube.com/watch?v=Uds5WSCgLoU",
       "published_at": "2025-11-10T13:35:03Z"
     },
     {
       "video_id": "yr5BltRpVe4",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Automation vs. Humans: The Future of Work! #shorts",
+      "title_norm": "automation vs humans the future of work shorts",
       "url": "https://www.youtube.com/watch?v=yr5BltRpVe4",
       "published_at": "2025-11-07T13:25:35Z"
     },
     {
       "video_id": "kF6v08zxGbc",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "New Glenn Rocket: The Future of Space Exploration! #shorts",
+      "title_norm": "new glenn rocket the future of space exploration shorts",
       "url": "https://www.youtube.com/watch?v=kF6v08zxGbc",
       "published_at": "2025-11-06T13:29:57Z"
     },
     {
       "video_id": "ldWbET6pE6s",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Learn the Business, Grow Your Career",
+      "title_norm": "learn the business grow your career",
       "url": "https://www.youtube.com/watch?v=ldWbET6pE6s",
       "published_at": "2025-11-05T11:01:37Z"
     },
     {
       "video_id": "PxPl6ZUUiSw",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Andy's Honest Thoughts: Geoff's Controversial Takes! #shorts",
+      "title_norm": "andys honest thoughts geoffs controversial takes shorts",
       "url": "https://www.youtube.com/watch?v=PxPl6ZUUiSw",
       "published_at": "2025-11-04T13:31:39Z"
     },
     {
       "video_id": "xSFKPHoA2nA",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Launch Day: Experiencing Rocket Launches with Lexi Cooper #shorts",
+      "title_norm": "launch day experiencing rocket launches with lexi cooper shorts",
       "url": "https://www.youtube.com/watch?v=xSFKPHoA2nA",
       "published_at": "2025-11-03T13:28:34Z"
     },
     {
       "video_id": "iPJz_lWVdSc",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Warp Drive: Exploring Space & Time with New Projects! #shorts",
+      "title_norm": "warp drive exploring space time with new projects shorts",
       "url": "https://www.youtube.com/watch?v=iPJz_lWVdSc",
       "published_at": "2025-11-02T13:28:33Z"
     },
     {
       "video_id": "irqBtXDyGSo",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Space Travel: Going to the Moon & Mars! #shorts",
+      "title_norm": "space travel going to the moon mars shorts",
       "url": "https://www.youtube.com/watch?v=irqBtXDyGSo",
       "published_at": "2025-11-01T12:29:35Z"
     },
     {
       "video_id": "Mfiwy2AtNfo",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Automation in Tech: My Job Loss & AI Awakening #shorts",
+      "title_norm": "automation in tech my job loss ai awakening shorts",
       "url": "https://www.youtube.com/watch?v=Mfiwy2AtNfo",
       "published_at": "2025-10-31T12:29:32Z"
     },
     {
       "video_id": "fKsHtj5H9ZI",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Learning Python Publicly: My Honest Struggle! #shorts",
+      "title_norm": "learning python publicly my honest struggle shorts",
       "url": "https://www.youtube.com/watch?v=fKsHtj5H9ZI",
       "published_at": "2025-10-30T12:26:37Z"
     },
     {
       "video_id": "m00ie4vcCas",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Tech Journey: Don't Be Intimidated, Start Simple! #shorts",
+      "title_norm": "tech journey dont be intimidated start simple shorts",
       "url": "https://www.youtube.com/watch?v=m00ie4vcCas",
       "published_at": "2025-10-29T12:32:44Z"
     },
     {
       "video_id": "koC4z_7HQNc",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Tech Labbing: Embrace Mistakes, Skip Perfection #shorts",
+      "title_norm": "tech labbing embrace mistakes skip perfection shorts",
       "url": "https://www.youtube.com/watch?v=koC4z_7HQNc",
       "published_at": "2025-10-28T12:31:39Z"
     },
     {
       "video_id": "nFcuZ6b7owM",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Home Lab Cable Management: Ugly, Messy, and Engaging! #shorts",
+      "title_norm": "home lab cable management ugly messy and engaging shorts",
       "url": "https://www.youtube.com/watch?v=nFcuZ6b7owM",
       "published_at": "2025-10-27T12:34:55Z"
     },
     {
       "video_id": "071Hud2z7dA",
-      "title": "Deleted video",
-      "title_norm": "deleted video",
+      "title": "Network Engineering: Inspiring YOU to Dive In! #shorts",
+      "title_norm": "network engineering inspiring you to dive in shorts",
       "url": "https://www.youtube.com/watch?v=071Hud2z7dA",
       "published_at": "2025-10-22T12:00:38Z"
     },
