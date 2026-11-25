@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-11-24T12:50:05+00:00",
+  "updated_at": "2026-11-25T12:50:06+00:00",
   "auto": {
     "youtube_subscribers": 11000,
-    "youtube_views": 659163,
-    "youtube_videos": 664,
-    "lifetime_downloads": 964294,
+    "youtube_views": 662123,
+    "youtube_videos": 665,
+    "lifetime_downloads": 966559,
     "episodes": 215,
     "recent_avg_downloads": 2366,
-    "youtube_shorts_count": 268,
-    "youtube_shorts_views": 191936
+    "youtube_shorts_views": 318015
   },
   "manual": {
     "x_followers": 19800,
-    "linkedin_followers": 9672,
-    "discord_members": 3500,
-    "spotify_hours_2025": 17500,
-    "platform_touchpoints_2025": 306000,
-    "instagram_followers": 6884,
+    "linkedin_followers": 9687,
+    "discord_members": 3497,
+    "instagram_followers": 6886,
     "tiktok_followers": 11800,
-    "tiktok_likes": 52700,
-    "tiktok_videos": 453,
-    "tiktok_post_views_60d": 95300,
-    "tiktok_post_views_365d": 699900
+    "tiktok_post_views_365d": 595500
+  },
+  "provenance": {
+    "tiktok_post_views_365d": {
+      "source": "seeded_from_platform_reading",
+      "as_of": "2026-11-20T23:59:00+00:00"
+    }
   },
   "last_errors": {
-    "buzzsprout_lifetime": "no believable lifetime total from the API or the dashboard; kept the last good value"
+    "tiktok_post_views_365d": "TikTok sign-in needed: run remote_login.py tiktok (no saved login yet)"
   }
 }
