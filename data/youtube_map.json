@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-25T11:05:07.846918Z",
-  "total_videos": 665,
+  "last_updated": "2026-11-25T13:00:08.143343Z",
+  "total_videos": 666,
   "videos": [
+    {
+      "video_id": "FophKzaixK4",
+      "title": "AI and Critical Thinking: Are We Training Our Replacements? #shorts",
+      "title_norm": "ai and critical thinking are we training our replacements shorts",
+      "url": "https://www.youtube.com/watch?v=FophKzaixK4",
+      "published_at": "2026-11-25T12:55:52Z"
+    },
     {
       "video_id": "ExCMK-YzGn4",
       "title": "AI Safety: Can We Avoid Social Media’s Mistakes? #shorts",
