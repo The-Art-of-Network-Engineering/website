@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-26T11:05:07.385594Z",
-  "total_videos": 667,
+  "last_updated": "2026-11-26T13:00:07.291182Z",
+  "total_videos": 668,
   "videos": [
+    {
+      "video_id": "T0czoauLL6w",
+      "title": "AI Network Troubleshooting: Turn Log Data Into Answers #shorts",
+      "title_norm": "ai network troubleshooting turn log data into answers shorts",
+      "url": "https://www.youtube.com/watch?v=T0czoauLL6w",
+      "published_at": "2026-11-26T12:58:45Z"
+    },
     {
       "video_id": "PsBc_WUz1IY",
       "title": "How to terminate Ethernet cable; rack and stack series with AONE.",
