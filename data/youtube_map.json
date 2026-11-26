@@ -1,8 +1,15 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-25T13:00:08.143343Z",
-  "total_videos": 666,
+  "last_updated": "2026-11-26T11:05:07.385594Z",
+  "total_videos": 667,
   "videos": [
+    {
+      "video_id": "PsBc_WUz1IY",
+      "title": "How to terminate Ethernet cable; rack and stack series with AONE.",
+      "title_norm": "how to terminate ethernet cable rack and stack series with aone",
+      "url": "https://www.youtube.com/watch?v=PsBc_WUz1IY",
+      "published_at": "2026-11-26T05:21:25Z"
+    },
     {
       "video_id": "FophKzaixK4",
       "title": "AI and Critical Thinking: Are We Training Our Replacements? #shorts",
