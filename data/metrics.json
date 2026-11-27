@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-26T12:50:06+00:00",
+  "updated_at": "2026-11-27T12:50:06+00:00",
   "auto": {
     "youtube_subscribers": 11100,
-    "youtube_views": 666404,
-    "youtube_videos": 667,
-    "lifetime_downloads": 966799,
+    "youtube_views": 669728,
+    "youtube_videos": 668,
+    "lifetime_downloads": 966985,
     "episodes": 216,
     "recent_avg_downloads": 2366,
-    "youtube_shorts_views": 319668
+    "youtube_shorts_views": 320182
   },
   "manual": {
     "x_followers": 19800,
-    "linkedin_followers": 9698,
+    "linkedin_followers": 9700,
     "discord_members": 3497,
-    "instagram_followers": 6890,
-    "tiktok_followers": 11800,
+    "instagram_followers": 6896,
+    "tiktok_followers": 11900,
     "tiktok_post_views_365d": 595500
   },
   "provenance": {
