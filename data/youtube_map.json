@@ -1,8 +1,22 @@
 {
   "channel_id": "UCqY5QnYKJZE8tH7yhxmN5DA",
-  "last_updated": "2026-11-27T13:00:09.028635Z",
-  "total_videos": 668,
+  "last_updated": "2026-11-28T11:05:07.679329Z",
+  "total_videos": 670,
   "videos": [
+    {
+      "video_id": "jFyGw6lInsw",
+      "title": "November 27, 2026",
+      "title_norm": "november 27 2026",
+      "url": "https://www.youtube.com/watch?v=jFyGw6lInsw",
+      "published_at": "2026-11-27T21:41:50Z"
+    },
+    {
+      "video_id": "Fgk48csoFNY",
+      "title": "AI in Networking: Real Potential or Hype Before Trust? #shorts",
+      "title_norm": "ai in networking real potential or hype before trust shorts",
+      "url": "https://www.youtube.com/watch?v=Fgk48csoFNY",
+      "published_at": "2026-11-27T13:03:40Z"
+    },
     {
       "video_id": "T0czoauLL6w",
       "title": "AI Network Troubleshooting: Turn Log Data Into Answers #shorts",
